@@ -1,0 +1,9 @@
+{
+  "name": "realindustry-localization",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Community localization files for the Realindustry demo",
+  "scripts": {
+    "validate": "node tools/validate-locales.js"
+  }
+}

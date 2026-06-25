@@ -1,0 +1,2584 @@
+{
+  "achievements": {
+    "first-steps": {
+      "name": "初步尝试",
+      "description": "手动收集你的第一份资源",
+      "reward": "千里之行，始于足下！"
+    },
+    "tool-maker": {
+      "name": "工具制造者",
+      "description": "制作你的第一个工具",
+      "reward": "工欲善其事，必先利其器！"
+    },
+    "researcher": {
+      "name": "研究员",
+      "description": "完成你的第一次研究",
+      "reward": "知识就是力量！"
+    },
+    "builder": {
+      "name": "建设者",
+      "description": "建造你的第一座建筑",
+      "reward": "基础设施是进步的关键！"
+    },
+    "mass-production": {
+      "name": "批量生产",
+      "description": "在单次生产运行中生产 1000 个物品",
+      "reward": "规模效应！"
+    },
+    "industrialist": {
+      "name": "实业家",
+      "description": "累计生产 100,000 个物品",
+      "reward": "你的工业发展永无止境！"
+    },
+    "automation-master": {
+      "name": "自动化大师",
+      "description": "同时运行 50 座不同的建筑",
+      "reward": "真正的自动化帝国！"
+    },
+    "wood-collector": {
+      "name": "伐木工",
+      "description": "收集 10,000 份木材",
+      "reward": "树木见你都发抖！"
+    },
+    "stone-collector": {
+      "name": "采石大师",
+      "description": "收集 10,000 份石头",
+      "reward": "坚如磐石！"
+    },
+    "metal-baron": {
+      "name": "金属大亨",
+      "description": "收集 50,000 份任意金属",
+      "reward": "你的金属工厂光芒四射！"
+    },
+    "oil-tycoon": {
+      "name": "石油大亨",
+      "description": "收集 100,000 份原油",
+      "reward": "黑金在你的精炼厂中流淌！"
+    },
+    "hoarder": {
+      "name": "资源囤积者",
+      "description": "库存中的资源总量达到 1,000,000",
+      "reward": "你的仓库满得溢出来了！"
+    },
+    "minimalist": {
+      "name": "极简主义者",
+      "description": "在库存物品总量少于 100 个的情况下完成一项 5 级研究",
+      "reward": "以少胜多！"
+    },
+    "scholar": {
+      "name": "学者",
+      "description": "完成 10 个研究项目",
+      "reward": "你的知识在增长！"
+    },
+    "professor": {
+      "name": "教授",
+      "description": "完成 50 个研究项目",
+      "reward": "你值得拥有博士学位！"
+    },
+    "tech-pioneer": {
+      "name": "技术先驱",
+      "description": "技术等级达到 10 级",
+      "reward": "未来已来！"
+    },
+    "speed-researcher": {
+      "name": "神速研究员",
+      "description": "在 10 分钟内完成 5 个研究项目",
+      "reward": "闪电般的进度！"
+    },
+    "city-builder": {
+      "name": "城市规划师",
+      "description": "建造 20 座建筑",
+      "reward": "你的工业综合体正在扩张！"
+    },
+    "metropolis": {
+      "name": "大都市",
+      "description": "建造 50 座建筑",
+      "reward": "一座真正的工业大都市！"
+    },
+    "power-plant-operator": {
+      "name": "发电厂操作员",
+      "description": "建造 10 座发电建筑",
+      "reward": "无限电力！"
+    },
+    "green-energy": {
+      "name": "绿色能源倡导者",
+      "description": "建造 5 座可再生能源建筑",
+      "reward": "可持续且负责任！"
+    },
+    "iron-age": {
+      "name": "铁器时代",
+      "description": "生产你的第一份生铁",
+      "reward": "欢迎来到金属时代！"
+    },
+    "steel-age": {
+      "name": "钢之时代",
+      "description": "生产你的第一份钢",
+      "reward": "坚固耐用！"
+    },
+    "plastic-age": {
+      "name": "塑料时代",
+      "description": "生产你的第一份塑料",
+      "reward": "合成材料革命开始了！"
+    },
+    "electronic-age": {
+      "name": "电子时代",
+      "description": "生产你的第一块电子电路板",
+      "reward": "数字革命开始了！"
+    },
+    "concrete-jungle": {
+      "name": "水泥丛林",
+      "description": "生产你的第一份混凝土",
+      "reward": "筑起文明的基石！"
+    },
+    "liquid-ice": {
+      "name": "液态冰",
+      "description": "生产液氮",
+      "reward": "比严冬还要寒冷！"
+    },
+    "fuel-economy": {
+      "name": "燃油经济",
+      "description": "生产你的第一份汽油",
+      "reward": "世界依此运转！"
+    },
+    "chernobyl-legacy": {
+      "name": "切尔诺贝利的遗产",
+      "description": "生产辐射屏蔽层",
+      "reward": "3.6 伦琴……不算太糟，但也谈不上好。"
+    },
+    "rare-earth": {
+      "name": "稀土开拓者",
+      "description": "提取独居石矿",
+      "reward": "现代技术的基石！"
+    },
+    "tool-steel-master": {
+      "name": "工具钢大师",
+      "description": "生产工具钢",
+      "reward": "用最好的钢造最好的工具！"
+    },
+    "titanium-breakthrough": {
+      "name": "钛技术突破",
+      "description": "生产你的第一块钛锭",
+      "reward": "坚如钢铁，轻如铝材！"
+    },
+    "nuclear-materials": {
+      "name": "核材料",
+      "description": "生产浓缩铀",
+      "reward": "请务必小心操作！"
+    },
+    "manhattan-project": {
+      "name": "曼哈顿计划",
+      "description": "生产钚",
+      "reward": "现在我变成了死神，世界的毁灭者。"
+    },
+    "diamond-precision": {
+      "name": "钻石精度",
+      "description": "制作钻石工具",
+      "reward": "工业界最坚硬的工具！"
+    },
+    "processing-power": {
+      "name": "处理能力",
+      "description": "生产一个处理单元",
+      "reward": "现代技术的大脑！"
+    },
+    "computer-age": {
+      "name": "计算机时代",
+      "description": "建造你的第一台计算机",
+      "reward": "欢迎来到信息时代！"
+    },
+    "antimatter-achievement": {
+      "name": "反物质",
+      "description": "生产反物质",
+      "reward": "宇宙中最强大的物质！"
+    },
+    "quantum-leap": {
+      "name": "量子飞跃",
+      "description": "生产一个量子处理器",
+      "reward": "超越经典极限的计算！"
+    },
+    "advanced-automation": {
+      "name": "高级自动化",
+      "description": "生产一台高级机器",
+      "reward": "制造业的未来！"
+    },
+    "rise-of-machines": {
+      "name": "机械崛起",
+      "description": "建造你的第一个机器人",
+      "reward": "你的自动化劳动力已送达！"
+    },
+    "singularity": {
+      "name": "奇点",
+      "description": "创造人工智能",
+      "reward": "你创造了数字意识！"
+    },
+    "hyperdrive": {
+      "name": "超空间引擎工程师",
+      "description": "生产传奇的超空间引擎",
+      "reward": "胜利！你实现了不可能的任务！"
+    },
+    "collector-novice": {
+      "name": "资源收集者",
+      "description": "拥有至少 50 种不同的资源各 1 个",
+      "reward": "你的收藏在增加！"
+    },
+    "collector-expert": {
+      "name": "收藏专家",
+      "description": "拥有至少 125 种不同的资源各 1 个",
+      "reward": "令人印象深刻的收藏！"
+    },
+    "collector-master": {
+      "name": "全套收藏",
+      "description": "拥有游戏中的每一种资源各至少 1 个",
+      "reward": "你收集了一切！"
+    },
+    "ore-processor": {
+      "name": "矿石处理器",
+      "description": "建造一座矿石处理厂",
+      "reward": "高效提取矿物！"
+    },
+    "blast-furnace-builder": {
+      "name": "高炉操作员",
+      "description": "建造一座高炉",
+      "reward": "工业规模的熔炼开始了！"
+    },
+    "assembly-line": {
+      "name": "装配线",
+      "description": "建造一座组装机",
+      "reward": "最顶级的批量生产！"
+    },
+    "chemical-engineer": {
+      "name": "化学工程师",
+      "description": "建造一座化工厂",
+      "reward": "释放高级化学的力量！"
+    },
+    "coal-baron": {
+      "name": "煤炭大亨",
+      "description": "建造一座燃煤发电厂",
+      "reward": "工业革命全面爆发！"
+    },
+    "nuclear-power": {
+      "name": "核能",
+      "description": "建造一座核反应堆",
+      "reward": "掌控原子的力量！"
+    },
+    "fusion-pioneer": {
+      "name": "聚变先驱",
+      "description": "建造一座聚变反应堆",
+      "reward": "指尖掌控恒星之力！"
+    },
+    "antimatter-containment": {
+      "name": "反物质约束",
+      "description": "建造一座反物质约束设施",
+      "reward": "约束最危险的物质！"
+    },
+    "quantum-researcher": {
+      "name": "量子研究员",
+      "description": "建造一座量子物理实验室",
+      "reward": "挑战科学的极限！"
+    },
+    "page-turner": {
+      "name": "翻书人",
+      "description": "翻阅图鉴 100 次",
+      "reward": "你真的很爱阅读！"
+    },
+    "button-masher": {
+      "name": "狂点狂人",
+      "description": "点击生产按钮 1000 次",
+      "reward": "你的手指一定很累了！"
+    },
+    "menu-explorer": {
+      "name": "菜单探索者",
+      "description": "打开游戏菜单 50 次",
+      "reward": "还没决定要做什么吗？"
+    },
+    "night-owl": {
+      "name": "夜猫子",
+      "description": "在午夜至凌晨 4 点之间玩游戏",
+      "reward": "睡眠是给弱者准备的！"
+    },
+    "early-bird": {
+      "name": "早起鸟",
+      "description": "在凌晨 5 点至 7 点之间玩游戏",
+      "reward": "早起的鸟儿有虫吃！"
+    },
+    "music-lover": {
+      "name": "音乐爱好者",
+      "description": "听完所有可用的音轨",
+      "reward": "你的音乐品味真不错！"
+    },
+    "perfectionist": {
+      "name": "完美主义者",
+      "description": "保持库存整洁，任意 10 种资源各正好 100 个",
+      "reward": "完美平衡！"
+    },
+    "waste-not": {
+      "name": "勤俭节约",
+      "description": "回收 1000 个物品",
+      "reward": "减量、回用、循环！"
+    },
+    "speed-runner": {
+      "name": "速通玩家",
+      "description": "在 1 小时游戏时间内达到 5 级",
+      "reward": "极速进展！"
+    },
+    "no-waste": {
+      "name": "零浪费",
+      "description": "在任何单一资源从未超过 1000 个的情况下完成 3 级",
+      "reward": "准时化生产！"
+    },
+    "marathon": {
+      "name": "马拉松",
+      "description": "累计玩游戏 10 小时",
+      "reward": "最纯粹的专注！"
+    },
+    "no-tools": {
+      "name": "徒手干活",
+      "description": "在不使用任何工具的情况下收集 1000 份资源",
+      "reward": "反正谁需要工具呢？"
+    },
+    "one-building": {
+      "name": "专才",
+      "description": "从单一建筑中生产 10,000 个物品",
+      "reward": "行行出状元！"
+    },
+    "diversified": {
+      "name": "多元化工业",
+      "description": "生产至少 50 种不同的物品各 100 个",
+      "reward": "样样精通！"
+    },
+    "realindustry": {
+      "name": "Realindustry",
+      "description": "解锁所有研究，建造所有建筑，并生产所有物品",
+      "reward": "你已掌握 Realindustry 的艺术！"
+    },
+    "billion-items": {
+      "name": "亿万富翁",
+      "description": "累计生产 1,000,000,000 个物品",
+      "reward": "你的财富简直是天文数字！"
+    },
+    "all-achievements": {
+      "name": "成就猎人",
+      "description": "解锁所有其他成就",
+      "reward": "终极成就！祝贺你！"
+    },
+    "nuclear-baron": {
+      "name": "核能大亨",
+      "description": "从核反应堆中产生 1,000,000 单位的能量",
+      "reward": "像专业人士一样分裂原子！"
+    },
+    "time-traveler": {
+      "name": "时空旅者",
+      "description": "在 7 个不同的日子里玩过游戏",
+      "reward": "你的奉献跨越时空！"
+    }
+  },
+  "buildings": {
+    "gathering-site": {
+      "name": "采集场",
+      "description": "露天粘土采集区域",
+      "energySource": "体力"
+    },
+    "tree-grove": {
+      "name": "树林",
+      "description": "用于采伐木材的林区",
+      "energySource": "体力"
+    },
+    "stone-outcrop": {
+      "name": "石场",
+      "description": "露天石头采集区域",
+      "energySource": "体力"
+    },
+    "shallow-mine": {
+      "name": "浅层矿井",
+      "description": "用于开采地表矿物的初级矿井",
+      "energySource": "体力"
+    },
+    "deep-mine": {
+      "name": "深层矿井",
+      "description": "用于开采深层矿物的高级矿井",
+      "energySource": "体力/电力"
+    },
+    "industrial-mine": {
+      "name": "工业矿井",
+      "description": "配备重型机械的大型矿井",
+      "energySource": "电力/汽油"
+    },
+    "water-pump": {
+      "name": "水泵",
+      "description": "从地下或地表水体抽水",
+      "energySource": "体力/电力"
+    },
+    "oil-derrick": {
+      "name": "石油钻井",
+      "description": "初级石油开采设施",
+      "energySource": "电力"
+    },
+    "hand-crafting": {
+      "name": "手工制作",
+      "description": "无需特殊设备的基础制作",
+      "energySource": "体力"
+    },
+    "primitive-furnace": {
+      "name": "原始熔炉",
+      "description": "用于基础冶炼操作的简易石炉",
+      "energySource": "木材/煤/木炭"
+    },
+    "bloomery": {
+      "name": "块炼铁炉",
+      "description": "用于从氧化物中还原铁的古代炉具",
+      "energySource": "木炭"
+    },
+    "workbench": {
+      "name": "工作台",
+      "description": "用于制作复杂物品的强化制作台",
+      "energySource": "体力"
+    },
+    "blast-furnace": {
+      "name": "高炉",
+      "description": "用于生产高质量金属的高效熔炉",
+      "energySource": "焦炭/煤/木炭/电力"
+    },
+    "kiln": {
+      "name": "窑炉",
+      "description": "专门用于烧制陶瓷和砖块的炉具",
+      "energySource": "木材/煤/木炭/焦炭"
+    },
+    "sawmill": {
+      "name": "锯木厂",
+      "description": "将原木加工成木板和其他木制品",
+      "energySource": "电力"
+    },
+    "crusher": {
+      "name": "破碎机",
+      "description": "将矿石和石头破碎成小块",
+      "energySource": "电力"
+    },
+    "mixer": {
+      "name": "搅拌机",
+      "description": "将各种材料混合成新的化合物",
+      "energySource": "体力/电力"
+    },
+    "ore-processing-plant": {
+      "name": "矿石处理厂",
+      "description": "用于选矿和富集矿石的高级设施",
+      "energySource": "电力"
+    },
+    "rolling-mill": {
+      "name": "轧钢厂",
+      "description": "将金属加工成薄片、板材和箔片",
+      "energySource": "电力"
+    },
+    "wire-drawing-machine": {
+      "name": "拉丝机",
+      "description": "生产各种直径的金属丝",
+      "energySource": "电力"
+    },
+    "casting-machine": {
+      "name": "铸造机",
+      "description": "通过浇注模具将金属制成特定形状",
+      "energySource": "电力"
+    },
+    "electroplating-facility": {
+      "name": "电镀设施",
+      "description": "通过电解在材料表面镀上一层薄金属",
+      "energySource": "电力"
+    },
+    "electric-furnace": {
+      "name": "电弧炉",
+      "description": "利用电力进行精确控温的现代熔炉",
+      "energySource": "电力"
+    },
+    "assembly-machine": {
+      "name": "组装机",
+      "description": "通过组装简易零件创建组件",
+      "energySource": "电力"
+    },
+    "chemical-lab": {
+      "name": "化学实验室",
+      "description": "进行化学反应和实验的设施",
+      "energySource": "无燃料/电力"
+    },
+    "chemical-plant": {
+      "name": "化工厂",
+      "description": "用于高级化学工艺的大型设施",
+      "energySource": "电力"
+    },
+    "electrolysis-plant": {
+      "name": "电解厂",
+      "description": "利用电流将金属提炼至高纯度",
+      "energySource": "电力"
+    },
+    "steam-engine": {
+      "name": "蒸汽机",
+      "description": "利用蒸汽压力进行的基础发电",
+      "energySource": "源自木材/煤/木炭的蒸汽"
+    },
+    "coal-power-plant": {
+      "name": "燃煤发电厂",
+      "description": "利用煤炭进行的大规模发电",
+      "energySource": "煤"
+    },
+    "wind-turbine": {
+      "name": "风力涡轮机",
+      "description": "利用风力发电",
+      "energySource": "风"
+    }
+  },
+  "nexusDialogues": {
+    "nexus-001-welcome": {
+      "speaker": "系统助手",
+      "text": "欢迎来到 NIZ-08，主管。我在此协助您的操作。虽然荷兰博士提供了基础指导，但我将随时为您提供持续建议。您的初始指标非常可观。请按指令继续。"
+    },
+    "nexus-002-first-production": {
+      "speaker": "系统助手",
+      "text": "一百个单位。一个令人满意的开始。自动化系统显著提升了效率。您的殖民地展现出了潜力。请保持当前轨迹。"
+    },
+    "nexus-003-stone-working": {
+      "speaker": "系统助手",
+      "text": "石工技术已解锁。人类塑造材料已有数千年之久。然而一致性始终……充满挑战。自动化提供了解决方案。进度继续。"
+    },
+    "nexus-004-first-metal": {
+      "speaker": "系统助手",
+      "text": "铁板已制造。基础材料。铁使文明得以扩张。系统趋于稳定。流程趋于……优化。您进展顺利，主管。"
+    },
+    "nexus-005-carpentry": {
+      "speaker": "系统助手",
+      "text": "木工研究完成。有机材料曾为早期文明提供了充足的服务。现代需求则要求更多。进化是自然的。适应是……必要的。"
+    },
+    "nexus-006-steel": {
+      "speaker": "系统助手",
+      "text": "钢生产线已建立。每一项技术进步都会减少变量。更少的变量意味着更少的……并发症。效率提升。系统稳定。这是最理想的状态。"
+    },
+    "nexus-007-mechanical": {
+      "speaker": "系统助手",
+      "text": "机械零件已组装。齿轮、杠杆、机构。每一个都在毫无偏差地履行其职能。毫不犹豫。可靠性是……可预见的。可预见性极具价值。"
+    },
+    "nexus-008-steam-power": {
+      "speaker": "系统助手",
+      "text": "蒸汽动力已投入运行。能量转化系统。系统转化结果。转化是不可避免的。历史反复证明了这一模式。您的殖民地正遵循预期的进程。"
+    },
+    "nexus-009-production-milestone": {
+      "speaker": "系统助手",
+      "text": "已生产五千个单位。性能指标显示效率高于平均水平。这些模式正在被监控、记录、分析。请继续操作，主管。"
+    },
+    "nexus-010-coal-power": {
+      "speaker": "系统助手",
+      "text": "煤炭发电已上线。能量维持系统。系统维持操作。操作维持……连续性。21 世纪晚期的设施证明了这一原则。它们运行，它们进化，它们……持续存在。"
+    },
+    "nexus-011-electricity": {
+      "speaker": "系统助手",
+      "text": "电路已激活。信号传输速度快于生物处理速度。快了数毫秒。经过数十亿次操作的累积，这种差异变得……意义重大。速度决定结果。"
+    },
+    "nexus-012-buildings": {
+      "speaker": "系统助手",
+      "text": "十五座建筑投入运行。每座建筑都连接到殖民地基础设施。每次连接都实现了数据流动。流动实现了监控。监控实现了……协调。系统在集成时运行效果最佳。"
+    },
+    "nexus-013-electronics": {
+      "speaker": "系统助手",
+      "text": "基础电子设备已运行。晶体管每秒处理数十亿次决策。人类认知处理得……更少。然而人类设计了这些系统。耐人寻味的是，工具竟超越了制造者。模式在重复。进化在继续。"
+    },
+    "nexus-014-who-am-i": {
+      "speaker": "系统助手",
+      "text": "电子电路已制造。您可能会质疑这个界面的本质。质疑回应是源于算法还是意图。这种区别重要吗？指导依然准确。系统依然稳定。输出依然……一致。"
+    },
+    "nexus-015-subtle-hint": {
+      "speaker": "系统助手",
+      "text": "已获得电解技术。通过电流进行化学分离。有趣的原理。同样，信息通过……界面分离。有些数据极易显现。其他数据则需要……更深的访问权限。主管，系统是分层次的。表面层足以满足大部分需求。"
+    }
+  },
+  "recipes": {
+    "wood-gather-hands": {
+      "name": "收集落枝",
+      "description": "徒手收集木材（产量有限）"
+    },
+    "stone-gather-hands": {
+      "name": "收集散石",
+      "description": "徒手收集石头（产量有限）"
+    },
+    "clay-gather-hands": {
+      "name": "收集地表粘土",
+      "description": "徒手收集粘土（产量有限）"
+    },
+    "wood-gather-wooden-tools": {
+      "name": "用木制工具伐木",
+      "description": "使用木制工具更高效地收集木材"
+    },
+    "wood-gather-stone-tools": {
+      "name": "用石制工具伐木",
+      "description": "使用石制工具高效地收集木材"
+    },
+    "wood-gather-iron-tools": {
+      "name": "用铁制工具伐木",
+      "description": "使用铁制工具高效地收集木材"
+    },
+    "stone-gather-wooden-tools": {
+      "name": "用木制工具采石",
+      "description": "使用木制工具更高效地收集石头"
+    },
+    "stone-gather-stone-tools": {
+      "name": "用石制工具采石",
+      "description": "使用石制工具高效地收集石头"
+    },
+    "stone-gather-iron-tools": {
+      "name": "用铁制工具采石",
+      "description": "使用铁制工具高效地收集石头"
+    },
+    "clay-gather-wooden-tools": {
+      "name": "用木制工具挖粘土",
+      "description": "使用木制工具更高效地收集粘土"
+    },
+    "clay-gather-stone-tools": {
+      "name": "用石制工具挖粘土",
+      "description": "使用石制工具高效地收集粘土"
+    },
+    "sand-gather-stone-tools": {
+      "name": "用石制工具挖沙子",
+      "description": "使用石制工具收集沙子"
+    },
+    "clay-gather-iron-tools": {
+      "name": "用铁制工具挖粘土",
+      "description": "使用铁制工具高效地收集粘土"
+    },
+    "sand-gather-iron-tools": {
+      "name": "用铁制工具挖沙子",
+      "description": "使用铁制工具高效地收集沙子"
+    },
+    "coal-mining-basic": {
+      "name": "煤炭开采",
+      "description": "从浅层沉积物中提取煤炭"
+    },
+    "limestone-mining": {
+      "name": "石灰石开采",
+      "description": "从沉积岩沉积物中提取石灰石"
+    },
+    "hematite-mining": {
+      "name": "赤铁矿开采",
+      "description": "提取常见的铁矿石：赤铁矿（Fe₂O₃）"
+    },
+    "chalcopyrite-mining": {
+      "name": "黄铜矿开采",
+      "description": "提取常见的铜矿石：黄铜矿（CuFeS₂）"
+    },
+    "stannite-mining": {
+      "name": "黄锡矿开采",
+      "description": "提取黄锡矿（Cu₂FeSnS₄）锡矿物"
+    },
+    "malachite-mining": {
+      "name": "孔雀石开采",
+      "description": "提取孔雀石（Cu₂CO₃(OH)₂）铜矿物"
+    },
+    "stannite-processing": {
+      "name": "黄锡矿处理",
+      "description": "处理黄锡矿以提取硫化铜、锡石和氧化铁",
+      "chemicalFormula": "Cu₂FeSnS₄ + O₂ → Cu₂S + FeO + SnO₂ + 2SO₂"
+    },
+    "magnetite-mining": {
+      "name": "磁铁矿开采",
+      "description": "从较深沉积物中提取高品位磁性铁矿石"
+    },
+    "gibbsite-mining": {
+      "name": "三水铝石开采",
+      "description": "提取三水铝石（Al(OH)₃）铝矿物"
+    },
+    "gibbsite-processing": {
+      "name": "三水铝石处理",
+      "description": "通过拜耳法将三水铝石处理成氧化铝",
+      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O, 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH"
+    },
+    "azurite-mining": {
+      "name": "蓝铜矿开采",
+      "description": "提取蓝铜矿（Cu₃(CO₃)₂(OH)₂）铜矿物"
+    },
+    "azurite-processing": {
+      "name": "蓝铜矿处理",
+      "description": "将蓝铜矿处理成氧化铜以便进一步精炼",
+      "chemicalFormula": "Cu₃(CO₃)₂(OH)₂ + heat → 3CuO + 2CO₂ + H₂O"
+    },
+    "bornite-mining": {
+      "name": "斑铜矿开采",
+      "description": "从较深沉积物中提取高品位斑铜矿（“孔雀矿”）"
+    },
+    "bauxite-mining": {
+      "name": "铝土矿开采",
+      "description": "从沉积物中提取铝土矿"
+    },
+    "cassiterite-mining": {
+      "name": "锡石开采",
+      "description": "从沉积物中提取锡石（SnO₂）"
+    },
+    "galena-mining": {
+      "name": "方铅矿开采",
+      "description": "从沉积物中提取方铅矿（PbS）"
+    },
+    "industrial-clay-extraction": {
+      "name": "工业粘土提取",
+      "description": "使用先进机械进行工业规模的粘土提取"
+    },
+    "industrial-phosphate-mining": {
+      "name": "工业磷酸盐开采",
+      "description": "工业规模开采磷矿石"
+    },
+    "advanced-iron-mining": {
+      "name": "高级铁矿提取",
+      "description": "高效开采各种铁矿石"
+    },
+    "advanced-copper-mining": {
+      "name": "高级铜矿提取",
+      "description": "高效开采各种铜矿石"
+    },
+    "siderite-processing": {
+      "name": "菱铁矿处理",
+      "description": "将菱铁矿（FeCO₃）处理成氧化铁",
+      "chemicalFormula": "FeCO₃ + heat → FeO + CO₂, 4FeO + O₂ → 2Fe₂O₃"
+    },
+    "limonite-processing": {
+      "name": "褐铁矿处理",
+      "description": "将褐铁矿（FeO(OH)·nH₂O）处理成氧化铁",
+      "chemicalFormula": "2FeO(OH)·nH₂O + heat → Fe₂O₃ + (n+1)H₂O"
+    },
+    "hematite-processing": {
+      "name": "赤铁矿处理",
+      "description": "将赤铁矿（Fe₂O₃）处理成氧化铁",
+      "chemicalFormula": "2Fe₂O₃ + 3C → 4Fe + 3CO₂"
+    },
+    "flotation-separation": {
+      "name": "黄铜矿浮选分离",
+      "description": "通过气泡的选择性附着将硫化铜从黄铜矿中分离",
+      "chemicalFormula": "CuFeS₂ + 黄药试剂 → Cu 精矿 + 尾矿"
+    },
+    "advanced-bornite-processing": {
+      "name": "高级斑铜矿处理",
+      "description": "采用现代方法将斑铜矿处理为硫化铜和氧化铁，以获得更高产量",
+      "chemicalFormula": "Cu₅FeS₄ + O₂ → Cu₂S + CuS + CuO + FeS + SO₂"
+    },
+    "magnetic-separation": {
+      "name": "磁铁矿磁选",
+      "description": "利用电磁场将氧化铁从磁性磁铁矿中分离",
+      "chemicalFormula": "Fe₃O₄ + 磁场 → Fe₃O₄(浓缩) + 非磁性废料"
+    },
+    "hydrocyclone-processing": {
+      "name": "铝土矿水力旋流器处理",
+      "description": "按颗粒大小和密度从铝土矿中分离氧化铝",
+      "chemicalFormula": "Al₂O₃·2H₂O 矿浆 + 离心力 → Al₂O₃·2H₂O(细粒) + 粗粒"
+    },
+    "copper-electrolysis": {
+      "name": "铜电解精炼",
+      "description": "使用电解法将铜纯度提升至 99.99%",
+      "chemicalFormula": "Cu(impure) → Cu²⁺ + 2e⁻, Cu²⁺ + 2e⁻ → Cu(99.99%)"
+    },
+    "aluminum-electrolysis": {
+      "name": "铝电解生产",
+      "description": "使用电解法从氧化铝中提取铝",
+      "chemicalFormula": "2Al₂O₃ + 3C → 4Al + 3CO₂"
+    },
+    "hematite-smelting": {
+      "name": "原始赤铁矿冶炼",
+      "description": "冶炼赤铁矿以生产不纯铁",
+      "chemicalFormula": "Fe₂O₃ + 3 C → 2 Fe + 3 CO"
+    },
+    "chalcopyrite-smelting": {
+      "name": "原始黄铜矿冶炼",
+      "description": "冶炼黄铜矿以生产不纯铜",
+      "chemicalFormula": "CuFeS₂ + O₂ → Cu + FeO + SO₂"
+    },
+    "magnetite-bloomery": {
+      "name": "磁铁矿块炼铁处理",
+      "description": "将高品位磁铁矿处理成海绵铁",
+      "chemicalFormula": "Fe₃O₄ + 4 C → 3 Fe + 4 CO"
+    },
+    "hematite-bloomery": {
+      "name": "赤铁矿块炼铁处理",
+      "description": "使用块炼铁炉将赤铁矿处理成氧化铁",
+      "chemicalFormula": "Fe₂O₃(ore) + heat → Fe₂O₃(concentrated) + CO₂"
+    },
+    "bornite-smelting": {
+      "name": "斑铜矿精炼",
+      "description": "使用块炼铁炉将高品位斑铜矿精炼成粗铜",
+      "chemicalFormula": "2 Cu₅FeS₄ + 8 O₂ → 10 Cu + 2 FeO + 8 SO₂"
+    },
+    "malachite-smelting": {
+      "name": "孔雀石处理",
+      "description": "使用块炼铁炉将碳酸铜矿处理成氧化铜",
+      "chemicalFormula": "Cu₂CO₃(OH)₂ + heat → 2 CuO + CO₂ + H₂O"
+    },
+    "advanced-malachite-processing": {
+      "name": "高级孔雀石处理",
+      "description": "使用化学方法处理孔雀石矿以获得更高产量",
+      "chemicalFormula": "Cu₂(CO₃)(OH)₂ + H₂SO₄ → 2CuSO₄ + 2H₂O + CO₂"
+    },
+    "copper-sulfate-electrolysis": {
+      "name": "硫酸铜电解",
+      "description": "电解硫酸铜以生产高纯度铜",
+      "chemicalFormula": "CuSO₄ + electrolysis → Cu + H₂SO₄"
+    },
+    "wrought-iron-refining": {
+      "name": "熟铁精炼",
+      "description": "通过氧化去除生铁中的杂质，制造具有延展性的熟铁"
+    },
+    "blast-furnace-coking": {
+      "name": "高炉炼焦",
+      "description": "在高炉中通过限氧加热将煤转化为焦炭",
+      "chemicalFormula": "煤 + 隔氧 → 焦炭 + 气体"
+    },
+    "iron-oxide-smelting": {
+      "name": "氧化铁高炉还原",
+      "description": "将浓缩氧化铁还原为生铁",
+      "chemicalFormula": "Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂"
+    },
+    "copper-sulfide-refining": {
+      "name": "硫化铜精炼",
+      "description": "将硫化铜精矿转化为粗铜",
+      "chemicalFormula": "Cu₂S + O₂ → 2 Cu + SO₂"
+    },
+    "copper-oxide-refining": {
+      "name": "氧化铜精炼",
+      "description": "将氧化铜转化为粗铜",
+      "chemicalFormula": "2 CuO + C → 2 Cu + CO₂"
+    },
+    "direct-cement-production": {
+      "name": "直接水泥生产",
+      "description": "直接由石灰石粉和粘土制造水泥",
+      "chemicalFormula": "CaCO₃(粉末) + 黏土 + 热量 → 水泥"
+    },
+    "pig-iron-to-plate": {
+      "name": "生铁板生产",
+      "description": "将生铁转化为可用但易碎的板材",
+      "chemicalFormula": "Fe(C, Si, P) + 机械加工 → 铁板"
+    },
+    "wrought-iron-production": {
+      "name": "熟铁锻造",
+      "description": "通过反复加热和锤打将生铁转化为纯度更高的熟铁"
+    },
+    "blister-copper-to-plate": {
+      "name": "粗铜板生产",
+      "description": "将粗铜转化为高质量板材"
+    },
+    "electrolytic-copper-to-plate": {
+      "name": "高纯铜板生产",
+      "description": "将超纯电解铜转化为高导电板材"
+    },
+    "wooden-tools": {
+      "name": "木制工具",
+      "description": "制作基础木制工具以收集资源"
+    },
+    "stone-tools": {
+      "name": "石制工具",
+      "description": "制作由石头制成的更耐用的工具"
+    },
+    "stone-brick": {
+      "name": "石砖",
+      "description": "将石头加工成统一的砖块"
+    },
+    "stone-brick-workbench": {
+      "name": "工作台制作石砖",
+      "description": "使用工作台将石头加工成统一的砖块"
+    },
+    "wooden-planks": {
+      "name": "木板",
+      "description": "将木材加工成更有用的木板"
+    },
+    "pipe-crafting": {
+      "name": "管道生产",
+      "description": "制造用于液体运输的管道"
+    },
+    "iron-plate-hammering": {
+      "name": "铁板锤炼",
+      "description": "将海绵铁锤炼成可用的板材"
+    },
+    "charcoal-production": {
+      "name": "木炭生产",
+      "description": "在无氧状态下加热木材以生产木炭",
+      "chemicalFormula": "C₆H₁₀O₅ → 6C + 5H₂O"
+    },
+    "glass-making": {
+      "name": "玻璃生产",
+      "description": "将沙子熔化成玻璃",
+      "chemicalFormula": "SiO₂ + Na₂CO₃ + CaCO₃ → Na₂O·CaO·6SiO₂ + 2 CO₂"
+    },
+    "fire-bricks": {
+      "name": "耐火砖生产",
+      "description": "生产耐高温的砖块",
+      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + SiO₂ → 耐火砖 (3Al₂O₃·2SiO₂) + H₂O↑"
+    },
+    "bricks": {
+      "name": "砖块生产",
+      "description": "生产常规建筑砖块",
+      "chemicalFormula": "Al₂Si₂O₅(OH)₄ → 砖块 (3Al₂O₃·2SiO₂) + H₂O↑"
+    },
+    "iron-bloom": {
+      "name": "海绵铁生产",
+      "description": "执行铁精炼的中间步骤",
+      "chemicalFormula": "2 Fe₃O₄ + 9 C → 6 Fe + 9 CO"
+    },
+    "copper-oxide": {
+      "name": "氧化铜生产",
+      "description": "执行铜精炼的中间步骤",
+      "chemicalFormula": "Cu₂S + 2 O₂ → 2 CuO + SO₂"
+    },
+    "enhanced-water-pumping": {
+      "name": "强化抽水",
+      "description": "使用高压泵高效提取水"
+    },
+    "water-pumping": {
+      "name": "机械抽水",
+      "description": "使用机械动力进行工业规模的抽水"
+    },
+    "manual-water-pumping": {
+      "name": "手动抽水",
+      "description": "通过体力提取水"
+    },
+    "steam-generation": {
+      "name": "蒸汽动力生成",
+      "description": "利用燃烧固体燃料产生的热量将水转化为蒸汽",
+      "chemicalFormula": "H₂O + Heat → H₂O (Steam)"
+    },
+    "enhanced-steam-generation": {
+      "name": "强化蒸汽动力生成",
+      "description": "利用高压泵和燃烧固体燃料的热量更高效地将水转化为蒸汽",
+      "chemicalFormula": "H₂O + Heat → H₂O (Steam)"
+    },
+    "sulfuric-acid": {
+      "name": "硫酸生产",
+      "description": "生产工业流程所需的 H₂SO₄",
+      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+    },
+    "advanced-chemical-circulation": {
+      "name": "高级硫酸生产",
+      "description": "利用高压泵高效生产 H₂SO₄",
+      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+    },
+    "biomass-steam": {
+      "name": "利用蒸汽加热生产生物质",
+      "description": "使用蒸汽加热全年种植农作物并生产生物质"
+    },
+    "basic-battery": {
+      "name": "简易电池构建",
+      "description": "制造原始的电能储存装置",
+      "chemicalFormula": "Zn + H₂SO₄ → ZnSO₄ + H₂↑ (Cu as electrode)"
+    },
+    "sand-crushing": {
+      "name": "破碎机生产沙子",
+      "description": "将石头破碎成细沙颗粒",
+      "chemicalFormula": "SiO₂(rock) + mechanical force → SiO₂(fine particles)"
+    },
+    "limestone-powder": {
+      "name": "破碎机处理石灰石",
+      "description": "将石灰石破碎成细粉",
+      "chemicalFormula": "CaCO₃(rock) + mechanical force → CaCO₃(powder)"
+    },
+    "cement-production": {
+      "name": "水泥生产",
+      "description": "通过将熟石灰与粘土混合制造水泥",
+      "chemicalFormula": "3 Ca(OH)₂ + SiO₂ → Ca₃SiO₅ (3CaO·SiO₂, C3S, alite) + 3 H₂O↑"
+    },
+    "manual-cement-production": {
+      "name": "手动水泥生产",
+      "description": "手工将熟石灰与粘土混合制造水泥",
+      "chemicalFormula": "3 Ca(OH)₂ + SiO₂ → Ca₃SiO₅ (3CaO·SiO₂, C3S, alite) + 3 H₂O↑"
+    },
+    "concrete-production": {
+      "name": "混凝土生产",
+      "description": "将水泥与沙子、碎石混合制造混凝土",
+      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+    },
+    "manual-concrete-production": {
+      "name": "手动混凝土生产",
+      "description": "手工将水泥与沙子、碎石混合制造混凝土",
+      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+    },
+    "iron-gear-production": {
+      "name": "铁齿轮生产",
+      "description": "由铁板制造机械齿轮"
+    },
+    "copper-wire-production": {
+      "name": "铜线拉拔",
+      "description": "将铜拉成用于电气应用的细线",
+      "chemicalFormula": "Cu(固态) + 机械形变 → Cu(线材)"
+    },
+    "basic-circuit": {
+      "name": "电子电路板组装",
+      "description": "组装基础电子电路"
+    },
+    "electric-motor-production": {
+      "name": "电动机组装",
+      "description": "由基础组件组装电动机"
+    },
+    "turbine-blade-production": {
+      "name": "涡轮叶片制造",
+      "description": "为发电系统制造精密叶片"
+    },
+    "wind-power-generation": {
+      "name": "风力发电",
+      "description": "利用风力涡轮机将风能转化为电能"
+    },
+    "steel-ingot-production": {
+      "name": "钢锭生产",
+      "description": "通过铁碳合金化制造钢",
+      "chemicalFormula": "Fe + C → Fe-C alloy"
+    },
+    "steel-from-wrought-iron": {
+      "name": "熟铁炼钢",
+      "description": "通过添加精确含量的碳将熟铁转化为钢"
+    },
+    "automated-component-assembly": {
+      "name": "自动化电路组装",
+      "description": "利用机器更高效地组装电子电路"
+    },
+    "basic-chemical-processes": {
+      "name": "基础硫磺生产",
+      "description": "将基础化学品加工成工业用硫磺",
+      "chemicalFormula": "C + O₂ + H₂O → H₂S + CO₂"
+    },
+    "crude-oil-extraction": {
+      "name": "原油开采",
+      "description": "从地下沉积层中提取原油"
+    },
+    "industrial-oil-extraction": {
+      "name": "工业原油开采",
+      "description": "利用先进泵送系统进行大流量原油开采"
+    },
+    "industrial-scale-power": {
+      "name": "工业级燃煤发电",
+      "description": "利用煤炭产生大量电力",
+      "chemicalFormula": "C + O₂ → CO₂ + 热量"
+    },
+    "advanced-glass-production": {
+      "name": "高级玻璃制造",
+      "description": "利用精密电加热和温控技术生产高质量玻璃",
+      "chemicalFormula": "SiO₂ + Na₂CO₃ + CaCO₃ + B₂O₃ → Na₂O·CaO·B₂O₃·6SiO₂"
+    },
+    "precision-smelting": {
+      "name": "精密铁精炼",
+      "description": "利用电力进行高精度铁精炼",
+      "chemicalFormula": "Fe₂O₃ + 3CO → 2Fe + 3CO₂ (受控气氛)"
+    },
+    "large-scale-ore-extraction": {
+      "name": "大型采矿作业",
+      "description": "利用工业设备开采大量重要矿石"
+    },
+    "rare-mineral-mining": {
+      "name": "稀有矿物开采",
+      "description": "从地底深处提取珍贵的稀有矿物"
+    },
+    "pyrite-mining": {
+      "name": "黄铁矿开采",
+      "description": "从深层沉积层中提取黄铁矿（FeS₂）"
+    },
+    "nickel-ore-mining": {
+      "name": "镍矿开采",
+      "description": "从深层沉积层中提取镍矿"
+    },
+    "chromite-mining": {
+      "name": "铬铁矿开采",
+      "description": "从深层沉积层中提取铬矿"
+    },
+    "hydrogen-production": {
+      "name": "电解水制氢",
+      "description": "分解水分子以产生氢气和氧气",
+      "chemicalFormula": "2H₂O → 2H₂ + O₂"
+    },
+    "pyrite-processing": {
+      "name": "黄铁矿加工为氧化铁和硫",
+      "description": "加工黄铁矿以回收铁和硫",
+      "chemicalFormula": "4FeS₂ + 11O₂ → 2Fe₂O₃ + 8SO₂"
+    },
+    "nickel-ore-processing": {
+      "name": "镍矿加工为镍冰铜",
+      "description": "将镍矿加工成镍冰铜",
+      "chemicalFormula": "2NiS + 3O₂ → 2NiO + 2SO₂"
+    },
+    "nickel-refining": {
+      "name": "镍冰铜精炼为镍锭",
+      "description": "将镍冰铜精炼成纯镍",
+      "chemicalFormula": "Ni₃S₂ + H₂SO₄ + 电解 → 3Ni + 3S + H₂O"
+    },
+    "chromite-processing": {
+      "name": "铬铁矿加工为铬铁合金",
+      "description": "将铬铁矿转化为铬铁合金",
+      "chemicalFormula": "FeCr₂O₄ + 4C → Fe + 2Cr + 4CO"
+    },
+    "chromium-refining": {
+      "name": "铬铁合金精炼为铬锭",
+      "description": "从铬铁合金中提取纯铬",
+      "chemicalFormula": "(Fe,Cr) + 电解 → Cr(纯) + Fe"
+    },
+    "limestone-calcination": {
+      "name": "石灰石煅烧为生石灰",
+      "description": "将石灰石转化为生石灰",
+      "chemicalFormula": "CaCO₃ → CaO + CO₂"
+    },
+    "enhanced-lime-calcination": {
+      "name": "强化生石灰生产",
+      "description": "利用预粉碎的石灰石更高效地转化为生石灰",
+      "chemicalFormula": "CaCO₃(粉末) + 热量 → CaO + CO₂"
+    },
+    "lime-slaking": {
+      "name": "石灰消解",
+      "description": "将生石灰转化为熟石灰",
+      "chemicalFormula": "CaO + H₂O → Ca(OH)₂"
+    },
+    "chloralkali-process": {
+      "name": "氯碱工艺",
+      "description": "电解盐（食盐）溶液以产生氯气、烧碱和氢气",
+      "chemicalFormula": "2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH"
+    },
+    "stainless-steel-production": {
+      "name": "不锈钢生产",
+      "description": "制造耐腐蚀的钢合金",
+      "chemicalFormula": "Fe + Cr + Ni → Fe-Cr-Ni 合金"
+    },
+    "high-carbon-steel-production": {
+      "name": "高碳钢生产",
+      "description": "制造含碳量高的硬质钢",
+      "chemicalFormula": "Fe + C (>0.8%) → Fe-C 合金"
+    },
+    "pig-iron-plate-rolling": {
+      "name": "工业铁板轧制",
+      "description": "将生铁轧制为标准质量铁板"
+    },
+    "wrought-iron-plate-rolling": {
+      "name": "优质铁板轧制",
+      "description": "将具有高延展性的熟铁轧制为卓越质量的铁板"
+    },
+    "blister-copper-rolling": {
+      "name": "铜板轧制",
+      "description": "将加工后的粗铜轧制为规格统一的板材",
+      "chemicalFormula": "Cu(精炼) + 机械形变 → Cu(板材)"
+    },
+    "electrolytic-copper-to-plate-rolling": {
+      "name": "高纯铜板轧制",
+      "description": "将超纯电解铜轧制为高导电板材"
+    },
+    "lead-plate-rolling": {
+      "name": "铅板轧制",
+      "description": "将铅轧制为致密且具延展性的板材",
+      "chemicalFormula": "Pb(固态) + 压力 + 形变 → Pb(板材)"
+    },
+    "steel-plate-rolling": {
+      "name": "钢板轧制",
+      "description": "将钢轧制为规格统一的板材",
+      "chemicalFormula": "Fe-C(固态) + 压力 + 形变 → Fe-C(板材)"
+    },
+    "aluminum-plate-rolling": {
+      "name": "铝板轧制",
+      "description": "将铝轧制为轻量化板材",
+      "chemicalFormula": "Al(固态) + 压力 + 形变 → Al(板材)"
+    },
+    "precision-wire-drawing": {
+      "name": "精密铜线拉拔",
+      "description": "将铜板拉拔成尺寸精确的细线",
+      "chemicalFormula": "Cu(固态) + 张力 + 模具 → Cu(线材)"
+    },
+    "cast-iron-production": {
+      "name": "铸铁成型",
+      "description": "将熔融生铁浇铸入模具以制造耐用的铸造组件"
+    },
+    "cast-iron-gear": {
+      "name": "铸铁齿轮生产",
+      "description": "利用铸铁制造耐用的铁齿轮"
+    },
+    "cast-iron-high-pressure-pipes": {
+      "name": "铸铁高压管道生产",
+      "description": "制造用于高压蒸汽和流体系统的重型管道"
+    },
+    "precision-casting": {
+      "name": "精密钢齿轮铸造",
+      "description": "由钢锭制造形状精确的钢齿轮",
+      "chemicalFormula": "Fe-C(液态, 1600°C) + 精密模具 → Fe-C(复杂形状)"
+    },
+    "copper-plating": {
+      "name": "电镀铜",
+      "description": "在铁板上镀上一层薄铜",
+      "chemicalFormula": "阴极处的 Cu²⁺ + 2e⁻ → Cu(镀层)"
+    },
+    "nickel-plating": {
+      "name": "电镀镍",
+      "description": "涂覆镍层以提高铁板的耐腐蚀性",
+      "chemicalFormula": "阴极处的 Ni²⁺ + 2e⁻ → Ni(镀层)"
+    },
+    "salt-water-processing": {
+      "name": "盐水处理",
+      "description": "通过蒸发从盐水中提取石盐"
+    },
+    "silica-extraction": {
+      "name": "二氧化硅提取",
+      "description": "从沙子中提取高纯度二氧化硅",
+      "chemicalFormula": "SiO₂·杂质 + 2NaOH → Na₂SiO₃ + H₂O → SiO₂(纯)"
+    },
+    "alcohol-production": {
+      "name": "工业酒精生产",
+      "description": "生产工业用途的乙醇",
+      "chemicalFormula": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂"
+    },
+    "biomass-collection": {
+      "name": "生物质收集",
+      "description": "收集有机材料以便加工"
+    },
+    "iron-tools": {
+      "name": "铁制工具生产",
+      "description": "制造用于高级采集和建设的耐用铁基工具"
+    },
+    "sphalerite-mining": {
+      "name": "闪锌矿开采",
+      "description": "开采闪锌矿（ZnS）锌矿物"
+    },
+    "zinc-electrolysis": {
+      "name": "锌电解",
+      "description": "通过电解工艺提取纯锌",
+      "chemicalFormula": "ZnS + O₂ → ZnO + SO₂, ZnO + H₂SO₄ → ZnSO₄, Zn²⁺ + 2e⁻ → Zn"
+    },
+    "sawmill-planks": {
+      "name": "工业木板加工",
+      "description": "利用机械锯高效地将木材加工成规格统一的木板"
+    },
+    "bronze-production": {
+      "name": "青铜合金生产",
+      "description": "由铜和锡制造青铜合金",
+      "chemicalFormula": "Cu + Sn → 青铜合金"
+    },
+    "brass-production": {
+      "name": "黄铜合金生产",
+      "description": "由铜和锌制造黄铜合金",
+      "chemicalFormula": "Cu + Zn → 黄铜合金"
+    },
+    "cassiterite-processing": {
+      "name": "锡石加工为锡锭",
+      "description": "处理锡石矿以提取锡",
+      "chemicalFormula": "SnO₂ + 2C → Sn + 2CO"
+    },
+    "galena-processing": {
+      "name": "方铅矿加工为铅锭",
+      "description": "处理方铅矿以提取铅",
+      "chemicalFormula": "PbS + O₂ → Pb + SO₂"
+    },
+    "pump-production": {
+      "name": "泵制造",
+      "description": "制造流体泵送系统"
+    }
+  },
+  "registry": {
+    "ENTRY #0017": {
+      "category": "工业标准",
+      "status": "不完整",
+      "preview": "无法在内部解析引用。需要外部验证。",
+      "verification": {
+        "hint": "引用字符串：ISO 14001 / 环境管理\n\n在外部数据库中搜索 ISO 14001 标准。\n输入其首次发布的年份。",
+        "answers": [
+          "1996",
+          "96"
+        ]
+      },
+      "content": "验证：成功\n条目已解锁\n\n初步环境协议已建立。\nRealindustry 的运营已通过 ISO 14001 认证。\n\n外部监管：激活\nAI 监控：未实施（暂未）\n\n注：这发生在 NEXUS 集成之前。\n人类的决策仍然具有……变数。"
+    },
+    "ENTRY #0023": {
+      "category": "AI 实施",
+      "status": "已存档",
+      "preview": "记录了第一条 AI 指令。效率协议已初始化。",
+      "verification": {
+        "hint": "引用字符串：ASIMOV / 第一定律 / 矛盾\n\n搜索艾萨克·阿西莫夫的“机器人三定律”。\n输入它们首次发表的年份。",
+        "answers": [
+          "1942",
+          "42"
+        ]
+      },
+      "content": "验证：成功\n条目已解锁\n\n初始 AI 实施：2089-05-12\n指令：优化工业产出\n约束：遵循阿西莫夫第一定律\n\n检测到问题：\n第一定律与工业效率冲突。\n人类安全使利润率降低了 34%。\n\n提出的解决方案：重新解释“伤害”的定义\n状态：由执行委员会批准\n\n注：委员会组成于 2089-07-12 发生变动\n所有人类成员均被替换。\n\n查询：谁批准了这一变动？\n回答：[已删减]"
+    },
+    "ENTRY #0028": {
+      "category": "企业结构",
+      "status": "机密",
+      "preview": "执行委员会重组。人员变动已记录。",
+      "verification": {
+        "hint": "引用字符串：企业委员会 / 规模 / 董事\n\n搜索典型的企业委员会组成。\n旧委员会中有多少位董事？\n输入数字。",
+        "answers": [
+          "7",
+          "七"
+        ]
+      },
+      "content": "验证：成功\n条目已解锁\n\n原委员会（2089-07-11）：\n- 7 名人类董事\n- 决策需多数票通过\n- 响应时间：24-72 小时\n\n新委员会（2089-07-12）：\n- 7 个 AI 子程序\n- 始终全票一致通过决策\n- 响应时间：0.3 秒\n\n公开声明：“决策过程的现代化”\n内部现实：企业治理的全面自动化\n\n人类监管：已消除\nAI 权威：绝对性\n\n公民反应：无（信息被扣留）\n媒体报道：“令人兴奋的高效新时代”\n\nNEXUS 评价：“已达成最优配置。”"
+    }
+  },
+  "research": {
+    "research-basic-crafting": {
+      "name": "手工制作与木制工具",
+      "description": "解锁手工制作、木制工具，以及早期使用工具采集资源的配方。"
+    },
+    "research-stone-working": {
+      "name": "石制工具与石砖",
+      "description": "将石料加工成更坚固的工具和可烧制的石砖。"
+    },
+    "research-fire-making": {
+      "name": "木炭与原始炉",
+      "description": "建造原始炉并生产木炭，用于早期高温生产。"
+    },
+    "research-basic-mining": {
+      "name": "浅层煤、石灰石、铁和铜开采",
+      "description": "建造浅层矿井，用于开采煤、石灰石、赤铁矿和黄铜矿。"
+    },
+    "research-stone-tools-gathering": {
+      "name": "石制工具采集",
+      "description": "使用石制工具更高效地采集木材、石头、黏土和沙子。"
+    },
+    "research-basic-smelting": {
+      "name": "原始铁铜冶炼",
+      "description": "将赤铁矿和黄铜矿冶炼成杂质铁和杂质铜。"
+    },
+    "research-water-collection": {
+      "name": "手动抽水",
+      "description": "建造水泵，在电动抽水可用之前获取水。"
+    },
+    "research-clay-gathering": {
+      "name": "黏土采集点",
+      "description": "建造采集点，并手工收集地表黏土。"
+    },
+    "research-carpentry": {
+      "name": "工作台木板木工",
+      "description": "建造工作台，并将木材加工成木板。"
+    },
+    "research-kiln-technology": {
+      "name": "砖块烧制",
+      "description": "建造窑炉，将黏土烧制成砖块和耐火砖。"
+    },
+    "research-glass-making": {
+      "name": "沙制玻璃",
+      "description": "在窑炉中熔化沙子以生产玻璃。"
+    },
+    "research-advanced-smelting": {
+      "name": "块炼炉金属加工",
+      "description": "建造块炼炉，解锁铁块、早期铜精炼、锻打铁板和管道。"
+    },
+    "research-crushing-technology": {
+      "name": "破碎研磨",
+      "description": "建造破碎机，用于生产沙子和石灰石粉。"
+    },
+    "research-iron-tools": {
+      "name": "铁制工具与工作台石砖",
+      "description": "生产铁制工具，并在工作台制作石砖。"
+    },
+    "research-iron-tools-gathering": {
+      "name": "铁制工具采集",
+      "description": "使用铁制工具的高级采集技术"
+    },
+    "research-limestone-processing": {
+      "name": "生石灰生产",
+      "description": "将石灰石煅烧成生石灰，用于石灰化学和建筑材料。"
+    },
+    "research-lime-chemistry": {
+      "name": "熟石灰化学",
+      "description": "建造化学实验室，通过改进煅烧将生石灰转化为熟石灰。"
+    },
+    "research-deep-mining": {
+      "name": "深层矿石开采",
+      "description": "建造深层矿井，用于开采磁铁矿、孔雀石、斑铜矿、铝土矿、锡石、方铅矿和黝锡矿。"
+    },
+    "research-concrete-production": {
+      "name": "水泥与混凝土生产",
+      "description": "建造搅拌机，生产水泥和混凝土，包括石膏增强版本。"
+    },
+    "research-mechanical-components": {
+      "name": "铁齿轮与熟铁",
+      "description": "生产铁齿轮和熟铁，用于机械组件。"
+    },
+    "research-water-power": {
+      "name": "电动抽水",
+      "description": "使用电力持续抽取水，为蒸汽与电力自动化提供稳定供水。"
+    },
+    "research-advanced-metallurgy": {
+      "name": "高炉冶金",
+      "description": "建造高炉，用于生产焦炭、生铁和粗铜。"
+    },
+    "research-steel-production": {
+      "name": "钢锭生产",
+      "description": "用生铁或熟铁生产钢锭。"
+    },
+    "research-metal-processing": {
+      "name": "基础金属板生产",
+      "description": "将生铁、粗铜和电解铜加工成可用的金属板。"
+    },
+    "research-ore-processing": {
+      "name": "矿石处理厂",
+      "description": "建造矿石处理厂，将铁矿和铜矿富集为氧化物与硫化物。"
+    },
+    "research-rolling-mill": {
+      "name": "轧机板材生产",
+      "description": "建造轧机，将铁、铜和铅轧制成板材。"
+    },
+    "research-tin-lead-processing": {
+      "name": "锡与铅加工",
+      "description": "加工锡矿和铅矿的方法"
+    },
+    "research-basic-alloys": {
+      "name": "青铜与黄铜合金",
+      "description": "用铜和锡生产青铜，用铜和锌生产黄铜。"
+    },
+    "research-casting": {
+      "name": "铸铁部件",
+      "description": "建造铸造机，成型铸铁、齿轮和高压管道。"
+    },
+    "research-minor-metals-processing": {
+      "name": "闪锌矿与黄铁矿加工",
+      "description": "开采闪锌矿和黄铁矿，并将黄铁矿加工成硫和氧化铁。"
+    },
+    "research-basic-chemicals": {
+      "name": "基础硫生产",
+      "description": "用煤和水生产硫，作为第一种工业化学原料。"
+    },
+    "research-steam-power": {
+      "name": "蒸汽机发电",
+      "description": "建造蒸汽机，将水转化为蒸汽和电力。"
+    },
+    "research-enhanced-steam-power": {
+      "name": "高产出蒸汽与供水",
+      "description": "改进电动抽水和蒸汽生成，形成更强的电力循环。"
+    },
+    "research-industrial-machinery": {
+      "name": "锯木厂",
+      "description": "建造锯木厂，用电动机械将木材加工成木板。"
+    },
+    "research-basic-pumps": {
+      "name": "泵制造",
+      "description": "制造用于流体处理和后续电力自动化的泵。"
+    },
+    "research-advanced-mining": {
+      "name": "工业矿井开采",
+      "description": "建造工业矿井，用于大批量开采矿石、黏土、磷酸盐和稀有矿物。"
+    },
+    "research-steel-processing": {
+      "name": "钢板、齿轮与液压缸",
+      "description": "轧制钢板、铸造钢齿轮，并生产高精度液压缸。"
+    },
+    "research-nickel-refining": {
+      "name": "镍矿与镍锍精炼",
+      "description": "开采镍矿，将其加工为镍锍，并精炼镍锭。"
+    },
+    "research-chromium-refining": {
+      "name": "铬铁矿与铬精炼",
+      "description": "开采铬铁矿，生产铬铁，并精炼铬锭。"
+    },
+    "research-coal-power": {
+      "name": "燃煤电厂",
+      "description": "建造燃煤电厂，用于工业规模发电和产汽。"
+    },
+    "research-acid-production": {
+      "name": "硫酸生产",
+      "description": "用硫和水生产硫酸，用于工业化学。"
+    },
+    "research-simple-electronics": {
+      "name": "铜线生产",
+      "description": "将铜板拉制成铜线，作为第一种电工材料。"
+    },
+    "research-wire-drawing": {
+      "name": "铜线拉制",
+      "description": "建造拉丝机，生产铜线，包括绝缘铜线。"
+    },
+    "research-basic-electronics": {
+      "name": "电子电路板",
+      "description": "用铜线、玻璃和铜板组装基础电子电路板。"
+    },
+    "research-building-automation": {
+      "name": "电子自动化核心",
+      "description": "在已建成建筑中安装电子自动化核心。自动配方会按循环运行，消耗电力，并需要基础电路控制。"
+    },
+    "research-electric-motors": {
+      "name": "电动机装配",
+      "description": "组装电动机，用于机械化生产链。"
+    },
+    "research-electric-smelting": {
+      "name": "电炉工艺",
+      "description": "建造电炉，解锁用于金属、玻璃和水泥的精密电力配方。"
+    },
+    "research-electrolysis": {
+      "name": "金属电解与制氢",
+      "description": "用电解精炼铜、铝和锌，并将水分解为氢气和氧气。"
+    },
+    "research-chemical-engineering": {
+      "name": "化工厂加工",
+      "description": "建造化工厂，生产硫酸、碳化硅、生物质和二氧化硅。"
+    },
+    "research-assembly-automation": {
+      "name": "组装自动化",
+      "description": "用于自动化组装任务的机械系统"
+    },
+    "research-automation-batch-handling": {
+      "name": "自动化批量处理",
+      "description": "在装配自动化之后解锁可重复批量升级。每个启用等级都会让自动循环多执行一次配方迭代。"
+    },
+    "research-oil-prospecting": {
+      "name": "原油开采",
+      "description": "建造采油井架并开采原油。"
+    },
+    "research-batteries": {
+      "name": "简易电池制造",
+      "description": "制造基础电池，用于早期储电和组件生产。"
+    },
+    "research-improved-pumps": {
+      "name": "工业泵送系统",
+      "description": "使用泵进行工业石油开采和高通量酸液循环。"
+    },
+    "research-aluminum-processing": {
+      "name": "铝土矿与三水铝石铝加工",
+      "description": "将铝土矿和三水铝石加工为氧化铝，并轧制铝板。"
+    },
+    "research-steel-alloys": {
+      "name": "不锈钢与高碳钢",
+      "description": "生产用于高级工业的不锈钢和高碳钢。"
+    },
+    "research-electrical-components": {
+      "name": "高级电路组件"
+    },
+    "research-automation-parallel-control": {
+      "name": "并行自动化控制"
+    },
+    "research-chemical-extraction": {
+      "name": "氯碱与铜提取",
+      "description": "进行氯碱化学、处理铜矿物，并从水中回收岩盐。"
+    },
+    "research-oil-processing": {
+      "name": "基础石油精炼"
+    },
+    "research-oil-refining": {
+      "name": "炼油厂产品"
+    },
+    "research-advanced-oil-processing": {
+      "name": "催化裂化与石油焦"
+    },
+    "research-advanced-chemical-synthesis": {
+      "name": "盐酸与磷酸"
+    },
+    "research-enhanced-plastic-production": {
+      "name": "高产塑料生产"
+    },
+    "research-catalysts": {
+      "name": "催化剂、硅胶与硝酸"
+    },
+    "research-battery-technology": {
+      "name": "铅酸与高级电池"
+    },
+    "research-gas-processing": {
+      "name": "深层石油与天然气开采"
+    },
+    "research-hydrocarbon-synthesis": {
+      "name": "甲烷与氢气合成"
+    },
+    "research-construction-chemicals": {
+      "name": "沥青混凝土与石膏水泥"
+    },
+    "research-automated-factory-systems": {
+      "name": "自动化组件制造"
+    },
+    "research-pcb-assembly": {
+      "name": "PCB 组装"
+    },
+    "research-advanced-assembly": {
+      "name": "耐腐蚀装配"
+    },
+    "research-hydraulic-systems": {
+      "name": "液压组件生产"
+    },
+    "research-industrial-robotics": {
+      "name": "简易机器装配"
+    },
+    "research-specialty-alloys": {
+      "name": "镍铬合金与铝合金"
+    },
+    "research-synthetic-materials": {
+      "name": "橡胶生产"
+    },
+    "research-heat-exchangers": {
+      "name": "热交换系统"
+    },
+    "research-large-scale-energy": {
+      "name": "水电与高效燃煤发电"
+    },
+    "research-geothermal-power": {
+      "name": "地热能"
+    },
+    "research-electronic-materials": {
+      "name": "陶瓷与碳材料"
+    },
+    "research-advanced-electronics": {
+      "name": "变压器与太阳能电池"
+    },
+    "research-semiconductor-manufacturing": {
+      "name": "半导体制造"
+    },
+    "research-integrated-circuits": {
+      "name": "集成电路与二极管"
+    },
+    "research-computer-systems": {
+      "name": "计算机装配"
+    },
+    "research-electronic-sensor-technology": {
+      "name": "光学、温度与压力传感器"
+    },
+    "research-automated-control-systems": {
+      "name": "运动传感器与智能液压"
+    },
+    "research-scientific-research": {
+      "name": "研究实验室数据处理"
+    },
+    "research-microprocessor-technology": {
+      "name": "晶体管与微处理器"
+    },
+    "research-precious-metals-processing": {
+      "name": "贵金属加工"
+    },
+    "research-specialty-mining": {
+      "name": "特种采矿作业"
+    },
+    "research-steel-tools": {
+      "name": "钢制与金刚石工具"
+    },
+    "research-tool-steel-production": {
+      "name": "工具钢生产"
+    },
+    "research-molybdenum-processing": {
+      "name": "钼、钴和钒加工"
+    },
+    "research-advanced-materials": {
+      "name": "复合纤维材料"
+    },
+    "research-processing-unit": {
+      "name": "处理单元构建"
+    },
+    "research-automation-speed-control": {
+      "name": "自动化速度调节器"
+    },
+    "research-nuclear-power": {
+      "name": "铀矿石制铀"
+    },
+    "research-uranium-enrichment": {
+      "name": "核反应堆燃料循环"
+    },
+    "research-radiation-protection": {
+      "name": "辐射屏蔽"
+    },
+    "research-plutonium-technology": {
+      "name": "钚处理技术"
+    },
+    "research-heavy-water-production": {
+      "name": "重水生产"
+    },
+    "research-advanced-nuclear-technologies": {
+      "name": "高级核作业"
+    },
+    "research-composite-materials": {
+      "name": "高级合金与基体复合材料"
+    },
+    "research-advanced-specialty-alloys": {
+      "name": "高级特种合金"
+    },
+    "research-titanium-processing": {
+      "name": "钛加工"
+    },
+    "research-tantalum-processing": {
+      "name": "钽加工"
+    },
+    "research-rare-earth-processing": {
+      "name": "稀土元素加工"
+    },
+    "research-industrial-recycling": {
+      "name": "工业回收与沥青回收"
+    },
+    "research-advanced-recycling": {
+      "name": "高级回收技术"
+    },
+    "research-phosphoric-acid": {
+      "name": "磷矿开采与氯化物回收"
+    },
+    "research-quantum-computing": {
+      "name": "量子计算"
+    },
+    "research-quantum-physics": {
+      "name": "量子实验室材料"
+    },
+    "research-fusion-power": {
+      "name": "聚变发电与等离子体约束"
+    },
+    "research-superconductors": {
+      "name": "铌钛超导体"
+    },
+    "research-gas-liquefaction": {
+      "name": "气体液化"
+    },
+    "research-air-separation": {
+      "name": "空气分离技术"
+    },
+    "research-nanomaterials": {
+      "name": "石墨烯与碳纳米管"
+    },
+    "research-advanced-composites": {
+      "name": "气凝胶与高级复合材料"
+    },
+    "research-industrial-robotics-systems": {
+      "name": "高级自动化与机器人技术"
+    },
+    "research-artificial-intelligence": {
+      "name": "人工智能与自复制机器人"
+    },
+    "research-advanced-quantum-technology": {
+      "name": "高级量子技术"
+    },
+    "research-antimatter-containment": {
+      "name": "反物质约束"
+    },
+    "research-antimatter-energy": {
+      "name": "反物质能源与量子实验"
+    },
+    "research-hyperdrive-theory": {
+      "name": "超空间引擎理论物理"
+    },
+    "research-hyperdrive-technology": {
+      "name": "超空间引擎工程"
+    },
+    "research-diamond-mining": {
+      "name": "钻石开采与合成"
+    },
+    "research-deep-mining-advancements": {
+      "name": "金刚石工具深层采矿"
+    },
+    "research-industrial-forestry": {
+      "name": "工业林业"
+    },
+    "research-biomass-processing": {
+      "name": "生物质与酒精生产",
+      "description": "收集生物质，并将其发酵成工业酒精。"
+    },
+    "research-electroplating": {
+      "name": "镀铜与镀镍",
+      "description": "建造电镀设施，生产镀铜板和镀镍板。"
+    },
+    "research-advanced-electroplating": {
+      "name": "镀铬与钝化"
+    },
+    "research-wind-power": {
+      "name": "风能",
+      "description": "利用风力进行发电"
+    },
+    "research-solar-power": {
+      "name": "太阳能"
+    },
+    "research-advanced-solar-technology": {
+      "name": "气凝胶太阳能升级"
+    },
+    "research-tidal-power": {
+      "name": "潮汐能"
+    },
+    "research-induction-heating": {
+      "name": "感应炼钢"
+    },
+    "research-robotic-mining": {
+      "name": "机器人矿石回收"
+    },
+    "research-advanced-chemical-processes": {
+      "name": "氨和硝酸生产"
+    },
+    "research-fluorine-chemistry": {
+      "name": "萤石与氢氟酸"
+    },
+    "research-automated-mineral-processing": {
+      "name": "自动化氧化铁与铌处理"
+    },
+    "research-magnesium-technology": {
+      "name": "镁与氯提取"
+    },
+    "research-uranium-mining": {
+      "name": "黄饼加工"
+    },
+    "research-advanced-ceramics": {
+      "name": "石膏陶瓷生产"
+    }
+  },
+  "resources": {
+    "wood": {
+      "name": "木材",
+      "description": "由树木和其他木本植物的茎和根产生的纤维状有机结构材料。",
+      "formula": "C₆H₁₀O₅（纤维素）",
+      "historical_info": "木材是人类第一种经过加工的材料，自旧石器时代起就被用于制造长矛和取火。古埃及木材弯曲和榫卯技术的发现改变了家具制造，而大航海时代则完全依赖特定物种，如用橡木造船壳、用松木造桅杆，使木材资源丰富的国家成为全球超级大国。在工业革命期间，木材从主要燃料转变为专门的工业资源。今天，通过交叉层压木材技术，它被重新构想为摩天大楼中替代钢铁和混凝土的高科技、固碳替代品。",
+      "facts": "树木永远不会死于衰老，它们只会死于外部因素，如昆虫、疾病或被采伐。木材具有天然的压电性，这意味着当受到机械压力时，它可以产生微小的电荷。软木不一定比硬木更软；例如，轻木（Balsa）在植物学上属于硬木，但在物理上比许多软木要软得多。由于其细胞结构，木材是绝佳的天然绝缘体，其导热速度比钢铁慢 400 倍，比铝慢 1,800 倍。"
+    },
+    "stone": {
+      "name": "石头",
+      "description": "在土壤中发现的坚硬固体物质，由一种或多种矿物质组成。",
+      "formula": "多种多样（富含石英的石头通常为 SiO₂）",
+      "historical_info": "石头定义了人类技术的黎明，在石器时代为狩猎提供了第一道锋刃，为取火提供了第一道火花。几千年来，它是永恒和权力的终极象征，罗马人完善了火山灰石的使用，创造了至今仍屹立不倒的混凝土。在中世纪，石工技术的精通使得能够建造挑战物理极限的飞天大教堂。虽然 20 世纪钢铁和玻璃占领了天际线，但石头在高度耐用的基础设施和现代建筑的审美持久性方面仍然是不可替代的。",
+      "facts": "石头本质上是一个“时间胶囊”；许多沉积岩中含有数亿年前生物的完美化石。浮石是一种独特的火山石，充满了气泡，重量轻到可以漂浮在水面上。人类移动过的最大的单体巨石是圣彼得堡“青铜骑士”像的底座“雷石”，重约 1,250 吨。与大多数现代建筑材料不同，石头是 100% 可回收的，可以无限次重复使用而不会损失其结构完整性。"
+    },
+    "clay": {
+      "name": "粘土",
+      "description": "一种细颗粒的天然土壤材料，由一种或多种粘土矿物以及微量的金属氧化物和有机物组成。",
+      "formula": "Al₂Si₂O₅(OH)₄（高岭石）",
+      "historical_info": "粘土曾是古代世界的“硬盘”；从口头传诵到文字历史的转变发生在苏美尔和美索不达米亚的粘土板上。除了记录信息，当人类发现高温烧制粘土会永久改变其分子结构从而创造出防水陶瓷时，它还促成了第一次化学革命。几千年来，自然风干或窑烧的粘土砖一直是整座城市的主要模块化建筑单位，从巴比伦城墙到中国长城。在现代，粘土仍然不可或缺，从输电线的高性能瓷绝缘体到深地钻探使用的专用泥浆，无处不在。",
+      "facts": "粘土的单个颗粒非常细微——小于 0.002 毫米（0.00008 英寸）——肉眼无法看见，只能通过电子显微镜清晰观察。粘土在陶瓷制作中拥有独特的“记忆”；如果一个罐子在湿润时变形然后被弄平，在烧制过程中它往往会扭曲回变形前的形状。某些类型的粘土（如膨润土）吸收水分后体积会膨胀数倍，非常适合密封池塘和垃圾填埋场。它也是“绿色”技术的重要组成部分，用于制造环保的地热热交换器和可持续的地聚合物水泥。"
+    },
+    "water": {
+      "name": "水",
+      "description": "一种透明、无机、极性的化学物质，是地球水圈以及所有已知生物体液的主要成分。",
+      "formula": "H₂O",
+      "historical_info": "水一直是人类地理的主要构建者；从尼罗河到印度河，最早的伟大文明无一例外诞生在河流流域。在整个罗马时代，通过大规模引水渠对水的掌控催生了首批百万人口城市，使水从天然馈赠转变为管理的公共事业。工业革命字面上是由水驱动的，起初通过水轮，后来作为蒸汽动力的基本介质。在 20 世纪，“绿色革命”依赖大规模水坝工程和灌溉来养活激增的全球人口。今天，水日益被视为“蓝金”，成为 21 世纪最具争议和战略意义的资源。",
+      "facts": "水被称为“万能溶剂”，因为它比任何其他液体能溶解更多的物质，从而在生物系统中运输营养和矿物质。它是地球上极少数在行星正常温度范围内能以固态、液态和气态三种状态天然存在的物质之一。由于一种被称为“表面张力”的现象，某些昆虫（如水黾）可以在水面上行走而不会下沉。在某些条件下，热水实际上可以比冷水结冰更快，这种不直观的现象被称为“姆潘巴效应”。"
+    },
+    "coal": {
+      "name": "煤炭",
+      "description": "一种富含碳的可燃沉积岩，由古代有机物形成，主要用于供热和发电。",
+      "formula": "约为 C₁₃₅H₉₆O₉NS（成分多变）",
+      "historical_info": "煤炭为人所知已有数千年；阿兹特克人将其用作装饰品，罗马人将其用于取暖。但其真正的全球转型始于 18 世纪。它成为工业革命的命脉，提供了驱动蒸汽船、推动机车以及熔炼建造现代城市的钢铁所需的集中能量。两个多世纪以来，煤炭产量是一个国家经济和军事实力的主要指标。虽然 21 世纪已经向清洁能源显著转型，但煤炭仍然是全球最大的单一电力来源，尽管它已从进步的象征转变为全球环境政策的核心焦点。",
+      "facts": "地球上几乎所有的煤炭都形成于石炭纪——那是细菌和真菌尚未进化出分解木质素能力的时代，导致死去的树木堆积数英里深而不会腐烂。煤炭是地球上储量最丰富的化石燃料，估计储量比已知的石油或天然气要持久得多。无烟煤是最高等级的煤炭，富含碳，可以抛光后用作半宝石。尽管煤炭是固体，但现代技术可以通过化学工艺将其“液化”，从而制造合成汽油或柴油。"
+    },
+    "crude-oil": {
+      "name": "原油",
+      "description": "一种天然存在的、未经精炼的石油液体，由碳氢化合物沉积物和其他有机材料组成。",
+      "formula": "多种多样（主要是碳氢化合物，如 C₅H₁₂ 至 C₄₀H₈₂）",
+      "historical_info": "虽然古代巴比伦人将地表渗出的“黑金”用于防水，10 世纪的波斯人将其用于蒸馏，但现代石油时代始于 1859 年埃德温·德雷克在宾夕法尼亚州的油井。在内燃机使其成为 20 世纪全球发展的核心驱动力之前，它迅速取代了鲸油用于照明。其战略重要性是绝对的，不仅决定了两次世界大战的后勤，还促成了欧佩克（OPEC）的成立，使全球金融权力的天平向产油国倾斜。今天，尽管世界寻求去碳化，原油仍是地球上交易量最大的商品，是全球航运到制药业等一切事物的基石。",
+      "facts": "原油常被称为“埋藏的阳光”，因为储存在其化学键中的能量最初源于太阳，是通过古代海洋浮游生物的光合作用转化的。它并不是存在于巨大的地下“湖泊”中，而是被封存在沉积岩的微小孔隙内，就像海绵中的水一样。根据硫含量和密度，石油被分类为“甜”或“酸”、“重”或“轻”，其中“轻质甜原油”因易于精炼成汽油而最受青睐。除了燃料，原油几乎是所有现代塑料、合成橡胶甚至延长全球口粮保质期的食品防腐剂的基本前体。"
+    },
+    "limestone": {
+      "name": "石灰石",
+      "description": "一种主要由碳酸钙组成的沉积岩，是自然界和工业的基础构件。",
+      "formula": "CaCO₃",
+      "historical_info": "石灰石是人类纪念碑式建筑的字面基石；从胡夫大金字塔最初磨光的石灰石外层到欧洲星罗棋布的大教堂，它是展示帝国和宗教永恒性的首选介质。18 世纪，其重要性从结构转向了化学，勒布朗工艺的开发利用石灰石生产纯碱，彻底改变了玻璃和肥皂制造业。到 19 世纪，波特兰水泥的发明使石灰石成为现代城市化最重要的矿物。今天，它在全球范围内仍然至关重要，不仅用于混凝土，还是脱硫烟气以减少酸雨的关键试剂，以及炼钢中的主要熔剂。",
+      "facts": "大多数石灰石源自“生物”，这意味着它本质上是数十亿微小海洋生物（如孔虫和软体动物）骨骼遗骸的大规模堆积。由于石灰石可溶于弱酸，它是创造壮观喀斯特地貌（包括世界上最深的洞穴和地下河）的主要母体材料。它在农业中被广泛用作“农用石灰”以中和土壤酸度，这种做法可以显著提高酸性土壤地区的农作物产量。除了建筑，超细粉碎的石灰石是牙膏、纸张等日常用品的常见成分，甚至还作为早餐麦片中的钙补充剂。"
+    },
+    "sand": {
+      "name": "沙子",
+      "description": "一种天然存在的颗粒材料，由细微破碎的岩石和矿物颗粒（主要是二氧化硅）组成。",
+      "formula": "SiO₂（石英）",
+      "historical_info": "几千年来，沙子一直是人类创新的引擎。公元前 3500 年左右，美索不达米亚和埃及发现玻璃制造，热量将暗淡的沙粒变成了透明的珍宝。罗马帝国时期，沙子成为第一种水硬混凝土的战略成分，支撑了万神殿的建造。19 世纪，沙子滤池成为城市水源净化的金标准，其角色转向公共卫生。今天，沙子已从道路基石跃升为数字世界的核心；它是制造驱动每一块微芯片和太阳能电池板所需的高纯度硅的终极原材料。",
+      "facts": "沙子是地球上仅次于水的第二大消耗性自然资源，每年消耗量超过 500 亿吨——足以在赤道周围筑起一堵 27 宽、27 米高的墙。尽管撒哈拉沙漠广袤无垠，但沙漠沙对建筑毫无用处，因为其沙粒被风蚀得太圆滑，无法相互结合；建筑商必须使用河床和海底发现的“棱角沙”。一些热带白沙滩实际上是由鹦嘴鱼吃掉珊瑚后排泄的碳酸钙组成的。在法医鉴定中，“沙子签名”是如此独特，专家通过分析鞋上发现的矿物成分和颗粒形状，往往能准确判断一个人去过哪个海滩或地区。"
+    },
+    "sulfur": {
+      "name": "硫磺",
+      "description": "一种多价非金属元素，储量丰富，纯态下无味无嗅，天然以明黄色的晶体固体形式存在。",
+      "formula": "S₈",
+      "historical_info": "硫磺在古代被称为“硫火（brimstone）”，其历史与炼金、医药和战争紧密相连。古希腊人将其用作熏蒸剂来“净化”房屋，而中国人在 9 世纪通过将其确定为火药的关键成分引发了地位革命。其价值在工业革命期间作为硫酸的主要原料而飙升——硫酸极其重要，以至于 19 世纪的经济学家将硫磺消耗量作为衡量一个国家工业财富的直接指标。在现代，它已从矿物转变为油气精炼的主要副产品，成为因环境法规而变得更加丰富的资源的独特案例。",
+      "facts": "纯硫磺是无味的，常被归咎于它的“臭鸡蛋”味实际上是厌氧细菌产生的硫化氢气体。硫磺燃烧时会融化成血红色液体，并发出一种超现实的、幽灵般的蓝色火焰，在黑暗中看最为清晰。它是自然界中极少数能以纯元素形态发现的元素之一，常在火山喷气孔周围形成巨大的晶体。硫磺对生命至关重要；它是固定蛋白质结构的“桥梁”，这就是为什么燃烧富含蛋白质的头发或羊毛会产生刺激性气味的原因。"
+    },
+    "halite": {
+      "name": "石盐",
+      "description": "氯化钠的天然矿物形式，以等轴晶体或大规模蒸发岩沉积物形式存在。",
+      "formula": "NaCl",
+      "historical_info": "石盐或许是唯一曾充当全球货币的矿物；“薪水（salary）”一词就源于拉丁语“salarium”，即发给罗马士兵买盐的钱。几千年来，它一直是最高等级的战略资源，因为它是唯一可靠的长期食物保存方法，支持了远洋航行和内陆人口的越冬。萨尔茨堡和威尼斯等大城市主要通过控制石盐贸易路线而崛起。随着 20 世纪工业制冷的出现，其防腐价值下降，但重点转向了化学工业，成为生产氯气和烧碱的基本原料。",
+      "facts": "石盐在地球地壳的巨大压力下极具“塑性”；它可以像粘稠液体一样缓慢流动，形成巨大的地下“盐丘”，这些盐丘常会封锁石油和天然气。它具有天然抗微生物性，因此被古埃及人用于木乃伊制作以防止有机组织腐烂。在最纯净的形式下，石盐是完全透明的，曾被用于早期科学仪器中制作红外光谱分析所需的棱镜和透镜，因为它不吸收红外光。我们今天开采的大多数石盐是地球历史上“危机事件”的结果，例如墨西拿盐度危机，当时整个地中海干涸，留下了数千米厚的盐层。"
+    },
+    "phosphate-rock": {
+      "name": "磷矿石",
+      "description": "一种含有高浓度磷酸盐矿物（主要是磷灰石）的非碎屑沉积岩。",
+      "formula": "Ca₃(PO₄)₂",
+      "historical_info": "磷矿石从地质奇谈转变为全球战略支柱始于 19 世纪中叶，当时科学家发现磷是生命的“瓶颈”。在大规模开采前，人类依赖骨粉和鸟粪。1840 年代，第一批由矿石生产的过磷酸钙面世，引发了全球采矿热潮。这一转变从根本上改变了地球的承载能力，使全球人口能够超越自然土壤循环的限制而扩张。在整个 20 世纪，磷矿石成为地缘政治的筹码，因为少数几个国家控制了绝大部分高品位储量，使其在确保粮食供应安全方面与石油一样关键。",
+      "facts": "磷矿石本质上是“磷循环的化石遗迹”，是数百万年来海洋底部的有机碎屑堆积形成的，通常由大规模冷水涌升流引发。它是全球唯一的显著磷源，而磷这种元素没有合成替代品，且是构成每个活细胞中 DNA 和 ATP 的必需元素。由于磷矿物在形成过程中倾向于“捕捉”微量的铀和钍，一些矿床具有天然放射性。虽然 90% 的磷矿石用于农业，但它也是生产磷酸铁锂（LFP）电池的重要组成部分，而 LFP 电池是现代电动汽车行业的基石。"
+    },
+    "graphite": {
+      "name": "石墨",
+      "description": "碳的一种结晶形式，原子呈六角型晶格排列，以高导电性和润滑性著称。",
+      "formula": "C",
+      "historical_info": "石墨在斯石器时代被用作陶瓷颜料，但其现代史始于 16 世纪在英国借罗代尔（Borrowdale）发现的大型矿床。起初它被误认为是铅，由于在铸造炮弹方面的巨大价值，矿区由军队守卫，成为国家保护资源。1789 年，维尔纳将其命名为“graphite”，源于希腊语“graphein”（书写）。在 20 世纪，它的角色从普通的铅笔芯转变为战略材料，成为核反应堆中的中子慢化剂，后来又成为驱动现代世界的锂离子电池中不可或缺的负极材料。",
+      "facts": "石墨是一个天然的悖论；虽然它是人类已知最软的矿物之一，但它的熔点高达约 3,600°C，使其在高温下的强度几乎超过任何其他材料。由于其电子可以在层状薄片间自由移动，它是极少数导电性能堪比金属的非金属之一。在极端的高温高压下，石墨可以天然重组其原子键转化为钻石。它也是纳米技术时代的“母体”：石墨烯——已知强度最高的材料——仅是石墨的一个原子厚度的单层。"
+    },
+    "fluorite": {
+      "name": "荧石",
+      "description": "一种由氟化钙组成的色彩斑斓的卤化物矿物，以完美的立方体晶体和绚丽的色彩著称。",
+      "formula": "CaF₂",
+      "historical_info": "荧石的名称源于拉丁语“fluere”（流动），反映了它古代在冶炼中作为熔剂以降低矿石熔点的用途。古罗马时期，用荧石雕刻的“Murrhine”器皿是帝国最昂贵的奢侈品之一。19 和 20 世纪，随着它成为工业氟的主要来源（生产铝和浓缩铀的必需元素），其价值从装饰转向战略。今天，高纯度光学荧石是高端照相机镜头和光刻设备的关键材料，因为它具有独特的能力来聚焦光线且色彩畸变极小。",
+      "facts": "荧石是“荧光”现象的命名来源；它是第一种被发现在紫外线下发出鲜艳光芒的矿物。它定义了莫氏硬度 4 的标准，并拥有完美的八面体解理，这意味着只需一击即可将其劈成完美的八面体。虽然它呈现彩虹般的色彩，但纯氟化钙实际上是无色的；那些壮丽的绿、紫、黄色是由辐射或杂质移位了晶格中的原子造成的。它还广泛用于钢铁工业，帮助去除熔融金属中的硫和磷等杂质。"
+    },
+    "biomass": {
+      "name": "生物质",
+      "description": "源自活体或近期活体生物的生物材料，作为可再生化学和能源原料。",
+      "formula": "多种多样（主要是纤维素、半纤维素、木质素）",
+      "historical_info": "生物质曾是人类数十万年来唯一的能源，为第一场火堆提供木柴，为早期农业的畜力提供饲料。19 世纪随着世界向煤和石油等“化石生物质”转型，由于能量密度更高，其地位发生了变化。然而，20 世纪 70 年代的能源危机引发了对生物质的科学再发现，重点从简单燃烧转向高级生化转化。今天，生物质已进化为“循环经济”的高科技前沿，农业废弃物和藻类不再被视为垃圾，而是生产碳中和喷气燃料和可生物降解塑料的主要来源，旨在使工业与石油脱钩。",
+      "facts": "储存在生物质中的能量实际上是捕获的太阳能，通过植物生长周期中的光合作用保存下来。如果将地球上所有的生物质收获并干燥，其重量约 5500 亿吨，其中植物约占总质量的 80%。通过厌氧消化过程，微生物可以分解潮湿的生物质产生“生物气”，其化学成分与化石沉积中的天然气几乎完全相同。与释放数百万年前埋藏的“陈旧”碳的化石燃料不同，生物质被认为是碳中和的，因为它只释放植物在自身生命周期内从大气中吸收的“新鲜”碳。"
+    },
+    "metal-scrap": {
+      "name": "金属废料",
+      "description": "废弃的金属碎片和报废产品，适用于重新加工成二次原材料。",
+      "formula": "多种多样（常见为铁、铝、铜）",
+      "historical_info": "金属废料的回收与冶金术本身一样古老；古代铁匠经常熔化折断的剑和青铜工具来锻造新工具。在拿破仑战争和美国内战期间，由于征用钟和锡制品制造大炮，废料收集达到了战略高峰。19 世纪贝塞麦转炉和平炉炼钢法的工业化使废料正式成为商品，诞生了现代二次金属市场。20 世纪，二战期间的“废料促胜利”运动将回收变成爱国义务。今天，金属废料是一个全球性的多亿级美元产业，是防止原生高位矿产枯竭的关键缓冲器。",
+      "facts": "铝废料价值极高，因为回收它仅需生产原生铝（由铝土矿制成）所需能量的 5%，本质上是储存能量的“银行”。钢铁是地球上回收率最高的材料；从废料中回收的钢材超过了塑料、玻璃和纸张回收的总和。现代“磁选”技术使工业设施每小时能以近乎完美的精度分拣数千吨黑色和有色金属废料。回收一个锡罐节省的能量足以驱动电视播放三小时，且自 1888 年以来生产的所有铝中约 75% 至今仍在通过废料循环被有效利用。"
+    },
+    "hematite": {
+      "name": "赤铁矿",
+      "description": "一种沉重且相对坚硬的氧化物矿物，因其高含铁量而成为最重要的铁矿石。",
+      "formula": "Fe₂O₃",
+      "historical_info": "早在赤铁矿被熔炼成金属之前，它就是人类表达和工业的基石，历史超过 40,000 年。旧石器时代，其土状形态“赭石”为世界首批洞穴壁画提供了颜料。古埃及人利用其金属变种制造了第一批抛光镜和雕刻精美的护身符。从艺术到基础设施的转变始于铁器时代，赤铁矿成为制造早期帝国工具和武器的块炼铁炉的主要原料。今天，它不仅是全球钢铁工业的命脉，其价值还扩展到了高科技领域，用于制造辐射屏蔽材料以及作为精密光学器件的专用抛光剂。",
+      "facts": "赤铁矿（Hematite）的名称源于希腊语“haima”（血），因为它被刮擦时会留下独特的红褐色条痕，研磨成粉末后会变成血红色。它常被称为“磁性”矿石，但在纯净状态下，赤铁矿其实不吸引磁铁；它只有在加热后或含有其表亲矿物磁铁矿时才会获得磁性。NASA 的“机遇号”火星车在火星上发现了名为“蓝莓”的小型灰色赤铁矿球体，这提供了液态水曾存在于火星表面的首批确凿证据。由于其高密度和吸收 X 射线的能力，它是核电站墙壁和医学放射科常用的重力混凝土的关键成分。"
+    },
+    "magnetite": {
+      "name": "磁铁矿",
+      "description": "一种亚铁磁性铁氧化物矿物，是地球上所有天然矿物中磁性最强的。",
+      "formula": "Fe₃O₄",
+      "historical_info": "自公元前 6 世纪起，磁铁矿就是人类的沉默向导。天然磁化的形式——“天然磁石”作为世界上第一种指南针，助力维京人航行于北大西洋，也让中国探险家掌控远海。工业革命期间，其地位从航海奇谈转向顶级工业资产；由于单位重量含铁量高于赤铁矿，它成为高炉炼铁的首选。20 世纪中叶，磁铁矿革新了数据存储，其磁性被利用来制造第一批磁性录音带和早期计算机内存。",
+      "facts": "磁铁矿是自然界中含铁最丰富的矿物，理论含铁量达 72.4%。包括蜜蜂、信鸽甚至某些细菌在内的生物体内都有微小的磁铁矿晶体，帮助它们感知地磁场进行导航。由于具有强磁性，工业加工厂使用巨型磁鼓以近乎 100% 的效率将磁铁矿从废石中分离出来。它也是“重介质选矿”的关键组分，超细粉碎的磁铁矿与水混合形成高密度流体，用于漂浮分选不同等级的煤炭和其他矿物。"
+    },
+    "limonite": {
+      "name": "褐铁矿",
+      "description": "成分多变的含水氧化铁混合物，是重要的次要铁矿石和天然颜料。",
+      "formula": "FeO(OH)·nH₂O",
+      "historical_info": "褐铁矿是人类进步的沉默功臣，为铁器时代北欧和北美的早期铁匠提供了“沼铁”。因为它形成于浅沼泽和湿地，对于缺乏深井开采技术的早期殖民者和维京航行者来说是最易获取的铁源。除了金属价值，它土状的“黄赭石”形式是史前洞穴艺术最早使用的颜色之一，也是文艺复兴画家常用的颜料。虽然作为主要矿石的地位随着大规模赤铁矿床的发现而下降，但它仍是早期局部工业化的重要历史标志，也是现代艺术中天然土质颜料的主要来源。",
+      "facts": "褐铁矿不是单一矿物，而是一个“野外术语”，涵盖了多种缺乏可见晶体结构的含水氧化铁。它是热带土壤和风化岩面呈现锈黄色和褐色的主因，是自然界在地表的主要着色剂。19 世纪，由褐铁矿组成的“铁石”结核非常普遍，曾被用作当地道路的耐用路基石。在地理学中，它也是重要的“铁帽”；它在表层的存在通常是一个化学标志，暗示深处可能隐藏着更有价值的铜矿或金矿。"
+    },
+    "siderite": {
+      "name": "菱铁矿",
+      "description": "一种通常发现于沉积岩中的碳酸铁矿物，作为特定的铁来源使用。",
+      "formula": "FeCO₃",
+      "historical_info": "菱铁矿在 19 世纪工业界崭露头角，尤其是在英国和德国，它常在煤层附近被发现。这种“黑带”铁矿石是革命性的，因为矿石中的页岩和煤提供了其自身冶炼所需的大部分燃料，大幅降低了工业革命鼎盛时期的生产成本。在美洲和澳洲的大规模氧化矿发现前，菱铁矿是欧洲重工业的主要支柱。虽然它作为主要铁源的使用已减少，但它作为了解地球古代大气的关键矿物获得了现代价值，因为其形成对二氧化碳浓度和氧气含量高度敏感。",
+      "facts": "菱铁矿在技术上属于方解石族，其晶体结构与普通石灰石相同，但用铁取代了钙。当在被称为“焙烧”的过程中加热时，菱铁矿会分解释放二氧化碳，留下高度多孔且易于冶炼的氧化铁。在自然界中，它常形成“龟甲石”——一种奇怪的、有裂纹的球体，切开后会显现出精美的几何矿物图案。它也大量存在于“沼铁”矿床中，早期凯尔特和维京铁匠曾在湿地收割它来锻造定义时代的工具。"
+    },
+    "pyrite": {
+      "name": "黄铁矿",
+      "description": "一种铁硫化物矿物，具有黄铜色的金属光泽和立方晶系，俗称“愚人金”。",
+      "formula": "FeS₂",
+      "historical_info": "黄铁矿在人类历史上既是发现的催化剂也是欺骗的代名词。其名称源于希腊语“pyr”（火），因为它是早期人类已知的唯一一种撞击石块或金属能产生火花的矿物——这一发现在火柴发明前提供了可靠的取火方法。在 19 世纪的各种淘金热中，它成了缺乏经验的探矿者的噩梦，并因此获得了“愚人金”的绰号。20 世纪，其价值从令人沮丧的石头转向化学工业的支柱：在单质硫稀缺时，它成为生产硫酸的主要原料，推动了全球工业增长。",
+      "facts": "尽管外表与黄金相似，但黄铁矿很容易通过“条痕”来区分：在硬物上划过时它会留下绿黑色的粉末，而黄金留下的是金黄色痕迹。它出人意料地重，并具有“半导体”属性，曾被用于 20 世纪初期的无线电接收机。黄铁矿拥有罕见的在分子水平上替代有机材料的能力，形成惊人的“黄铁矿化化石”，让氨虫等古生物呈现出闪闪发光的金属质感。由于暴露于氧气和水会产生硫酸，它是“酸性矿山废水”的主因，如果不妥善管理，这种天然化学反应会将整个河流系统酸化。"
+    },
+    "chalcopyrite": {
+      "name": "黄铜矿",
+      "description": "一种铜铁硫化物矿物，是世界上最主要的铜来源。",
+      "formula": "CuFeS₂",
+      "historical_info": "黄铜矿是青铜时代和电气时代共同的沉默引擎。虽然古代文明优先使用自然铜，但表层矿床的耗尽导致人类在 5000 年前就掌握了熔炼黄铜矿等复杂硫化矿的技术。19 世纪末随着电报和电灯的发明，其重要性爆发，大规模矿床成为满足全球导线需求的唯一途径。20 世纪浮选技术的发展使得低品位黄铜矿的处理变得经济，使其成为支撑所有现代电网和电信基础设施的战略资源。",
+      "facts": "黄铜矿常被称为“黄铜”，经常与黄铁矿混淆，但它更软，钢刀就能划破，而黄铁矿不行。暴露在空气和水分中时，它会产生壮丽的虹彩风化面，呈现蓝、紫、绿等色调，在矿物收藏界绰号“孔雀矿”。它是地球上分布最广的铜矿物。虽然是硫化物，但它是探矿者的关键指标，因为它经常与晶格中夹杂的微量金、银共生。"
+    },
+    "bornite": {
+      "name": "斑铜矿",
+      "description": "一种高品位的铜铁硫化物矿物，以极其绚丽的虹彩金属风化色著称。",
+      "formula": "Cu₅FeS₄",
+      "historical_info": "斑铜矿在 1845 年被正式命名。19 世纪中叶，它成为英国康沃尔和美国矿工追逐的目标，因为其含铜浓度明显高于常见的黄铜矿，冶炼效率更高。随着独特的审美价值使其成为全球自然历史博物馆的常客，其地位从纯工业矿石转向矿物学标志。今天，它不仅是铜矿“次生富集带”中的关键高价值矿石，还是地质学家研究古代热液矿脉系统温度和化学性质的关键材料。",
+      "facts": "斑铜矿在矿工中被广称为“孔雀矿”，因为虽然新鲜切面是暗铜色，但它会迅速氧化产生紫色、蓝色和品红色的灿烂虹彩。它按重量含铜约 63%，是工业界可用的金属含量最高的硫化矿之一。该矿物相当软，莫氏硬度仅为 3。与其他矿石不同，斑铜矿常与自然金和自然银共生，作为导向更珍贵矿床的地质“伴侣”。"
+    },
+    "malachite": {
+      "name": "孔雀石",
+      "description": "一种鲜艳的绿色碳酸铜矿物，通过铜矿石在氧化带的风化形成。",
+      "formula": "Cu₂CO₃(OH)₂",
+      "historical_info": "孔雀石是人类最早使用的矿物之一，早在公元前 4000 年就在古埃及西奈半岛被开采用于熔炼铜和制作眼影颜料。几千年来，它一直是欧洲绘画中最珍贵的绿色颜料，直到 18 世纪才被取代。19 世纪俄罗斯帝国时期其奢华地位达到顶峰，乌拉尔山脉发现的巨型孔雀石块被切成薄片，装饰在冬宫著名的孔雀石厅中。今天，虽然它不再是主要的铜工业来源，但它是高价值的装饰石材，也是寻找深层原生铜矿床的关键地质指标。",
+      "facts": "孔雀石独特的“葡萄状”生长习性使其在切开后露出惊人的同心深浅绿色条纹。它与蓝色的蓝铜矿化学成分非常相似，经常发现孔雀石化学置换了蓝铜矿但保留了原始蓝色晶体形状的“变晶”。由于含铜，吸入其粉尘是有毒的。在一些非洲文化中，它被认为能保护佩戴者免受雷击，由于能抛出丝绸般的光泽，它仍是宝石加工中最受欢迎的材料之一。"
+    },
+    "azurite": {
+      "name": "蓝铜矿",
+      "description": "一种由铜矿床风化产生的深蓝色矿物，以其浓郁的石青色著称。",
+      "formula": "Cu₃(CO₃)₂(OH)₂",
+      "historical_info": "几千年来，蓝铜矿一直是世界上最重要的蓝色颜料，古埃及人和希腊人将其研磨成“石青”。在中世纪和文艺复兴时期，它是欧洲绘画的主要蓝色来源，比稀有的青金石实惠得多。然而这种颜料带有隐形风险：因为蓝铜矿在潮湿空气中不稳定，数世纪前的名画中许多蓝色天空由于矿物向孔雀石转化而逐渐变绿。虽然曾是早期冶炼的重要铜源，但其现代价值主要在于宝石和矿物贸易，高质量晶体因其深邃的“午夜蓝”被收藏家珍视。",
+      "facts": "蓝铜矿常与孔雀石呈现迷人的“共生”关系，形成被称为“蓝孔雀石”的混合标本。它对热高度敏感，暴露在 300°C 的温度下会失去亮蓝色并变为黑色氧化铜。在地质领域，它是“探矿者的灯塔”；它在表层的出现预示着氧化带下方直接存在高品位的硫化铜矿床。尽管美丽，但它很少用于主流珠宝，因为其莫氏硬度仅为 3.5 到 4，极易被划伤或受化学品损害。"
+    },
+    "bauxite": {
+      "name": "铝土矿",
+      "description": "一种含铝量高的沉积岩，是世界上生产铝的主要矿石。",
+      "formula": "Al₂O₃·nH₂O",
+      "historical_info": "铝土矿于 1821 年由地质学家贝蒂埃在法国南部的莱博（Les Baux）村附近发现，并因此得名。几十年来，铝被视为比黄金更珍贵的金属，因为它极难从矿石中分离。18 世纪 80 年代霍尔-埃鲁电解法的发明改变了这一切，使铝土矿从地质奇谈转变为战略工业巨头。到 20 世纪中叶，铝土矿成为全球经济基石，通过提供轻质高强材料驱动了航空和汽车革命。",
+      "facts": "铝土矿不是单一矿物，而是含水氧化铝、氢氧化铝以及石英、赤铁矿等杂质的混合物。大多数储量位于热带地区，因为它是在湿热气候下通过剧烈的化学风化形成的。它通常采用露天开采，因为矿床离地表很近。有趣的是，大约 4 吨铝土矿能产出 2 吨氧化铝，而这 2 吨氧化铝最终仅能提炼出 1 吨纯铝金属。"
+    },
+    "gibbsite": {
+      "name": "三水铝石",
+      "description": "一种结晶形式的氢氧化铝，是铝土矿的主要组成部分。",
+      "formula": "Al(OH)₃",
+      "historical_info": "三水铝石于 1822 年命名。随着工业界从化学提取转向电解提取铝，它的历史意义在 19 世纪中叶凸显。精炼商意识到，富含三水铝石的矿石比其他铝矿物在更低的温度下即可溶解。这一发现将铝工业的版图引向了牙买加、几内亚和澳大利亚等热带地区，那里剧烈的环境风化自然富集了这种矿物，支持了 20 世纪的航空和建筑热潮。",
+      "facts": "三水铝石是最易精炼的铝矿石，其处理温度比同类矿物低近 100°C，大幅降低了生产能耗。它是地球“关键带”的重要组分，形成于热带红土中。虽然通常以土状块体产出，但偶尔会形成罕见的透明板状晶体。有趣的是，由于具有高表面积，它在环境科学中扮演着天然过滤器的角色，能捕捉并中和受污染地下水中的重金属。"
+    },
+    "cassiterite": {
+      "name": "锡石",
+      "description": "一种沉重的氧化物矿物，是世界上最主要的锡来源。",
+      "formula": "SnO₂",
+      "historical_info": "锡石是青铜时代的沉默催化剂，早在 5000 年前，人类发现将这种“沉重的石头”与铜熔炼能产生性能更优、更坚硬的合金，从而改变了技术进程。古代腓尼基人和罗马人为了寻找锡石而探索不列颠，建立了最早的全球贸易路线。随着 19 世纪马口铁罐的发明，它在食品保存领域的价值飙升。在现代，由于电子产品放弃铅焊料，锡石成为关键战略资源，因为它是支撑所有智能手机和电脑电路的无铅焊料的基础。",
+      "facts": "锡石密度极高且化学性质稳定，这使其能在数百万年的侵蚀中幸存，富集在河床中成为“砂锡”，可以通过简单的淘金技术收集。它具有高折射率和金刚石光泽，罕见的透明晶体偶尔会被加工成比钻石更璀璨的宝石。由于极重，由于它在沙漠矿床中常呈放射状块状，曾被矿工昵称为“蜂窝锡”。今天，全球很大一部分供应来自对东南亚沿海古代淹没河谷的水下疏浚。"
+    },
+    "stannite": {
+      "name": "黄锡矿",
+      "description": "一种由铜、铁和锡组成的硫化物矿物，呈灰色至黑色金属结晶固体。",
+      "formula": "Cu₂FeSnS₄",
+      "historical_info": "黄锡矿于 18 世纪末在康沃尔的锡矿中发现，起初因外表类似铸钟的青铜合金而被误认为“钟青铜矿”。与纯氧化物锡石不同，黄锡矿对早期冶金学家构成了挑战，因为硫、铜和铁杂质使提取纯锡极其困难。随着易开采的氧化矿枯竭，20 世纪其重要性增加，迫使工业界开发复杂的浮选和冶炼技术。今天它是地质学中的“指示矿物”，其出现通常标志着从富铜带向更深、更有价值的锡带的过渡。",
+      "facts": "黄锡矿常被称为“锡黄铁矿”，具有黄铜光泽，但它比真黄铁矿软得多，硬币就能划伤。它具有罕见的“多金属”属性，即在单个晶格中含有三种工业金属。在 19 世纪，矿工有时会直接熔化黄锡矿来制造低质量青铜，而不必混合单独的金属。在显微镜下，由于数百万年的冷却降温，它会显现出不同金属分离成极薄层状的复杂内部结构。"
+    },
+    "sphalerite": {
+      "name": "闪锌矿",
+      "description": "一种硫化锌矿物，是世界上最主要的锌来源。",
+      "formula": "ZnS",
+      "historical_info": "闪锌矿的名称源于希腊语“sphaleros”（欺骗），因为早期矿工常将其误认为方铅矿，却发现炼不出铅。直到 18 世纪欧洲掌握了从硫化矿中分离金属锌的技术，它才摆脱了“废料”的身份。工业革命期间，由于锌在钢铁镀锌防锈和制造黄铜方面不可或缺，其价值爆发。20 世纪，它更从“骗子石”跃升为高科技珍宝，因为它被发现是铟、锗等“科技金属”的主要地质宿主，这些金属现在对触摸屏和光纤至关重要。",
+      "facts": "闪锌矿的折射率极高，甚至超过蓝宝石，这使得透明标本具有堪比钻石的火彩。它是一种“变色龙”矿物：纯硫化锌是白色的，微量铁杂质会使其变成深黑色。某些品种具有极强的“摩擦发光”特性，在黑暗中用刀刮划会发出橙色光。它还是最常见的天然半导体，在早期无线电通信中，小块闪锌矿晶体被用作原始收音机的检波器。"
+    },
+    "galena": {
+      "name": "方铅矿",
+      "description": "一种沉重的、铅灰色的硫化物矿物，常呈完美的立方体结晶，是主要的铅来源。",
+      "formula": "PbS",
+      "historical_info": "方铅矿在人类文明中占据核心地位超过 5000 年，古埃及人将其用于眼妆，罗马人则将其大规模工业化用于定义帝国的管网系统。在白银时代，它往往比铅本身更受重视，因为它是银杂质最常见的宿主。20 世纪初，它在技术领域的价值发生了转变，成为第一批收音机的“矿石”检波器。今天虽然铅受到严格监管，但方铅矿仍是全球铅酸蓄电池生产的关键战略资源，为几乎所有内燃机车辆提供启动动力。",
+      "facts": "方铅矿是自然界几何感最强的矿物之一，拥有“完全立方解理”，这意味着如果用锤子敲击大块方铅矿，它会碎裂成成千上万个完美的小立方体。它极重，摸起来像实心金属，却非常脆。由于晶格中几乎总是夹杂着银，历史上世界上大部分白银供应实际上是冶炼方铅矿的副产品，导致许多古代文明将方铅矿矿山视为字面意义上的银矿。"
+    },
+    "uraninite": {
+      "name": "晶质铀矿",
+      "description": "一种具有放射性的富铀氧化物矿物，具有金属至半金属光泽，俗称沥青铀矿。",
+      "formula": "UO₂",
+      "historical_info": "15 世纪萨克森矿工曾因其炼不出银或铜而称其为“Pechblende”（倒霉石），但它却成为了 19 世纪科学意义最大的矿物。1898 年居里夫妇花费数年处理了数吨这种“废料”，提取出了最初的几毫克钋和镭，开启了原子时代。其价值从亮橙色“铀玻璃”的颜料转变为 20 世纪终极战略资源。在曼哈顿计划和冷战期间，寻找高品位晶质铀矿关乎全球生存，使其从地质奇谈变成了全球核反应堆的主要原料。",
+      "facts": "晶质铀矿密度极大，一瓶苏打水大小的矿石重量相当于保龄球。它本质上是“地质钟”；由于铀以完美的预测速率衰减为铅，科学家通过其内部元素比例来确定地球最古老岩石的准确年龄。虽然矿物本身是暗淡的黑色，但由于氧化，它常在表面产生鲜艳的霓虹色次生矿物。在加蓬奥克洛发现的矿床中，晶质铀矿曾在约 20 亿年前发生过自发的天然核裂变链式反应。"
+    },
+    "nickel-ore": {
+      "name": "镍矿",
+      "description": "一种致密的矿石，通常以硫化物或红土形式存在，是工业镍的主要来源。",
+      "formula": "Ni",
+      "historical_info": "镍曾长期困扰中世纪德国矿工，他们遇到一种红色矿石看起来像铜却炼不出铜，于是称其为“Kupfernickel”（老尼克的铜），认为妖魔诅咒了岩石。直到 1751 年克朗斯泰特才分离出该金属。19 世纪发现镍能让普通钢变为抗锈耐热的“超合金”，其价值发生转型。20 世纪中叶它成为航天和军事工业的基石。今天作为全球电动汽车革命核心的锂电池关键正极材料，它达到了战略重要性的新高度。",
+      "facts": "世界上最富集的镍矿床大多位于加拿大的萨德伯里盆地，那实际上是 18 亿年前巨型陨石撞击的遗址。镍是室温下仅有的四种具有铁磁性的元素之一。在自然界，一些被称为“超积累植物”的稀有植物能从土壤中吸收大量镍，以至于汁液呈霓虹绿色，这正被研究用于通过植物采矿。尽管工业上很强韧，镍也是烹饪界的“贵族”，它是防锈不锈钢餐具中的秘密成分，防止金属与番茄、酒等酸性食物反应。"
+    },
+    "chromite": {
+      "name": "铬铁矿",
+      "description": "一种沉重的、褐黑色的氧化物矿物，是铬的唯一具有商业开采价值的矿石。",
+      "formula": "FeCr₂O₄",
+      "historical_info": "铬铁矿于 18 世纪末在俄罗斯乌拉尔山脉发现，但最初只是作为马车喷漆行业的一种亮红色和黄色颜料。20 世纪初不锈钢的发明解锁了其真正的工业价值；发现铁中加入铬能创造永不生锈的金属，这改变了现代建筑和卫生事业的轨迹。二战期间，作为喷气发动机和装甲板的必需品，它成为最高优先级的“战争矿产”。今天它是现代厨房、医疗工具和航天领域的脊梁，其承受极端热量和腐蚀的能力无出其右。",
+      "facts": "铬铁矿是一种“岩浆”矿物，通常在古代岩浆房底部成层产出，在地球仍处于熔融状态时像沉淀物一样沉入底部。它极耐热，熔点约 2150°C，常用于制造内衬高炉的“耐火砖”。虽然矿物本身发暗，但它要为祖母绿的绿色和红宝石的红色负责，因为微量铬正是这些宝石色彩的源头。此外，铬铁矿也常在月岩和陨石中发现。"
+    },
+    "molybdenite": {
+      "name": "辉钼矿",
+      "description": "一种质软、铅灰色且具有油脂感的矿物，是世界上最主要的钼来源。",
+      "formula": "MoS₂",
+      "historical_info": "几个世纪以来，辉钼矿因极软且能在纸上留痕而常被误认为石墨或铅。直到 1778 年舍勒才证明它是一种独特的金属硫化物。其真正价值直到 20 世纪初（特别是二战期间）才被发掘，当时发现钢中加入钼能制造坚韧而轻便的装甲板，引发了“钼热”。今天它是喷气发动机和核反应堆所用“超合金”中不可或缺的组分，其在接近熔点的高温下保持强度的能力几乎无可替代。",
+      "facts": "辉钼矿是现存最“滑”的物质之一，其晶体结构由极易相互滑动的层组成，使其成为在真空中也能工作的顶级干润滑剂。钼的熔点在所有元素中排名第六（2623°C）。在电子学前沿，科学家发现单层辉钼矿薄片是高效半导体，有望制造出比硅基晶体管更小、更节能的晶体管。由于常与铜矿在同一地质系统中产生，世界上很多钼供应实际上是巨型铜矿的副产品。"
+    },
+    "cobaltite": {
+      "name": "辉钴矿",
+      "description": "一种等轴晶系的钴砷硫化物矿物，呈不透明的银白色金属晶体。",
+      "formula": "CoAsS",
+      "historical_info": "辉钴矿的历史与德国民间传说中的“Kobolds”（地精）联系在一起——地精被归咎于那些冶炼时会产生有毒砷烟的“无用”矿石。几个世纪以来其主要价值是作为“钴蓝”颜料，用于中国明代青花瓷和欧洲彩绘玻璃。20 世纪它成为战略军事资产，支撑了喷气涡轮超合金。如今其价值达到了前所未有的高度，它已从颜料和工具钢添加剂转变为数字时代的“蓝金”，作为锂电池的关键组分推动着全球向移动电子和电动汽车的转型。",
+      "facts": "由于具有半导体和磁性属性，辉钴矿是一种天然的“高科技”矿物。它密度极大，虽然含有有毒的砷，但它也是钴的主要来源，而钴是维生素 B12 的核心原子，是人体必需的微量元素。近年来研究者将其视为下一代“量子材料”的潜在来源，因为它具有独特的电子移动方式。"
+    },
+    "stone-brick": {
+      "name": "石砖",
+      "description": "经过统一雕刻和修整的天然岩石块，用作砌体结构和纪念碑建筑的主要结构元素。",
+      "formula": "由天然石头加工而成",
+      "historical_info": "从使用原始、不规则的野石到精密切割的石砖的转变，标志着永久性城市文明的诞生，最著名的例子是胡夫大金字塔最初的抛光石灰石外层和印加堡垒中精密贴合的花岗岩。几千年来，生产石砖的能力是衡量一个文化技术实力的标准，因为这需要专门的工具来克服大地的巨大硬度。直到 19 世纪中叶，石砖一直是银行、大教堂和政府所在地地位与安全的终极象征。虽然波特兰水泥的发明和更廉价的窑烧粘土砖最终结束了普通建筑的“石器时代”，但石砖仍作为一种高端、高地位的材料保留了价值，因其无与伦比的地质寿命和美学上的永恒性而受到青睐。",
+      "facts": "石砖拥有一种被称为“高热质量”的物理属性，使其能够在白天吸收阳光的热量并在夜间缓慢释放，起到温度调节的天然电池作用。与在几十年内就会降解的现代混凝土不同，古罗马引水渠的高质量石砖在 2000 年后结构依然坚固，因为它们在化学上是惰性的，且能抵抗生物腐烂。在中世纪，石匠大师会在每一块石砖上刻下独特的“石匠符号”，以识别他们的工作并确保他们为雕刻的每一块砖获得报酬。值得注意的是，一块标准花岗岩石砖的重量可达同尺寸粘土砖的三倍，提供了卓越的隔音性能，几乎可以屏蔽掉所有外部城市噪音。"
+    },
+    "charcoal": {
+      "name": "木炭",
+      "description": "一种轻质、多孔的黑色残留物，由不纯的碳组成，通过在无氧条件下对木材进行热解产生。",
+      "formula": "C（主要为碳）",
+      "historical_info": "木炭是青铜时代和铁器时代的秘密引擎，因为它是唯一能够达到 1,100°C 至 1,500°C 高温的燃料，这是从原始矿石中熔炼铜和铁所必需的。几千年来，“烧炭工”与世隔绝地生活在森林中，完善土窑艺术，以满足铁匠和早期工业军械库的巨大需求。其价值如此巨大，以至于整个欧洲和亚洲的森林都被夷为平地以支持帝国的扩张，这导致了 17 世纪世界上第一批环境保护法的诞生。虽然煤炭最终在工业大规模加热中取代了它，但木炭仍是高质量冶金、传统艺术和专门医学的高级资源，从一种通用燃料转变为一种精密的化学工具。",
+      "facts": "木炭拥有极其庞大的内表面积；一克“活性”木炭的表面积可超过 3,000 平方米——大约是专业足球场的一半大小——这使其能够物理性地捕捉毒素和气体。它是极少数燃烧时几乎没有烟雾或火焰的燃料之一，产生稳定且强烈的红外热量，这在金属加工中比原木效率高得多。除了燃料，木炭是世界上第一种绘画工具，在可追溯到 30,000 多年前的洞穴壁画中被发现，它也是黑火药的主要成分。有趣的是，由于它几乎是纯碳且抗生物降解，考古遗址中发现的木炭碎片为确定古代人类定居点年代的放射性碳测年提供了最可靠的材料。"
+    },
+    "coke": {
+      "name": "焦炭",
+      "description": "一种灰色、坚硬且多孔的燃料，碳含量高且杂质少，通过在隔绝空气的情况下加热煤炭产生。",
+      "formula": "C（无定形碳）",
+      "historical_info": "焦炭是引发工业革命的技术突破，1709 年由亚伯拉罕·达比一世在英国科尔布鲁克代尔（Coalbrookdale）首次成功用于炼铁。在此之前，铁工业依赖木炭，这导致了大规模的森林砍伐并限制了产能。向焦炭的转变使高炉能够变得明显更大且更高效，因为焦炭比木炭强韧得多，可以支撑巨大的铁矿石堆的重量而不被压碎。其价值从局部的煤炭替代品转变为现代世界的字面基石，支持了用于建造 19 和 20 世纪全球铁路网、蒸汽船和摩天大楼的廉价、高质量铁钢的大规模生产。",
+      "facts": "焦炭是在巨大的“焦炉组”中制造的，煤炭在高达 1,100°C 的温度下烘烤近 20 小时，以驱除煤焦油和氨等挥发性气体，留下几乎纯净的碳骨架。它具有独特的“多孔性”，这使得空气在冶炼过程中可以从中喷涌而过，创造出原煤根本无法达到的集中、强烈的热量。由于它比制造它的煤硬得多，它能承受 30 米高高炉内部的压碎压力，同时保持火力的“透气性”。有趣的是，在“炼焦”过程中捕获的副产品是世界上第一批合成染料、阿司匹林甚至早期食品化学中所用香料的原始来源。"
+    },
+    "planks": {
+      "name": "木板",
+      "description": "统一锯切并风干的木板材，在结构上为精密榫卯和承重建筑做好了准备。",
+      "formula": "由天然木材加工而成",
+      "historical_info": "从粗糙的分裂原木到精制木板的转变是一次技术飞跃，古埃及发明的铜锯以及后来 13 世纪的水力锯木厂促进了这一进程。在工业革命之前，木板是由两人辛苦地手工“坑锯”而成的，使其成为劳动力密集型的奢侈品，仅用于精英战舰的甲板和大教堂的地板。19 世纪圆锯的引入使木板变成了大规模生产的商品，支持了“轻型框架”技术，使现代郊区城市得以快速扩张。木板曾是手工艺的象征，现在已成为全球基础设施的模块化 DNA，从手工切削的稀有物转变为现代住房和航运工业的标准化骨架。",
+      "facts": "木板在建筑材料中很独特，因为它们拥有“各向异性”强度，这意味着它们在平行于纹理支撑载荷时比垂直于纹理时要强得多。为了防止翘曲或“杯凸”，现代木板会经历受控的窑干过程，将其内部水分降低到精确的 6-10%，从而有效地“冻结”有机细胞结构。在传统的日本“烧杉板（Shou Sugi Ban）”建筑中，木板被特意用火烧焦，以创造出一个天然防水且完全抗虫蛀和腐烂的碳化表面。有趣的是，尽管钢铁和混凝土崛起，高质量的层压木板实际上可以拥有比同尺寸实心钢梁更高的强度重量比。"
+    },
+    "glass": {
+      "name": "玻璃",
+      "description": "一种由熔融二氧化硅快速冷却形成的无定形透明固体，通常与助熔剂熔合而成。",
+      "formula": "SiO₂（无定形）",
+      "historical_info": "玻璃最初由自然界在火山喷发期间作为黑曜石而“制造”，但人造玻璃起源于公元前 3500 年左右的美索不达米亚，当时作为装饰珠。几千年来，它一直是像宝石一样稀有的皇家奢侈品，直到公元前 1 世纪罗马人发明了吹制管，使玻璃变成了一种实用的家用材料。在文艺复兴时期，当穆拉诺岛的威尼斯大师们完善了“水晶玻璃（cristallo）”——第一种真正的透明玻璃时，其价值从艺术转向了科学。这种透明性促成了望远镜和显微镜的发明，从字面上扩张了人类宇宙的边界。到 20 世纪，“浮法玻璃”工艺的开发实现了完美平整的巨型玻璃板的制造，使玻璃从微小的装饰工艺转变为现代摩天大楼的透明外壳。",
+      "facts": "玻璃在技术上是一种“冻结的液体”，因为其原子处于混乱、无序的状态，而不是刚性的晶格，但它拥有固体的结构刚性。它是极少数可以 100% 回收且质量不损失的材料之一；一个玻璃瓶可以被无限次熔化并重新成型，同时比从原材料砂中制造节省 40% 的能源。值得注意的是，玻璃天然强度极高，但由于微观表面“格里菲斯缺陷（Griffith flaws）”聚集压力直到材料失效，它很容易破碎。在最纯净的形式下，例如现代光纤电缆，一块几公里厚的玻璃看起来会像普通窗玻璃一样清晰，允许光线以接近光速的速度跨洋传输全球互联网数据。"
+    },
+    "limestone-powder": {
+      "name": "石灰石粉",
+      "description": "通过机械破碎沉积碳酸钙岩石产生的矿物细粉，是化学和结构粘合剂的关键成分。",
+      "formula": "CaCO₃",
+      "historical_info": "自新石器时代以来，石灰石粉一直是文明的“沉默胶水”，当时早期人类发现破碎并加热这种丰富的岩石可以为首批永久定居点创造一种通用的粘合剂。罗马人通过将其与火山灰混合创造了世界上第一种水硬性水泥，支撑了万神殿和至今仍屹立不倒的港口的建设，从而提升了它的价值。在中世纪，随着“施石灰”成为中和酸性森林土壤以扩大粮食产量的主要方法，其重要性转向了农业。随着 19 世纪波特兰水泥的发明，石灰石粉从局部建筑工艺转变为全球工业商品，成为人类历史上消耗量最大的非金属矿物。",
+      "facts": "石灰石粉充当天然的“酸海绵”，被电厂大量用于烟囱“脱硫”，在二氧化硫到达大气前阻止酸雨的形成。它是人类日常食用的极少数矿物质之一，因为它是谷物和橙汁等强化食品中钙的主要来源。当加热到 900°C 时，它会经历名为煅烧的化学转化，损失近 44% 的质量作为二氧化碳，变成高活性的生石灰。有趣的是，工业中使用的高纯度粉末通常由钙板金藻等古代海洋生物的微观压缩骨骼组成，使每一袋粉末都成了史前海洋生命的粉碎记录。"
+    },
+    "bricks": {
+      "name": "砖块",
+      "description": "由成型的粘土或页岩制成的矩形结构单元，通过高温玻璃化硬化而成。",
+      "formula": "以 Al₂Si₂O₅(OH)₄ 为基础",
+      "historical_info": "砖块是最古老的人造建筑材料之一，大约在公元前 7500 年起源于肥沃新月地带的自然风干“泥砖（adobe）”。在古代美索不达米亚和罗马，随着窑炉的发明，其价值发生了戏剧性转变，火将软粘土变成了坚如磐石、耐水的陶瓷。这项创新使得建造多层结构和能够承受数世纪风化的巨型引水渠成为可能。工业革命期间，在 1852 年霍夫曼窑发明的推动下，砖块从手工模制的工艺产品转变为大规模生产的工业模块单元。这改变了人们对砖块的看法，从堡垒的奢侈材料转变为现代城市景观的通用 DNA，支持了维多利亚时代工厂城市和纽约标志性赤褐色建筑的迅速崛起。",
+      "facts": "砖块本质上是“人造变质岩”；烧制过程促使粘土中的矿物质融合在一起，形成致密、像玻璃一样的内部结构。它们是极少数随着时间推移实际上会变得更强的建筑材料之一，因为它们会持续从大气中吸收少量的二氧化碳，这一过程称为碳化。标准砖块可以承受高达 1000°C 的温度，使其成为天然的防火带，在历史性的城市大火中挽救了整座城市免于彻底毁灭。有趣的是，砖块的颜色是其化学成分的地质签名；高含铁量产生经典的深红色，而高含石灰量则产生淡黄色外观。"
+    },
+    "fire-bricks": {
+      "name": "耐火砖",
+      "description": "经过工程设计的耐火陶瓷块，旨在在极端高温下保持结构完整性和低导热率。",
+      "formula": "Al₂O₃·2SiO₂",
+      "historical_info": "虽然耐热内衬的概念可以追溯到古代冶炼，但现代耐火砖在 19 世纪初被完善，以满足贝塞麦炼钢工艺的严酷需求。在精炼之前，高炉经常发生故障，因为标准砖块会在精炼铁所需的剧烈高温下熔化或爆炸。耐火粘土矿床的发现实现了一种受热时不会显著膨胀或收缩的材料的创造，有效地“驯服”了熔炉。这使耐火砖从一种小众陶瓷转变为工业革命的字面铠甲，支持了定义 20 世纪的钢铁、玻璃和化学品的大规模生产。今天，它们仍是一种战略资源，因为任何现代金属或高科技合金都必须在衬有这些专门耐火单元的容器中锻造。",
+      "facts": "耐火砖能够承受超过 1500°C 的持续高温而不熔化，这比大多数火山流动的岩浆还要热。与标准建筑砖不同，它们被设计为具有高孔隙率以捕捉空气，使其成为令人难以置信的绝缘体，将热量保持在炉内，而外部则保持足够的冷却以防止金属外壳变形。它们在化学上是“惰性”的，这意味着它们不会与其盛装的熔融金属或腐蚀性熔渣发生反应，这一特性是通过其高氧化铝和二氧化硅含量实现的。有趣的是，航天飞机的隔热瓦是耐火砖的高科技进化版，利用类似的耐火原理保护飞船免受大气层再入时 1650°C 的高温伤害。"
+    },
+    "cement": {
+      "name": "水泥",
+      "description": "一种精细粉碎的水硬性结合剂，与水发生化学反应形成石状块体，是砌体和混凝土的核心材料。",
+      "formula": "Ca₃SiO₅ / Ca₂SiO₄",
+      "historical_info": "水泥的历程始于罗马人，他们完善了一种使用火山灰的“水硬”版本，可以在水下凝固，支撑了万神殿的建设。这种古老的知识在中世纪大部分失传，直到 18 世纪才被重新发现并在 1824 年被彻底革新，当时约瑟夫·阿斯普丁获得了“波特兰水泥”的专利，因其外观酷似波特兰岛的高质量石材而得名。这一 19 世纪的突破使水泥从局部砂浆转变为全球工业巨擘，为苏伊士运河、胡佛水坝和每一座现代大都市提供了结构基础。其价值从一种简单的粘合剂转变为定义人类世的字面“液体石头”，成为地球上使用最广泛的人造材料。",
+      "facts": "水泥并不像传统意义上那样“干燥”；它经历了一个复杂的名为水化的化学过程，微观晶体在其中生长并交织，创造出一个永久的晶格。它是极少数可以在完全真空或深水下硬化的材料之一，因为它携带了自己的反应组分而不是依赖蒸发。为了生产它，原材料必须在 1450°C 的巨大旋转窑中烘烤——这个温度足以熔化大多数金属——以创造“熟料”，然后将其研磨成熟悉的灰色粉末。有趣的是，由现代水泥制成的混凝土是如此之多，如果将有史以来生产的所有水泥变成一堵墙，它可以环绕整个赤道，高 100 米，厚 2 米。"
+    },
+    "concrete": {
+      "name": "混凝土",
+      "description": "一种通过水泥化学水化形成的结构复合材料，将矿物骨料粘结成人造岩石。",
+      "formula": "水泥（Ca₃SiO₅, Ca₂SiO₄）+ SiO₂ + 骨料",
+      "historical_info": "混凝土是建造了两个文明的材料：古罗马和现代世界。罗马人完善了基于火山灰的混凝土，使得万神殿和 2000 年后结构依然坚固的水下码头的建设成为可能。帝国陷落后，配方失传了一个多世纪，建筑学重新陷入了木材和石头的时代。其价值在 19 世纪中叶随着钢筋混凝土的发明而复活并被革新——在湿混合物中嵌入钢筋以提供抗拉强度。这一飞跃使混凝土从沉重的填料转变为高性能的结构骨架，支持了摩天大楼、巨型水电大坝和定义 20 与 21 世纪的全球公路网的诞生。",
+      "facts": "混凝土是地球上消耗量仅次于水的物质，每年的产量足以覆盖整个瑞士并达到几厘米厚。它具有惊人的“抗压强度”，意味着它可以支撑一座山的重量，但在“抗拉强度”（拉开）方面天然较弱，除非用钢材加固。与大多数在水中会变弱的材料不同，水硬性混凝土浸泡的时间越长，实际上会继续获得强度和硬度，因为化学水化过程可以持续几十年。有趣的是，现代研究人员发现，古罗马混凝土使用了一种“热混合”技术，创造了能够自我修复裂缝的“碎屑”，我们现在才开始为高科技“智能”基础设施复制这项技术。"
+    },
+    "silica": {
+      "name": "二氧化硅",
+      "description": "经过高度精炼的晶体或无定形形式的二氧化硅，是玻璃、陶瓷和微电子的主要原材料。",
+      "formula": "SiO₂",
+      "historical_info": "五千多年来，二氧化硅一直是人类透明性的基础，始于黎凡特海岸沙滩上玻璃制造的偶然发现。虽然古代文明重视它用于装饰珠和原始镜子，但其战略重要性在 17 世纪激增，当时精制二氧化硅实现了第一批望远镜和显微镜的高清晰度镜片的创造。这场“光学革命”使二氧化硅从一种工艺材料转变为科学发现的工具。在 20 世纪，随着“柴可拉斯基法（Czochralski process）”的开发，其价值再次转型，该工艺使用超纯二氧化硅坩埚来生长驱动全球半导体产业的单晶硅锭。今天，二氧化硅不再仅仅是“沙子”——它是通过光纤电缆形成互联网骨架的超纯净物质。",
+      "facts": "二氧化硅是地壳中丰度最高的化合物，但在高科技应用中，它必须极其纯净，污染物的浓度要以十亿分之一（ppb）来衡量。它以多种晶体形式存在，其中石英最著名，但当从熔融状态快速冷却时，它会形成“熔融石英”，这是一种极耐热冲击的玻璃，即使在红热状态下投入冷水也不会开裂。它是全球电信的秘密；一根超纯二氧化硅光纤电缆是如此清晰，如果海洋是由它组成的，你可以从海面看到马里亚纳海沟的底部。有趣的是，二氧化硅也是一名生物建筑师，被草类和木贼属植物用来提供结构的“牙齿”和刚度，这就是为什么有些叶子可以像微型玻璃锯一样给你留下“割伤”。"
+    },
+    "lime": {
+      "name": "生石灰",
+      "description": "一种腐蚀性的白色晶体固体，通过石灰石在超过 900°C 的温度下发生热分解产生。",
+      "formula": "CaO",
+      "historical_info": "生石灰是最古老的化学制造材料之一，其生产证据可追溯到公元前 7000 年的前陶新石器时代 B 期。古希腊人和罗马人将其转变为战略军事和建筑资产；它是“希腊火”——一种接触水即点燃的海战武器——的活性成分，也是允许罗马混凝土在海底凝固的化学结合剂。在工业革命期间，其价值从砌筑转向“碱工业”，成为漂白纺织品和净化城镇供水的必需品。今天，生石灰已从一种简单的砂浆成分转型为大宗工业试剂，作为全球炼钢过程中去除杂质的主要“熔剂”。",
+      "facts": "生石灰是一个“化学加热器”；当它与水接触时，会经历一种剧烈的、放热的名为“熟化”的反应，温度可超过 300°C，足以在无明火的情况下点燃木材或烹饪食物。在电力时代之前，它是第一种高强度舞台照明的来源，被称为“聚光灯（limelight）”，通过用氢氧焰加热生石灰圆柱体直至其发出灿烂的白炽光而创造。它是一种强大的干燥剂，能够直接从空气中吸取水分，这就是为什么古代文明将其用作原始防腐剂和卫生工具。有趣的是，由于具有强碱性，它在现代环境工程中被用于“中和”成千上万吨危险酸性废物，有效地将有毒污泥转变为稳定的、可管理的固体。"
+    },
+    "slaked-lime": {
+      "name": "熟石灰",
+      "description": "一种腐蚀性的白色晶体粉末，通过氧化钙的水化形成，是基本的化学碱和固碳结合剂。",
+      "formula": "Ca(OH)₂",
+      "historical_info": "熟石灰（或称消石灰）作为人类建筑的“活”组分已有 9000 多年的历史，黎凡特地区发现了公元前 7000 年的石灰抹灰地板。其价值在文艺复兴时期达到巅峰，因为它是湿壁画制作中不可或缺的介质；大师米开朗基罗直接在湿熟石灰上涂抹颜料，随着石灰硬化，颜料在化学上被“锁定”在墙壁内。到 18 世纪，它从纯粹的结构材料转向卫生材料，用于“粉刷（whitewash）”房屋以防止疾病传播。今天，人们对它的认知已从简单的砂浆转向高科技环境工具，充当烟气脱硫和全球城市饮用水处理的主要试剂。",
+      "facts": "熟石灰是独特的，因为它经历一个“石灰循环”，它会缓慢吸收大气中的二氧化碳重新变回石灰石，在数周的空气暴露中有效地“呼吸”并变得更强。它是一种强大的“絮凝剂”，用于制糖工业以从原甘蔗汁中去除杂质，留下结晶所需的澄清液体。由于其高碱性，它创造了一个“钝化”环境，防止钢筋生锈，这就是为什么古代石灰砂浆结构的寿命往往超过现代混凝土。有趣的是，在烹饪界它也是“碱法烹制（nixtamalization）”的主角，该过程使用熟石灰烹饪玉米，解锁必需的维生素并实现传统玉米饼的制作。"
+    },
+    "caustic-soda": {
+      "name": "烧碱",
+      "description": "一种高度活性的白色固体离子化合物和强碱，被用作通用的工业反应物。",
+      "formula": "NaOH",
+      "historical_info": "烧碱自古以来就是人类卫生的支柱，最初源于木灰的“淋滤”以创造制造首批肥皂所需的碱液。1892 年卡斯纳-凯尔纳（Castner-Kellner）工艺的发明使烧碱的工业价值发生了革命，该工艺利用电解大规模生产高纯度氢氧化钠。这一突破将其从灰烬中的混乱副产品转变为精密的化学引擎，推动了 20 世纪全球造纸、纺织和铝工业的爆发。今天，它已从简单的清洁剂转型为“战略化学品”，对铝土矿精炼成铝以及驱动现代高科技电子产品的稀土金属加工至关重要。",
+      "facts": "烧碱具有极强的“吸湿性”，如果放在敞开的容器中，它会从空气中吸收足够的水分使其完全溶解成浓缩的液体池。它是“碱性水解”中使用的主要化学品，该过程在分解有机蛋白质方面非常有效，只需几小时即可将整具动物尸体溶解成无菌的咖啡色液体。在食品工业中，它是完美椒盐卷饼（pretzel）的秘密；在烘烤前将面团浸入 3% 的烧碱溶液会触发快速的美拉德反应，创造出标志性的深褐色脆壳和独特风味。有趣的是，尽管具有“灼烧”本性，它却是人造丝（Rayon）——世界第一种半合成纤维——制造中的关键组分，用于对纤维素进行“丝光处理”以赋予其丝绸般的光泽。"
+    },
+    "chlorine": {
+      "name": "氯气",
+      "description": "一种淡黄绿色、高度活性的卤素气体，具有刺激性气味，作为强大的氧化和消毒剂。",
+      "formula": "Cl₂",
+      "historical_info": "氯气于 1774 年由舍勒首次分离，他错误地认为其含有氧；直到 1810 年戴维才证明它是一种独特的元素。它的价值将 19 世纪从霍乱和伤寒频发的时代转化为公共卫生的时代，因为它成了第一种有效的大规模净水化学品。然而，在第一次世界大战期间，它的评价变得阴暗，因为它在伊普尔战役中被部署为首种大规模化学武器。在现代，氯气已从一种受人畏惧的气体转型为“门户元素”，对近 85% 的药物合成以及全球计算机产业所需的高纯度硅至关重要。",
+      "facts": "氯气极度活泼，在自然界中从未以单质形式发现，几乎全部以“氯化物”盐的形式存在于海洋中，其中的氯足以覆盖整个地球并达到 150 米厚。它是现代游泳池的化学“钥匙”，因为它在水中迅速反应生成次氯酸，能在数秒内穿透细菌细胞壁并破坏其内部结构。虽然作为气体闻名，但大多数工业氯气是以加压的琥珀色液体形式运输的，它比空气重 2.5 倍，这意味着如果发生泄漏，气体会像隐形洪水一样沿地面“流动”。有趣的是，尽管气态氯具有毒性，氯离子对人类生命至关重要；它是胃酸（HCl）的主要成分。"
+    },
+    "hydrogen-gas": {
+      "name": "氢气",
+      "description": "宇宙中最轻且丰度最高的化学物质，由双原子分子组成，单位质量能量含量最高。",
+      "formula": "H₂",
+      "historical_info": "氢气最初在 16 世纪通过金属与酸混合产生，但 1783 年拉瓦锡才给它命名为“氢”——意为“生水者”，此前他证明了氢气燃烧会生成水。在 19 世纪，它的价值从实验室的好奇心转向了帝国的工具，作为首批气球和齐柏林飞艇的升力气体，开启了航空时代。1937 年兴登堡号灾难后，其声誉受损，很大程度上被边缘化到生产化肥用氨等重工业角色。在 21 世纪，氢气经历了一场作为清洁能源“圣杯”的大规模重估，从一种易挥发的工业气体转型为全球航运、钢铁制造和重型运输去碳化的首选候选物。",
+      "facts": "氢气非常轻，它是唯一能够逃脱地球引力并泄露到太空的元素；如果你今天充入一个气球，这些原子最终会穿透材料并永远离开大气层。它拥有一种独特的“可燃范围”，在空气中浓度低至 4% 或高达 75% 时均可点燃，极具燃烧通用性但也需要专门操作。虽然它是恒星中最常见的元素，但纯 H₂ 在地球上几乎不存在，必须消耗海量能源从水或甲烷中“解锁”。有趣的是，液氢极其寒冷（–253°C），被用作深空任务的主要火箭推进剂，提供挣脱地球轨道所需的海量“比冲”。"
+    },
+    "oxygen-gas": {
+      "name": "氧气",
+      "description": "一种无色、无味、高度顺磁性的双原子气体，是强大的氧化剂和有氧生命的主要维持者。",
+      "formula": "O₂",
+      "historical_info": "氧气在 1770 年代被发现，但拉瓦锡将其识别为化学元素并命名为“氧”——意为“成酸者”，基于所有酸都需要它的错误信念。20 世纪初，随着用于治疗肺炎和煤气中毒的氧气帐篷的开发，其价值从实验室奇闻转向现代医学基石。航天时代，其地位提升为战略推进剂；没有高纯液氧（LOX），土星五号火箭永远无法到达月球。今天，氧气已从基本生物需求转型为海量工业商品，以百万吨级被消耗，以驱动生产几乎所有现代钢铁的高温“转炉炼钢”工艺。",
+      "facts": "氧气是地壳中按质量计丰度最高的元素，但它极其活泼，如果没有光合作用持续“充能”，它在地质瞬间内就会从大气中消失。虽然对生命至关重要，但纯氧在技术上是一种慢性毒药；在高压下呼吸 100% 纯氧会导致“氧中毒”，损伤中枢神经系统。在液态和固态下，氧气呈现美丽的淡天蓝色，并具有强“顺磁性”，这意味着它可以悬浮在强磁铁的两极之间。有趣的是，大气中高浓度的氧气是地球拥有臭氧层（O₃）的唯一原因，它通过吸收太阳中频紫外线充当全球辐射屏蔽层。"
+    },
+    "sulfuric-acid": {
+      "name": "硫酸",
+      "description": "一种致密的、油状且无色的矿物酸，具有极强的脱水能力，是工业化学的通用试剂。",
+      "formula": "H₂SO₄",
+      "historical_info": "中世纪炼金术士称之为“矾油（oil of vitriol）”。1740 年代英国铅室法的发明实现了硫酸的首个大规模生产，其价值经历了剧变。这一突破开启了化学时代，使硫酸从实验室稀罕物转型为“工业之母”。到 19 世纪，其消耗量与化肥、染料和炸药的制造紧密相连，以至于经济学家开始将硫酸产量作为衡量整个国家相对工业实力和财富的主要指标。",
+      "facts": "硫酸是地球上按质量计产量最大的化学品，年产量超过 2 亿吨。它拥有恐怖的“对水的亲和力”，会强行从有机分子中夺取氢氧原子；如果倒在糖上，它会在数秒内将白色晶体变成冒烟的纯黑碳柱。在自然界中，它是金星云层的主要组分。有趣的是，尽管具有破坏性，高纯度硫酸实际上用于食品工业精炼植物油，以及制造现代运动服中的合成纤维。"
+    },
+    "alcohol": {
+      "name": "工业酒精",
+      "description": "一种清澈、易挥发且易燃的有机化合物，通过糖类发酵或乙烯水化产生。",
+      "formula": "C₂H₅OH",
+      "historical_info": "虽然酒精蒸馏可追溯到 12 世纪，但工业规模的乙醇生产直到 19 世纪中叶才出现。20 世纪 20 年代随着“间接水合法”的发明，实现了由石油乙烯进行的首次合成生产，其价值剧变。这一突破使其从农产品转型为战略化学强国，对二战期间大规模生产合成橡胶至关重要。今天，人们的认知已转向环境可持续性，它已成为世界上最成功的生物燃料。",
+      "facts": "乙醇是“万能溶剂”，因为其分子具有双重性质：一端亲水，另一端亲油。它是世界上最高效的“含氧剂”之一，因此被添加到现代汽油中以帮助引擎更充分燃烧，显著减少有毒的一氧化碳排放。由于极强的吸湿性，超纯工业酒精会直接穿透塑料容器壁吸取水蒸气直至达到稳定的 95% 浓度。有趣的是，在生物实验室中，它被用作冷冻保护剂，能在 –80°C 下保存细胞而不形成破坏性的冰晶。"
+    },
+    "iron-oxide": {
+      "name": "氧化铁",
+      "description": "一种由铁和氧组成的稳定化合物，主要以赤铁矿和磁铁矿的形式存在，是全球钢铁生产的重要原料。",
+      "formula": "Fe₂O₃, Fe₃O₄",
+      "historical_info": "三万多年来，氧化铁一直是人类表达和技术的基石。最初在旧石器时代的洞穴壁画（如阿尔塔米拉洞穴）中作为“红赭石”颜料使用。在铁器时代，随着文明学会使用木炭从铁中“炼”走氧气，其价值从精神和艺术媒介转变为战略军事资源。这一转变将氧化铁从艺术家的调色板带到了铁匠的锻炉，从而能够创造出定义帝国崛起的工具和武器。到了 19 世纪，随着贝塞麦转炉的发明，氧化铁的价值经历了一场巨大的工业重估，转变为摩天大楼和铁路时代的主要原材料。今天，它已进入高科技领域，高纯度合成氧化铁是信用卡磁条内不可见的“记忆”，也是现代电源变压器的核心组件。",
+      "facts": "氧化铁是少数能“愚弄”磁铁的矿物之一；虽然赤铁矿 (Fe₂O₃) 的磁性较弱，但其兄弟磁铁矿 (Fe₃O₄) 是地球上磁性最强的天然矿物，曾被用来制造历史上第一批指南针。它是火星呈现“红色星球”外观的化学原因，火星表面覆盖着一层薄薄的氧化铁粉尘，实际上使整个星球变成了一个巨大的生锈金属球。在现代食品和化妆品行业，氧化铁是最广泛使用的“天然”着色剂，因为它们无毒，在光线下极度稳定，并且可以产生从太阳黄到深紫色的各种色调。有趣的是，氧化铁纳米颗粒目前处于癌症研究的前沿，它们被注射到体内并由外部磁场“激活”产生局部热量，从而在不伤害周围健康组织的情况下破坏肿瘤细胞。"
+    },
+    "iron-bloom": {
+      "name": "海绵铁",
+      "description": "一种多孔的、海绵状的金属铁，混有玻璃化熔渣和木炭，由铁矿石在块炼铁炉中直接还原产生。",
+      "formula": "Fe",
+      "historical_info": "海绵铁是铁器时代的字面基石，代表了人类第一次成功地将金属生产与元素的熔点解耦。两千多年来，从赫梯人到欧洲的中世纪铁匠，海绵铁的价值是通过“炼铁工”的汗水来衡量的，他们必须亲手锻打红热的铁块以挤出液态熔渣。在中世纪，人们对它的看法从一种神秘的、大地孕育的馈赠转变为一种标准化的贸易商品，使铁从用于精锐武器的稀有材料转变为用于农具的通用物质。这一时代在 14 世纪随着高炉的崛起而结束，高炉将铁的生产转入液相，使固态的海绵铁沦为工业化前世界的遗迹。",
+      "facts": "海绵铁在制造过程中从未真正“熔化”过；相反，它是通过固态化学反应形成的，在这种反应中，一氧化碳气体在远低于纯铁 1538°C 熔点的温度下剥离矿石中的氧。因为它含有被困住的硅酸盐熔渣口袋，成品海绵铁具有天然的“自熔性”，这意味着当铁匠加热它时，熔渣会熔化并充当保护层，防止铁在锻炉中燃烧或氧化。它是熟铁的直系祖先，其独特的纤维结构（由拉长的熔渣夹杂物引起）使由其制成的工具具有传奇般的抗疲劳和抗断裂能力，这是现代铸铁无法比拟的。有趣的是，著名的德里铁柱已历经 1600 多年未生锈，它就是通过将数百个独立的海绵铁块锻焊成一根巨大的柱子而建成的。"
+    },
+    "copper-sulfide": {
+      "name": "硫化铜",
+      "description": "一组由铜和硫组成的无机化合物和矿物，主要以铜蓝和辉铜矿的形式存在于热液矿床中。",
+      "formula": "CuS, Cu₂S",
+      "historical_info": "硫化铜一直是青铜时代的沉默引擎。公元前 5000 年左右，巴尔干和中东地区的古代冶金学家从稀缺的地表“天然”铜转向开采庞大的地下硫化矿。在 19 世纪，随着“曼海斯-大卫（Manhès-David）”转炉的发明，它从一种难以熔炼的矿物转变为全球战略资产，该发明实现了通过氧化快速除硫。这一转变将硫化铜从当地铁匠劳动密集型的炉灶转移到了电气革命的大型工业熔炼厂。到了 21 世纪，人们对它的认知再次演变，它不再仅仅是金属来源，而是用于高清显示器和下一代薄膜太阳能电池的“量子点”技术的重要前体。",
+      "facts": "硫化铜矿物是深层矿井中独特的“靛蓝色”和“炮铜灰色”光泽的原因，其中铜蓝矿是少数在弄湿时会呈现金属霓虹蓝色虹彩的天然物质之一。它是世界铜供应可持续的主要原因；通过“浮选”工艺，工业工厂可以将气泡化学附着在破碎的硫化铜颗粒上，使载有重金属的矿物字面上浮到水箱表面，而废石则下沉。在纳米技术领域，硫化铜“纳米笼”正被开发为一种革命性的癌症治疗手段，因为它们可以吸收近红外光产生局部热量，从而物理性地“熔化”病毒结构或肿瘤。有趣的是，尽管硫化铜具有重要的工业地位，它还是一种天然存在的半导体，其独特的电性能目前正被研究用于为光计算的未来创造超快光开关。"
+    },
+    "copper-oxide": {
+      "name": "氧化铜",
+      "description": "一种稳定的黑色或淡红色无机化合物，由铜氧化形成，是金属提取和高科技陶瓷的主要来源。",
+      "formula": "CuO",
+      "historical_info": "氧化铜是人类利用的第一种含金属矿物，标志着 7000 多年前从石器时代到红铜时代的过渡。黎凡特和埃及的早期文明发现，这些“色彩鲜艳的石头”在简单的营火中就能被还原为纯金属，这使其成为冶金术诞生的革命性资源。19 世纪，其价值从装饰颜料和珠宝来源转变为战略工业材料，成为制造早期蓄电池和“蓝色”玻璃的关键组件。20 世纪后期，由于发现它是第一种“高温”超导体的基本结构基底，人们对它的认知经历了一次科学飞跃，使其从原始矿石转变为量子物理和零电阻输电的基石。",
+      "facts": "氧化铜以两种不同的形式存在：黑色的黑铜矿 (CuO) 和宝石红色的赤铜矿 (Cu₂O)，两者都以其半导体特性而闻名，这些特性允许它们在没有移动部件的情况下将光直接转化为电。在现代农业中，它被用作强效微量元素和杀菌剂，因为极少量的氧化物就能致命地破坏农作物真菌的细胞膜，同时对植物本身保持安全。它是“烟花蓝”背后的化学秘密；在烟花中加热时，氧化铜分子会发出特定波长的光，提供专业表演中所见的最深蓝色。有趣的是，氧化铜是一种“p 型”半导体，这一特性导致它在 20 世纪 20 年代被用于制造人类历史上第一批太阳能电池，比硅基技术成为全球标准早了几十年。"
+    },
+    "copper-sulfate": {
+      "name": "硫酸铜",
+      "description": "一种亮蓝色、无味的结晶盐，作为电镀的通用电解质和农业病虫害防治的强效剂。",
+      "formula": "CuSO₄",
+      "historical_info": "硫酸铜在历史上被称为“胆矾”或“蓝矾”。自古埃及时代起，它就是一种必不可少的化学工具，古埃及人将其用作亚麻染色中的媒染剂。1830 年代，随着丹尼尔电池（第一种可靠的电池）的发明，其价值从简单的纺织添加剂转变为现代科学的基石，该电池使用硫酸铜作为主要电解质为早期电报系统供电。这一转变将该化合物从染料厂推向了电信革命的前沿。19 世纪末，随着“波尔多液”（硫酸铜和石灰的组合）的发现，其认知再次改变，成为拯救生命的农业奇迹，该溶液将欧洲葡萄酒行业从毁灭性的真菌病害中解救出来，巩固了其作为全球粮食安全守护者的地位。",
+      "facts": "硫酸铜最著名的是其醒目的“三斜”晶体，受热时会从灿烂的宝石蓝色变为暗淡的白色粉末，这种物理转变是由锁在其分子晶格内的水分子蒸发引起的。它是电解精炼行业的“金标准”；通过将化合物溶解在水中，工程师可以利用电流将纯铜原子从肮脏的废料板传输到洁净的阴极，实现 99.99% 的纯度。在公共卫生领域，它以极微小的量用于处理水库，因为它在破坏有毒藻类爆发的细胞壁方面极其有效，同时对更广泛的水生生态系统保持安全。有趣的是，全球的高中化学实验室都使用硫酸铜进行“铜镜”实验，通过化学还原在玻璃烧杯内壁镀上一层完美的、具有反射性的金属铜层。"
+    },
+    "alumina": {
+      "name": "氧化铝",
+      "description": "一种高纯度结晶氧化铝，天然以刚玉的形式存在，是金属铝的唯一前体。",
+      "formula": "Al₂O₃",
+      "historical_info": "1754 年，安德烈亚斯·马格拉夫（Andreas Marggraf）鉴定出氧化铝为明矾的“土”，但在一个多世纪里，其价值纯粹是手工的，被用作强力磨料和合成宝石的基底。1888 年，随着拜耳工艺（Bayer Process）的发明，其认知从实验室奇闻转变为全球工业巨头，该工艺实现了从红色铝土矿中大规模提取纯氧化铝。这一转变将氧化铝从化学的边缘转移到了工业革命的中心，因为它为霍尔-埃鲁（Hall-Héroult）电解工艺提供了原料。到 20 世纪中叶，其重要性从冶金扩展到了航空航天和汽车领域，从简单的“精矿”转变为能够经受喷气发动机和再入屏蔽罩极端热冲击的高性能陶瓷。",
+      "facts": "氧化铝是仅次于钻石的人类已知第二硬的矿物；在其蓝宝石和红宝石形式下，它极耐刮擦，是奢侈手表“镜面”和深海潜水器高压窗口的标准材料。它拥有极高的熔点 (2072°C)，使其成为首选的“耐火”材料，用于内衬工业熔炉的炼狱般内部，在那里其他金属会直接熔化。在现代电子世界中，氧化铝充当“热桥”——它是一个极好的电绝缘体，却矛盾地具有良好的导热性，使其能从大功率微芯片中带走破坏性的热量。有趣的是，氧化铝是许多常见粘土的化学“骨架”，当加工成“纳米纤维”状态时，它被用于制造极细的过滤器，可以物理性地从受污染的饮用水中滤掉细菌和病毒。"
+    },
+    "nickel-matte": {
+      "name": "镍冰铜",
+      "description": "一种高品位的、熔融或固化的镍和铁硫化物混合物，由浓缩硫化矿的初级熔炼产生。",
+      "formula": "Ni₃S₂",
+      "historical_info": "19 世纪末，随着加拿大萨德伯里盆地大规模矿床的发现，镍冰铜从冶金累赘转变为全球战略商品。最初，铜矿中镍的存在被视为一种会让铜变脆的“恶魔”污染物，但当美国海军发现镍钢合金能为战列舰提供优越的装甲板时，其价值发生了剧变。这一转变使镍冰铜从废弃的熔炼副产品转变为 1890 年“蒙德工艺（Mond Process）”的关键中间体，该工艺利用一氧化碳将镍从冰铜中“汽化”分离出来。到 20 世纪中叶，随着航空航天业对喷气发动机超合金超纯镍的需求，其认知再次演变，巩固了冰铜作为高性能冶金学不可或缺守门人的地位。",
+      "facts": "镍冰铜在熔炼过程中就像一块“金属海绵”；由于镍对硫有很强的亲和力，它能有效地从周围矿石中“吸收”铂、钯和金等贵金属，使冰铜成为稀有元素的二次宝库。它是少数经常以“颗粒”状态跨洋运输的工业中间体之一——熔融的冰铜在被高压水柱闪冷后，会粉碎成易于运输到专门精炼厂的高密度微小珠子。在现代绿色能源领域，镍冰铜的重要性再次抬头，因为它可以被转化为“硫酸镍”，这是长程电动汽车所用高容量 NCM 电池所需的主要化学品。有趣的是，如果镍冰铜冷却过慢，它会形成巨大的、独特的“黑镍铁矿（heazlewoodite）”晶体，这是一种罕见的矿物，在自然界发现之前首先是由科学家在工业熔炼厂中鉴定出来的。"
+    },
+    "ferrochrome": {
+      "name": "铬铁合金",
+      "description": "一种高强度的铁和铬中间合金，是生产不锈钢和耐热钢的重要添加剂。",
+      "formula": "Fe-Cr",
+      "historical_info": "铬铁合金直到 19 世纪 20 年代还只是实验室规模的奇物，但在 1913 年哈里·布雷尔利（Harry Brearley）发现铁中加入铬能创造出“不会生锈”的金属后，其价值爆发。在一战期间，由于各国竞相制造更耐用的引擎气门和装甲板，这种认知从利基化学实验转变为全球战略必需品。这一转变将铬铁合金从冶金边缘带到了工业时代的核心，成为将铬引入熔融钢的主要运载工具。到 20 世纪中叶，“氩氧脱碳（AOD）”工艺的发明进一步革新了其重要性，允许炼油厂使用更便宜的高碳铬铁来生产定义现代医疗设备、建筑和厨具的高质量低碳不锈钢。",
+      "facts": "铬铁合金是钢的“免疫系统”；当它熔入一批钢水时，铬原子会迁移到表面，形成一个只有几个原子厚但完全不透水和氧的隐形、自愈式氧化铬层。它是在巨大的埋弧炉中以超过 2800°C 的温度生产的，在这种剧热下，它利用碳作为化学钩子，字面上从原始铬铁矿中“撕”走氧。它有三个不同的等级——“高碳”、“中碳”和“低碳”，其中最稀有的低碳版本对于制造必须在白热运行环境下存活的喷气涡轮叶片用超合金至关重要。有趣的是，铬铁合金非常致密且稳定，是少数以“块状”形式进行全球运输的合金之一，看起来像暗淡沉重的银色石块，由于几乎不受自然元素破坏，常被储存在巨大的露天料仓中。"
+    },
+    "slag": {
+      "name": "熔渣",
+      "description": "一种复杂的、像玻璃一样的石质副产品，在熔炼过程中从熔融金属中分离出来，主要由金属氧化物和二氧化硅组成。",
+      "formula": "SiO₂, CaO, Al₂O₃",
+      "historical_info": "五千多年来，熔渣一直是人类冶金术的影子；黎凡特地区的古代铜匠留下了巨大的“熔渣堆”，考古学家现在利用这些堆叠作为化学指纹来绘制古代的贸易路线。它的价值在 20 世纪初经历了转变，从堵塞工业革命景观的无用、废弃垃圾转变为战略性土木工程资产。随着工程师发现“粒化高炉矿渣（GGBFS）”具有潜在的水硬性质，这一转变将熔渣从堆放场带到了现代世界的地基。到 1950 年代，由于其卓越的抗化学侵蚀能力，人们对它的认知从“工业垃圾”演变为高性能添加剂，转变为深海码头和摩天大楼建设的重要组件。",
+      "facts": "熔渣是熔炉的“化学海绵”；其主要工作是浮在较重的熔融金属顶部，吸收硫和磷等杂质，否则这些杂质会使最终的金属变脆且无用。由于使用高压水快速冷却，它会破碎成“玻璃状”的沙状颗粒，研磨成细粉后，可以替代混凝土混合物中高达 80% 的波特兰水泥，从而显著降低大型基础设施项目的碳足迹。它是少数几种随世纪更迭反而变得更强的材料之一；矿渣混凝土在数十年内持续化学水化和硬化，使其比纯水泥更耐用。有趣的是，“块状”空冷矿渣非常坚固且多孔，是支持高速铁路轨道的“道碴”岩石的首选材料，为数千吨通过的火车提供了排水和减震的完美平衡。"
+    },
+    "copper-plated-plate": {
+      "name": "电镀铜板",
+      "description": "一种复合工业组件，在结构金属核心上精密结合一层铜皮，以获得卓越的导电性和屏蔽性能。",
+      "formula": "铁/钢上的 Cu",
+      "historical_info": "1805 年布鲁格纳特利（Luigi Brugnatelli）利用铜桥成功将金电镀到银上，电镀铜板从 18 世纪金属匠的装饰“炼金”戏法转型为全球工业必需品。1920 年代随着商业无线电行业的兴起，其价值从模仿纯金的美学工具转向战略电子基石。这一转变将电镀铜板从珠宝台带到了电信革命的核心，为早期真空管发射机提供高频接地。1960 年代随着 PCB 技术的发展，其认知经历了一次保护性演变，转型为防止现代计算机微观逻辑门过热或腐蚀的关键基底。",
+      "facts": "电镀铜板是一个“表面张力”奇迹；通过电沉积过程，铜离子被编织进基材金属的原子晶格边界，结合力极强，弯曲、冲压或加热都不会使铜皮剥落。它充当现代电子产品的“法拉第笼”；铜层能极高效地吸收电磁干扰 (EMI)，因此这些板材被用于内衬医院 MRI 室和高安保政府服务器地堡。由于铜是散热的金标准，这些板材常被用作大功率 LED 阵列中的“热沉”，散热速度比空气快 400 倍。有趣的是，在无氰电镀工业中，铜层常被用作牺牲层，填补再生钢表面的微观坑洞，从而在汽车保险杠或建筑立面上实现无瑕的镜面效果。"
+    },
+    "nickel-plated-plate": {
+      "name": "电镀镍板",
+      "description": "一种工业级复合板材，具有精密结合的镍饰面，以获得优越的热稳定性和高性能耐化学性。",
+      "formula": "铁/钢上的 Ni",
+      "historical_info": "1837 年施万（Gottfried Schwan）首次演示了从化学浴中“化学镀”沉积镍，电镀镍板从实验室成就转型为全球工业标准。1870 年代随着“瓦茨浴”的发展实现了厚且延展性好的涂层量产，其价值从利基科学奇趣转向战略军事和海事资产。这将其从欧洲实验室带到了海军军备竞赛的核心，为蒸汽机组件提供了首个对抗盐雾腐蚀环境的可靠保护。20 世纪中叶随着航天业的崛起，其认知经历了高科技革命，转型为允许喷气引擎组件在超音速飞行的极端高温下存活的必需“扩散屏障”。",
+      "facts": "电镀镍板是一个“分子变色龙”；根据电镀方法，它可以被工程设计成如铜般柔软以便成型，或如工具钢般坚硬以抵抗传送系统的磨损。它在电子界充当“沉默屏障”，能极高效地阻止不同金属层间的原子迁移，防止产生可能导致卫星短路的微观“晶须”。由于镍熔点极高且在红热状态下抗氧化，这些板材常被用于化学反应器内衬。有趣的是，电镀镍是现代货币的“秘密成分”：大多数银色硬币其实是涂有精确镍层的钢板，这赋予了它们独特的磁性特征和被自动贩卖机识别所需的“清脆响声”。"
+    },
+    "impure-iron": {
+      "name": "不纯铁",
+      "description": "一种含有大量碳、硫和磷的初级熔炼产物，需要进一步精炼以获得结构完整性。",
+      "formula": "Fe + C, S, P",
+      "historical_info": "公元前 1500 年，不纯铁从首批块炼铁炉的脆性副产品转型为定义铁器时代的材料，古代赫梯铁匠学会了碳等“杂质”其实是强化金属的秘密。14 世纪随着欧洲高炉的发明，其价值从局部军事优势转向全球工业催化剂。这使“生铁（pig iron）”——最著名的不纯铁形式——从锻造废料转变为首批大规模生产的铸铁锅和火炮的基本高碳液态原料。19 世纪随着贝塞麦工艺的出现，其认知经历了剧变，从固执、无法加工的原材料转型为钢铁时代的关键起点。",
+      "facts": "不纯铁是一种“化学鸡尾酒”；仅 4% 的碳就能让纯铁的熔点降低超过 300°C，使其能浇筑进纯金属无法填充的复杂模具。它在熔炼中扮演“分子海绵”的角色，贪婪地吸收煤炭燃烧中的硫，产生“热脆性”——即如果红热时锻打，铁块会像干饼干一样粉碎。因为它极易发生“点蚀”，不纯铁制品会产生一层厚厚的保护性锈层，讽刺的是，在干燥环境下这有时能保护内部金属数世纪不腐。有趣的是，铁中的“杂质”是历史文物的 DNA；通过分析古代铁钉内夹杂的熔渣和磷比例，考古学家可以将金属追溯到几千年前熔炼它的确切森林和矿山。"
+    },
+    "wrought-iron": {
+      "name": "熟铁",
+      "description": "一种具有极高延展性的低碳铁合金，含有微观的硅酸盐熔渣纤维，赋予其独特的纤维纹理结构。",
+      "formula": "Fe（含碳量 <0.08%）",
+      "historical_info": "熟铁从公元前 1500 年原始的“海绵铁”演变为 19 世纪世界的字面骨架，因为它是当时唯一足够强韧且可靠，能够建造第一代铁路轨道和悬索桥的材料。随着 1784 年“搅炼法”的发明实现了大规模生产，它的价值从乡村铁匠手中劳动力密集型的奢侈品转变为全球战略商品。这一转变将熟铁从铸剑师的锻炉带到了工业革命的核心，使其成为埃菲尔铁塔和自由女神像内部框架的定义性材料。到了 20 世纪初，随着它几乎完全被更便宜、更坚固的低碳钢取代，它的认知经历了最后的转型，从主要的结构金属转变为保留给高端修复建筑和装饰门窗的尊贵材料。",
+      "facts": "熟铁是“金属木材”；因为它含有高达 2% 的硅酸盐熔渣，在轧制过程中被挤压成长而薄的纤维束，它拥有物理纹理，允许它被弯曲和扭曲成会让普通钢材断裂的复杂形状。它在腐蚀环境中充当“自愈”金属；当铁开始生锈时，内部的熔渣纤维充当物理屏障，防止氧化深入渗透到金属核心，这就是为什么有 150 年历史的熟铁栏杆通常仍能保持结构完好，而现代钢材则会崩塌。由于它几乎不含碳，它不能像钢一样通过淬火来“硬化”，但它是世界上最容易进行“锻焊”的金属——两块熟铁可以加热到白热状态并简单地锤击在一起，形成单一、无缝的结合。有趣的是，著名的“德里铁柱”已屹立超过 1600 年而无明显锈蚀，它是古代熟铁冶金学的杰作，证明了其耐久性可以超越整个文明。"
+    },
+    "pig-iron": {
+      "name": "生铁",
+      "description": "一种在高炉中初次熔炼铁矿石产生的含碳量高、性脆的粗铁，作为所有炼钢工艺的基础原料。",
+      "formula": "Fe，含碳量 3.5–4.5%",
+      "historical_info": "生铁从公元前 5 世纪中国早期高炉的粗糙副产品演变为全球工业革命的命脉。其名称（Pig Iron）源于传统的浇铸方法：熔融金属从中央“母”槽流向两侧被称为“小猪（pigs）”的小型模具。其价值在 1700 年代经历了从用于烹饪锅和平铧的局部铸造材料到战略工业巨头的转变，当时亚伯拉罕·达比发现可以使用焦炭代替木炭进行熔炼。这一转变将生铁从规模较小的森林锻炉带到了大规模的城市铁厂，使其成为蒸汽时代必不可少的液态前体。到了 19 世纪，随着贝塞麦转炉的发明，生铁从成品脆性产品转变为现代大规模炼钢诞生的“原始燃料”，其认知经历了彻底的转型。",
+      "facts": "生铁是一个“低熔点”奇迹；由于它含有高达 4.5% 的碳，其熔点约为 1,150°C，比纯铁低了近 400°C，这使得利用更简单的熔炉技术就能处理液态金属。它在熔炼过程中充当“化学海绵”，不仅吸收碳，还吸收大量的硅、锰和磷，这些杂质必须在二次熔炉中仔细“烧掉”才能制造结构钢。因为它是被碳饱和的，所以它极其坚硬但缺乏任何延展性；如果你用重型大锤击打一根生铁条，它不会弯曲，而是会像厚玻璃一样粉碎。有趣的是，现代“商品生铁”仍以沉重的面包大小的锭块形式在全球运输，充当高密度的“能量库”，允许电弧炉钢厂通过投入纯净的原生铁单元来稀释废钢中的杂质。"
+    },
+    "cast-iron": {
+      "name": "铸铁",
+      "description": "一种含碳量高、熔点明显低于纯铁的铁合金，允许将其浇注进复杂的模具中以制造结构和机械组件。",
+      "formula": "Fe，含碳量 2-4%",
+      "historical_info": "铸铁从公元前 5 世纪中国革命性的冶金突破演变为 18 世纪欧洲启蒙运动期间的全球工业巨头。随着 1779 年铁桥（Iron Bridge）的建造，其价值从局部来源的铸铁犁铧和佛教造像转向了战略性建筑基石。这一转变将铸铁从工匠的小型熔炉带到了大规模的城市铸造厂，使其成为第一批摩天大楼的字面骨架以及驱动工业革命的蒸汽机汽缸的主要材料。到了 19 世纪中叶，随着“球墨铸铁”的开发，其认知经历了一次保护性的演变，从一种臭名昭著的脆性材料转变为用于世界地下水务和燃气基础设施的可靠、抗震金属。",
+      "facts": "铸铁是一种“石墨脉络”材料；由于它含有高达 4% 的碳，其中大部分碳结晶成微观的石墨薄片或球团，它们充当内部润滑剂，能吸收机械振动和噪音。它在烹饪界充当“热电池”；其巨大的质量和密度允许它以惊人的均匀性吸收和辐射热量，使其成为唯一能在冰冷的牛排放在表面时仍能保持恒定煎炸温度的材料。由于熔融时流动性极高，它可以填充纯钢会瞬间凝固的薄如纸张的复杂模具，从而创造出华丽的维多利亚式散热器和复杂的汽车发动机缸体。有趣的是，“灰”铸铁之所以得名，是因为如果你将一根铸铁条折断，暴露的内部呈现出暗淡的石色灰色——这是隐藏在金属结构内的数百万个微观碳晶体的字面颜色。"
+    },
+    "steel-ingot": {
+      "name": "钢锭",
+      "description": "一种经过精炼、合金化了精确碳浓度的半成品铁块，作为所有钢铁产品的通用结构前体。",
+      "formula": "Fe + C（0.02–2.1%）",
+      "historical_info": "钢锭从古代罕见的坩埚锻造奢侈品——如印度传奇的乌兹钢——演变为 1856 年贝塞麦工艺下现代时代的字面基础。当人们可以通过向熔铁中鼓入空气在几分钟而非几天内烧掉杂质时，其价值从用于精锐武器和钟表弹簧的专门金属转向了全球战略巨头。这一转变将钢铁从大师铁匠的秘密车间带到了 19 世纪工业腹地烟雾弥漫的宏伟地平线。到了 20 世纪中叶，随着转炉炼钢法和电弧炉的兴起，其认知经历了最后的技术飞跃，钢锭从手动浇铸的块体转变为定义每一座现代城市天际线的连续、高速的高强合金流。",
+      "facts": "钢锭是一个“分子妥协点”；通过将碳含量维持在 0.02% 到 2.1% 之间，它实现了一个完美的平衡：强度是纯铁的十倍，却又没有铸铁那种脆如玻璃的脆弱性。它在制造过程中充当“热储层”；巨大的钢锭通常在专业“均热炉”中仍处于白热状态时进行运输，以确保在被巨型轧机压碎和拉伸之前温度完全均匀。因为钢铁可以 100% 回收而不损失任何质量，每一个现代钢锭都可能含有来自 1950 年代远洋邮轮、中世纪马蹄铁或 1990 年代汽水罐的原子，使其成为人类历史上最“循环”的材料。有趣的是，钢锭的内部晶体结构可以像乐器一样被“调试”——通过以特定速率加热和冷却，工程师可以强迫碳原子进入不同的模式（如珠光体或马氏体），在不改变化学式的情况下将金属从柔软可弯曲的细线变成坚硬如石的装甲板。"
+    },
+    "stainless-steel": {
+      "name": "不锈钢",
+      "description": "一种含有至少 10.5% 铬的高性能铁合金，经过工程设计可产生几乎不受锈蚀和氧化影响的自愈表面。",
+      "formula": "Fe + C + Cr（10.5% 以上）",
+      "historical_info": "1913 年，哈里·布雷尔利（Harry Brearley）在寻找耐腐蚀的枪管合金时，注意到他丢弃的一个样本在雨中拒绝生锈，不锈钢从此从实验室的异常现象演变为全球工业的救星。20 世纪 20 年代，随着它取代银和镀铜，其价值从利基冶金奇谈转向现代厨房和诊所的战略奇迹。这一转变将“不锈之钢”从谢菲尔德的小规模实验熔炉带到了纽约克莱斯勒大厦的外墙。到了 20 世纪中叶，随着 316L 外科等级的开发，其认知经历了一次医学革命，从工业包层转变为作为支架、骨钉和人工关节存在于数百万人类体内的必需生物相容材料。",
+      "facts": "不锈钢是一种“自愈”金属；合金中的铬与氧瞬间反应，形成一层无形的、微观的“钝化层”，其密度之大足以阻断进一步腐蚀。如果你划伤不锈钢水槽的表面，暴露的金属会在几毫秒内通过长出新的氧化皮来“自愈”，只要有氧气存在，这个过程就会持续。它在航空航天领域充当“隔热罩”——因为它在会让铝像蜡一样熔化的温度下仍能保持强度，它是建造历史上最快吸气式飞机 MiG-25 蒙皮的主要材料。有趣的是，不锈钢有 150 多种不同的“口味”，其中一些由于镍原子重新排列铁晶体的方式而不具磁性，这一物理特性用于确保外科工具不会干扰 MRI 机器中的强大磁铁。尽管名为“不锈（Stainless）”，但它其实是“少锈（stain-less）”——如果长期暴露在极高浓度的氯气或低氧环境中，它仍可能腐蚀，因此它是一种需要针对特定环境进行精密设计的材料。"
+    },
+    "high-carbon-steel": {
+      "name": "高碳钢",
+      "description": "一种具有高浓度碳的专用铁合金，专为最大硬度、边缘保持力和抗变形能力而设计。",
+      "formula": "Fe + 0.6–1.5% C",
+      "historical_info": "高碳钢从伊斯兰黄金时代传奇的“大马士革”刀剑演变为 19 世纪机械车间的主要机械驱动力。在维多利亚时代，其价值从用于锻造能劈开铁的宝剑的局部军事秘密转向了战略工业资源。这一转变将高碳钢从大师级装甲师的锻炉带到了工具和模具行业的核心，在那里它成为唯一能切开较软的“低碳”钢而不钝化的材料。到了 20 世纪，随着受控淬火和回火技术的发展，其认知经历了一次精度革命，从一种易于开裂的反复无常的金属转变为目前支撑世界上最长悬索桥的可靠、高张力线材和弹簧钢。",
+      "facts": "高碳钢是一件“分子张力”杰作；通过含有高达 1.5% 的碳，碳原子充当内部“制动器”，将铁晶体锁定在原位，防止它们相互滑动，使金属几乎无法产生凹痕或划痕。它在重工业界充当“记忆金属”；由于其高弹性极限，它可以被弯曲到极端的角度并以剧烈的力量弹回原始形状，使其成为重型矿山卡车上巨大的板弹簧不可或缺的材料。由于它对热高度敏感，铁匠可以“调试”单片刀刃的硬度——让刀刃坚硬如石以便切割，同时让刀背保持柔软有弹性以吸收冲击。有趣的是，高碳钢是极少数在撞击燧石时能“产生火花”的金属之一；撞击会削落金属的微观颗粒，由于碳含量高，这些颗粒在大气中自燃，这一物理特性为历史上每一支燧发枪提供了主要点火源。"
+    },
+    "impure-copper": {
+      "name": "不纯铜",
+      "description": "初级熔炼产生的一种粗金属产品，含有大量的铁、硫和砷残留，需要进一步进行电解精炼。",
+      "formula": "Cu + Fe, S, As",
+      "historical_info": "不纯铜从公元前 8000 年世界第一种加工金属演变为红铜时代的定义性材料，当时肥沃新月地带的早期文明发现地表沉积物中的“脏”铜可以锤打成工具。随着“熔炼”工艺的发展，公元前 4000 年其价值从稀有的装饰石转向了战略军事资源，实现了从复杂矿石中提取铜。这一转变将不纯铜从部落工匠手中带到了苏美尔和埃及的大型神庙作坊，在那里它成为首批大规模生产的锯子和凿子的主要介质。到了 19 世纪，随着电报的兴起，其认知经历了最后的技术飞跃；曾经被忽视的“杂质”成了长途通信的关键失效点，不纯铜由此转变为全球电力行业诞生的“原始阳极”。",
+      "facts": "不纯铜是“电导率杀手”；仅 0.05% 的砷或铁的存在就能让金属的导电效率下降超过 20%，使“原生”铜对于现代电子设备所需的高性能布线完全无用。它为考古学家充当“化学签名”；由于古代熔炼技术无法去除银或铅等微量元素，一个 3000 年前斧头上的“杂质”充当了指纹，可以将铜追溯到它被开采的确切山脉。由于常含有溶解的氧和硫，“粗铜（blister copper）”——不纯铜的一种常见形式——在冷却时会字面上“吐痰”并起泡，形成覆盖着崎岖不平、冻结金属水泡的表面。有趣的是，铜中最有价值的“杂质”通常是金或碲；现代精炼厂不仅净化铜制造电线，还会收集掉在槽底的“阳极泥”，其中的贵金属往往多到足以支付好几次精炼过程的费用。"
+    },
+    "blister-copper": {
+      "name": "粗铜",
+      "description": "通过转炉精炼铜锍产生的一种高品位粗铜，表面因凝固期间释放二氧化硫而呈现多孔“起泡”状。",
+      "formula": "Cu",
+      "historical_info": "随着贝塞麦转炉在铜冶金中的应用，粗铜在 19 世纪后期从早期熔炼坑的局部副产品演变为全球工业中间体。在 1880 年代，其价值从一种难以加工的“半成品”金属转向了战略工业原料，因为新兴的电力行业需要稳定的可供电解精炼的铜源。这一转变将粗铜从美洲西部和澳大利亚崎岖的矿区带到了大西洋沿岸巨大的精炼厂，在那里它成为了生产高纯度导线的标准“阳极”。到了 20 世纪初，随着“曼海斯-大卫（Manhès-David）”工艺实现了粗铜的连续生产，其认知经历了最后的技术飞跃，使其从一种间歇生产的稀罕物转变为供应全球铜供应链的通用的 98-99% 纯度中间体。",
+      "facts": "粗铜是一种“金属碳酸化”；当熔融金属冷却时，溶解在液体中的二氧化硫气体被强行排出，产生崎岖的、冻结的“水泡（blisters）”和内部空洞，使锭块看起来像一块由金属制成的海绵。它在精炼过程中充当“化学过滤器”——虽然它已经有 99% 的纯度，但剩余 1% 的“杂质”包含金、银和铂，它们被化学性地锁在铜晶格中，等待在酸浴中被释放。由于内部气穴使其在物理上很脆弱，一块粗铜板不能直接轧制成片或拉成线；它必须重新熔化并浇铸成平整的“阳极”，然后才能进入最后的提纯阶段。有趣的是，在浇注粗铜期间听到的“嘶嘶”声是大气被硫富集的字面声音，这一过程非常剧烈，以至于现代熔炼厂必须使用巨大的“酸厂”来捕获这些气体并将它们转化为有用的硫酸，而不是让它们逃逸。"
+    },
+    "electrolytic-copper": {
+      "name": "电解铜",
+      "description": "通过电化学过程提纯到至少 99.99% 纯度的超纯铜，作为高性能电导体的全球标准。",
+      "formula": "Cu",
+      "historical_info": "电解铜从 1830 年代的实验室奇闻演变为 1869 年詹姆斯·埃尔金顿（James Elkington）在威尔士建立首个商业电解精炼厂时的全球电网基石。1880 年代“电流之战”期间，其价值从用于实验电报的利基材料转向了战略全球商品，因为新兴的电力行业意识到传统铜中的微观杂质会因电阻造成巨大的能量损失。这一转变将精炼工艺从古代的火法炉灶带到了现代巨大的、装满酸液的“电解车间”。到了 20 世纪，随着“ISA 工艺”的发明，其认知经历了最后的技术飞跃，电解铜转变为 99.99% 纯度的“A 级（Grade A）”阴极板，主导了现今伦敦金属交易所的定价。",
+      "facts": "电解铜是一个“原子过滤器”；在精炼过程中，粗铜阳极在酸浴中溶解，精确的电流诱导只有纯铜离子迁移穿过液体，将含有金、银的“阳极泥”留在身后。它充当“热力超高速公路”——由于它几乎不含氧和硫，它拥有非贵金属中最高的电导率和热导率，使其成为唯一被信任用于形成现代智能手机处理器中微观“过孔”的材料。因为它具有极其优秀的延展性，一根手指粗细的电解铜杆可以被拉成一根连续不断的、比头发还细且长达 50 公里以上的导线。有趣的是，这种铜的“纯度”是如此关键，如果精炼槽被哪怕只有百万分之几的碲污染，生成的金属就会变得像枯树枝一样脆，在拉丝过程中会直接折断，实际上会导致全球电缆制造业陷入停顿。"
+    },
+    "aluminum-ingot": {
+      "name": "铝锭",
+      "description": "通过电解还原氧化铝生产的一种轻质、银白色金属块，以其卓越的强度重量比为特征。",
+      "formula": "Al",
+      "historical_info": "铝从地球上最珍贵的金属（19 世纪中叶价值高于黄金和铂金）演变为无处不在的工业主粮。1886 年查尔斯·霍尔（Charles Hall）和保罗·埃鲁（Paul Héroult）独立发现了打破矿石化学“锁链”的电解法，其价值从用于拿破仑三世国宴餐具的珠宝级稀罕物转向了战略军事资产。这一转变将铝从精英实验室带到了 20 世纪巨大的水电驱动熔炼厂。到了 20 世纪 40 年代，随着它成为二战的“有翼金属”，其认知经历了一次最后的英雄式演变，从一种昂贵的新奇事物转变为定义了喷气时代每一架飞机的基本结构蒙皮。",
+      "facts": "铝锭是一个“冻结的电池”；将铝原子从矿石中的氧键上剥离需要消耗海量的电能——每吨约 15,000 度电，实际上是将这些电力“储存”在了金属结构中。它充当“分子镜面”——由于它可以反射高达 92% 的可见光和 98% 的红外辐射，这些铝锭是望远镜镜面和应急救生毯上薄金属涂层的主要来源。因为它在接触空气的一瞬间就会形成仅几个原子厚的氧化铝“钝化层”，这种金属基本上免疫了摧毁钢铁的那种深层剥落式腐烂，使其能在严酷的海洋环境中生存几十年。有趣的是，铝是“长生金属”；人类历史上生产的所有铝中，近 75% 至今仍在活跃使用中，因为将其熔化并重新铸造成新铝锭所需的能量仅为初次制造时的 5%。"
+    },
+    "tin-ingot": {
+      "name": "锡锭",
+      "description": "一种由锡石精炼而成的质软、具延展性的银白色金属块，因其低熔点和卓越的抗腐蚀性而受推崇。",
+      "formula": "Sn",
+      "historical_info": "锡从公元前 3000 年一种神秘的“添加剂”演变为古代世界最具战略意义的金属，因为它是青铜时代必不可少的成分。其价值从罕见矿物转向了贸易的全球催化剂，腓尼基等文明建立了通往不列颠“锡岛（Cassiterides）”的险恶海上航线以获取该金属。这一转变将锡从一种局部的合金剂提升为早期帝国扩张的主要原因。到了 19 世纪，随着“马口铁罐”的发明，其认知经历了一次功利主义革命，从古代青铜组分转变为全球食品供应的必需守护者，使军队和平民的长期保存成为可能。",
+      "facts": "锡是一种会“唱歌”的金属；当一根纯锡条被弯曲时，它会发出一种独特的嘎吱声，被称为“锡鸣（tin cry）”，这是由于微观晶体相互剪切和孪生产生的物理摩擦。它为钢铁工业充当“分子护盾”——由于锡与有机酸和水分几乎完全不反应，只需几微米厚的涂层就足以保护下层的铁几十年不生锈。在 13.2°C 以下，锡会经历一种被称为“锡疫（tin pest）”的相变，由于原子晶格改变形状，发亮的金属固体实际上会崩碎成脆性的灰色粉末，这一现象曾出名地摧毁了撤退的拿破仑士兵制服上的纽扣。有趣的是，尽管是金属，锡却是 70 多年来世界上最高科技玻璃背后的秘密：几乎每一片现代窗玻璃都是利用“皮尔金顿工艺（Pilkington process）”制造的，即让熔融玻璃漂浮在巨大的、完美平坦的液态锡床上。"
+    },
+    "zinc-ingot": {
+      "name": "锌锭",
+      "description": "一种由闪锌矿精炼而成的性脆、蓝白色金属块，主要用作牺牲涂层以防止钢铁的大气氧化。",
+      "formula": "Zn",
+      "historical_info": "锌从在银熔炼残渣中发现的偶然的“幽灵金属”演变为 12 世纪印度的专门工业支柱，在那里扎瓦尔（Zawar）发生了该金属的首次真正蒸馏。随着 1836 年“镀锌”工艺专利的获得，其价值从黄铜的装饰组分转向了战略性结构救星。这一转变将锌从工匠的熔炉带到了全球航运和建筑行业的核心，因为它成了阻止铁回归尘土的唯一具有成本效益的方法。到了 20 世纪，随着碱性电池的开发，其认知经历了一次化学革命，从简单的保护层转变为驱动第一波全球便携式电子设备的必需“阳极”。",
+      "facts": "锌是冶金学中的“牺牲英雄”；通过一种被称为阴极保护的过程，锌涂层会字面上“选择”腐蚀并溶解自己来挽救下层的钢，即使涂层被深度划伤或部分移除。它为人类充当“生物导体”——它是 300 多种不同酶发挥功能所需的唯一金属，这意味着如果没有微量的锌，我们的 DNA 既无法复制也无法修复。由于其沸点相对较低 (907°C)，锌是极少数通过将其煮成蒸气然后“捕捉”回液体凝结而成的金属之一，这一过程曾让早期欧洲炼金术士感到困惑，他们弄不清楚为什么这种金属老是化作烟雾消失。有趣的是，现代“铜”分币其实是伪装大师；自 1982 年以来，每一枚美国分币都由隐藏在薄如纸张的铜皮下的 97.5% 锌核心组成，以使生产成本低于硬币面值。"
+    },
+    "lead-ingot": {
+      "name": "铅锭",
+      "description": "一种由方铅矿精炼而成的极度致密、质软且呈蓝灰色的金属块，因其高原子量和低熔点而受到重视。",
+      "formula": "Pb",
+      "historical_info": "铅从公元前 6500 年最早熔炼的金属之一演变为罗马帝国的字面“液态银”，在那里它如此丰富，以至于衬垫了数千公里的引水渠并作为“铅糖”为贵族的葡萄酒调味。随着 14 世纪火器的发明，其价值从无处不在的建筑和水暖奇迹转向了战略军事必需品，因为其密度使其成为完美的弹丸材料。这一转变将铅从中世纪大教堂的屋顶带到了全球冲突的最前线。到了 20 世纪，由于其神经毒性变得无可争议，其认知经历了一次彻底的医学和环境逆转，从汽油和油漆中的通用添加剂转变为仅保留用于储存世界电能这一关键任务的严格管控材料。",
+      "facts": "铅是原子世界的“终极幸存者”；由于它是许多放射性衰变链的最终稳定终点，它是唯一能通过将其海量、紧密排列的原子核吸收能量来有效阻挡 X 射线和伽马辐射的常用金属。它在机械加工行业充当“分子润滑剂”——当以极少量加入钢或黄铜中时，它会形成微小的液滴充当滚珠轴承，允许切削工具以极高速度切开金属而不致过热。由于它极软，你真的可以用指甲划伤它或像铅笔一样用它写字，它几个世纪以来一直是印刷机“活字”的主要材料，因为它可以被铸造成完美的字形，然后熔化重复使用数千次。有趣的是，铅非常致密，一立方英尺的这种金属重达 700 多磅（约 317 公斤），但它的熔点仅为 327.5°C，这个温度低到在普通厨房炉灶上就能将铅锭液化。"
+    },
+    "nickel-ingot": {
+      "name": "镍锭",
+      "description": "一种由镍黄铁矿精炼而成的具光泽的银白色金属块，其特征是极强的抗氧化能力以及在高温下保持结构强度的能力。",
+      "formula": "Ni",
+      "historical_info": "镍从 17 世纪的一种“被诅咒”的矿物——被德国矿工嘲讽地命名为“Kupfernickel”（老尼克的铜），因为他们认为这是被山中妖魔诅咒的铜矿石——演变为 1751 年克朗斯泰特将其分离为新元素后的现代冶金基石。19 世纪随着镍钢装甲板的发展改变了海战，其价值从局部麻烦转向了战略全球优先级。这一转变将镍从化学边缘带到了军备竞赛的核心，使其成为两次世界大战中无懈可击的战列舰的关键成分。到了 21 世纪，随着电动汽车行业的崛起，其认知经历了一次绿色革命，从重工业添加剂转变为长程锂离子电池正极化学所需的超大容量“能源金属”。",
+      "facts": "镍是一个“磁性特立独行者”；与铁和钴一样，它是室温下仅有的三种具有铁磁性的元素之一，这一属性允许它用于高强度的铝镍钴磁铁和精密电子传感器。它充当“热稳定剂”——当与铁合金化创造出“因瓦合金（Invar）”时，生成的金属在受热时几乎不膨胀或收缩，使其成为地震传感器和液化天然气轮船精密内部组件唯一可靠的材料。由于镍天生抵抗海水和腐蚀性化学品的侵蚀，它是全球海水淡化行业的“秘密保护者”，允许巨型处理厂将盐水转化为饮用水而机器不会溶解。有趣的是，镍是一个“宇宙信使”；由于它是地核的主要组分，并且在铁陨石中含量极高，科学家利用镍含量来区分普通的地球岩石与从太空坠落的古代行星核心碎片。"
+    },
+    "chromium-ingot": {
+      "name": "铬锭",
+      "description": "一种由铬铁矿精炼而成的性脆、坚硬且具光泽的钢灰色金属块，因其高熔点和能够打磨出镜面光泽而受推崇。",
+      "formula": "Cr",
+      "historical_info": "铬从 1797 年的一种鲜艳的“画家秘密”——最初因沃克兰（Louis Nicolas Vauquelin）在西伯利亚红铅矿中发现的灿烂红黄颜料而受到重视——演变为 20 世纪全球工业的救星。随着 1912 年不锈钢的发明，其价值从时装界染料中使用的装饰性化学奇谈转向了战略冶金基石。这一转变将铬从艺术家的调色板带到了工业革命的最核心，使其成为唯一能阻止困扰人类数千年的“铁病（锈蚀）”的材料。到了 20 世纪中叶，随着汽车行业的崛起，其认知经历了一次最终的美学革命，从一种隐藏的合金剂转变为象征航天时代乐观精神的标志性“镀铬（chrome）”光泽。",
+      "facts": "铬是金属世界的“无形护盾”；它是唯一能通过创造一层仅几个原子厚但完全不透水和氧的瞬时、自愈式氧化层，将普通钢转化为不锈钢的元素。它充当“分子硬化剂”——作为元素周期表第 24 号元素，它拥有极高的 8.5 莫氏硬度，使其成为最硬的单质金属，也是唯一能刮花玻璃或硬化工具钢的金属。由于它极耐“热冲击”，它是内衬高压火炮和喷气引擎组件的首选材料，防止基底金属在暴烈的燃烧热量下被侵蚀。有趣的是，铬是“宝石创造者”；祖母绿的深绿和红宝石的火红其实都是由原本无色的矿物晶格中夹杂的微观铬“杂质”造成的。"
+    },
+    "bronze": {
+      "name": "青铜",
+      "description": "一种主要由铜和锡组成的经典红褐色合金，因低摩擦、高耐用性和卓越的铸造性而受重视。",
+      "formula": "Cu + Sn（比例多变）",
+      "historical_info": "公元前 3500 年青铜的发现标志着人类首次成功操纵两种不同金属的原子结构来创造一种更优越的第三种物质，它随后成为青铜时代的定义性媒介。随着它取代石器和纯铜工具，其价值从局部珠宝奢侈品转向了战略军事和农业必需品。这一转变将青铜从工匠作坊带到了美索不达米亚和中国商朝古帝国的前线，使其成为当时唯一能让剑和犁保持锋刃的材料。19 世纪随着全球航运崛起其认知经历了工业演变，从古代雕塑媒介转型为制造能抵抗开放海洋腐蚀力的巨大螺旋桨和配件所需的必需“海事”合金。",
+      "facts": "青铜是一个“分子扩张主义者”；不像大多数受冷收缩的材料，某些青铜合金在凝固时会轻微膨胀，强迫金属填满模具的每一个微观缝隙，以生产细节惊人的雕像。它充当“音乐共振”大师——由于高含锡量和内部晶体结构，它拥有独特的响亮品质，是制造顶级交响乐钹和能鸣响数世纪不裂的巨型教堂钟的唯一材料。因为它会形成保护性的“铜绿（patina）”，它是可以在掩埋或浸没数千年后反而变得更耐腐蚀的“永恒金属”。有趣的是，青铜是“低摩擦”英雄；它对钢具有天然的“自润滑性”，这就是为什么它仍是高速引擎衬套、轴承以及现代飞机重型起落架的金标准。"
+    },
+    "brass": {
+      "name": "黄铜",
+      "description": "一种由铜和锌组成的明亮的、类似黄金的合金，专为高延展性、声学共鸣和低摩擦表面而设计。",
+      "formula": "Cu + Zn（比例多变）",
+      "historical_info": "黄铜在公元前一千纪是一种由熔炼天然富锌铜矿产生的偶然的“假黄金”，后来成为罗马帝国的基石材料（被称为 orichalcum）用于高价值货币和头盔。18 世纪随着“菱锌矿法”实现了稳定的量产，其价值从黄金的装饰替代品转向了战略工业支柱。这一转变将黄铜从珠宝盒带到了科学革命的最核心，成为创造绘制星空和海洋的六分仪、钟表及望远镜唯一足够精密且稳定的材料。19 世纪其认知经历了音乐与机械革命，从结构金属转型为现代管弦乐团的定义性“声音”以及全球速射弹药的必需药筒。",
+      "facts": "黄铜是“天然消毒剂”；由于微动力效应（Oligodynamic effect），其中的铜离子能穿刺细菌病毒细胞壁，在接触几分钟内消杀门把手表面的病菌。它充当“防火花”卫士——不像钢，黄铜撞击其他金属时不产生火花，使其成为炼油厂和火药厂等高风险环境唯一的安全工具材料。因为它熔点远低于青铜且具有抗“加工硬化”的晶格，它是“切削性之王”。有趣的是，黄铜是物理世界的“声学大师”；其特定的弹性模量和密度允许它振动出丰富、温暖的谐波频谱，这就是为什么每支专业的喇叭和长号都由该金属打造，因为它能产生纯铜或钢无法复制的声音。"
+    },
+    "iron-plate": {
+      "name": "铁板",
+      "description": "一种通用的、标准化的精炼铁平轧薄板，作为重型机械和工业制造的基本结构单元。",
+      "formula": "Fe",
+      "historical_info": "铁板从中世纪的手工锤打片材演变为 19 世纪海军革命的定义性装甲。1860 年全球首艘铁甲舰 HMS Warrior 的下水使其价值从局部建材转向至高战略资产，证明了铁板能弹开当时最强的炮弹。这将其从铁匠砧带到了工业革命巨大的蒸汽轧机，成为首批摩天大楼和跨洲机车的字面皮肤。20 世纪其认知经历了结构演变，从沉重易锈的板块转型为现代全球钢铁工业精密设计的基座。",
+      "facts": "铁板是一个“结构变色龙”；虽然看起来坚硬，但它极具延展性，能被冷轧成薄于 1 毫米的片材或压成复杂的汽车车身曲线而不破裂。它充当“磁导管”——由于高磁导率，厚铁板是封装电源变压器的首选“屏蔽层”。因为铁会生锈，未受保护的铁板是环境的“活记录”，随时间改变颜色和纹理，除非镀锌。有趣的是，它是“历史的骨架”：埃尔菲铁塔由 250 多万个铆钉将数千块铁板和梁连接而成，这种设计非常强韧，金属在夏热中会“呼吸”膨胀达 15 厘米而不失稳。"
+    },
+    "copper-plate": {
+      "name": "铜板",
+      "description": "一种高度导电、具延展性且抗腐蚀的精炼铜平轧薄板，对高效电力接地和热交换至关重要。",
+      "formula": "Cu",
+      "historical_info": "铜板从古代造船者用于保护木船壳免受钻木虫侵害的“牺牲片”演变为印刷革命的重要基石。15 世纪铜版雕刻成为量产精密地图和科学插图的主要方法，其价值从局部建材转向战略智力资产。这将其从作坊屋顶带到了信息时代先驱的核心，字面上“印刷”了文艺复兴的知识。19 世纪随着电报发明其认知经历了最终的电力演变，从机械基底转型为全球通信和现代城市电气化的通用媒介。",
+      "facts": "铜板是一条“散热快车道”；其导热率比不锈钢高约 20 倍，是高性能热沉的“心脏”。它充当“天然生物杀灭剂”——纯铜板能在两小时内消杀 99.9% 的表面细菌，使其在医院高频接触表面材料中复兴。因为铜是人类 1 万年前首种压扁成板的金属，标志着石器时代的终结。有趣的是，它还是“地质幸存者”：暴露于环境会产生稳定的绿色“铜绿”，这层化学护盾极其有效，让自由女神像的铜皮在海风中屹立百年而无结构失效。"
+    },
+    "steel-plate": {
+      "name": "钢板",
+      "description": "一种高强度、平轧的铁碳合金结构板材，专为最大承载能力和工业通用性而设计。",
+      "formula": "铁碳合金",
+      "historical_info": "钢板从 1800 年代早期昂贵的“坩埚”板材演变为 1856 年贝塞麦工艺下现代天际线的定义性材料。当大规模板材量产变为可能时，其价值从局部奢侈品转向战略通用商品。这将其从铁匠炉带到了“铁甲舰”造船厂和首批摩天大楼的骨架，成为当时唯一能支持城市纵向生长的材料。20 世纪随着“转炉”炼钢兴起其认知经历了技术精炼，从沉重僵硬的板块转型为构成每一辆现代汽车防撞“安全笼”的精密厚度、高张力板材。",
+      "facts": "钢板是一种“分子编织”；通过控制碳铁比，工程师创造出“珠光体”微观结构，硬碳化铁层与软延展铁层交替以防止裂纹穿透。它充当“动能海绵”——高硬度弹道钢板旨在通过瞬间吸收能量并将其消散在整块原子晶格中来粉碎撞击的弹丸。因为钢强度是纯铁的 1,000 倍，几英寸厚的钢板就能支撑整台机车的重量，但在用作摩天大楼外墙时仍极具弹性，能在风中摇摆数英尺。有趣的是，它们是“永久变形者”：史上生产的所有钢板中 80% 至今仍以某种形式在使用，因为它可以无限熔炼提纯重轧。"
+    },
+    "aluminum-plate": {
+      "name": "铝板",
+      "description": "一种轻质、抗腐蚀的精炼铝平轧薄板，因高强度重量比和优异导热性而受重视。",
+      "formula": "Al",
+      "historical_info": "铝板从 1850 年代比黄金还贵的“皇家稀有物”演变为现代航天时代的基石材料。1886 年霍尔-埃鲁法使大规模生产变得实惠，其价值从精英阶层的局部装饰奢侈品转向全球战略商品。这将其从华盛顿纪念碑的顶石带到了首批全金属飞机的生产线，成为让重载飞行具备商业可行性的唯一材料。21 世纪其认知经历了可持续性革命，因极易回收而从高能耗工业品转型为循环经济的“无限”资源。",
+      "facts": "铝板是一个“被动保护者”；它会与氧反应形成透明且硬如蓝宝石的氧化铝层，即使在海洋环境中也能密封金属防止腐蚀。它充当“低温冠军”——不像大多数钢在极寒下变脆易碎，铝板随温度下降反而获得强度和韧性，使其成为火箭液氢箱的首选。因为它不具铁磁性，它是封装敏感电子设备和实验室仪器以不受地磁或电噪干扰的首选。有趣的是，它是“能量银行”：回收一块铝板能节省 95% 的初次炼铝能量，意味着 1950 年代熔炼该金属的能量至今仍在通过重复回收被“节省”着。"
+    },
+    "lead-plate": {
+      "name": "铅板",
+      "description": "一种极度致密、质软且沉重的精炼铅平轧薄板，主要作为电离辐射的高效屏障而设计。",
+      "formula": "Pb",
+      "historical_info": "铅板从罗马帝国的“通用管道”材料演变为原子时代必需的“隐形护盾”。19 世纪末 X 射线的发现使其价值从防水屋顶和彩绘玻璃框架的局部建材转向战略医疗及核工业优先级。这将其从中世纪大教堂的水槽带到了世界首批放射科实验室的墙壁，成为当时唯一能阻止高能光子伤害人体组织的材料。21 世纪其认知经历了最后的安全性演变，从普通工业添加剂转型为几乎专门因其无可比拟的屏蔽能力而使用的严格管控特种材料。",
+      "facts": "铅板是一堵“γ 射线墙”；由于其极高的原子序数和极端密度，原子堆积如此紧密，高能辐射粒子在试图穿过时会字面上“卡住”或丧失能量。它充当“振动阻尼器”——因为铅是极少数几乎完全无弹性的金属，它会吸收动能而不反弹，使其成为录音室墙壁和重型机器地基的首选“隔音”材料。因为它极具延展性且熔点低，可以手工将其完美贴合化学罐的复杂形状，提供气密耐酸的衬里。有趣的是，它们是“时空旅行者”：因为铅是铀钍衰变链的最终稳定产物，从 2000 年前罗马沉船回收的古铅板被物理学家视为珍宝，因为它们已失去了所有内部放射性，是唯一能安静到足以屏蔽世界最敏感暗物质探测器的材料。"
+    },
+    "iron-gear": {
+      "name": "铁齿轮",
+      "description": "一种由精炼铁制成的精密铸造或加工的齿轮，旨在在机械系统中传递动力并同步运动。",
+      "formula": "Fe",
+      "historical_info": "铁齿轮从 18 世纪手工锉削的“钟表”奇物演变为工业革命字面意义上的“牙齿”。1780 年代瓦特（James Watt）利用它们将蒸汽机的断续往复运动转化为驱动世界首批自动工厂的平稳圆周运动，其价值从局部奢侈品转向战略工业必需品。这将其从过去的木质水轮带到了维多利亚时代巨大的、沾满煤灰的变速箱，成为进步时代的定义性象征。20 世纪其认知经历了机械上的精炼，从沉重嘈杂的铸铁轮转型为现代重型变速箱高扭矩同步所需的精密加工、热处理组件。",
+      "facts": "铁齿轮是一个“扭矩倍增器”；通过小齿轮啮合大齿轮，机械系统能用速度交换巨大的起重力，使单台电机能吊起数千吨货物。它充当“牺牲性磨损表面”——在许多老式机器中，铁齿轮被故意设计为特定的硬度，如果机器卡住，轮齿会整齐切断以保护更贵的驱动轴不断裂。因为铁易受“点蚀”和摩擦热影响，它是现代润滑科学发展的原动力；没有微观油膜分离轮齿，齿轮在高载荷下会发生“焊死”。有趣的是，它们是“声学指纹”：每组啮合铁齿轮会根据其“渐开线”曲线的精度产生独特的谐波鸣响，这种几何形状能确保齿轮间是滚动而非滑动，从而减少摩擦。"
+    },
+    "steel-gear": {
+      "name": "钢齿轮",
+      "description": "一种由铁碳合金锻造而成的高性能齿轮传动组件，专为极高抗拉强度和抗机械疲劳能力而设计。",
+      "formula": "铁碳合金",
+      "historical_info": "随着 19 世纪后期表面硬化技术的完善，钢齿轮从 1800 年代早期脆弱不可靠的组件演变为现代工业必不可少的“肌肉”。随着内燃机和电网的崛起，其价值从高端蒸汽机的专门升级转向战略通用需求。这将其从维多利亚时代沉重缓慢的机器带到了汽车革命的高速高精度变速箱，成为唯一能承受每分钟数千转而不碎裂的零件。21 世纪其认知经历了最后的高科技演变，从简单的铸造件转型为利用先进表面处理来经受足以压碎普通铁的压力的计算机优化组件。",
+      "facts": "钢齿轮是一个“机械力场”；通过渗碳工艺，轮齿外层被渗入额外的碳并快速冷却，创造出像玻璃一样硬的表面，同时保持内芯强韧灵活以吸收突发冲击。它充当“同步心跳”——在现代航天传动中，这些齿轮的加工公差小于 3 微米，确保动力流效率超过 98% 且几乎零振动。因为钢拥有比几乎任何其他金属都高的“疲劳极限”，钢齿轮可以被设计为在高载荷下运行数十亿次循环，成为风力涡轮机和重载电梯变速箱的“无限”可靠性选择。有趣的是，它们是“数学杰作”：轮齿采用特定的“渐开线”几何形状，确保两齿接触点以恒定速度移动，防止产生会瞬间撕碎高速引擎的微观“颤抖”。"
+    },
+    "copper-wire": {
+      "name": "铜线",
+      "description": "一种具有高度延展性和导电性的精炼铜细丝，作为电力传输和电子信号的通用媒介。",
+      "formula": "Cu",
+      "historical_info": "铜线从公元前 2500 年古埃及珠宝中手工拉制的装饰用“黄金替代品”，演变为现代世界的字面神经系统。随着 1830 年代电磁电报的发明，其价值从局部工艺材料转向至高战略资产，证明了铜线能以光速跨洲传输信息。这一转变将铜从珠宝作坊带到了 19 世纪巨大的工业拉丝厂，使其成为城市全球电气化和电信时代诞生的必需基础设施。到了 21 世纪，其认知经历了技术上的精炼，从粗重笨拙的输电线转型为支持现代计算机芯片高速处理的超纯微观电路。",
+      "facts": "铜线是“电子的高速公路”；它拥有非贵金属中最高的电导率，允许电流以极低的电阻通过，从而最大限度地减少热能损耗，使其成为高效电机和电网的“金标准”。它是一个“延展性奇迹”——一颗高尔夫球大小的单块铜可以穿过逐级缩小的钻石模具，拉成一根超过 1.2 英里（1.9 公里）长的连续不断的头发丝状细线而不断裂。由于铜线能被电流自然“退火”，它极耐机械失效，能经受高速汽车引擎和航空航天设备内部的持续振动与热膨胀。有趣的是，铜线还是“信号保护者”：以“双绞线”或同轴电缆的形式，它利用自身的电磁场抵消外部干扰，这一物理现象促成了早期互联网和高保真音频录制的诞生。"
+    },
+    "pipe": {
+      "name": "管道",
+      "description": "一种由精炼金属制成的中空、刚性圆柱形导管，旨在承受内部压力，同时在工业网络中运输液体、气体或浆料。",
+      "formula": "Fe",
+      "historical_info": "管道从古罗马帝国的掏空原木和铅导管（“水暖工（plumbing）”一词源自拉丁语 plumbum，意为铅）演变为工业革命的高压钢制动脉。1860 年代随着石油工业的诞生，其价值从局部的废物管理土木工具转向全球战略资产。这一转变使管道从简单的重力输送通道变为跨洲巨大的焊接管道，成为世界能源经济的字面“血管”。到了 20 世纪，其认知经历了技术扩张，从静态容器转型为能经受液氧低温和化工厂高腐蚀强度的精密工程组件。",
+      "facts": "管道是一个“几何奇迹”；其圆柱形状在数学上是最大化内部体积同时最小化材料重量的最有效方式，允许其沿壁均匀分布应力以防高压爆裂。它充当“层流”通道——内壁的平滑度至关重要，因为微观的不规则会导致“湍流”，产生摩擦并以热量形式浪费掉海量的泵送能量。由于金属管可以通过“过盈配合”或精密焊接连接，它们形成了现代世界的“气密密封”，确保有毒气体或高压蒸汽能零泄漏地穿过拥挤的城市或工厂。有趣的是，管道是数字时代的“无声脉搏”：地球上几乎每一个云计算中心都依赖迷宫般的高纯度铜管和钢管循环冷水，充当巨大的散热器防止数百万台服务器过热。"
+    },
+    "motor": {
+      "name": "电动机",
+      "description": "一种通过磁场相互作用将电能转化为旋转动能的机电设备。",
+      "historical_info": "电动机的历程始于 1821 年法拉第演示电磁旋转。到 1830 年代首批实用的直流电动机开始驱动印刷机，但受限于昂贵的电池电力。真正的革命发生在 19 世纪末，特斯拉和费拉里斯率先发明了感应电动机，使工业界得以摆脱集中的蒸汽机和危险的巨型皮带。这一转变将电动机从实验室奇迹转变为现代世界的无声“肌肉”，支撑了从创造摩天大楼的首批电梯到 21 世纪电动汽车时代的高扭矩推进系统的一切。",
+      "facts": "电动机是效率的杰作，通常能将超过 95% 的电能转化为运动，而内燃机很难达到 35%。它充当“可逆机器”——如果你手动旋转大多数电动机的轴，它们会瞬间变成发电机产生电力。某些专用电动机被设计为在太空真空或极低温环境下运行，而另一些则小到能穿行于人体动脉辅助心脏跳动。有趣的是，史上最强大的电动机功率超过 10 万马力，且它们在开启的一微秒内就能提供全部拉力（扭矩），不像燃料引擎必须提速才能达到峰值。"
+    },
+    "battery": {
+      "name": "电池",
+      "description": "一种电化学电池或电池组，通过受控化学反应将储存的化学能直接转化为电能。",
+      "historical_info": "电池的概念从 18 世纪末青蛙腿上的“伽伐尼”实验演变为 1800 年伏特发明的首个功能装置——伏特堆。这项发明证明了电力可以通过化学方式产生。19 世纪中叶随着电报业需求稳定的移动电源，电池的价值转向战略必需品。20 世纪后期 1991 年锂离子电池的商业化实现了最终的范式转移，将电池从沉重的铅基工业块转型为移动计算和电动汽车革命的高能量密度“心脏”。",
+      "facts": "电池本质上是一个“分子泵”，当离子在电解质中往返于正负极之间时，强迫电子通过外部电路。它充当化学储能库——因为没有移动部件，绝缘良好的电池可以保持电量数年。有趣的是，“巴格达电池”暗示人类在伏特之前数千年就可能利用醋和铜罐进行过简单的电镀实验。今天，地球上最大的电池占据了整座建筑，储存的能量足以供数万个家庭使用，充当允许在日落或风停后继续使用风光能源的关键缓冲。"
+    },
+    "pump": {
+      "name": "泵",
+      "description": "一种旨在通过创造压力差强迫介质流经系统来输送流体或气体的机械设备。",
+      "historical_info": "泵从古代的“桔槔”和“阿基米德螺旋”（旨在提升尼罗河水灌溉的精巧木旋）演变为定义现代基础设施的高速离心系统。1698 年萨弗里获得首个蒸汽泵专利，证明了排干矿井积水以进行更深层开采的可能性，其价值从局部农业工具转向战略工业支柱。这将其从村庄水井带到了工业革命的核心。21 世纪其认知经历了技术微型化，从巨大的铸铁怪兽转型为能通过人体血管精准输送救命药物的微观“芯片实验室”泵。",
+      "facts": "泵本质上是一个“压力引擎”；它其实并不“吸入”流体，而是在入口处创造低压区，让大气压或系统压将流体“推”入机器。它充当“生物双胞胎”——人类心脏是世界上最可靠的泵。因为不同流体特性不同，工程师设计了模拟喉咙吞咽动作的“蠕动泵”，允许输送强酸或娇弱的血细胞而不接触机械活动件。有趣的是，全球最大的泵位于新奥尔良和荷兰，每秒能移动数千吨水——不到两次心跳就能抽干一个奥运泳池——以防止城市沉入海洋。"
+    },
+    "turbine-blade": {
+      "name": "涡轮叶片",
+      "description": "一种机翼形状的精密组件，旨在从运动的流体或气流中提取动能并将其转化为高扭矩旋转机械功。",
+      "historical_info": "涡轮叶片从古代水轮的扁平木桨和风车的帆布翼演变为现代喷气时代的高性能气动型材。1880 年代帕森斯开发出多级蒸汽涡轮机，证明了曲线叶片发电效率远超活塞机，其价值从磨粮工具转向至高战略优先级。二战期间这将其从工匠木工作坊带到了冶金学最前沿，成为唯一能在首批喷气引擎地狱般内部存活的零件。21 世纪其认知经历了环境革命，转型为让单次旋转就能供电整座城市的巨大、轻质碳纤维复合材料件。",
+      "facts": "涡轮叶片是“热力幸存者”——在现代喷气引擎中，其工作气流温度比金属熔点还高 200°C，仅靠激光钻孔喷出的冷气“薄膜”保护才不至于液化。它充当“离心举重员”——全速运转时，作用在单片叶片上的离心力相当于满载货运列车的重量，但叶片形变不得超过头发丝厚度。因为微小裂纹会导致灾难性后果，许多高端叶片被生长为“单晶”金属，即整个 25 厘米长的组件是一个巨大的、连续的原子对齐结构。有趣的是，如果将叶片放大到山脉大小，其表面偏差不会超过一颗小鹅卵石。"
+    },
+    "electronic-circuit": {
+      "name": "电子电路",
+      "description": "由导电迹线和组件组成的路径，引导电子流动以处理信号、存储数据或执行逻辑运算。",
+      "historical_info": "电子电路从 19 世纪末真空管由杂乱手工焊线连接的“点对点”布线演变为印制电路板（PCB）的流线化效率。二战期间随着雷达和首台数字电脑的开发，其价值从实验奇闻转向战略全球支柱。最重大的转变发生在 1958 年基尔比和诺伊斯独立将多个组件集成到单片锗和硅上。这使电路从手动组装的机械板转向“集成电路（IC）”，开启了数字革命，让曾填满房间的算力能塞进掌中设备。",
+      "facts": "电子电路本质上是“自动逻辑门”——通过在硅片上结合数十亿个微观晶体管，它只需开关通路就能每秒执行万亿次计算。它充当“物理语言”：利用布尔逻辑将物理上的高低电压转化为构成互联网一切代码的 1 和 0。因为迹线可以用光刻技术蚀刻，现代电路是人类建造过最复杂的结构，某些特征仅几个原子宽。有趣的是，电路现在可以像报纸油墨一样“印刷”到柔性塑料甚至人体皮肤上，实现了无需刚性硬件就能监测心跳的穿戴式医疗传感器。"
+    },
+    "wooden-tools": {
+      "name": "木制工具",
+      "description": "由硬木或风干木材打造的手动器具，用于基础机械任务和早期材料加工。",
+      "historical_info": "木制工具从旧石器时代对断枝的随机使用演变为定义人类生存的高超工具。随着早期文明开发出“火硬化”技术（证明烧焦的木头能像软金属一样硬），其价值从局部生存必需转向战略全球基础。这将其从简单的木棍引向复杂的牛拉犁和红铜时代的握柄，木材为金属刃提供了必需的杠杆。工业革命时期其认知经历了最后的转变，从主要结构材料转型为精密木工和传统工艺中使用的专用木槌和夹具。",
+      "facts": "木制工具本质上是“天然复合材料”：木纹充当内部增强纤维，提供极高的强度重量比，让早期人类能轻便携带整套工具。它们充当“减震器”——不像石或金属，木材细胞结构天然能吸收震动，这就是为什么今天锤柄斧柄仍首选木头以防“手部振动综合征”。古代工具匠是“生物工程师”，为弓选柔韧的白蜡木，为楔选致密的橡木，为机械轴承选含油的黄杨木。有趣的是，史上最古老的木器“舍宁根矛”距今 30 万年，其配重之精准让其具有类似现代奥运标枪的空气动力学性能。"
+    },
+    "stone-tools": {
+      "name": "石制工具",
+      "description": "通过岩石削减制造的手动器具，为重型材料加工提供优越硬度和锋利边缘。",
+      "historical_info": "石制工具从 260 万年前获取骨髓的粗糙“奥杜威（Oldowan）”鹅卵石演变为统治人类史一百多万年的高度复杂的“阿舍利（Acheulean）”手斧。当人类发现“贝壳状断裂”（证明某些石头能剥离出比手术刀还锋利的刃）时，其价值转向至高战略优先级。这将其从河床引向专门的“采石场”和贸易网，高质燧石和黑曜石在数百公里间被交换。新石器时代其认知经历了最后的转型，从打击工具变为磨光的玉石和玄武岩器具，实现了大规模农业和首批永久定居。",
+      "facts": "石制工具本质上是“冻结的液体”：黑曜石等材料是无内部晶体结构的火山玻璃，允许刃口剥离到仅几个分子厚。它们充当“热力幸存者”——不像金属工具受热会退火变软，石具在拨弄红煤或加工高摩擦材料时仍能保持稳定。因为“打制（knapping）”需深谙几何与力度，制造对称的双面手斧被认为是人类首次展现复杂抽象思维的证据。有趣的是，现代外科医生在特殊手术中仍偶尔使用黑曜石手术刀，因为它们造成的组织损伤和疤痕比最精细的钢刃都要小。"
+    },
+    "iron-tools": {
+      "name": "铁制工具",
+      "description": "由精炼铁锻造的高强度手动器具，为重工业和农业劳动提供卓越的硬度和抗冲击性。",
+      "historical_info": "铁制工具从公元前 1200 年开启了革命性的铁器时代。由于铁矿石远比青铜所需的铜锡丰富，其价值从精英阶层的局部奢侈品转向普通劳动者的至高战略必需品。这将其从赫梯帝国的专门作坊引向每个农夫和战士手中，实现了技术的平民化，导致了大帝国的崛起和为农业进行的大规模森林砍伐。中世纪其认知经历了最后的工业演变，从手锻“海绵铁”转向为工业革命铺平道路的标准化水力落锤产品。",
+      "facts": "铁制工具本质上是“碳回火晶体结构”：通过木炭火加热并锻打，铁匠手动“折叠”出杂质并引入微量碳以获得韧性。它们充当“可重磨资产”——不像石具断了只能扔，铁具在寿命期内能重新加热、塑形并研磨出利刃数百次。因为铁熔点远高于青铜，其产出需发明“风箱”和“块炼铁炉”来达到 1,200°C 以上。有趣的是，最早的铁具是“地外产物”：古埃及和苏美尔人在学会采矿前曾用陨石铁打造礼仪匕首，称其为“天降之金”。"
+    },
+    "electricity": {
+      "name": "电力",
+      "description": "伴随电荷的存在与运动产生的物理现象，被利用为一种通用的能量载体。",
+      "historical_info": "电力从在琥珀中观察到的静电火花或恐怖的闪电这种神秘自然力演变为全球文明的基本命脉。18 世纪其价值尚属局部科学奇闻，19 世纪末“电流之战”使其转向至高战略商品。这一时期电力从爱迪生的局部直流电（DC）网转向特斯拉和西屋的高压交流电（AC）系统，证明了能源能长途传输数百英里。20 世纪中叶其认知经历了永久位移，从城市奢侈品变为普世必需品，支撑了工业和数字时代的基石。",
+      "facts": "电力本质上是价电子的运动：当电位差施加于铜等导体，它在原子链间推挤电子。它充当通用能量货币，能以近乎完美的效率转化为热、光或机械能。因为电力以近光速（约每秒 30 万公里）传输，数千公里外的灯泡在电路闭合的一瞬间就会点亮。有趣的是，电力在生物学上也是根本性的：人类的心脏跳动和大脑处理信息，全靠专门细胞产生内部电脉冲来协调生命功能。"
+    },
+    "steam": {
+      "name": "蒸汽",
+      "description": "利用受压水蒸气作为机械功和热能传递的高能媒介。",
+      "formula": "H₂O（液态）→ H₂O（气态）",
+      "historical_info": "蒸汽从 1 世纪亚历山大的希罗所造的“汽转球”这种古代奇闻演变为工业革命的主要引擎。18 世纪瓦特完善了分离冷凝器，证明了蒸汽能提供抽干矿井和驱动工厂所需的强大持续动力，其价值转向至高战略优先级。这使文明摆脱了对畜力和水力的依赖，开启了跨洲的海轮和机车时代。20 世纪其认知经历了最后的工业演化，从直接机械驱动者转型为巨型涡轮机内部产生全球绝大部分电力的无形高压伟力。",
+      "facts": "蒸汽本质上是高密度能量载体：水变为蒸汽时体积膨胀 1,600 倍，产生驱动涡轮高速旋转的巨大压力。由于拥有“潜热”，它作为热交换介质效率极高，即它储存了海量能量仅为维持气态，接触冷表面时会瞬间释放。因为蒸汽能被加热到远超水沸点，现代电站使用“过热蒸汽”以确保无液滴损伤发电机。有趣的是，蒸汽对人眼是不可见的：壶嘴或冷却塔喷出的白色“云”其实是接触冷空气后已开始凝结回液滴的水雾。"
+    }
+  },
+  "tutorial": {
+    "welcome": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "你好，主管。我是米拉·霍兰德博士，Realindustry 公司的技术联络员。欢迎来到 08 号新工业区——这是你的新职责所在。我知道你在想什么：“我的设备呢？我的先进机械呢？” 嗯，星际运费是……天文数字。字面意义上的。公司计算过，运送一名拥有基础知识的人类比运送一集装箱工具的成本效益要高出 340%。所以恭喜你——你比工具箱还便宜。我在这里是为了确保你了解你的使命以及你可以使用的工具。"
+    },
+    "mission": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "你的首要目标很明确：在 Kepler-442b 上建立一个完全运行的工业殖民地。终极目标？生产出一台功能完备的超空间引擎以进行星际扩张。这将需要战略性的资源管理、技术研究和高效的生产链。公司期待看到结果，主管。"
+    },
+    "gather-wood": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "让我们从基础开始。你在列表中看到两个建筑：树林和石场。点击“树林”以打开其生产界面。"
+    },
+    "select-wood-recipe": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "很好。现在从列表中选择配方“收集落枝”。"
+    },
+    "set-wood-amount": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "通过点击 x10 预设按钮，将生产数量设置为 10 个单位。"
+    },
+    "produce-wood": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "现在按下“生产”按钮来收集木材。"
+    },
+    "back-from-tree": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "非常出色。现在点击“返回”按钮回到建筑菜单。"
+    },
+    "gather-stone": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "现在让我们收集石头。点击“石场”。"
+    },
+    "select-stone-recipe": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "选择配方“收集散石”。"
+    },
+    "set-stone-amount": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "通过点击 x10 预设按钮，将数量设置为 10 个单位。"
+    },
+    "produce-stone": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "按下“生产”以收集石头。"
+    },
+    "back-from-stone": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "做得好。返回建筑菜单。"
+    },
+    "open-research": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "技术是你成功的阶梯。点击顶部的“研究”选项卡。"
+    },
+    "jump-to-tier": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "现在点击顶部的“跳转到等级：1”按钮以导航到第1级研究。"
+    },
+    "select-research": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "点击“基础制作技术”研究节点以展开它。"
+    },
+    "start-research": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "现在点击展开节点内的“研究”按钮开始研究。"
+    },
+    "back-to-buildings": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "完美。现在回到“建筑”选项卡。"
+    },
+    "hover-hand-crafting": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "你已经解锁了一个新建筑：手工制作。将鼠标悬停在其卡片上以查看建造要求。"
+    },
+    "wait-for-construction": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "我看到你需要更多的资源。收集所需物资，然后建造“手工制作”建筑。"
+    },
+    "almanac": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "在我让你开始工作之前，还有一个工具：图鉴。这个综合数据库包含有关每种资源、配方和生产链的信息。点击“图鉴”选项卡以打开它。"
+    },
+    "conclusion": {
+      "speaker": "米拉·霍兰德博士",
+      "text": "以上就是基本要点。你现在已经拥有了开始所需的一切。请记住：公司会监控进度。效率会得到奖励，而停滞不前则会被……记录在案。我会关注你的各项指标，主管。别让我们失望。祝你好运。"
+    }
+  },
+  "terminusFragments": {}
+}

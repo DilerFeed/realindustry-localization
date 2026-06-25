@@ -1,0 +1,44 @@
+name: Translation issue
+description: Report a typo, awkward wording, wrong term, missing translation, or UI text problem.
+title: "[Translation]: "
+labels:
+  - translation
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - English / en
+        - German / de
+        - Spanish / es
+        - French / fr
+        - Italian / it
+        - Japanese / ja
+        - Russian / ru
+        - Ukrainian / uk
+        - Simplified Chinese / zh
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: Paste the current text, or describe where it appears in the game.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text
+      description: Paste your suggested correction.
+    validations:
+      required: false
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why this should change
+      description: Explain the typo, grammar issue, terminology issue, tone problem, or UI problem.
+    validations:
+      required: true

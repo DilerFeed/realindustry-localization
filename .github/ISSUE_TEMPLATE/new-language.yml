@@ -1,0 +1,33 @@
+name: New language request
+description: Request or offer help with a new localization language.
+title: "[Language request]: "
+labels:
+  - translation
+  - new-language
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Language name and code, if known.
+      placeholder: Portuguese / pt-BR
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Can you help translate or review it?
+      options:
+        - I can translate
+        - I can review
+        - I can help with both
+        - I am only requesting the language
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Add regional preference, terminology notes, or any relevant context.
+    validations:
+      required: false
