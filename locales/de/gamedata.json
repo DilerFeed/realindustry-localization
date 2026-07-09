@@ -4035,17 +4035,17 @@
       "speaker": "Dr. Mira Holland",
       "text": "Ihre Kolonisten sammeln nun Holz, während Sie sich um andere Aufgaben kümmern. Schließen Sie den Editor."
     },
-    "open-automation-board": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Öffnen Sie am Bildschirmrand die Automatisierungstafel. Dort sehen Sie alle laufenden Schemata der Kolonie."
-    },
-    "close-automation-board": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Die Tafel zeigt aktive Programme, geschätzte Ein- und Ausgaberaten, Strombedarf, Produktionsverlauf und blockierte Schemata. Damit finden Sie Probleme, die in einem einzelnen Gebäude leicht übersehen werden. Klappen Sie die Tafel anschließend wieder ein."
-    },
     "back-from-automated-tree": {
       "speaker": "Dr. Mira Holland",
       "text": "Kehren Sie zur Gebäudeliste zurück."
+    },
+    "open-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Drücken Sie am Bildschirmrand \"AUTO\", um die Automatisierungstafel zu öffnen. Dort sehen Sie alle laufenden Schemata der Kolonie."
+    },
+    "close-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Die Tafel zeigt aktive Programme, geschätzte Ein- und Ausgaberaten, Strombedarf, Produktionsverlauf und blockierte Schemata. Damit finden Sie Probleme, die in einem einzelnen Gebäude leicht übersehen werden. Klappen Sie die Tafel ein, indem Sie auf ihren rechten Rand drücken."
     },
     "hover-hand-crafting": {
       "speaker": "Dr. Mira Holland",
@@ -4053,15 +4053,16 @@
     },
     "pin-hand-crafting": {
       "speaker": "Dr. Mira Holland",
-      "text": "Heften Sie diese Anforderungen an die Einsatztafel. Ein angeheftetes Projekt reserviert und verbraucht keine Rohstoffe. Es hält die aktuellen Anforderungen lediglich sichtbar."
+      "text": "Heften Sie diese Anforderungen an die Einsatztafel. Ein angeheftetes Projekt reserviert und verbraucht keine Rohstoffe. Es hält die aktuellen Anforderungen lediglich sichtbar.",
+      "hint": "(drücken Sie das Stecknadel-Symbol)"
     },
     "open-operations-board": {
       "speaker": "Dr. Mira Holland",
-      "text": "Öffnen Sie die Einsatztafel am Bildschirmrand."
+      "text": "Drücken Sie am Bildschirmrand \"TAFEL ÖFFNEN\", um die Einsatztafel zu öffnen."
     },
     "close-operations-board": {
       "speaker": "Dr. Mira Holland",
-      "text": "Die Tafel fasst Anforderungen angehefteter Gebäude, Forschungen und Rezepte zusammen und vergleicht sie mit Ihrem aktuellen Bestand. Wenn „Auf Spielereignisse reagieren“ aktiviert ist, werden abgeschlossene Projekte automatisch entfernt. Klappen Sie die Tafel ein und beschaffen Sie die fehlenden Rohstoffe."
+      "text": "Die Tafel fasst Anforderungen angehefteter Gebäude, Forschungen und Rezepte zusammen und vergleicht sie mit Ihrem aktuellen Bestand. Wenn „Auf Spielereignisse reagieren“ aktiviert ist, werden abgeschlossene Projekte automatisch entfernt. Klappen Sie die Tafel ein, indem Sie auf ihren rechten Rand drücken, und beschaffen Sie die fehlenden Rohstoffe."
     },
     "wait-for-construction": {
       "speaker": "Dr. Mira Holland",

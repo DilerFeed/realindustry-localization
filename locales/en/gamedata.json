@@ -4035,17 +4035,17 @@
       "speaker": "Dr. Mira Holland",
       "text": "Your colonists will now gather wood while you work elsewhere. Close the editor."
     },
-    "open-automation-board": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Open the Automation Board from the edge of the screen. It gives you a colony-wide view of every running scheme."
-    },
-    "close-automation-board": {
-      "speaker": "Dr. Mira Holland",
-      "text": "This board shows active programs, estimated input and output rates, electricity demand, production history, and blocked schemes. Use it to find problems that are difficult to notice inside one building. Collapse the board when you are ready."
-    },
     "back-from-automated-tree": {
       "speaker": "Dr. Mira Holland",
       "text": "Return to the Buildings list."
+    },
+    "open-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Press the \"OPEN AUTO\" edge button to open the Automation Board. It gives you a colony-wide view of every running scheme."
+    },
+    "close-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "This board shows active programs, estimated input and output rates, electricity demand, production history, and blocked schemes. Use it to find problems that are difficult to notice inside one building. When you are ready, collapse the board by pressing its right edge."
     },
     "hover-hand-crafting": {
       "speaker": "Dr. Mira Holland",
@@ -4053,15 +4053,16 @@
     },
     "pin-hand-crafting": {
       "speaker": "Dr. Mira Holland",
-      "text": "Pin these requirements to the Operations Board. Pinning a project does not reserve or spend resources. It keeps the live requirements visible while you work elsewhere."
+      "text": "Pin these requirements to the Operations Board. Pinning a project does not reserve or spend resources. It keeps the live requirements visible while you work elsewhere.",
+      "hint": "(press the pin icon)"
     },
     "open-operations-board": {
       "speaker": "Dr. Mira Holland",
-      "text": "Open the Operations Board from the edge of the screen."
+      "text": "Press the \"OPEN BOARD\" edge button to open the Operations Board."
     },
     "close-operations-board": {
       "speaker": "Dr. Mira Holland",
-      "text": "The board combines requirements from pinned buildings, research, and recipes, then compares the total with your current inventory. With Auto-react enabled, completed projects are removed automatically. Collapse the board and gather what is still missing."
+      "text": "The board combines requirements from pinned buildings, research, and recipes, then compares the total with your current inventory. With Auto-react enabled, completed projects are removed automatically. Collapse the board by pressing its right edge, then gather what is still missing."
     },
     "wait-for-construction": {
       "speaker": "Dr. Mira Holland",

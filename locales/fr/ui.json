@@ -20,7 +20,7 @@
     "done": "Terminé"
   },
   "saveLoading": {
-    "kicker": "CONTRÔLE DE COLONIE // RESTAURATION DE SESSION",
+    "kicker": "CONTRÔLE DE LA COLONIE // RESTAURATION DE SESSION",
     "title": "Chargement de la colonie",
     "site": "Restauration de la télémétrie de {{building}}",
     "systems": "Restauration des systèmes industriels"
@@ -829,7 +829,8 @@
     "trainingComplete": "✓ Formation accomplie",
     "dragHint": "Faites glisser pour déplacer",
     "compactButton": "Mode compact",
-    "expandButton": "Mode complet"
+    "expandButton": "Mode complet",
+    "guidedActionLocked": "Suivez l’étape du tutoriel"
   },
   "notifications": {
     "autoSaved": "Sauvegarde automatique effectuée",

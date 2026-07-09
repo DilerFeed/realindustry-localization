@@ -22,7 +22,7 @@
   "saveLoading": {
     "kicker": "КЕРУВАННЯ КОЛОНІЄЮ // ВІДНОВЛЕННЯ СЕАНСУ",
     "title": "Завантаження колонії",
-    "site": "Відновлення телеметрії {{building}}",
+    "site": "Відновлення телеметрії: {{building}}",
     "systems": "Відновлення промислових систем"
   },
   "startScreen": {
@@ -831,7 +831,8 @@
     "trainingComplete": "✓ Навчання завершено",
     "dragHint": "Перетягніть, щоб перемістити",
     "compactButton": "Компактний режим",
-    "expandButton": "Повний режим"
+    "expandButton": "Повний режим",
+    "guidedActionLocked": "Виконайте крок навчання"
   },
   "notifications": {
     "autoSaved": "Автозбережено",

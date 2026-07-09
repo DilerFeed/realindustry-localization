@@ -842,7 +842,8 @@
     "trainingComplete": "✓ Training Complete",
     "dragHint": "Drag to move",
     "compactButton": "Compact mode",
-    "expandButton": "Full mode"
+    "expandButton": "Full mode",
+    "guidedActionLocked": "Follow Tutorial Step"
   },
   "notifications": {
     "autoSaved": "Auto-saved",

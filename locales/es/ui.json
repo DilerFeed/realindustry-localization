@@ -829,7 +829,8 @@
     "trainingComplete": "✓ Entrenamiento completado",
     "dragHint": "Arrastra para mover",
     "compactButton": "Modo compacto",
-    "expandButton": "Modo completo"
+    "expandButton": "Modo completo",
+    "guidedActionLocked": "Siga el paso del tutorial"
   },
   "notifications": {
     "autoSaved": "Guardado automáticamente",

@@ -829,7 +829,8 @@
     "trainingComplete": "✓ 训练完成",
     "dragHint": "拖动以移动",
     "compactButton": "紧凑模式",
-    "expandButton": "完整模式"
+    "expandButton": "完整模式",
+    "guidedActionLocked": "按教程步骤操作"
   },
   "notifications": {
     "autoSaved": "已自动保存",

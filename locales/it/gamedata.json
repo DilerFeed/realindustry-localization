@@ -4035,17 +4035,17 @@
       "speaker": "Dr. Mira Holland",
       "text": "I coloni ora raccolgono legno mentre lei si occupa di altro. Chiuda l’editor."
     },
-    "open-automation-board": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Apra la Scheda automazione dal bordo dello schermo. Qui sono riuniti tutti gli schemi attivi della colonia."
-    },
-    "close-automation-board": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Il pannello mostra programmi attivi, flussi stimati in entrata e in uscita, consumo elettrico, cronologia produttiva e schemi bloccati. È utile per trovare problemi difficili da notare in un singolo edificio. Lo richiuda quando ha finito."
-    },
     "back-from-automated-tree": {
       "speaker": "Dr. Mira Holland",
       "text": "Torni all’elenco degli edifici."
+    },
+    "open-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Prema \"AUTO\" sul bordo dello schermo per aprire la Scheda automazione. Qui sono riuniti tutti gli schemi attivi della colonia."
+    },
+    "close-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Il pannello mostra programmi attivi, flussi stimati in entrata e in uscita, consumo elettrico, cronologia produttiva e schemi bloccati. È utile per trovare problemi difficili da notare in un singolo edificio. Quando ha finito, riduca il pannello premendo il suo bordo destro."
     },
     "hover-hand-crafting": {
       "speaker": "Dr. Mira Holland",
@@ -4053,15 +4053,16 @@
     },
     "pin-hand-crafting": {
       "speaker": "Dr. Mira Holland",
-      "text": "Fissi questi requisiti nella Bacheca operativa. Un progetto fissato non riserva e non consuma risorse. Mantiene semplicemente aggiornate le necessità mentre lavora altrove."
+      "text": "Fissi questi requisiti nella Bacheca operativa. Un progetto fissato non riserva e non consuma risorse. Mantiene semplicemente aggiornate le necessità mentre lavora altrove.",
+      "hint": "(premi l’icona della puntina)"
     },
     "open-operations-board": {
       "speaker": "Dr. Mira Holland",
-      "text": "Apra la Bacheca operativa dal bordo dello schermo."
+      "text": "Prema \"APRI BACHECA\" sul bordo dello schermo per aprire la Bacheca operativa."
     },
     "close-operations-board": {
       "speaker": "Dr. Mira Holland",
-      "text": "Il pannello riunisce i requisiti di edifici, ricerche e ricette fissati e li confronta con l’inventario attuale. Con «Reagisci agli eventi di gioco» attivo, i progetti completati vengono rimossi automaticamente. Richiuda il pannello e raccolga ciò che manca."
+      "text": "Il pannello riunisce i requisiti di edifici, ricerche e ricette fissati e li confronta con l’inventario attuale. Con «Reagisci agli eventi di gioco» attivo, i progetti completati vengono rimossi automaticamente. Riduca il pannello premendo il suo bordo destro e raccolga ciò che manca."
     },
     "wait-for-construction": {
       "speaker": "Dr. Mira Holland",

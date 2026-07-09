@@ -844,7 +844,8 @@
     "trainingComplete": "✓ Обучение завершено",
     "dragHint": "Перетащите, чтобы переместить",
     "compactButton": "Компактный режим",
-    "expandButton": "Полный режим"
+    "expandButton": "Полный режим",
+    "guidedActionLocked": "Следуйте шагу обучения"
   },
   "notifications": {
     "autoSaved": "Автосохранение выполнено",

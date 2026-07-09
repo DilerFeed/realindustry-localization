@@ -22,7 +22,7 @@
   "saveLoading": {
     "kicker": "CONTROLLO COLONIA // RIPRISTINO SESSIONE",
     "title": "Caricamento colonia",
-    "site": "Ripristino della telemetria di {{building}}",
+    "site": "Ripristino telemetria di {{building}}",
     "systems": "Ripristino dei sistemi industriali"
   },
   "startScreen": {
@@ -829,7 +829,8 @@
     "trainingComplete": "✓ Addestramento completato",
     "dragHint": "Trascina per spostare",
     "compactButton": "Modalità compatta",
-    "expandButton": "Modalità completa"
+    "expandButton": "Modalità completa",
+    "guidedActionLocked": "Segui il passaggio del tutorial"
   },
   "notifications": {
     "autoSaved": "Salvataggio automatico effettuato",

@@ -4035,17 +4035,17 @@
       "speaker": "Dr. Mira Holland",
       "text": "Les colons ramassent désormais du bois pendant que vous vous occupez d’autres tâches. Fermez l’éditeur."
     },
-    "open-automation-board": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Ouvrez le Tableau d’automatisation depuis le bord de l’écran. Il présente tous les schémas actifs de la colonie."
-    },
-    "close-automation-board": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Le tableau affiche les programmes actifs, les débits estimés, la consommation électrique, l’historique de production et les schémas bloqués. Il permet de repérer des problèmes difficiles à voir dans un seul bâtiment. Refermez-le lorsque vous avez terminé."
-    },
     "back-from-automated-tree": {
       "speaker": "Dr. Mira Holland",
       "text": "Revenez à la liste des bâtiments."
+    },
+    "open-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Appuyez sur \"AUTO\" au bord de l’écran pour ouvrir le Tableau d’automatisation. Il présente tous les schémas actifs de la colonie."
+    },
+    "close-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Le tableau affiche les programmes actifs, les débits estimés, la consommation électrique, l’historique de production et les schémas bloqués. Il permet de repérer des problèmes difficiles à voir dans un seul bâtiment. Lorsque vous avez terminé, repliez le tableau en appuyant sur son bord droit."
     },
     "hover-hand-crafting": {
       "speaker": "Dr. Mira Holland",
@@ -4053,15 +4053,16 @@
     },
     "pin-hand-crafting": {
       "speaker": "Dr. Mira Holland",
-      "text": "Épinglez ces conditions au Tableau des opérations. Un projet épinglé ne réserve et ne dépense aucune ressource. Il garde simplement les besoins à jour pendant que vous travaillez ailleurs."
+      "text": "Épinglez ces conditions au Tableau des opérations. Un projet épinglé ne réserve et ne dépense aucune ressource. Il garde simplement les besoins à jour pendant que vous travaillez ailleurs.",
+      "hint": "(appuyez sur l’icône d’épingle)"
     },
     "open-operations-board": {
       "speaker": "Dr. Mira Holland",
-      "text": "Ouvrez le Tableau des opérations depuis le bord de l’écran."
+      "text": "Appuyez sur \"OUVRIR LE TABLEAU\" au bord de l’écran pour ouvrir le Tableau des opérations."
     },
     "close-operations-board": {
       "speaker": "Dr. Mira Holland",
-      "text": "Le tableau regroupe les besoins des bâtiments, recherches et recettes épinglés, puis les compare à votre inventaire. Si « Réagir aux événements du jeu » est activé, les projets terminés sont retirés automatiquement. Refermez le tableau et rassemblez ce qui manque."
+      "text": "Le tableau regroupe les besoins des bâtiments, recherches et recettes épinglés, puis les compare à votre inventaire. Si « Réagir aux événements du jeu » est activé, les projets terminés sont retirés automatiquement. Repliez le tableau en appuyant sur son bord droit, puis rassemblez ce qui manque."
     },
     "wait-for-construction": {
       "speaker": "Dr. Mira Holland",

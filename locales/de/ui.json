@@ -20,9 +20,9 @@
     "done": "Fertig"
   },
   "saveLoading": {
-    "kicker": "KOLONIEKONTROLLE // SITZUNG WIEDERHERSTELLEN",
+    "kicker": "KOLONIESTEUERUNG // SITZUNG WIEDERHERSTELLEN",
     "title": "Kolonie wird geladen",
-    "site": "{{building}}-Telemetrie wird wiederhergestellt",
+    "site": "Telemetrie von {{building}} wird wiederhergestellt",
     "systems": "Industriesysteme werden wiederhergestellt"
   },
   "startScreen": {
@@ -829,7 +829,8 @@
     "trainingComplete": "✓ Training abgeschlossen",
     "dragHint": "Zum Verschieben ziehen",
     "compactButton": "Kompaktmodus",
-    "expandButton": "Vollansicht"
+    "expandButton": "Vollansicht",
+    "guidedActionLocked": "Tutorial-Schritt ausführen"
   },
   "notifications": {
     "autoSaved": "Automatisch gespeichert",

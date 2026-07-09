@@ -4035,17 +4035,17 @@
       "speaker": "Dra. Mira Holland",
       "text": "Los colonos ya recogen madera mientras usted atiende otras tareas. Cierre el editor."
     },
-    "open-automation-board": {
-      "speaker": "Dra. Mira Holland",
-      "text": "Abra el Panel de automatización desde el borde de la pantalla. Allí verá todos los esquemas activos de la colonia."
-    },
-    "close-automation-board": {
-      "speaker": "Dra. Mira Holland",
-      "text": "El panel muestra programas activos, tasas estimadas de entrada y salida, consumo eléctrico, historial de producción y esquemas bloqueados. Sirve para detectar problemas que pueden pasar inadvertidos dentro de un solo edificio. Ciérrelo cuando termine."
-    },
     "back-from-automated-tree": {
       "speaker": "Dra. Mira Holland",
       "text": "Vuelva a la lista de edificios."
+    },
+    "open-automation-board": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Pulse \"AUTO\" en el borde de la pantalla para abrir el Panel de automatización. Allí verá todos los esquemas activos de la colonia."
+    },
+    "close-automation-board": {
+      "speaker": "Dra. Mira Holland",
+      "text": "El panel muestra programas activos, tasas estimadas de entrada y salida, consumo eléctrico, historial de producción y esquemas bloqueados. Sirve para detectar problemas que pueden pasar inadvertidos dentro de un solo edificio. Cuando termine, pliegue el panel pulsando su borde derecho."
     },
     "hover-hand-crafting": {
       "speaker": "Dra. Mira Holland",
@@ -4053,15 +4053,16 @@
     },
     "pin-hand-crafting": {
       "speaker": "Dra. Mira Holland",
-      "text": "Fije estos requisitos en el Tablero de operaciones. Un proyecto fijado no reserva ni gasta recursos. Solo mantiene visibles los requisitos actuales mientras trabaja en otra cosa."
+      "text": "Fije estos requisitos en el Tablero de operaciones. Un proyecto fijado no reserva ni gasta recursos. Solo mantiene visibles los requisitos actuales mientras trabaja en otra cosa.",
+      "hint": "(pulse el icono de chincheta)"
     },
     "open-operations-board": {
       "speaker": "Dra. Mira Holland",
-      "text": "Abra el Tablero de operaciones desde el borde de la pantalla."
+      "text": "Pulse \"ABRIR TABLERO\" en el borde de la pantalla para abrir el Tablero de operaciones."
     },
     "close-operations-board": {
       "speaker": "Dra. Mira Holland",
-      "text": "El panel reúne los requisitos de edificios, investigaciones y recetas fijados y los compara con el inventario actual. Con «Reaccionar a eventos del juego» activado, los proyectos completados se eliminan automáticamente. Cierre el panel y reúna lo que todavía falte."
+      "text": "El panel reúne los requisitos de edificios, investigaciones y recetas fijados y los compara con el inventario actual. Con «Reaccionar a eventos del juego» activado, los proyectos completados se eliminan automáticamente. Pliegue el panel pulsando su borde derecho y reúna lo que todavía falte."
     },
     "wait-for-construction": {
       "speaker": "Dra. Mira Holland",
