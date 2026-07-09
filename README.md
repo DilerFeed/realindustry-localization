@@ -6,22 +6,42 @@ This repository exists so players can report translation issues, suggest fixes, 
 
 ## What Is Included
 
-The current public files are demo-only localization files:
+The current public files include demo gameplay text and shared UI text:
 
 ```text
 locales/
-  en/gamedata.json  # English source text / baseline
-  de/gamedata.json  # German
-  es/gamedata.json  # Spanish
-  fr/gamedata.json  # French
-  it/gamedata.json  # Italian
-  ja/gamedata.json  # Japanese
-  ru/gamedata.json  # Russian
-  uk/gamedata.json  # Ukrainian
-  zh/gamedata.json  # Simplified Chinese
+  en/
+    gamedata.json  # English demo gameplay source text / baseline
+    ui.json        # English UI source text / baseline
+  de/
+    gamedata.json  # German demo gameplay text
+    ui.json        # German UI text
+  es/
+    gamedata.json  # Spanish demo gameplay text
+    ui.json        # Spanish UI text
+  fr/
+    gamedata.json  # French demo gameplay text
+    ui.json        # French UI text
+  it/
+    gamedata.json  # Italian demo gameplay text
+    ui.json        # Italian UI text
+  ja/
+    gamedata.json  # Japanese demo gameplay text
+    ui.json        # Japanese UI text
+  ru/
+    gamedata.json  # Russian demo gameplay text
+    ui.json        # Russian UI text
+  uk/
+    gamedata.json  # Ukrainian demo gameplay text
+    ui.json        # Ukrainian UI text
+  zh/
+    gamedata.json  # Simplified Chinese demo gameplay text
+    ui.json        # Simplified Chinese UI text
 ```
 
-The English file is the source of truth for keys and structure. Other languages should keep the same JSON structure and translate only the text values.
+`gamedata.json` is scoped to the public demo. `ui.json` is copied from the current full-version UI localization because the demo uses the same UI namespace.
+
+The English files are the source of truth for keys and structure. Other languages should keep the same JSON structure and translate only the text values. Locale-specific plural keys such as `_few` or `_many` are allowed where the language needs them.
 
 ## How To Help
 
@@ -45,7 +65,7 @@ Please follow these rules when editing files:
 - Use UTF-8 encoding.
 - Avoid submitting raw machine translation without human review.
 
-When in doubt, compare your language file with `locales/en/gamedata.json`.
+When in doubt, compare your language file with `locales/en/gamedata.json` or `locales/en/ui.json`.
 
 ## Validate Changes
 
@@ -61,7 +81,7 @@ or:
 node tools/validate-locales.js
 ```
 
-The validator checks that every locale has the same translatable string keys as English and that all JSON files can be parsed.
+The validator checks that every locale has the same translatable string keys as English across both `gamedata.json` and `ui.json`, allows valid locale-specific plural variants, and confirms that all JSON files can be parsed.
 
 ## Translation Tone
 

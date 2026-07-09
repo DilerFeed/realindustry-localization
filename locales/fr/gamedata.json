@@ -669,7 +669,7 @@
     "stannite-processing": {
       "name": "Traitement de la stannite",
       "description": "Traitez le minerai de stannite pour extraire le sulfure de cuivre, la cassitérite et l'oxyde de fer",
-      "chemicalFormula": "Cu₂FeSnS₄ + O₂ → Cu₂S + FeO + SnO₂ + 2SO₂"
+      "chemicalFormula": "2Cu₂FeSnS₄ + 9O₂ → 2Cu₂S + 2FeO + 2SnO₂ + 6SO₂"
     },
     "magnetite-mining": {
       "name": "Extraction de magnétite",
@@ -682,7 +682,7 @@
     "gibbsite-processing": {
       "name": "Traitement de la gibbsite",
       "description": "Transformez la gibbsite en alumine via le procédé Bayer",
-      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O, 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH"
+      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O; 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH; 2Al(OH)₃ → Al₂O₃ + 3H₂O"
     },
     "azurite-mining": {
       "name": "Extraction d'azurite",
@@ -733,12 +733,12 @@
     "limonite-processing": {
       "name": "Traitement de la limonite",
       "description": "Transformez le minerai de limonite (FeO(OH)·nH₂O) en oxyde de fer",
-      "chemicalFormula": "2FeO(OH)·nH₂O + Chaleur → Fe₂O₃ + (n+1)H₂O"
+      "chemicalFormula": "2FeO(OH)·nH₂O + chaleur → Fe₂O₃ + (2n+1)H₂O"
     },
     "hematite-processing": {
       "name": "Traitement de l'hématite",
       "description": "Transformez le minerai d'hématite (Fe₂O₃) en oxyde de fer",
-      "chemicalFormula": "2Fe₂O₃ + 3C → 4Fe + 3CO₂"
+      "chemicalFormula": "Fe₂O₃(minerai) + séparation mécanique → Fe₂O₃(concentré) + gangue"
     },
     "flotation-separation": {
       "name": "Séparation par flottation de la chalcopyrite",
@@ -748,7 +748,7 @@
     "advanced-bornite-processing": {
       "name": "Traitement avancé de la bornite",
       "description": "Transformez la bornite en sulfure de cuivre et oxyde de fer avec des méthodes modernes pour un meilleur rendement",
-      "chemicalFormula": "Cu₅FeS₄ + O₂ → Cu₂S + CuS + CuO + FeS + SO₂"
+      "chemicalFormula": "2Cu₅FeS₄ + 3O₂ → 4Cu₂S + 2CuS + 2FeO + 2SO₂"
     },
     "magnetic-separation": {
       "name": "Séparation magnétique de la magnétite",
@@ -778,7 +778,7 @@
     "chalcopyrite-smelting": {
       "name": "Fusion primitive de chalcopyrite",
       "description": "Fondez le minerai de cuivre chalcopyrite pour produire du cuivre impur",
-      "chemicalFormula": "CuFeS₂ + O₂ → Cu + FeO + SO₂"
+      "chemicalFormula": "2CuFeS₂ + 5O₂ → 2Cu + 2FeO + 4SO₂"
     },
     "magnetite-bloomery": {
       "name": "Traitement de magnétite au bas fourneau",
@@ -793,7 +793,7 @@
     "bornite-smelting": {
       "name": "Raffinage de la bornite",
       "description": "Affinez le minerai de bornite à haute teneur en cuivre blister à l'aide d'un bas fourneau",
-      "chemicalFormula": "2 Cu₅FeS₄ + 8 O₂ → 10 Cu + 2 FeO + 8 SO₂"
+      "chemicalFormula": "2 Cu₅FeS₄ + 9 O₂ → 10 Cu + 2 FeO + 8 SO₂"
     },
     "malachite-smelting": {
       "name": "Traitement de la malachite",
@@ -808,7 +808,7 @@
     "copper-sulfate-electrolysis": {
       "name": "Électrolyse du sulfate de cuivre",
       "description": "Électrolysez le sulfate de cuivre pour produire du cuivre de haute pureté",
-      "chemicalFormula": "CuSO₄ + Électrolyse → Cu + H₂SO₄"
+      "chemicalFormula": "2CuSO₄ + 2H₂O → 2Cu + 2H₂SO₄ + O₂"
     },
     "wrought-iron-refining": {
       "name": "Raffinage du fer forgé",
@@ -897,12 +897,12 @@
     "fire-bricks": {
       "name": "Production de briques réfractaires",
       "description": "Produisez des briques résistantes aux hautes températures",
-      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + SiO₂ → Brique réfractaire (3Al₂O₃·2SiO₂) + H₂O↑"
+      "chemicalFormula": "3Al₂Si₂O₅(OH)₄ + chaleur → 3Al₂O₃·2SiO₂ + 4SiO₂ + 6H₂O↑"
     },
     "bricks": {
       "name": "Production de briques",
       "description": "Produisez des briques de construction ordinaires",
-      "chemicalFormula": "Al₂Si₂O₅(OH)₄ → Brique (3Al₂O₃·2SiO₂) + H₂O↑"
+      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + chaleur → Al₂Si₂O₇ + 2H₂O↑"
     },
     "iron-bloom": {
       "name": "Production de loupe de fer",
@@ -939,12 +939,12 @@
     "sulfuric-acid": {
       "name": "Production d'acide sulfurique",
       "description": "Produisez du H₂SO₄ pour les processus industriels",
-      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+      "chemicalFormula": "2S + 3O₂ + 2H₂O → 2H₂SO₄"
     },
     "advanced-chemical-circulation": {
       "name": "Production avancée d'acide sulfurique",
       "description": "Production efficace de H₂SO₄ avec des pompes haute pression",
-      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+      "chemicalFormula": "2S + 3O₂ + 2H₂O → 2H₂SO₄"
     },
     "biomass-steam": {
       "name": "Production de biomasse par chauffage à la vapeur",
@@ -978,12 +978,12 @@
     "concrete-production": {
       "name": "Production de béton",
       "description": "Mélangez du ciment avec du sable et du gravier pour créer du béton",
-      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+      "chemicalFormula": "2 Ca₃SiO₅ + 6 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
     },
     "manual-concrete-production": {
       "name": "Production manuelle de béton",
       "description": "Mélangez du ciment avec du sable et du gravier pour créer du béton à la main",
-      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+      "chemicalFormula": "2 Ca₃SiO₅ + 6 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
     },
     "iron-gear-production": {
       "name": "Production d'engrenages en fer",
@@ -1024,9 +1024,9 @@
       "description": "Utilisez des machines pour assembler des circuits électroniques plus efficacement"
     },
     "basic-chemical-processes": {
-      "name": "Production de soufre de base",
-      "description": "Transformez des produits chimiques de base en soufre pour un usage industriel",
-      "chemicalFormula": "C + O₂ + H₂O → H₂S + CO₂"
+      "name": "Désulfuration du charbon",
+      "description": "Lavez les impuretés soufrées du charbon afin de récupérer du soufre à usage industriel",
+      "chemicalFormula": "C₁₃₅H₉₆O₉NS + H₂O → C₁₃₅H₉₆O₉N + S + H₂O"
     },
     "crude-oil-extraction": {
       "name": "Extraction de pétrole brut",
@@ -1084,12 +1084,12 @@
     "nickel-ore-processing": {
       "name": "Traitement du minerai de nickel en matte de nickel",
       "description": "Transformez le minerai de nickel en matte de nickel",
-      "chemicalFormula": "2NiS + 3O₂ → 2NiO + 2SO₂"
+      "chemicalFormula": "3NiS + O₂ → Ni₃S₂ + SO₂"
     },
     "nickel-refining": {
       "name": "Raffinage de la matte de nickel en lingots de nickel",
       "description": "Affinez la matte de nickel en nickel pur",
-      "chemicalFormula": "Ni₃S₂ + H₂SO₄ + électrolyse → 3Ni + 3S + H₂O"
+      "chemicalFormula": "Ni₃S₂ → 3Ni + 2S (raffinage électrolytique)"
     },
     "chromite-processing": {
       "name": "Traitement de la chromite en ferrochrome",
@@ -1202,7 +1202,7 @@
     "silica-extraction": {
       "name": "Extraction de silice",
       "description": "Extrayez de la silice de haute pureté à partir du sable",
-      "chemicalFormula": "SiO₂·impuretés + 2NaOH → Na₂SiO₃ + H₂O → SiO₂(pur)"
+      "chemicalFormula": "SiO₂ + 2NaOH → Na₂SiO₃ + H₂O; Na₂SiO₃ + CO₂ + H₂O → SiO₂·H₂O + Na₂CO₃"
     },
     "alcohol-production": {
       "name": "Production d'alcool industriel",
@@ -1224,7 +1224,7 @@
     "zinc-electrolysis": {
       "name": "Électrolyse du zinc",
       "description": "Extrayez du zinc pur par traitement électrolytique",
-      "chemicalFormula": "ZnS + O₂ → ZnO + SO₂, ZnO + H₂SO₄ → ZnSO₄, Zn²⁺ + 2e⁻ → Zn"
+      "chemicalFormula": "2ZnS + 3O₂ → 2ZnO + 2SO₂; ZnO + H₂SO₄ → ZnSO₄ + H₂O; Zn²⁺ + 2e⁻ → Zn"
     },
     "sawmill-planks": {
       "name": "Transformation industrielle de planches",
@@ -1418,8 +1418,8 @@
       "description": "Extrayez de la sphalérite et de la pyrite, puis traitez la pyrite en soufre et oxyde de fer."
     },
     "research-basic-chemicals": {
-      "name": "Production de soufre de base",
-      "description": "Produisez du soufre à partir de charbon et d’eau comme première matière première chimique industrielle."
+      "name": "Désulfuration du charbon",
+      "description": "Lavez les impuretés soufrées du charbon afin d'obtenir la première matière première soufrée industrielle."
     },
     "research-steam-power": {
       "name": "Production électrique à vapeur",
@@ -1499,7 +1499,7 @@
     },
     "research-automation-batch-handling": {
       "name": "Gestion automatisée des lots",
-      "description": "Débloque les améliorations de lot répétables après l’automatisation d’assemblage. Chaque niveau actif ajoute une itération par cycle."
+      "description": "Débloque les améliorations de lot répétables après l’automatisation d’assemblage. Chaque niveau acheté ajoute une itération maximale par bloc de production ; chaque itération au-delà de la première augmente sa consommation de 15 %."
     },
     "research-oil-prospecting": {
       "name": "Extraction de pétrole brut",
@@ -2008,7 +2008,7 @@
     "nickel-ore": {
       "name": "Minerai de nickel",
       "description": "Un minerai minéral dense typiquement trouvé sous forme de sulfures ou de latérites, servant de source primaire de nickel industriel.",
-      "formula": "Ni",
+      "formula": "NiS (minerai sulfuré simplifié)",
       "historical_info": "Le nickel a longtemps été une source de frustration pour les mineurs allemands du Moyen Âge, qui rencontraient un minerai rougeâtre ressemblant au cuivre mais n'en produisant aucun ; ils le nommèrent « Kupfernickel » ou « Cuivre du Vieux Nick », croyant qu'un démon malicieux avait maudit la roche. Ce n'est qu'en 1751 qu'Axel Fredrik Cronstedt isola le métal, prouvant qu'il s'agissait d'un élément unique. Sa valeur s'est transformée au XIXe siècle lorsqu'on a découvert que le nickel pouvait transformer l'acier ordinaire en un « super-alliage » capable de résister à la rouille et à la chaleur extrême. Au milieu du XXe siècle, il est devenu une pierre angulaire des industries aérospatiale et militaire, et aujourd'hui il a atteint un nouveau sommet d'importance stratégique en tant que matériau de cathode critique dans les batteries lithium-ion haute capacité qui alimentent la révolution mondiale des véhicules électriques.",
       "facts": "La plupart des gisements de nickel les plus riches du monde se trouvent dans le bassin de Sudbury au Canada, qui est en réalité le site d'un impact de météorite préhistorique massif ayant apporté le métal de l'espace il y a plus de 1,8 milliard d'années. Le nickel est l'un des quatre seuls éléments (avec le fer, le cobalt et le gadolinium) ferromagnétiques à température ambiante, ce qui signifie qu'ils peuvent être fortement aimantés. Dans le monde naturel, certaines plantes rares connues sous le nom d'« hyperaccumulateurs » peuvent absorber tellement de nickel du sol que leur sève devient vert fluo, un processus aujourd'hui étudié pour la « phytomine » où les plantes sont utilisées pour récolter le métal de la terre. Malgré sa robustesse industrielle, le nickel est aussi un métal « noble » dans le monde culinaire, car c'est l'ingrédient secret de l'acier inoxydable de cuisine qui empêche le métal de réagir avec les aliments acides comme les tomates ou le vin."
     },
@@ -2078,14 +2078,14 @@
     "bricks": {
       "name": "Briques",
       "description": "Unités structurelles rectangulaires fabriquées à partir d'argile ou de schiste façonnés, durcies par vitrification à haute température.",
-      "formula": "À base de Al₂Si₂O₅(OH)₄",
+      "formula": "Al₂Si₂O₇ (argile cuite simplifiée)",
       "historical_info": "La brique est l'un des plus anciens matériaux de construction fabriqués par l'homme, originaire de vers 7500 avant J.-C. sous forme d'« adobe » séché au soleil dans le Croissant Fertile. Sa valeur s'est transformée radicalement en Mésopotamie et à Rome avec l'invention du four, qui utilisait le feu pour transformer l'argile molle en une céramique dure comme la roche et résistante à l'eau. Cette innovation a permis la construction de structures à plusieurs étages et d'aqueducs massifs qui ont pu survivre à des siècles d'intempéries. Pendant la révolution industrielle, la brique est passée d'un produit artisanal moulé à la main à une unité modulaire industrielle produite en masse, portée par l'invention du four Hoffmann en 1852. Cela a déplacé la perception des briques d'un matériau de luxe pour les forteresses vers l'ADN universel du paysage urbain moderne, permettant l'essor rapide des cités ouvrières victoriennes et des emblématiques immeubles de briques rouges de New York.",
       "facts": "Les briques sont essentiellement des « roches métamorphiques artificielles » ; le processus de cuisson fait fusionner les minéraux de l'argile en une structure interne dense semblable à du verre. C'est l'un des rares matériaux de construction qui gagne en résistance avec le temps car il continue d'absorber de petites quantités de dioxyde de carbone de l'atmosphère, un processus appelé carbonatation. Une brique standard peut supporter des températures allant jusqu'à 1 000 °C, ce qui en fait un pare-feu naturel qui a sauvé des cités entières de la destruction totale lors d'incendies urbains historiques. Il est intéressant de noter que la couleur d'une brique est une signature géologique de sa chimie ; une teneur élevée en fer produit le rouge profond classique, tandis qu'une teneur élevée en chaux donne une apparence jaune pâle."
     },
     "fire-bricks": {
       "name": "Briques réfractaires",
       "description": "Blocs de céramique réfractaire conçus pour maintenir leur intégrité structurelle et une faible conductivité thermique à des températures extrêmes.",
-      "formula": "Al₂O₃·2SiO₂",
+      "formula": "3Al₂O₃·2SiO₂ (riche en mullite, simplifié)",
       "historical_info": "Bien que le concept de revêtement résistant à la chaleur remonte à la fusion antique, la brique réfractaire moderne a été perfectionnée au début du XIXe siècle pour répondre aux exigences brutales du procédé Bessemer pour l'acier. Avant leur perfectionnement, les hauts fourneaux tombaient fréquemment en panne car les briques standards fondaient ou explosaient sous la chaleur intense nécessaire au raffinage du fer. La découverte de gisements d'argile réfractaire a permis la création d'un matériau qui ne se dilatait ni ne se contractait de manière significative lorsqu'il était chauffé, « domptant » ainsi efficacement le four. Cela a transformé les briques réfractaires d'une céramique de niche en l'armure littérale de la révolution industrielle, permettant la production de masse d'acier, de verre et de produits chimiques qui ont défini le XXe siècle. Aujourd'hui, elles restent une ressource stratégique, car aucun métal moderne ou alliage high-tech ne peut être forgé sans un récipient tapissé de ces unités réfractaires spécialisées.",
       "facts": "Les briques réfractaires sont capables de supporter une exposition constante à des températures dépassant 1 500 °C sans fondre, ce qui est plus chaud que la lave fluide de la plupart des volcans. Contrairement aux briques de construction standards, elles sont conçues avec une porosité élevée pour emprisonner l'air, ce qui en fait d'incroyables isolants qui maintiennent la chaleur à l'intérieur d'un four tandis que l'extérieur reste assez froid pour empêcher la coque métallique de se déformer. Elles sont chimiquement « inertes », ce qui signifie qu'elles ne réagissent pas avec les métaux en fusion ou le laitier corrosif qu'elles contiennent, une propriété obtenue grâce à leur haute teneur en alumine et en silice. Il est intéressant de noter que les tuiles thermiques des navettes spatiales sont une évolution high-tech de la brique réfractaire, utilisant des principes réfractaires similaires pour protéger l'engin de la chaleur de 1 650 °C lors de la rentrée atmosphérique."
     },
@@ -2494,90 +2494,1590 @@
       "facts": "La vapeur est essentiellement un vecteur d'énergie à haute densité ; quand l'eau se transforme en vapeur, elle se dilate jusqu'à 1 600 fois son volume initial, créant l'immense pression requise pour faire tourner les pales de turbines à des milliers de tours par minute. Elle agit comme un fluide de transfert thermique incroyablement efficace grâce à sa « chaleur latente », ce qui signifie qu'elle stocke une vaste quantité d'énergie juste pour maintenir son état gazeux, laquelle est libérée instantanément au contact d'une surface plus froide. Parce que la vapeur peut être chauffée bien au-delà du point d'ébullition de l'eau, on utilise de la « vapeur surchauffée » dans les centrales électriques modernes pour s'assurer qu'aucune gouttelette de liquide n'endommage les composants internes sensibles d'un générateur. Fait intéressant, la vapeur est invisible à l'œil humain ; le « nuage » blanc typiquement observé sortant d'une bouilloire ou d'une tour de refroidissement est en réalité de la vapeur d'eau qui a déjà commencé à se condenser en minuscules gouttelettes liquides au contact de l'air plus froid."
     }
   },
+  "guide": {
+    "entries": {
+      "director-orientation": {
+        "title": "Orientation du directeur",
+        "summary": "Votre affectation, la boucle industrielle et ce qui compte comme progression.",
+        "unlockLabel": "Disponible au début de chaque affectation",
+        "sections": [
+          {
+            "title": "Votre affectation",
+            "paragraphs": [
+              "Vous êtes le Directeur par intérim d’une colonie industrielle. Votre tâche concrète consiste à collecter des matières premières, à les transformer en produits de plus en plus sophistiqués, à rechercher de nouvelles méthodes, à construire les installations requises par ces méthodes, puis à relier les processus obtenus en longues chaînes de production.",
+              "Il n’existe pas de ligne de production unique et définitivement correcte. Les ressources de départ restent pertinentes, car les produits avancés dépendent souvent de plusieurs anciennes branches à la fois. Considérez chaque recette débloquée comme une capacité industrielle réutilisable, et non comme un échelon à abandonner une fois dépassé."
+            ],
+            "bullets": [
+              "Collectez ou fabriquez les ressources requises par un projet de recherche disponible.",
+              "Terminez la recherche pour débloquer des recettes, des bâtiments ou une nouvelle branche de l’arbre technologique.",
+              "Construisez les bâtiments nouvellement débloqués ; la recherche seule ne rend pas un bâtiment opérationnel.",
+              "Produisez les nouveaux intermédiaires, puis répétez le cycle à plus grande échelle.",
+              "L’objectif corporatif à long terme est le moteur d’hyperpropulsion. L’atteindre exige tout le réseau industriel, pas une chaîne isolée."
+            ]
+          },
+          {
+            "title": "Aucune production de base passive par défaut",
+            "paragraphs": [
+              "Les recettes normales s’exécutent lorsque vous appuyez sur Produire. Les intrants sont consommés et les extrants sont livrés immédiatement. Le simple fait qu’un bâtiment existe dans votre colonie ne le fait pas produire de lui-même. Le fonctionnement continu ne devient possible qu’au moyen de schémas d’automatisation, et ces schémas nécessitent encore des ressources valides, une structure de programme et — le cas échéant — du personnel ou de l’énergie.",
+              "Cela rend la planification plus précieuse que les clics frénétiques. Avant de lancer un gros lot, examinez tous les intrants, la capacité des outils, le carburant, la quantité maximale et la prochaine dépendance que vous cherchez à satisfaire."
+            ],
+            "callout": {
+              "title": "Premier itinéraire recommandé",
+              "body": "Ouvrez l’un des deux sites de collecte de départ, collectez du bois et de la pierre, puis ouvrez Recherche. Fabrication manuelle et outils en bois est le premier embranchement important : il introduit les outils et améliore votre capacité à collecter efficacement."
+            }
+          },
+          {
+            "title": "La progression est conservée, pas l’attention",
+            "paragraphs": [
+              "L’inventaire, la recherche, la construction, les statistiques, les fiches débloquées, les éléments du tableau des opérations, les programmes d’automatisation et l’état de lecture du Guide sont stockés dans la sauvegarde actuelle. L’état temporaire de l’interface — comme une fenêtre modale ouverte ou une requête de recherche à moitié saisie — n’est pas la même chose que la progression industrielle sauvegardée.",
+              "Les systèmes corporatifs évaluent la production avec un enthousiasme inhabituel. Ils ne vous demandent pas d’imiter cet enthousiasme. Faire une pause pour consulter l’Almanach ou repenser un programme fait partie d’une bonne gestion de la colonie."
+            ]
+          }
+        ]
+      },
+      "game-modes-and-training": {
+        "title": "Modes de jeu et formation guidée",
+        "summary": "Le choix de mode sauvegardé et l’introduction optionnelle en 30 étapes à la production, la recherche, l’automatisation, la planification, la construction, l’Almanach et le Guide.",
+        "unlockLabel": "Disponible au début de chaque affectation",
+        "sections": [
+          {
+            "title": "Choisir une affectation",
+            "paragraphs": [
+              "Une nouvelle partie vous permet de choisir un mode de jeu, un emplacement de sauvegarde et d’exécuter ou non la séquence de formation guidée. Démarrer dans un emplacement occupé demande une confirmation, puis écrase cet emplacement. Le Guide reste disponible dans tous les modes et ne dépend pas de la formation.",
+              "Le mode sélectionné est stocké dans la sauvegarde comme métadonnée d’affectation. Dans la version actuelle, cependant, la simulation ne lit pas cette valeur après la création de la nouvelle partie : Standard et Ultra-réaliste utilisent actuellement les mêmes recettes, coûts, règles de production et conditions d’échec. Les règles d’émissions et de santé planétaire décrites sur la carte de sélection Ultra-réaliste ne sont pas encore actives. Ne planifiez pas une colonie actuelle autour d’un compteur de pollution non implémenté."
+            ],
+            "bullets": [
+              "Standard : le choix par défaut honnête pour l’ensemble de règles actuel.",
+              "Ultra-réaliste : son choix est conservé dans l’emplacement, mais il n’active pas actuellement de mécaniques différentes. Ce Guide ne décrira ces mécaniques qu’une fois qu’elles existeront dans la simulation.",
+              "Formation guidée : une séquence vocale temporaire en 30 étapes menée par la Dre Mira Holland. Elle peut être passée à tout moment et n’est pas nécessaire pour débloquer les fiches du Guide.",
+              "Les versions d’évaluation démo contiennent une portion limitée de la campagne et indiquent clairement leur objectif de fin. Les fiches du jeu complet ne doivent pas être interprétées comme une promesse que le contenu indisponible de la démo peut être atteint dans cette version."
+            ]
+          },
+          {
+            "title": "Ce que couvre actuellement la formation guidée",
+            "paragraphs": [
+              "La formation actuelle comporte 30 étapes. Après le briefing d’affectation, elle vous guide dans la collecte de lots de dix bois et pierres, l’achèvement de la recherche Fabrication manuelle et outils en bois, et la compréhension de l’augmentation de capacité de cinq colons accordée par un nouveau niveau de recherche maximal.",
+              "Elle introduit ensuite l’automatisation des colons dans le Bosquet d’arbres. Vous ouvrez l’éditeur de schéma manuel, assemblez et validez une boucle continue avec un bloc Production réglé sur dix itérations, la démarrez, puis utilisez le tableau d’automatisation pour inspecter le programme en cours.",
+              "La dernière séquence pratique introduit la planification de projet et la construction : inspectez Fabrication manuelle, épinglez ses besoins, lisez les totaux combinés dans le tableau des opérations, collectez ce qui manque encore, puis construisez le bâtiment. La formation ouvre ensuite l’Almanach et le Guide avant le briefing final. C’est une visite des bases, pas une solution complète de la campagne."
+            ]
+          },
+          {
+            "title": "Comportement des étapes interactives",
+            "paragraphs": [
+              "Une étape interactive met en évidence le contrôle pertinent et désactive Suivant jusqu’à ce que l’action attendue soit détectée. Les étapes de production vérifient à la fois la recette sélectionnée et la quantité de lot demandée. L’étape d’automatisation vérifie le schéma manuel continu requis avant d’autoriser la suite de la séquence. Une fois l’action effectuée, la progression se fait automatiquement après un court délai.",
+              "Le dialogue peut être déplacé pendant les étapes interactives et basculé entre les dispositions compacte et étendue. Les étapes explicatives verrouillent temporairement le défilement en arrière-plan, tandis que les étapes d’action laissent l’interface requise disponible. Cliquer sur un dialogue non entièrement révélé termine immédiatement son animation de machine à écrire ; cela ne passe pas l’action requise. Passer ferme toute la séquence de formation et arrête la ligne vocale en cours.",
+              "La formation démontre un premier itinéraire sûr à travers la colonie. Le Guide explique les règles sous-jacentes et reste consultable ensuite. Passer la formation ne supprime jamais de mécaniques, de ressources ni de progression.",
+              "Les fiches du Guide se débloquent lorsque le système concerné entre dans votre contexte de travail. Un badge numéroté sur le bouton du Guide indique combien de fiches disponibles vous n’avez pas encore ouvertes. Ouvrir une fiche la marque comme lue ; elle peut toujours être consultée de nouveau."
+            ]
+          }
+        ]
+      },
+      "interface-and-navigation": {
+        "title": "Interface et navigation",
+        "summary": "L’en-tête de commande, les onglets principaux, les superpositions, les sauts de focus et le comportement de retour.",
+        "unlockLabel": "Disponible au début de chaque affectation",
+        "sections": [
+          {
+            "title": "La surface de commande persistante",
+            "paragraphs": [
+              "Le haut du jeu est divisé entre un panneau d’état et une barre de navigation. Les onglets centraux — Bâtiments, Inventaire, Recherche et Almanach — changent l’espace de travail principal. Succès, Statistiques, Guide et Menu s’ouvrent comme des superpositions au-dessus de l’espace de travail actuel, donc les fermer vous ramène au même endroit.",
+              "De nombreux liens sont contextuels. Cliquer sur une ressource peut ouvrir sa page exacte dans l’Almanach ; cliquer sur Ouvrir la recherche peut focaliser le nœud technologique pertinent ; une action du tableau des opérations peut vous envoyer vers le bâtiment ou la recette requis. Ces sauts sont volontairement préférables à une recherche manuelle dans un vaste catalogue de fin de partie."
+            ],
+            "media": {
+              "alt": "L’en-tête complet du jeu avec cellules d’état, onglets de navigation, bouton du Guide et badge de notification.",
+              "caption": "Surface de commande principale et contrôles de superposition."
+            }
+          },
+          {
+            "title": "Retour, fermeture et priorité des fenêtres modales",
+            "bullets": [
+              "Échap ferme la superposition prise en charge la plus au-dessus avant de modifier l’écran sous-jacent.",
+              "Dans un bâtiment de production, Retour ramène au répertoire des bâtiments.",
+              "Appuyer sur l’onglet Bâtiments alors qu’un bâtiment de production est déjà ouvert ramène également au répertoire.",
+              "Depuis un autre onglet principal, Retour ramène à Bâtiments. Depuis le répertoire des bâtiments, Retour ouvre le menu du jeu.",
+              "Pendant une cinématique bloquante, une action de tutoriel ou une révélation plein écran ultérieure, la navigation ordinaire peut être volontairement suspendue jusqu’à ce que cette couche se termine ou soit fermée."
+            ]
+          },
+          {
+            "title": "Comportement de l’en-tête épinglé et compact",
+            "paragraphs": [
+              "Les paramètres d’affichage peuvent garder l’en-tête complet épinglé pendant que le contenu principal défile, n’épingler qu’une portion compacte, mémoriser la dernière position de la liste des bâtiments et ajuster l’échelle de l’interface. Ce sont des paramètres de présentation ; ils ne modifient ni la production ni les déblocages."
+            ],
+            "callout": {
+              "title": "Les petits badges sont des informations en direct",
+              "body": "Les étiquettes de raccourcis reflètent vos assignations actuelles. Le badge du Guide reflète les fiches débloquées mais non lues. Aucun de ces nombres n’est un score de succès."
+            }
+          }
+        ]
+      },
+      "keyboard-controls": {
+        "title": "Contrôles au clavier",
+        "summary": "Raccourcis par défaut, actions contextuelles, réattribution et partage volontaire de touches.",
+        "unlockLabel": "Disponible au début de chaque affectation",
+        "sections": [
+          {
+            "title": "Contrôles globaux par défaut",
+            "bullets": [
+              "Tab bascule le tableau des opérations.",
+              "A bascule le tableau d’automatisation.",
+              "Espace lance la recette de production actuellement sélectionnée lorsque la production peut avoir lieu.",
+              "Entrée confirme une action surlignée ou ouvre un élément sélectionné au clavier.",
+              "Échap effectue Retour / Fermer selon la pile de superpositions actuelle.",
+              "Les touches fléchées déplacent les sélections clavier prises en charge. F focalise le champ de recherche sur les écrans qui en proposent un.",
+              "F1 et F2 ouvrent Succès et Statistiques. F3–F6 sélectionnent Bâtiments, Inventaire, Recherche et Almanach. F7 ouvre Menu.",
+              "Page précédente et Page suivante déplacent vers le haut ou le bas de l’interface de production. H masque ou restaure la superposition de production afin de voir l’illustration de l’installation."
+            ]
+          },
+          {
+            "title": "Touches numériques contextuelles",
+            "paragraphs": [
+              "Les chiffres 1–6 sélectionnent les préréglages de production (x10, x20, x50, x100, x1000 et MAX) lorsque l’interface de production possède ce contexte. Les chiffres 1–9 participent aussi au sélecteur de grille des bâtiments : choisissez une ligne, puis une colonne, et confirmez le bâtiment surligné. Ce chevauchement est volontaire, car les deux actions fonctionnent dans des contextes différents.",
+              "La plupart des doublons de raccourcis sont rejetés. Les groupes des préréglages de production et du sélecteur de bâtiments constituent l’exception explicite. Si vous réattribuez une commande, les petites étiquettes affichées sur les contrôles pris en charge se mettent à jour. Les indices de raccourcis peuvent eux-mêmes être masqués sans désactiver les raccourcis."
+            ]
+          },
+          {
+            "title": "Réattribuer les touches en sécurité",
+            "steps": [
+              "Ouvrez Menu, puis Paramètres, puis Raccourcis.",
+              "Sélectionnez le champ d’assignation d’une action et appuyez sur la combinaison de touches souhaitée.",
+              "Si la combinaison entre en conflit, choisissez-en une autre ou réinitialisez d’abord l’action conflictuelle.",
+              "Utilisez Réinitialiser sur une ligne pour restaurer un raccourci par défaut, ou Réinitialiser tous les raccourcis pour restaurer toute la carte."
+            ],
+            "callout": {
+              "title": "Les champs de saisie sont prioritaires",
+              "body": "La plupart des raccourcis globaux sont supprimés lorsque vous tapez dans un champ, une boîte de recherche, un sélecteur ou une capture de raccourci. Les bascules de tableaux restent disponibles par conception. Cela évite qu’une requête de recherche produise accidentellement un lot ou change d’écran."
+            }
+          }
+        ]
+      },
+      "saving-and-slots": {
+        "title": "Sauvegarde, emplacements et récupération",
+        "summary": "Sauvegardes manuelles, sauvegardes automatiques, propriété des emplacements, exports, sauvegardes de secours et données conservées.",
+        "unlockLabel": "Disponible au début de chaque affectation",
+        "sections": [
+          {
+            "title": "Deux chemins de sauvegarde",
+            "paragraphs": [
+              "Les sauvegardes manuelles sont écrites dans l’emplacement numéroté que vous choisissez. Les sauvegardes automatiques sont écrites dans une entrée dédiée à l’intervalle configuré ; elles n’écrasent pas silencieusement un emplacement manuel numéroté. Continuer utilise d’abord l’emplacement manuel mémorisé, puis recherche sinon les emplacements numérotés depuis le début. Charger la sauvegarde automatique ne remplace pas le marqueur d’emplacement manuel mémorisé.",
+              "Il existe cinq emplacements manuels numérotés, plus l’entrée séparée de sauvegarde automatique. Les résumés d’emplacement varient selon le contexte : le panneau Sauvegarder en jeu affiche l’horodatage ainsi que le nombre de recherches, de bâtiments construits et de clés d’inventaire ; les cartes du menu principal et de chargement exposent leurs propres champs de progression compacts. Le chargement remplace l’état actif de la colonie, donc confirmez l’emplacement cible et l’horodatage avant de continuer."
+            ],
+            "bullets": [
+              "La sauvegarde automatique peut être activée ou désactivée, et son intervalle peut être réglé de 1 à 30 minutes.",
+              "Une sauvegarde manuelle enregistre le temps de jeu actuel avant l’écriture, puis lance un nouveau chronomètre de session.",
+              "Les déblocages du Guide, l’état de lecture du Guide, les messages narratifs ignorés, l’état des archives d’accès tardif, les tableaux, les filtres, l’historique d’automatisation et les programmes font partie des données de sauvegarde.",
+              "Les préférences générales d’affichage, de langue, de graphismes, d’audio et de raccourcis sont des paramètres globaux de l’application plutôt que de la progression de la colonie."
+            ]
+          },
+          {
+            "title": "Sécurité du stockage",
+            "paragraphs": [
+              "Le jeu conserve des données de sauvegarde locales et, dans la version bureau, peut maintenir un miroir côté Electron ainsi que des copies de secours. Au démarrage, il vérifie la santé du stockage et peut tenter une récupération depuis le miroir. Une notification de récupération indique qu’une copie de secours a été utilisée ; sauvegardez de nouveau une fois que vous avez vérifié l’état de la colonie.",
+              "Exporter tout crée une archive JSON contenant les sauvegardes principales disponibles, les emplacements numérotés, la sauvegarde automatique, le marqueur du dernier emplacement, les copies fantômes et les sauvegardes locales tournantes. Importer une archive restaure les enregistrements de stockage de sauvegarde reconnus depuis cette archive ; c’est plus large que l’import d’un seul emplacement sélectionné. Conservez un export avant de changer de machine, de tester des versions de développement ou d’effectuer une modification risquée en fin de partie sur une colonie fortement automatisée."
+            ],
+            "media": {
+              "alt": "La superposition Sauvegarder la partie montrant les emplacements manuels, les informations de sauvegarde automatique et les contrôles de sécurité du stockage.",
+              "caption": "Emplacements manuels et outils de récupération."
+            }
+          },
+          {
+            "title": "Compatibilité et anciennes sauvegardes",
+            "paragraphs": [
+              "Lorsqu’une sauvegarde est antérieure à un système, les champs manquants sont initialisés pendant le chargement. Le jeu reconstruit des valeurs par défaut raisonnables pour les filtres de recherche, les options de l’Almanach, les tableaux des opérations, l’état d’automatisation, les fiches d’archives et l’état du Guide. La progression existante n’est pas censée être supprimée simplement parce qu’une version ultérieure a ajouté une nouvelle interface."
+            ],
+            "callout": {
+              "title": "Une sauvegarde n’est pas une capture d’écran",
+              "body": "Si vous devez signaler un défaut de progression, exportez l’emplacement affecté avant d’essayer des actions correctives. Une image montre le symptôme ; la sauvegarde conserve l’état industriel exact qui l’a produit."
+            }
+          },
+          {
+            "title": "Confirmations de sauvegarde et de chargement",
+            "bullets": [
+              "Sauvegarder dans un emplacement numéroté occupé demande une confirmation d’écrasement. Sauvegarder dans un emplacement vide ne le fait pas.",
+              "Charger un emplacement existant demande une confirmation, car la progression actuelle non sauvegardée sera perdue. Importer une archive écrit lui-même les enregistrements d’archive reconnus sans confirmation d’écrasement ; l’invite ultérieure contrôle si sa sauvegarde principale restaurée est chargée dans la session active, pas si le stockage a déjà été remplacé.",
+              "Le panneau Sauvegarder en jeu liste les cinq emplacements manuels, y compris les emplacements vides. Le panneau Charger ne liste que les sauvegardes automatiques et manuelles existantes.",
+              "Retourner au menu principal n’est pas en soi une action de sauvegarde. Sauvegardez d’abord, puis confirmez le retour."
+            ]
+          }
+        ]
+      },
+      "buildings-directory": {
+        "title": "Répertoire des bâtiments",
+        "summary": "Installations verrouillées, constructibles et opérationnelles ; filtrage, tri et sélection rapide.",
+        "unlockLabel": "Disponible avec l’onglet Bâtiments",
+        "sections": [
+          {
+            "title": "Trois états de bâtiment",
+            "paragraphs": [
+              "Rechercher un bâtiment ne paie jamais son coût de construction. Construire consomme une fois les ressources listées et ajoute définitivement ce type d’installation à la colonie. Une recette peut être recherchée alors que son bâtiment assigné n’est pas encore construit ; dans ce cas, la recette est connue mais ne peut pas être exécutée."
+            ],
+            "bullets": [
+              "Verrouillé : la recherche requise n’a pas été terminée. Le verso de la carte peut mener au nœud de recherche correspondant.",
+              "Débloqué, non construit : le plan est connu, mais l’installation n’est pas opérationnelle. Sa carte affiche les besoins de construction et propose l’action Construire le bâtiment.",
+              "Opérationnel : le bâtiment a été construit. Sélectionnez la carte pour ouvrir son interface de production."
+            ],
+            "media": {
+              "alt": "Le répertoire des bâtiments avec une carte verrouillée, une carte constructible affichée au verso et une carte opérationnelle.",
+              "caption": "Lisez une carte d’installation selon son état avant de l’ouvrir."
+            }
+          },
+          {
+            "title": "Trouver la bonne installation",
+            "bullets": [
+              "La recherche classe d’abord les correspondances avec le nom affiché du bâtiment, puis avec l’identifiant interne et la description. Elle réduit immédiatement la grille.",
+              "Les quatre filtres de catégorie sont Tout, Collecte, Production et Énergie. Production est le groupe large : il inclut les installations de fusion, fabrication, traitement, manufacture, chimie, électronique et recherche.",
+              "Débloqués seulement retire les plans qui ne peuvent pas encore être construits ou ouverts.",
+              "Triez par niveau technologique pour suivre la progression, ou alphabétiquement lorsque vous connaissez déjà le nom de l’installation.",
+              "La navigation aux touches fléchées et le sélecteur numérique ligne/colonne permettent une ouverture rapide au clavier. L’indice à l’écran indique la ligne sélectionnée pendant que le sélecteur attend une colonne."
+            ]
+          },
+          {
+            "title": "Interactions avec les cartes",
+            "paragraphs": [
+              "Survoler une carte verrouillée ou constructible révèle les informations de son verso. Les besoins en ressources sont interactifs : survolez pour obtenir l’identité et les informations d’inventaire, cliquez pour ouvrir cette ressource dans l’Almanach, ou épinglez le besoin complet de construction au tableau des opérations.",
+              "Une position mémorisée de la liste des bâtiments est utile dans un grand catalogue. Si elle est activée dans les Paramètres, le retour depuis la production peut restaurer votre emplacement précédent au lieu de forcer le répertoire à revenir en haut."
+            ]
+          }
+        ]
+      },
+      "building-construction": {
+        "title": "Construction de bâtiments",
+        "summary": "Installations permanentes, coûts de construction, besoins non satisfaits et suivi au tableau.",
+        "unlockLabel": "Débloqué lorsque votre premier plan de bâtiment supplémentaire devient disponible",
+        "sections": [
+          {
+            "title": "Rechercher, approvisionner, puis construire",
+            "steps": [
+              "Terminez la technologie qui débloque le plan du bâtiment.",
+              "Trouvez le bâtiment dans le répertoire des bâtiments. Son état passe de verrouillé à prêt à construire.",
+              "Inspectez chaque matériau requis au verso de la carte. Les quantités rouges ou insuffisantes doivent d’abord être produites.",
+              "Épinglez éventuellement les besoins au tableau des opérations afin que les totaux restent visibles pendant que vous consultez d’autres écrans.",
+              "Appuyez sur Construire le bâtiment. Le coût complet est retiré de manière atomique ; la construction partielle n’est pas stockée.",
+              "Ouvrez la carte désormais opérationnelle et sélectionnez l’une des recettes que vous avez recherchées pour ce bâtiment."
+            ],
+            "media": {
+              "alt": "Une carte de bâtiment prête à construire avec coûts en ressources, quantités insuffisantes, liens vers l’Almanach et contrôle d’épinglage.",
+              "caption": "Les besoins de construction sont distincts des intrants de recette."
+            }
+          },
+          {
+            "title": "Règles spécifiques",
+            "bullets": [
+              "La construction est permanente dans la sauvegarde. Les bâtiments ne sont pas vendus, démantelés ni dupliqués individuellement.",
+              "Le compteur Bâtiments dans l’en-tête compte les types d’installations construits par rapport au catalogue d’installations, y compris les deux sites de collecte de départ.",
+              "Si un lien contextuel ouvre la production d’un bâtiment non construit, le jeu vous redirige vers le répertoire des bâtiments et focalise l’installation requise.",
+              "L’auto-réaction du tableau des opérations retire un élément de construction épinglé une fois ce bâtiment construit avec succès. Désactivez l’auto-réaction si vous voulez que des éléments de référence terminés restent jusqu’à leur retrait manuel.",
+              "L’installation de l’automatisation est un coût ultérieur et séparé par bâtiment. Construire une installation n’inclut pas de noyau d’automatisation."
+            ]
+          },
+          {
+            "title": "Planifier les chaînes de construction",
+            "paragraphs": [
+              "Il vaut mieux traiter un coût de construction comme un projet ponctuel superposé aux demandes de recettes en cours. Si un matériau est aussi nécessaire à une recherche immédiate, épinglez les deux objectifs et examinez les totaux agrégés avant de le dépenser. Le tableau affiche volontairement l’inventaire en direct face au besoin combiné, afin qu’une construction « prête » ne dissimule pas une autre pénurie."
+            ]
+          }
+        ]
+      },
+      "production-interface": {
+        "title": "Interface de production",
+        "summary": "Sélectionner des recettes, lire le diagramme de processus, produire et se déplacer entre les dépendances.",
+        "unlockLabel": "Débloqué après avoir ouvert un bâtiment de production pour la première fois",
+        "sections": [
+          {
+            "title": "Anatomie de l’écran",
+            "paragraphs": [
+              "La liste de recettes ne contient que les recettes débloquées pour le bâtiment actuel. La recherche correspond au nom de la recette, à sa description ou au nom affiché d’une ressource de sortie ; elle ne recherche pas les intrants. Sélectionner une carte charge le processus complet dans le panneau principal : intrants, extrants et besoins séparés en outils ou en carburant.",
+              "Un bâtiment peut avoir de nombreux processus possibles, mais une seule recette sélectionnée manuellement à la fois. La dernière recette sélectionnée est stockée par bâtiment, donc revenir à cette installation restaure normalement votre contexte de travail."
+            ],
+            "media": {
+              "alt": "Un écran de production complet avec liste de recettes, recette sélectionnée, diagramme de processus, contrôles de quantité, besoins en carburant ou outils et bouton Produire.",
+              "caption": "Tous les coûts immédiats doivent être visibles avant l’exécution."
+            }
+          },
+          {
+            "title": "Exécuter un lot manuel",
+            "steps": [
+              "Choisissez une recette dans la liste du bâtiment.",
+              "Si la recette propose des choix de carburant, examinez le sélecteur. La première option est sélectionnée automatiquement chaque fois que la recette change. Le carburant est un coût supplémentaire et ne doit pas être confondu avec la liste normale d’intrants.",
+              "Définissez le nombre d’itérations avec le sélecteur pas à pas, un préréglage ou MAX.",
+              "Lisez les totaux de l’aperçu. Ils mettent à l’échelle les intrants, les extrants, le carburant et les outils selon la quantité sélectionnée.",
+              "Appuyez sur Produire ou utilisez le raccourci Produire. Le bouton n’est activé que lorsque la vérification du besoin combiné en direct réussit. Les extrants sont ajoutés immédiatement après le paiement ; la production manuelle n’a pas de phase de traitement écoulée."
+            ]
+          },
+          {
+            "title": "Les dépendances sont interactives",
+            "paragraphs": [
+              "Les icônes de ressources exposent les informations d’inventaire et d’identité. Depuis les interactions de ressources prises en charge, vous pouvez ouvrir la fiche exacte de l’Almanach, inspecter où une ressource est produite ou consommée, et sauter vers un autre bâtiment de production. Épingler la recette sélectionnée crée un projet persistant sur le tableau des opérations, incluant le nombre d’itérations et le carburant choisis.",
+              "L’interface peut être masquée avec son bouton d’affichage ou son raccourci afin de révéler l’arrière-plan de l’installation. C’est purement visuel ; cela ne démarre ni n’interrompt la production. L’audio ambiant et le comportement de la musique de production sont contrôlés séparément dans les Paramètres."
+            ]
+          }
+        ]
+      },
+      "production-batches-and-costs": {
+        "title": "Recettes, lots et coûts",
+        "summary": "Itérations, totaux mis à l’échelle, MAX, rentabilité et comptabilité exacte des ressources.",
+        "unlockLabel": "Débloqué avec la fiche Interface de production",
+        "sections": [
+          {
+            "title": "Une quantité est un nombre d’itérations de recette",
+            "paragraphs": [
+              "Si une itération consomme 2 unités et en produit 3, une quantité de 10 consomme 20 et produit 30. Le champ quantité ne signifie pas « unités de sortie souhaitées », sauf si cette recette produit exactement une unité par itération. Lisez toujours l’aperçu mis à l’échelle plutôt que de déduire les totaux depuis l’étiquette du bouton.",
+              "MAX calcule le plus grand lot actuellement pris en charge par les intrants ordinaires, le carburant sélectionné, la capacité des outils et tout plafond propre à la recette. Si aucun carburant n’est encore sélectionné, l’interface peut évaluer les options disponibles pour trouver un maximum permissif, mais vous devez quand même confirmer le choix réel de carburant avant de produire."
+            ]
+          },
+          {
+            "title": "Ce qui compte comme un coût",
+            "bullets": [
+              "Intrants : consommés une fois par itération selon la carte de la recette.",
+              "Carburant : consommé en plus des intrants, selon l’option sélectionnée et sa quantité par itération.",
+              "Outils : consommés en objets entiers selon la capacité de durabilité, arrondie vers le haut.",
+              "Matériaux de construction : sans lien avec un lot de recette ; ils sont payés une fois lorsqu’une installation est construite.",
+              "Électricité d’automatisation : une demande de fonctionnement basée sur le temps, estimée et consommée par les programmes électroniques actifs, et non une partie d’un clic manuel sur Produire."
+            ],
+            "callout": {
+              "title": "Le paiement manuel des outils est une transaction séparée",
+              "body": "Le gestionnaire actuel de production manuelle retire les outils entiers avant de retirer la carte ordinaire intrants-carburant. Le bouton empêche normalement une tentative inabordable, mais si l’inventaire change entre ces vérifications, un outil retiré n’est pas automatiquement restauré lorsque le paiement ultérieur échoue. Gardez une marge lorsque l’automatisation concurrence le même stock."
+            }
+          },
+          {
+            "title": "Rentabilité et valeur industrielle",
+            "paragraphs": [
+              "La rentabilité d’une recette est un ratio informatif utilisé par l’intelligence de recettes de l’Almanach. Elle aide à comparer les transformations, mais ce n’est ni de l’argent, ni un optimum garanti, ni un substitut à la planification des dépendances. Un processus à ratio plus faible peut être stratégiquement essentiel parce qu’il débloque une chaîne, utilise une ressource que vous avez en abondance ou évite un goulot d’étranglement ailleurs.",
+              "Les valeurs d’inventaire et de production peuvent contenir des décimales pour certains processus. L’interface formate les valeurs pour la lisibilité, tandis que l’état conserve une précision contrôlée. Ne planifiez pas autour de l’arrondi visuel à la limite de l’abordabilité ; gardez une petite marge pour les chaînes à plusieurs étapes."
+            ],
+            "callout": {
+              "title": "Le tableau des opérations utilise des totaux en direct",
+              "body": "Pour une recette épinglée, changer les itérations ou le carburant sur le tableau recalcule immédiatement les besoins. C’est plus sûr que de mémoriser un aperçu issu d’un état d’inventaire antérieur."
+            }
+          }
+        ]
+      },
+      "gathering-and-cooldowns": {
+        "title": "Collecte et temps de recharge",
+        "summary": "Ressources de départ, lots manuels finis, réapprovisionnement et collecte assistée par outils.",
+        "unlockLabel": "Débloqué après avoir ouvert n’importe quel bâtiment de production",
+        "sections": [
+          {
+            "title": "Extraction de départ",
+            "paragraphs": [
+              "Le Bosquet d’arbres et l’Affleurement rocheux commencent construits et fournissent les recettes de collecte à la main nécessaires au démarrage de la colonie. La collecte à la main n’a pas de ressource d’entrée, mais reste une recette : sélectionnez une quantité, respectez son lot maximal, produisez, puis attendez que le site se réapprovisionne si cette recette a un temps de recharge.",
+              "Les temps de recharge sont suivis par bâtiment et par recette dans la sauvegarde. Quitter l’écran de production ne les réinitialise pas. Lorsque le minuteur expire, l’interface et le système de notifications peuvent indiquer que l’extraction est de nouveau disponible.",
+              "L’automatisation n’écrit pas dans cet enregistrement de temps de recharge manuel. À la place, un temps de recharge de recette devient une durée minimale pour ce bloc Production automatisé. La disponibilité manuelle et le rythme des cycles automatisés sont donc des horloges séparées."
+            ]
+          },
+          {
+            "title": "Collecte maximale",
+            "bullets": [
+              "Un lot maximal affiché est une limite stricte par opération pour cette recette, même si votre inventaire pourrait prendre en charge un nombre plus élevé.",
+              "Pour la collecte assistée par outils, le maximum peut aussi être limité par la quantité de travail que vos outils peuvent couvrir.",
+              "Appuyer sur Produire pendant qu’un temps de recharge reste actif ne consomme pas d’intrants ; cela signale l’attente restante.",
+              "Le préréglage MAX respecte le plafond et les besoins actuels de la recette. Ce n’est pas une instruction visant à vider tout l’inventaire de la colonie sans discernement."
+            ]
+          },
+          {
+            "title": "Quand arrêter la collecte à la main",
+            "paragraphs": [
+              "La collecte à la main est fiable mais lente. Les recettes avec outils produisent des lots plus grands, et les mines ou installations d’extraction industrielle ultérieures déplacent le goulot d’étranglement loin des temps de recharge répétés des sites de départ. Néanmoins, les ressources de début continuent d’alimenter la construction, le carburant, les produits chimiques et les composants ; « avancé » ne signifie donc pas « sûr à ignorer »."
+            ],
+            "callout": {
+              "title": "Activité enregistrée",
+              "body": "Les statistiques distinguent la collecte sans outils, les grandes opérations uniques, la production totale et la production par bâtiment. Ces compteurs décrivent ce qui s’est passé ; ils ne modifient ni les temps de recharge ni les rendements des recettes."
+            }
+          }
+        ]
+      },
+      "tools-and-efficiency": {
+        "title": "Outils et efficacité",
+        "summary": "Consommation d’outils entiers, durabilité comme capacité de lot et prévention des usages gaspillés.",
+        "unlockLabel": "Débloqué après la recherche Fabrication manuelle et outils en bois",
+        "sections": [
+          {
+            "title": "La durabilité est une capacité, pas une barre de santé",
+            "paragraphs": [
+              "Les outils ne restent pas dans l’inventaire avec une durabilité partiellement épuisée. Un outil d’une durabilité de 10 couvre jusqu’à 10 itérations de recette dans un calcul de production. Le jeu consomme le nombre d’outils entiers requis : outils nécessaires = plafond(itérations ÷ durabilité).",
+              "Ce plafond est le détail crucial. Produire 11 itérations avec une durabilité de 10 consomme deux outils, même si le second outil ne fournit qu’une seule itération utile. Les neuf points de capacité inutilisés ne sont pas conservés pour plus tard."
+            ],
+            "media": {
+              "alt": "Un panneau de besoin en outil affichant la durabilité, le lot sélectionné, un avertissement de capacité gaspillée et l’action Régler à l’optimal.",
+              "caption": "Faites correspondre les lots à des multiples entiers de durabilité lorsque les ressources le permettent."
+            }
+          },
+          {
+            "title": "Exemples de lots efficaces",
+            "paragraphs": [
+              "Lorsque les avertissements d’efficacité des outils sont activés, un lot non multiple affiche son avertissement après un délai de 500 ms afin que les changements rapides du sélecteur ne fassent pas sauter la mise en page. Régler à l’optimal augmente normalement la quantité jusqu’à la pleine capacité des outils entiers déjà requis ; si cela dépasse maxBatchSize, l’action revient à un multiple complet de durabilité plus faible lorsqu’il en existe un. Désactiver l’avertissement masque ce conseil et ne change pas la consommation."
+            ],
+            "bullets": [
+              "Durabilité 10, quantité 10 : 1 outil, aucune capacité inutilisée.",
+              "Durabilité 10, quantité 11 : 2 outils, 9 de capacité gaspillés.",
+              "Durabilité 10, quantité 20 : 2 outils, aucune capacité inutilisée.",
+              "Durabilité 10, quantité 1 : 1 outil est consommé ; produire un tout petit lot d’urgence peut être valable, mais c’est volontairement inefficace."
+            ]
+          },
+          {
+            "title": "Progression des outils",
+            "paragraphs": [
+              "Les meilleures familles d’outils prennent généralement en charge des recettes de collecte plus puissantes et des lots utiles plus grands. Ce sont des ressources fabriquées avec leurs propres coûts en amont, pas des améliorations permanentes appliquées au joueur. Gardez des outils de rechange avant d’entrer dans une phase d’extraction ou de collecte, et incluez leur chaîne de production lorsque vous estimez le véritable coût d’un matériau extrait."
+            ],
+            "callout": {
+              "title": "L’aperçu fait autorité",
+              "body": "Une recette peut nécessiter à la fois des intrants ordinaires et un outil. La ligne d’outil est séparée du diagramme d’intrants, mais elle est tout de même consommée lorsque l’opération réussit."
+            }
+          }
+        ]
+      },
+      "inventory-and-resources": {
+        "title": "Inventaire et ressources",
+        "summary": "Quantités en direct, tri, identités des ressources et navigation directe vers l’Almanach.",
+        "unlockLabel": "Débloqué après avoir ouvert l’Inventaire pour la première fois",
+        "sections": [
+          {
+            "title": "Ce que montre l’Inventaire",
+            "paragraphs": [
+              "L’Inventaire liste les ressources dont la quantité actuelle est supérieure à zéro. Chaque carte contient l’image de la ressource, son nom localisé, sa quantité en direct, sa description et un accès direct Voir dans l’Almanach. Consommer la dernière unité retire cette carte de la liste visible ; la ressource existe toujours dans le jeu et peut être trouvée dans l’Almanach.",
+              "Les quantités se mettent à jour depuis le stockage partagé du jeu, y compris les changements effectués par l’automatisation pendant que l’écran Inventaire est ouvert. Vous n’avez pas besoin de quitter l’onglet puis d’y revenir pour le rafraîchir."
+            ],
+            "media": {
+              "alt": "L’onglet Inventaire avec plusieurs cartes de ressources, des quantités en direct, un contrôle de tri et l’indice Voir dans l’Almanach.",
+              "caption": "L’Inventaire est une vue de stock en direct, pas un catalogue de recettes."
+            }
+          },
+          {
+            "title": "Tri et interprétation",
+            "bullets": [
+              "Par défaut préserve l’ordre naturel d’insertion de l’inventaire.",
+              "Alphabétique trie selon le nom affiché de la ressource.",
+              "Quantité décroissante fait remonter les stocks importants ; quantité croissante fait remonter les pénuries imminentes.",
+              "Le mode de tri d’inventaire sélectionné appartient à la sauvegarde.",
+              "La valeur descriptive ou calculée d’une ressource est informative. Il n’existe pas d’action générale de vente qui convertisse la valeur de l’inventaire en monnaie."
+            ]
+          },
+          {
+            "title": "Les ressources sont des nœuds du graphe",
+            "paragraphs": [
+              "La même ressource peut être un extrant dans plusieurs recettes et un intrant dans beaucoup d’autres. Son identité la plus utile n’est donc pas seulement « ce qu’elle est », mais « où elle entre dans le graphe ». Cliquez sur la carte pour ouvrir sa page d’Almanach, puis utilisez l’intelligence de recettes pour comparer toutes les sources et tous les consommateurs connus."
+            ]
+          }
+        ]
+      },
+      "resource-interactions": {
+        "title": "Infobulles et recherches de ressources",
+        "summary": "Résumés au survol, actions contextuelles, quantités en direct et sauts de dépendances.",
+        "unlockLabel": "Débloqué après l’inspection d’un écran orienté ressources",
+        "sections": [
+          {
+            "title": "Survolez pour l’identité ; interagissez pour le contexte",
+            "paragraphs": [
+              "Les infobulles de ressources sont partagées entre la production, la recherche, la construction, les tableaux et l’Almanach. Un survol normal peut afficher l’image de la ressource, son nom, la quantité en inventaire, la valeur calculée et la description. La quantité en direct peut continuer à changer pendant l’exécution de l’automatisation.",
+              "Les contrôles interactifs de ressources peuvent exposer les vues Où c’est produit et Où c’est utilisé. Elles sont calculées depuis les données de recettes plutôt que depuis votre stock actuel. Une recette listée peut être recherchée, non recherchée ou assignée à un bâtiment non construit ; les marquages d’état et les étiquettes d’action expliquent quel saut est actuellement possible."
+            ]
+          },
+          {
+            "title": "Comportement de la recherche de recettes",
+            "bullets": [
+              "Où c’est produit liste les recettes dont les extrants contiennent la ressource sélectionnée.",
+              "Où c’est utilisé indexe actuellement uniquement la carte ordinaire recipe.inputs. Une ressource utilisée seulement comme option de carburant ou seulement comme toolRequired n’y apparaîtra pas, même si la carte de recette elle-même affiche toujours ses besoins en carburant et en outils.",
+              "Ouvrir la production ne réussit que pour une recette débloquée dans un bâtiment construit. Sinon, le jeu peut mener vers Recherche ou le répertoire des bâtiments.",
+              "Cliquer en dehors d’une recherche interactive la ferme. Les simples résumés au survol ne capturent pas les clics.",
+              "Les infobulles d’aperçu des recettes peuvent être désactivées globalement si les cartes détaillées au survol masquent l’interface ; la navigation directe par l’Almanach et les recherches demeure la source durable d’informations."
+            ]
+          },
+          {
+            "title": "Éviter les suppositions périmées",
+            "paragraphs": [
+              "Une quantité affichée dans une infobulle est une lecture momentanée de l’inventaire. Pour les grands plans, épinglez la recette ou le projet de construction et utilisez l’agrégat en direct du tableau des opérations. Ce tableau réévalue le stock après chaque événement de production ou d’automatisation, contrairement à une infobulle mémorisée."
+            ]
+          }
+        ]
+      },
+      "fuel-and-electricity": {
+        "title": "Carburant, électricité et énergie",
+        "summary": "Options de carburant, énergie comme ressource stockée, génération et demande d’automatisation.",
+        "unlockLabel": "Débloqué en atteignant le niveau technologique 3",
+        "sections": [
+          {
+            "title": "Le carburant est séparé des intrants de recette",
+            "paragraphs": [
+              "Certaines recettes exposent plusieurs options de carburant. Chaque option identifie une ressource et une quantité consommée par itération. Sélectionnez-en une avant la production ; le carburant choisi est mis à l’échelle avec le lot et retiré en plus des intrants ordinaires.",
+              "Différents carburants peuvent rendre le même processus pratique à différentes étapes. L’interface ne conserve pas automatiquement un choix indisponible en substituant secrètement un autre carburant. Si l’option sélectionnée est insuffisante, choisissez-en une autre ou produisez-en davantage."
+            ],
+            "media": {
+              "alt": "Un sélecteur de carburant avec plusieurs ressources de carburant à côté d’une recette de génération d’énergie et de la cellule Électricité dans l’en-tête.",
+              "caption": "Le choix de carburant et le stock d’électricité sont des ressources explicites."
+            }
+          },
+          {
+            "title": "L’électricité est un inventaire",
+            "paragraphs": [
+              "Les recettes de génération d’énergie produisent de l’Électricité dans le même inventaire de colonie que les autres ressources. Les recettes manuelles peuvent consommer l’électricité comme carburant ou intrant. L’automatisation électronique active consomme de l’électricité au fil du temps selon son programme, son bâtiment, son lot et sa configuration de vitesse actuels.",
+              "La cellule Électricité de l’en-tête montre le stock actuel, pas le taux de génération. Le taux de génération et la demande d’automatisation sont des mesures différentes ; utilisez le tableau d’automatisation pour comparer les flux par minute."
+            ],
+            "bullets": [
+              "Un bâtiment d’énergie doit être recherché, construit, approvisionné et exploité comme n’importe quelle autre installation.",
+              "Un bloc Production électronique sans route d’erreur attend et signale un état bloqué lorsque l’électricité requise est indisponible. Si son port d’erreur est connecté, la tentative échouée suit cette route au lieu d’attendre.",
+              "Les améliorations de vitesse augmentent le débit, mais multiplient la demande d’énergie. Les niveaux de vitesse achetés peuvent être réduits sans remboursement de l’amélioration.",
+              "Sur le tableau d’automatisation, le flux brut sépare les extrants et intrants automatisés estimés ; le flux net soustrait les taux automatisés opposés par ressource. Les clics manuels sur Produire n’ont pas de taux continu par minute et ne font pas partie de ces estimations de flux."
+            ]
+          },
+          {
+            "title": "Carburant dans les plans et les programmes",
+            "paragraphs": [
+              "Une recette épinglée stocke un choix de carburant propre au tableau et l’inclut dans les totaux du tableau des opérations. Un bloc Production d’automatisation stocke également son propre choix de carburant. Le sélecteur manuel est temporaire et se réinitialise à la première option de la recette lorsque cette recette est sélectionnée de nouveau ; le modifier ne réécrit pas rétroactivement un projet épinglé ou un bloc d’automatisation."
+            ]
+          }
+        ]
+      },
+      "research-tree": {
+        "title": "Arbre de recherche",
+        "summary": "Disponibilité, prérequis, coûts, états des nœuds, filtres et liens de focus directs.",
+        "unlockLabel": "Débloqué après avoir ouvert Recherche pour la première fois",
+        "sections": [
+          {
+            "title": "Comment une technologie devient disponible",
+            "paragraphs": [
+              "Un nœud de recherche est disponible lorsque toutes les technologies listées comme ses prérequis sont terminées. La disponibilité ne signifie pas l’abordabilité : développez le nœud et comparez son coût en ressources avec l’inventaire en direct. Terminer une recherche consomme ces ressources, puis enregistre définitivement la technologie dans la sauvegarde.",
+              "La recherche peut débloquer une ou plusieurs recettes, un plan de bâtiment ou une technologie de soutien utilisée uniquement comme prérequis. Le déblocage d’une recette et celui d’un bâtiment sont indépendants. Lorsque les deux sont accordés ensemble, la nouvelle installation nécessite tout de même une construction avant que la production puisse avoir lieu."
+            ],
+            "media": {
+              "alt": "L’arbre de recherche montrant des nœuds recherchés, disponibles et verrouillés sur des arrière-plans de niveaux, avec un panneau de détail de nœud ouvert.",
+              "caption": "Suivez les arêtes de prérequis, puis examinez le coût en ressources."
+            }
+          },
+          {
+            "title": "États des nœuds et lecture du graphe",
+            "bullets": [
+              "Les nœuds recherchés sont terminés. Sélectionnez-en un pour revoir ce qu’il a débloqué.",
+              "Les nœuds disponibles ont tous leurs prérequis terminés. Sélectionnez-en un pour inspecter son coût et effectuer la recherche.",
+              "Les nœuds verrouillés ont encore du travail de prérequis. Survolez pour mettre en évidence les connexions pertinentes passées et futures du graphe.",
+              "Les arrière-plans de niveau groupent les technologies par complexité générale, mais les arêtes visibles — et non la position horizontale seule — définissent les prérequis.",
+              "La légende indique les couleurs d’état actuelles. Ne déduisez pas la disponibilité depuis le nom d’une technologie ou son numéro de niveau."
+            ]
+          },
+          {
+            "title": "Navigation et filtrage",
+            "bullets": [
+              "La recherche dans l’arbre ouvre jusqu’à huit suggestions classées ; elle ne retire pas du graphe les nœuds sans correspondance. Elle correspond au nom ou à la description de la recherche, aux noms des bâtiments débloqués par cette recherche et aux noms des recettes qu’elle débloque. Les touches fléchées parcourent les suggestions, Entrée focalise le nœud surligné et Échap efface la requête.",
+              "Les actions contextuelles Ouvrir la recherche depuis un autre système focalisent le nœud technologique exact, même dans un grand arbre.",
+              "Les bascules de niveau peuvent masquer des niveaux entiers sans modifier la progression.",
+              "Afficher seulement recherchés et disponibles retire les nœuds verrouillés pour une vue de travail plus propre.",
+              "La navigation par niveau déplace directement la caméra vers un niveau choisi.",
+              "Les contrôles de zoom, d’ajustement à la vue et de verrouillage d’interaction n’affectent que la fenêtre du graphe.",
+              "Vos niveaux visibles, votre filtre de disponibilité et votre fenêtre de vue sont sauvegardés par colonie."
+            ],
+            "callout": {
+              "title": "Épinglez les recherches coûteuses",
+              "body": "Épingler un nœud de recherche ajoute son coût complet au tableau des opérations. Avec l’auto-réaction activée, l’élément est retiré une fois la technologie terminée."
+            }
+          }
+        ]
+      },
+      "research-progression": {
+        "title": "Niveaux technologiques et progression",
+        "summary": "Suivi du niveau maximal, dépendances entre niveaux, nouvelle musique et ordre stratégique de recherche.",
+        "unlockLabel": "Débloqué après avoir terminé votre premier projet de recherche",
+        "sections": [
+          {
+            "title": "Niveau technologique le plus élevé",
+            "paragraphs": [
+              "L’en-tête affiche le niveau technologique le plus élevé que vous avez atteint, défini par la recherche terminée du niveau le plus élevé. Ce n’est pas une moyenne et cela n’exige pas que tous les nœuds de niveaux inférieurs soient terminés. Atteindre un niveau peut augmenter la capacité de la colonie et débloquer la bande-son de ce niveau, mais les recettes et bâtiments individuels suivent toujours leurs propres prérequis de recherche.",
+              "Certaines branches se reconnectent après plusieurs niveaux. Si un matériau apparemment modeste bloque un travail avancé, suivez les arêtes de recherche requise et utilisez l’Almanach pour identifier sa voie de production, au lieu de supposer que tous les prérequis doivent se trouver dans le même niveau visible."
+            ]
+          },
+          {
+            "title": "Ce qui change lorsqu’un nouveau niveau est atteint",
+            "bullets": [
+              "La cellule d’état du niveau maximal se met à jour.",
+              "Le gestionnaire de musique débloque les pistes assignées à ce niveau. Le Jukebox peut ensuite activer ou désactiver des pistes débloquées individuellement.",
+              "La capacité en colons augmente avec la progression des niveaux. La capacité et les réservations actives sont visibles dans l’en-tête.",
+              "À des seuils ultérieurs, des systèmes supplémentaires peuvent devenir accessibles. La technologie ou l’événement d’interface déclencheur exact contrôle toujours sa fiche du Guide.",
+              "L’horodatage du temps de jeu accumulé de chaque nouveau niveau maximal atteint est enregistré pour le graphique de progression des Statistiques ; il n’impose pas de limite de temps."
+            ]
+          },
+          {
+            "title": "Choisir intelligemment les recherches",
+            "paragraphs": [
+              "Priorisez le goulot d’étranglement, pas seulement le nœud disponible au nombre le plus élevé. Une nouvelle mine peut résoudre la pression sur les matières premières ; une méthode de traitement peut multiplier l’utilité d’un minerai existant ; une branche d’énergie peut soutenir l’automatisation future ; un intermédiaire permettant la construction peut débloquer plusieurs installations à la fois.",
+              "Avant de payer un coût de recherche important, examinez sa liste de déblocages et les coûts de construction de tout nouveau bâtiment. Une recherche sans les matériaux nécessaires pour construire ou alimenter son installation reste une progression valide, mais elle peut ne pas résoudre votre problème de production immédiat."
+            ],
+            "callout": {
+              "title": "Une légère irrégularité administrative",
+              "body": "Les horodatages de niveaux sont conservés avec plus de soin que certains dossiers de personnel. Cela n’a aucun effet sur le graphe de recherche. C’est, apparemment, une excellente paperasse."
+            }
+          }
+        ]
+      },
+      "almanac-basics": {
+        "title": "Almanach des ressources",
+        "summary": "Le livre, le contenu, la navigation alphabétique, les options et les fiches de ressources.",
+        "unlockLabel": "Débloqué après avoir ouvert l’Almanach pour la première fois",
+        "sections": [
+          {
+            "title": "Un catalogue complet des ressources",
+            "paragraphs": [
+              "L’Almanach contient toutes les fiches de ressources des données de jeu actives, y compris les matériaux qui ne sont pas encore présents dans l’inventaire. Une page de ressource peut inclure sa catégorie, son image, sa valeur matérielle, sa description, sa formule chimique, son contexte historique et des notes factuelles. Le livre est donc à la fois une référence de production et l’encyclopédie industrielle du jeu.",
+              "Ouvrir l’Almanach depuis une interaction de ressource focalise cette ressource exacte. L’ouvrir depuis l’onglet de navigation utilise la page de départ configurée : la couverture par défaut, ou la Table des matières si Ouvrir sur la page du contenu est activé."
+            ],
+            "media": {
+              "alt": "Une double page de l’Almanach montrant une page de ressource, la navigation de page, les options et le contrôle Voir les recettes.",
+              "caption": "L’identité de la ressource et son contexte de production partagent une même fiche."
+            }
+          },
+          {
+            "title": "Trouver une page",
+            "bullets": [
+              "L’Almanach actuel n’a pas de recherche de ressources en texte libre. Utilisez la Table des matières, ses contrôles de saut alphabétique ou un lien contextuel de ressource depuis l’Inventaire, la Production, la Recherche, la construction ou un tableau.",
+              "Sélectionner une ligne de la Table des matières mène directement à cette page de ressource.",
+              "Les boutons alphabétiques font défiler la Table des matières jusqu’à un groupe de lettre initiale ; ils ne retirent pas les autres lignes. Ces boutons sont omis dans la localisation chinoise, où le groupement par initiales latines n’est pas utilisé.",
+              "Les contrôles Couverture, Contenu, Précédente et Suivante fournissent une navigation déterministe même lorsque le feuilletage réaliste des pages est désactivé.",
+              "Cliquer sur l’image de la ressource ouvre une vue d’image plus grande.",
+              "L’activité de feuilletage est suivie pour les Statistiques et les succès ; elle ne débloque pas de recettes."
+            ]
+          },
+          {
+            "title": "Options de l’Almanach",
+            "bullets": [
+              "Ouvrir sur la page du contenu change l’endroit où commencent les visites ordinaires de l’Almanach.",
+              "Masquer les recettes non recherchées retire de la recherche de recettes celles que vous n’avez pas débloquées.",
+              "Masquer les recettes des bâtiments non construits retire les processus assignés aux installations que vous n’avez pas construites.",
+              "Ces filtres simplifient la recherche visible ; ils ne suppriment pas la connaissance des recettes et ne changent pas le graphe de production.",
+              "Le feuilletage réaliste des pages est un paramètre global de l’interface. Faire glisser les bords de page est optionnel ; les boutons de navigation restent disponibles."
+            ]
+          },
+          {
+            "title": "La valeur matérielle n’est pas une monnaie",
+            "paragraphs": [
+              "La valeur matérielle est précalculée depuis les données complètes de recettes, pas depuis les recettes recherchées dans cette sauvegarde. Les sorties sans intrants et l’Électricité commencent avec une valeur de base de 1. Les autres valeurs se propagent à travers les coûts d’intrants et de carburant par unité de sortie, conservent la voie calculable la plus basse et ne descendent jamais sous 1 ; une ressource non résolue revient aussi à 1. Le coût des outils ne fait pas partie de ce calcul de valeur. Le nombre est utile pour une comparaison générale, mais la colonie n’a pas de marché et ne peut pas vendre une ressource pour cette valeur."
+            ]
+          }
+        ]
+      },
+      "almanac-recipe-intelligence": {
+        "title": "Intelligence de recettes de l’Almanach",
+        "summary": "Recettes productrices et consommatrices, marquages d’état, rentabilité et sauts contextuels.",
+        "unlockLabel": "Débloqué après avoir ouvert Voir les recettes dans l’Almanach",
+        "sections": [
+          {
+            "title": "Deux directions dans le graphe",
+            "paragraphs": [
+              "Voir les recettes ouvre un panneau divisé en Recettes productrices et Recettes consommatrices. Les recettes productrices ont la ressource actuelle dans leurs extrants. Les recettes consommatrices l’ont dans leurs intrants ordinaires. Les relations uniquement liées au carburant ou uniquement aux outils ne sont pas indexées comme consommateurs dans l’implémentation actuelle ; inspectez donc les cartes de recettes lorsque vous planifiez ces coûts spéciaux.",
+              "Chaque carte de recette expose son bâtiment assigné, ses cartes d’intrants et d’extrants, les informations de carburant ou d’outil le cas échéant, la rentabilité et l’état de recherche / construction. La ressource actuelle est surlignée dans la carte afin que le côté de la transformation inspecté reste clair."
+            ],
+            "media": {
+              "alt": "La recherche de recettes de l’Almanach avec des cartes productrices et consommatrices dans des états recherchés, non recherchés et de bâtiment non construit.",
+              "caption": "Les liens sensibles à l’état transforment le catalogue en centre de navigation."
+            }
+          },
+          {
+            "title": "L’action change selon l’état",
+            "bullets": [
+              "Recette recherchée + bâtiment construit : Voir en production ouvre le bon bâtiment et sélectionne la recette.",
+              "Recette recherchée + bâtiment non construit : Ouvrir dans Bâtiments focalise l’installation que vous devez construire.",
+              "Recette non recherchée : Ouvrir la recherche requise focalise la technologie qui la débloque.",
+              "Les cartes rayées ou étiquetées indiquent un savoir indisponible plutôt que des données manquantes.",
+              "Peut être produit maintenant est un indice d’abordabilité pour une seule itération. Il vérifie la recherche de la recette, les intrants ordinaires, au moins une option de carburant valide et au moins un outil requis. Il ne vérifie pas si le bâtiment assigné est construit, ne teste pas un temps de recharge manuel et ne promet pas que votre lot multi-itérations sélectionné est abordable."
+            ]
+          },
+          {
+            "title": "Utiliser la rentabilité sans se tromper",
+            "paragraphs": [
+              "La rentabilité est un ratio stocké dérivé de la valeur de sortie calculée divisée par le coût d’entrée calculé. Son calcul peut inclure la valeur proportionnelle des outils et le coût du carburant, mais cette comptabilité théorique n’est pas la même chose que le plafond d’outils entiers appliqué à un lot réel. La construction, la recherche, le coût d’opportunité du temps de recharge, la disponibilité du carburant et l’énergie d’automatisation peuvent encore changer la réponse pratique.",
+              "La recette théorique la plus rentable peut appartenir à une installation non construite ou nécessiter une branche indisponible. Utilisez les options de l’Almanach pour masquer ces voies lorsque vous avez besoin d’un plan immédiatement exploitable, puis désactivez les filtres lorsque vous planifiez à l’avance."
+            ]
+          }
+        ]
+      },
+      "operations-board": {
+        "title": "Tableau des opérations",
+        "summary": "Épinglage de projets, besoins agrégés, achèvement en direct, choix de carburant et auto-réaction.",
+        "unlockLabel": "Débloqué après avoir épinglé votre première recette, recherche ou projet de construction",
+        "sections": [
+          {
+            "title": "Une liste de projets inter-écrans",
+            "paragraphs": [
+              "Le tableau des opérations suit les recettes, les coûts de recherche et les coûts de construction de bâtiments dans un panneau persistant. Les contrôles d’épinglage apparaissent dans ces systèmes. Ouvrez ou réduisez le tableau avec sa poignée latérale ou son raccourci ; le réduire ne retire pas ses éléments.",
+              "En haut, Besoins totaux agrège chaque élément épinglé. Chaque ressource compare le besoin combiné avec l’inventaire en direct, donc produire un matériau peut transformer une pénurie en ligne satisfaite sans rouvrir le tableau."
+            ],
+            "media": {
+              "alt": "Le tableau des opérations déployé avec des pastilles de ressources agrégées et des éléments de recette, de recherche et de bâtiment épinglés.",
+              "caption": "Un seul plan en direct peut couvrir toute la colonie."
+            }
+          },
+          {
+            "title": "Comportement propre à chaque élément",
+            "bullets": [
+              "Les éléments de recette permettent d’augmenter ou de diminuer le nombre d’itérations. Les intrants, extrants, carburant et besoins en outils sont recalculés immédiatement.",
+              "Les recettes avec options de carburant conservent un carburant sélectionné propre au tableau.",
+              "Les éléments de recherche affichent le coût exact et renvoient au nœud de recherche focalisé.",
+              "Les éléments de bâtiment affichent les besoins de construction et renvoient à la carte de bâtiment focalisée.",
+              "Une recette dont l’installation n’est pas construite signale ce bloqueur et peut vous rediriger vers Bâtiments.",
+              "Désépingler retire seulement ce projet. Tout effacer retire immédiatement tous les projets et ne demande pas de confirmation. Aucune de ces actions ne consomme ni ne rembourse de ressources."
+            ]
+          },
+          {
+            "title": "Auto-réagir aux événements du jeu",
+            "paragraphs": [
+              "Avec Auto-réagir activé, un élément de recherche épinglé est retiré lorsque cette recherche est terminée, un élément de construction est retiré lorsque son bâtiment est construit, et un élément de recette décrémente après des itérations manuelles ou automatisées correspondantes terminées. Le chemin de production manuelle affiche une notification de progression ou de retrait limitée en fréquence. L’automatisation applique le même décompte dans son tick de simulation, mais n’émet pas ce toast propre au tableau ; une cible automatisée peut donc diminuer ou disparaître discrètement.",
+              "Avec Auto-réagir désactivé, le tableau devient une liste de référence statique. C’est utile pour les objectifs de production récurrents ou lorsque vous voulez qu’un projet terminé reste comme modèle."
+            ],
+            "callout": {
+              "title": "Le tableau est un calculateur, pas un système de réservation",
+              "body": "Les besoins épinglés ne verrouillent pas l’inventaire. Vous pouvez dépenser ces ressources ailleurs, et l’état en direct redeviendra insuffisant. Le tableau n’exécute jamais de production ou de recherche de lui-même."
+            }
+          }
+        ]
+      },
+      "colony-status-deck": {
+        "title": "Panneau d’état de la colonie",
+        "summary": "Production totale, installations, niveau, colons, schémas actifs, bloqueurs et électricité.",
+        "unlockLabel": "Débloqué en atteignant le niveau technologique 1",
+        "sections": [
+          {
+            "title": "Bloc de progression de la colonie",
+            "paragraphs": [
+              "Ces valeurs résument la progression ; ce ne sont pas des boutons. Les ventilations détaillées se trouvent dans Statistiques, Bâtiments et Recherche."
+            ],
+            "bullets": [
+              "Production totale est le nombre cumulé d’unités de sortie produites, pas l’inventaire actuel. La consommation ne le réduit pas.",
+              "Bâtiments affiche les types d’installations construites par rapport au catalogue de bâtiments valide.",
+              "Niveau affiche le plus haut niveau de recherche terminé."
+            ],
+            "media": {
+              "alt": "Le panneau d’état complet avec les blocs de progression et d’opérations annotés par métrique.",
+              "caption": "Le stock actuel, la production cumulée et la capacité sont des mesures différentes."
+            }
+          },
+          {
+            "title": "Bloc d’opérations de la colonie",
+            "paragraphs": [
+              "Un schéma bloqué reste actif, mais ne peut pas faire avancer son travail actuel. Ouvrez son bâtiment ou le tableau d’automatisation pour identifier les ressources ou l’électricité manquantes. Un schéma arrêté n’est pas compté comme actif et ne réserve pas de colons."
+            ],
+            "bullets": [
+              "Colons affiche disponible / total. La ligne de détail indique combien sont réservés par des programmes d’automatisation manuelle en cours.",
+              "Schémas actifs compte les programmes manuels et électroniques en cours. Si l’un d’eux a une raison de blocage, la cellule indique le nombre bloqué.",
+              "Électricité affiche l’inventaire actuel, pas la génération ou la consommation par minute."
+            ]
+          },
+          {
+            "title": "La marque centrale",
+            "paragraphs": [
+              "Le logotype central Realindustry est un élément permanent de l’en-tête. Certaines séquences d’interface tardives peuvent associer un sens ou une interaction à cette marque. Si l’interface commence à se comporter comme si un élément décoratif avait acquis une importance administrative, ce Guide recommande une curiosité professionnelle et une sauvegarde de secours."
+            ]
+          }
+        ]
+      },
+      "achievements": {
+        "title": "Succès et récompenses",
+        "summary": "Catégories, rareté, progression, conditions cachées, organisations et moment de déblocage.",
+        "unlockLabel": "Débloqué après avoir ouvert Succès pour la première fois",
+        "sections": [
+          {
+            "title": "Ce qu’enregistre un succès",
+            "paragraphs": [
+              "Les succès évaluent les statistiques de colonie sauvegardées et les compteurs d’événements : totaux de production, ressources spécifiques, recherche, construction, utilisation de l’interface, schémas temporels, automatisation et autres jalons. Débloquer un succès enregistre définitivement son identifiant dans la sauvegarde et affiche une notification de récompense.",
+              "La superposition Succès peut être filtrée par catégorie et recherchée. Chaque carte identifie la rareté, la progression lorsque la condition expose un objectif mesurable, le texte de récompense et l’organisation qui l’attribue. Les illustrations verrouillées peuvent être dissimulées jusqu’à leur obtention."
+            ],
+            "media": {
+              "alt": "La superposition Succès avec filtres de catégories, barres de progression, style de rareté et une récompense débloquée.",
+              "caption": "Les récompenses décrivent l’histoire de la colonie ; elles ne remplacent pas les systèmes de progression."
+            }
+          },
+          {
+            "title": "Limites importantes",
+            "bullets": [
+              "Toutes les conditions ne révèlent pas leur objectif exact avant l’achèvement.",
+              "La progression peut se mettre à jour après un changement du compteur de production, de recherche, de construction, d’Almanach, de menu ou d’activité pertinent.",
+              "Une notification de succès n’implique pas qu’une recette, un bâtiment ou une entrée d’archive protégée a été débloqué, sauf si ce système l’indique séparément.",
+              "Les Statistiques peuvent aider à diagnostiquer les objectifs mesurables, mais les succès cachés ou comportementaux peuvent exiger de l’expérimentation."
+            ]
+          },
+          {
+            "title": "Langage corporatif des récompenses",
+            "paragraphs": [
+              "Les notes de récompense sont écrites du point de vue de plusieurs organisations, y compris des organes corporatifs internes. Leur ton fait partie de l’univers. « Performance dans les paramètres attendus » reste un succès, même si la personne qui l’a écrit semble constitutionnellement incapable d’avoir l’air satisfaite."
+            ]
+          }
+        ]
+      },
+      "statistics-dashboard": {
+        "title": "Tableau de bord des statistiques",
+        "summary": "Vue d’ensemble, production, activité, chronologie des niveaux et comptabilité de l’automatisation.",
+        "unlockLabel": "Débloqué après avoir ouvert Statistiques pour la première fois",
+        "sections": [
+          {
+            "title": "Onglet Vue d’ensemble",
+            "paragraphs": [
+              "Vue d’ensemble résume les clés de ressources présentes dans l’objet d’inventaire, les bâtiments construits, les recherches terminées, le temps de jeu total, la production totale, la production par heure, les dix plus grands stocks actuels, la progression des niveaux technologiques et la production automatisée. La carte « ressources uniques » compte les clés d’inventaire stockées, y compris une clé dont la quantité a ensuite atteint zéro ; ce n’est pas nécessairement le nombre de cartes d’Inventaire visibles avec une quantité positive. La production par heure utilise le temps de jeu accumulé, il s’agit donc d’un taux historique à long terme plutôt que du rythme instantané d’une machine."
+            ],
+            "media": {
+              "alt": "Vue d’ensemble des Statistiques avec cartes récapitulatives, ressources principales et progression des niveaux technologiques.",
+              "caption": "Utilisez le tableau de bord pour comprendre l’historique, pas pour contrôler la production."
+            }
+          },
+          {
+            "title": "Onglet Production",
+            "bullets": [
+              "Top des ressources produites est la production cumulée par ressource, pas le stock actuel.",
+              "Production par bâtiment attribue la production manuelle et suivie aux types d’installations.",
+              "Plus grande production en une opération enregistre le plus grand événement de sortie terminé. La production manuelle comme les blocs Production automatisés peuvent l’augmenter.",
+              "Collecte sans outils suit séparément le comportement d’extraction du début de partie.",
+              "Total des ressources d’intrants traitées n’est mis à jour que par les bâtiments dont la catégorie est recyclage. Les exécutions manuelles ajoutent la carte de paiement ordinaire intrants-carburant ; l’outil retiré séparément n’est pas inclus. Le recyclage automatisé ajoute chaque besoin physique, y compris les outils et le carburant, mais exclut l’Électricité d’automatisation.",
+              "Les compteurs d’automatisation incluent la production, la consommation d’intrants physiques, la consommation d’électricité, les cycles de blocs Production terminés et les itérations de recette configurées. Un bloc terminé augmente les cycles de 1 et les itérations du nombre de lots de ce bloc."
+            ]
+          },
+          {
+            "title": "Onglet Activité",
+            "bullets": [
+              "Fonctionnalités les plus utilisées repose sur les interactions de boutons et de navigation suivies.",
+              "Pages de l’Almanach tournées, ouvertures du menu, jours joués et pistes musicales écoutées sont des compteurs historiques.",
+              "Jours joués utilise les dates calendaires distinctes rencontrées par la sauvegarde, pas le temps de jeu total divisé par 24 heures.",
+              "Les pistes écoutées sont synchronisées depuis le gestionnaire de musique avant l’ouverture de Statistiques, afin que le compteur reflète la session actuelle."
+            ],
+            "callout": {
+              "title": "Un nombre peut être vrai de deux manières différentes",
+              "body": "L’Inventaire répond à « Combien existe maintenant ? » Les Statistiques répondent à « Combien s’est produit ? » La distinction compte chaque fois qu’une ressource est produite puis immédiatement consommée en amont."
+            }
+          }
+        ]
+      },
+      "notifications-and-idle": {
+        "title": "Notifications et surveillance de l’inactivité",
+        "summary": "Types de messages, mises à jour du tableau, avis de temps de recharge et protocole d’inactivité.",
+        "unlockLabel": "Débloqué après avoir terminé votre premier projet de recherche",
+        "sections": [
+          {
+            "title": "Types de notifications",
+            "paragraphs": [
+              "Une notification est transitoire ; l’état sous-jacent ne l’est pas. Si un message disparaît, inspectez l’écran pertinent, la fiche du Guide ou le tableau de bord sauvegardé plutôt que d’essayer de reproduire l’action seulement pour le relire."
+            ],
+            "bullets": [
+              "Les messages de succès confirment des actions terminées comme la sauvegarde, la construction, l’installation d’automatisation ou la production.",
+              "Les messages d’information expliquent les changements d’état, la fin des temps de recharge, les déblocages et les bloqueurs non fatals.",
+              "Les messages d’erreur signalent les ressources manquantes, les programmes invalides, les installations indisponibles ou les problèmes de stockage.",
+              "Les notifications de succès et de tableau ont un style dédié et peuvent résumer la progression automatique d’un projet.",
+              "La liste de notifications en direct conserve au maximum 24 éléments. Si une rafale dépasse cette limite, les plus anciens éléments actifs sont supprimés et les plus récents sont conservés.",
+              "La plupart des messages se retirent après leur durée configurée. Un message persistant reste jusqu’à ce que la logique de l’application le retire ou l’efface ; le moteur actuel de rendu des toasts ne dispose pas de bouton de fermeture utilisable par le joueur."
+            ]
+          },
+          {
+            "title": "Surveillance de l’inactivité",
+            "paragraphs": [
+              "Après 60 secondes sans activité clavier, pointeur, molette, défilement, toucher ou clic, le jeu affiche un avertissement d’inactivité sans son. Après 300 secondes, il passe à un avertissement corporatif sévère et joue le son d’avertissement. Toute interaction surveillée efface l’avertissement et réinitialise les deux seuils.",
+              "La surveillance de l’inactivité relève de la présentation et de l’univers narratif. Elle ne supprime pas de ressources, ne fait pas échouer de recherche et n’impose pas de pénalité de production cachée. L’automatisation peut continuer selon ses propres règles de ressources et d’électricité tant que l’application reste active."
+            ],
+            "callout": {
+              "title": "Protocole d’efficacité",
+              "body": "L’inquiétude du système au sujet d’un Directeur sans surveillance est opérationnellement sincère et émotionnellement inutile. Vous pouvez faire des pauses. Aucune fiche du Guide n’autorise la colonie à protester."
+            }
+          }
+        ]
+      },
+      "settings-and-accessibility": {
+        "title": "Paramètres et accessibilité",
+        "summary": "Comportement général, affichage, graphismes, audio, langues et réinitialisations sûres.",
+        "unlockLabel": "Débloqué après avoir ouvert le Menu en jeu pour la première fois",
+        "sections": [
+          {
+            "title": "Paramètres généraux et d’interface",
+            "bullets": [
+              "La langue peut suivre le système ou utiliser une langue prise en charge sélectionnée manuellement.",
+              "La sauvegarde automatique et son intervalle contrôlent l’entrée dédiée de sauvegarde automatique.",
+              "Les notifications peuvent être désactivées pour les messages de succès, d’information, de réussite, de tableau et les messages similaires envoyés par le fournisseur de notifications. Les notifications d’erreur contournent volontairement cette préférence. La superposition séparée d’avertissement d’inactivité n’est pas contrôlée par cette case et apparaît toujours à ses seuils d’inactivité.",
+              "Les infobulles d’aperçu des recettes, les badges d’indices de raccourcis, la position mémorisée des Bâtiments et les avertissements d’efficacité des outils peuvent être activés ou désactivés indépendamment.",
+              "Le feuilletage réaliste des pages de l’Almanach est optionnel et ne supprime pas la navigation par boutons."
+            ]
+          },
+          {
+            "title": "L’enveloppe du Menu en jeu",
+            "paragraphs": [
+              "Le Menu contient Reprendre, Sauvegarder la partie, Charger la partie, Paramètres, Jukebox, Menu principal et Quitter. Cliquer sur la zone sombre en dehors du menu se comporte comme Reprendre. Le Jukebox affiche également la piste actuellement signalée sous son bouton.",
+              "Menu principal et Quitter demandent une confirmation. Dans la version Electron, Quitter confirmé demande à l’enveloppe de bureau de fermer l’application ; dans un autre hôte, l’action de sortie de repli de l’application est utilisée. Ouvrir et fermer le Menu ne met pas en pause, ne sauvegarde pas et ne revient pas en arrière sur l’automatisation par lui-même."
+            ]
+          },
+          {
+            "title": "Affichage et graphismes",
+            "paragraphs": [
+              "Les modes fenêtré, sans bordure lorsque pris en charge, et plein écran contrôlent l’enveloppe. Le mode fenêtré peut utiliser une résolution choisie. L’échelle de l’interface va d’une interface compacte à une interface agrandie, et l’échelle de la grille des bâtiments modifie le nombre de cartes d’installations pouvant tenir dans le répertoire.",
+              "La qualité graphique et les interrupteurs de fonctionnalités contrôlent les shaders, les effets WebGL, les effets optiques, les particules d’ambiance réalistes, les effets de particules ordinaires, les animations et les effets particulièrement exigeants de l’Arbre de recherche. Certains contrôles dépendent des shaders, de WebGL ou de la qualité Élevée et sont désactivés lorsque ces prérequis sont coupés."
+            ],
+            "media": {
+              "alt": "Paramètres avec les onglets Général, Affichage, Graphismes, Audio et Raccourcis visibles.",
+              "caption": "La présentation peut être réduite sans changer les règles de simulation."
+            }
+          },
+          {
+            "title": "Audio et utilisation sûre",
+            "bullets": [
+              "Les volumes principal, musique, ambiance, interface / effets sonores et voix sont indépendants. Le volume principal ajuste tous les autres canaux.",
+              "La musique de production peut être désactivée pour les interfaces d’installation, laissée au niveau normal, ou activée avec atténuation. La case d’atténuation n’a aucun effet lorsque la musique de production elle-même est désactivée.",
+              "L’aperçu d’ambiance des bâtiments au survol des cartes peut être désactivé.",
+              "La musique du jeu est originale et destinée à être sûre pour les vidéos enregistrées et les streams.",
+              "Réinitialiser restaure les paramètres par défaut après confirmation. Ce n’est pas la même action que réinitialiser un emplacement de sauvegarde."
+            ]
+          }
+        ]
+      },
+      "jukebox-and-audio": {
+        "title": "Jukebox et musique dynamique",
+        "summary": "Déblocage des pistes par niveau, désactivation des pistes, comportement en production et statistiques des pistes écoutées.",
+        "unlockLabel": "Débloqué avec la fiche du Menu en jeu",
+        "sections": [
+          {
+            "title": "La technologie débloque la bande-son",
+            "paragraphs": [
+              "La musique est groupée par niveau technologique. Atteindre un nouveau niveau maximal débloque ses pistes associées dans le gestionnaire de musique actif. Le Jukebox liste les pistes disponibles et peut désactiver des chansons individuelles sans réduire le volume général de la musique.",
+              "Les pistes désactivées restent débloquées et peuvent être restaurées plus tard. Une sauvegarde conserve sa liste de pistes désactivées, tandis que les réglages généraux de volume sont des préférences de l’application."
+            ]
+          },
+          {
+            "title": "Musique en production",
+            "bullets": [
+              "Musique de production détermine si la bande-son continue lorsqu’une interface d’installation est ouverte.",
+              "L’atténuation réduit fortement le volume de la musique en production au lieu d’arrêter la lecture.",
+              "L’ambiance des machines et les effets d’interface utilisent des canaux de volume séparés.",
+              "Les transmissions de l’assistant et les autres éléments vocaux utilisent le canal des voix.",
+              "Les Statistiques enregistrent les pistes distinctes écoutées. Ce n’est pas le même compteur que les pistes débloquées ou activées."
+            ]
+          },
+          {
+            "title": "Une piste nouvellement débloquée manque ?",
+            "paragraphs": [
+              "Vérifiez l’état d’activation du Jukebox, le volume de la musique, le volume principal et si la musique de production est désactivée. La sélection des pistes reste dynamique ; débloquer un niveau élargit la réserve, mais ne garantit pas qu’une piste exacte soit jouée immédiatement."
+            ]
+          }
+        ]
+      },
+      "automation-foundations": {
+        "title": "Bases de l’automatisation",
+        "summary": "Schémas locaux aux bâtiments, équipes manuelles, noyaux électroniques ultérieurs et modes de fonctionnement.",
+        "unlockLabel": "Débloqué après avoir ouvert votre première interface de production",
+        "sections": [
+          {
+            "title": "L’automatisation est locale à chaque bâtiment",
+            "paragraphs": [
+              "L’automatisation désigne un schéma exécutable sauvegardé pour une installation construite. Un bâtiment peut contenir un schéma manuel dès le début, puis plus tard aussi un schéma électronique, une installation de noyau, des améliorations, des tâches d’exécution, un mode sélectionné et une contribution à l’historique. Un programme configuré dans un bâtiment ne peut pas exécuter une recette assignée à un autre bâtiment.",
+              "L’automatisation répète le travail de recette dans le temps au lieu de l’exécuter instantanément. Les intrants physiques, le carburant sélectionné et les outils entiers sont retirés lorsqu’un bloc Production se termine. Les blocs Production électroniques retirent aussi leur Électricité calculée. Les extrants entrent dans le même inventaire en direct que celui utilisé par la production manuelle et tous les autres programmes."
+            ],
+            "media": {
+              "alt": "La console d’automatisation d’un bâtiment de production montrant les modes électronique et manuel, l’installation du noyau, les contrôles de programme et les améliorations.",
+              "caption": "L’automatisation appartient à l’installation dont elle exécute les recettes."
+            }
+          },
+          {
+            "title": "Deux modes, un bâtiment",
+            "bullets": [
+              "L’Automatisation par colons est disponible via les contrôles de schéma manuel dans un bâtiment de production. Elle ne requiert pas la recherche Noyau électronique d’automatisation ni un noyau électronique installé.",
+              "L’Automatisation électronique est la couche ultérieure fondée sur un noyau, débloquée par la recherche Noyau électronique d’automatisation. Elle nécessite un noyau d’automatisation installé dans ce bâtiment et consomme de l’électricité pendant le fonctionnement des blocs Production.",
+              "Un bâtiment ne peut pas exécuter simultanément son programme électronique et son programme manuel. Arrêtez le mode actif avant de démarrer l’autre.",
+              "Les programmes restent sauvegardés lorsqu’ils sont arrêtés. L’arrêt efface les tâches d’exécution actives et les réservations, mais ne supprime pas le graphe.",
+              "Produire manuellement de manière ordinaire reste une action séparée. Un programme en cours n’empêche pas de voir l’interface de production, mais la concurrence pour le même inventaire peut créer des bloqueurs."
+            ]
+          },
+          {
+            "title": "Installer un noyau électronique",
+            "steps": [
+              "Recherchez Noyau électronique d’automatisation.",
+              "Ouvrez un bâtiment opérationnel et trouvez sa console d’automatisation.",
+              "Inspectez le coût d’installation spécifique au bâtiment.",
+              "Installez le noyau d’automatisation. Le coût complet est consommé une seule fois pour ce bâtiment.",
+              "Configurez et validez un schéma Électronique avant de le démarrer."
+            ],
+            "callout": {
+              "title": "La construction n’est pas l’installation",
+              "body": "Construire l’installation, rechercher l’automatisation et installer son noyau sont trois verrous séparés. Un noyau installé ne fait pas non plus fonctionner un programme vide ou invalide."
+            }
+          },
+          {
+            "title": "Coût exact d’installation du noyau",
+            "paragraphs": [
+              "Soit t le niveau technologique du bâtiment, borné de 0 à 10. Installer le noyau électronique de ce bâtiment coûte les unités entières suivantes : Fil de cuivre = plafond(30 + t³), Engrenage en acier = plafond(5 + t²), Plaque d’acier = plafond(4 + t^1.8), Circuit électronique = plafond(2 + t^1.5) et Moteur électrique = plafond(2 + t^1.5). La formule est évaluée séparément pour chaque bâtiment ; installer un noyau ne donne pas de réduction sur le suivant."
+            ]
+          }
+        ]
+      },
+      "automation-program-editor": {
+        "title": "Éditeur de programme d’automatisation",
+        "summary": "Création de graphes, connexion des ports, vérification, sauvegarde automatique, actions du presse-papiers et lancement de schémas.",
+        "unlockLabel": "Débloqué après avoir ouvert un éditeur de schéma manuel ou électronique",
+        "sections": [
+          {
+            "title": "Un schéma est un graphe exécutable",
+            "paragraphs": [
+              "Faites glisser un bloc sur le canevas ou cliquez dessus dans la palette, configurez ses champs, puis connectez les ports de sortie à des ports d’entrée compatibles. L’exécution commence au bloc Start unique et suit les connexions. La position est visuelle ; les connexions et les données des blocs définissent le comportement.",
+              "Les modifications sont enregistrées automatiquement dans le bâtiment et le mode, mais un graphe modifié doit être revérifié avant le lancement. Vérifier le schéma valide la structure et surligne les nœuds ou arêtes concernés. Lancer le schéma n’est activé que lorsque les exigences de lancement sont satisfaites."
+            ],
+            "media": {
+              "alt": "L’éditeur d’automatisation avec palette de blocs, graphe connecté, minicarte ou contrôles, panneau de validation et levier de lancement.",
+              "caption": "Les connexions, et non la position à l’écran, définissent le flux de contrôle."
+            }
+          },
+          {
+            "title": "Contrôles de l’éditeur",
+            "bullets": [
+              "Ctrl + glisser effectue une sélection de zone.",
+              "Ctrl+A sélectionne tout. Ctrl+C, Ctrl+X, Ctrl+V et Ctrl+D copient, coupent, collent et dupliquent les fragments sélectionnés.",
+              "Ctrl+Z annule ; Ctrl+Maj+Z ou Ctrl+Y rétablit.",
+              "Suppr retire les blocs ou arêtes sélectionnés. Échap efface la sélection.",
+              "Double-cliquez sur une connexion pour insérer un point de renvoi ; faites un clic droit sur une connexion pour la retirer.",
+              "Aligner sur la grille ne modifie que l’assistance au placement.",
+              "Effacer retire le schéma modifiable après l’interaction pertinente ; copiez d’abord un graphe réutilisable si nécessaire."
+            ]
+          },
+          {
+            "title": "Copier entre bâtiments et modes",
+            "paragraphs": [
+              "Copier le schéma stocke le graphe complet dans un presse-papiers local persistant de schéma. Coller le schéma remplace tout le graphe de l’éditeur cible ; ce n’est pas une opération d’ajout. Les types de blocs non pris en charge sont omis pour le mode cible, les blocs Production électroniques dépassant la limite actuelle d’emplacements sont omis, les arêtes d’erreur manuelles sont retirées, les nombres d’itérations sont bornés, et un bloc Production dont la recette sauvegardée n’appartient pas au bâtiment cible revient à la première recette disponible de ce bâtiment et au premier choix de carburant.",
+              "Le copier/coller de sélection est séparé. Il stocke les blocs sélectionnés ainsi que les seules arêtes dont les deux extrémités sont sélectionnées, puis ajoute un nouveau fragment près du centre de la caméra. Les blocs collés reçoivent de nouveaux identifiants. Si le programme électronique cible manque d’emplacements Production libres, les blocs Production sélectionnés en excès et leurs arêtes désormais invalides sont ignorés, tandis que les autres blocs acceptés peuvent tout de même être collés.",
+              "Un graphe copié est une conception, pas un état d’exécution en direct. La progression, les ressources bloquées, les arrivées de barrières et les tâches actuelles ne sont pas une file de production portable."
+            ],
+            "callout": {
+              "title": "Construisez un passage valide avant un graphe répétitif",
+              "body": "Start → Production → End est le plus petit schéma à passage unique. Pour un schéma répétitif fini, utilisez Start → Joiner → Production → Loop ; connectez Loop.body vers Joiner et Loop.exit vers End. Une version manuelle doit placer ses blocs Rest requis sur la route répétitive, généralement entre Production et Loop. Start n’a pas de port d’entrée, et deux routes ne peuvent pas partager un port d’entrée ordinaire — c’est pourquoi le Joiner est nécessaire."
+            }
+          }
+        ]
+      },
+      "automation-blocks": {
+        "title": "Blocs d’automatisation et flux",
+        "summary": "Tous les types de blocs, sémantique des ports, embranchements, synchronisation, boucles, erreurs et renvois.",
+        "unlockLabel": "Débloqué après avoir ajouté une logique de production à un schéma d’automatisation",
+        "sections": [
+          {
+            "title": "Blocs de base et temporisés",
+            "bullets": [
+              "La disponibilité des blocs dépend du mode. Les schémas manuels utilisent la palette sûre pour les colons ; les schémas électroniques ajoutent des blocs de contrôle uniquement électroniques une fois le système de noyau disponible.",
+              "Start : le point d’entrée unique. Un seul est requis, et il a besoin d’une connexion sortante.",
+              "End : termine une tâche qui l’atteint. End est optionnel ; l’omettre produit un avertissement, car une boucle intentionnelle peut ne jamais se terminer.",
+              "Production : exécute une recette appartenant au bâtiment actuel pour le nombre d’itérations configuré et le choix de carburant. Les itérations électroniques sont limitées à 1 + niveaux de Gestionnaire de lots achetés ; les itérations manuelles vont de 1 à 9 999. Il possède une route normale suivante ; le mode électronique peut aussi router une sortie d’erreur lorsque la production ne peut pas se terminer.",
+              "Wait : met sa tâche en pause pendant une valeur entière de 1 à 3 600 secondes, puis suit next.",
+              "Rest : une pause fixe de cinq secondes utilisée par l’automatisation par colons et comptée dans sa structure de récupération obligatoire."
+            ],
+            "media": {
+              "alt": "Un graphe d’automatisation annoté montrant chaque bloc et ses ports.",
+              "caption": "Les signaux voyagent le long de connexions dirigées depuis Start."
+            }
+          },
+          {
+            "title": "Décision et répétition",
+            "bullets": [
+              "Condition compare une ressource d’inventaire sélectionnée à une quantité de 0 à 999 999 999 et route par true ou false. Les comparaisons prises en charge sont <, ≤, = exact, ≥ et >. Les seuils décimaux sont autorisés.",
+              "Loop accepte un nombre de 0 à 9 999. Il envoie l’exécution par body pendant son nombre configuré, puis par exit. Un nombre de 0 sélectionne toujours body et ne sélectionne jamais exit. Pour répéter un travail antérieur, la route body doit revenir par un Joiner ou un autre point de fusion légal ; Loop ne saute pas implicitement en arrière.",
+              "Le compteur de Loop compte les sélections body au niveau du bloc Loop. Dans Start → Joiner → Production → Loop avec body revenant vers Joiner, Production s’exécute une fois avant que Loop ne voie son compteur, puis une fois par sélection body. Une valeur finie de Loop égale à 3 donne donc quatre passages par Production avant exit.",
+              "Un Loop fini sans sortie est autorisé seulement comme problème de conception de niveau avertissement ; décidez si la route manquante est vraiment intentionnelle.",
+              "Les Conditions lisent l’inventaire lorsqu’elles sont atteintes. Elles ne réservent pas la quantité testée, et une autre branche ou un autre bâtiment peut modifier l’inventaire ensuite."
+            ]
+          },
+          {
+            "title": "Flux parallèle",
+            "bullets": [
+              "Splitter émet une tâche dans chaque branche connectée. Il a besoin d’au moins deux connexions de branche.",
+              "Joiner accepte n’importe quelle branche entrante et transmet immédiatement cette arrivée individuelle. Il fusionne les routes géométriquement, mais n’attend pas toutes les branches.",
+              "Barrier attend que chaque entrée connectée ait reçu une arrivée, consomme une arrivée de chaque entrée, puis émet une tâche suivante. Les arrivées supplémentaires restent en file pour la prochaine synchronisation.",
+              "Le nombre de sorties de Splitter et le nombre d’entrées de Joiner / Barrier peuvent être configurés de 2 à 8. Réduire ce nombre supprime immédiatement les connexions attachées aux ports numérotés retirés.",
+              "Un bloc Production est à vol unique : si un autre signal atteint le même bloc alors qu’il est déjà actif, le travail en double n’est pas engendré."
+            ],
+            "callout": {
+              "title": "Joiner et Barrier sont volontairement différents",
+              "body": "Utilisez Joiner lorsqu’une branche quelconque peut continuer. Utilisez Barrier lorsque toutes les branches connectées doivent se rejoindre. Les confondre peut multiplier le travail en aval ou laisser un programme attendre indéfiniment."
+            }
+          },
+          {
+            "title": "Reroute et ports",
+            "paragraphs": [
+              "Reroute est un nœud de routage visuel avec une connexion par côté. Une tâche entrant par un côté sort par l’autre. Il ne retarde, ne copie, ne filtre ni ne synchronise le travail.",
+              "Chaque port de sortie et port d’entrée ordinaire n’accepte qu’une seule connexion. Les Splitters et blocs à entrées multiples exposent des ports dédiés pour leur éventail de sorties ou d’entrées. Les ports partagés invalides sont signalés pendant la validation."
+            ]
+          }
+        ]
+      },
+      "colonist-automation": {
+        "title": "Automatisation par colons",
+        "summary": "Capacité, réservations, travail plus lent, calcul des travailleurs, repos obligatoire et blocs pris en charge.",
+        "unlockLabel": "Débloqué après avoir ouvert votre première interface de production",
+        "sections": [
+          {
+            "title": "Disponible avant les noyaux électroniques",
+            "paragraphs": [
+              "L’Automatisation par colons est le mode d’automatisation manuel. Elle n’est pas débloquée par la recherche Noyau électronique d’automatisation et ne dépend pas d’un noyau électronique installé. Ouvrez un bâtiment construit, utilisez le panneau Automatisation par colons, configurez un schéma manuel valide, vérifiez-le et démarrez-le si la colonie dispose d’une capacité de colons suffisante.",
+              "Sauvegarder ou démarrer un schéma manuel crée un état d’automatisation pour ce bâtiment, mais ne compte pas comme l’installation du noyau électronique. L’installation électronique, les améliorations électroniques et la consommation d’électricité électronique restent une couche ultérieure séparée."
+            ]
+          },
+          {
+            "title": "Capacité de la colonie",
+            "paragraphs": [
+              "La capacité en colons est de cinq personnes par niveau technologique maximal. Une colonie de niveau 1 en a 5 au total, de niveau 5 en a 25, et de niveau 10 en a 50. L’en-tête affiche disponibles / total et le nombre réservé par les schémas manuels en cours.",
+              "Les colons sont réservés par le programme, pas consommés comme des ressources. Arrêter un schéma manuel libère sa réservation. Un schéma sauvegardé mais arrêté n’utilise aucune capacité."
+            ],
+            "media": {
+              "alt": "Un schéma d’automatisation manuelle avec nombres d’itérations de production, coût en travailleurs, blocs Rest requis et capacité de colons dans l’en-tête.",
+              "caption": "La capacité en personnel est une limite partagée par la colonie."
+            }
+          },
+          {
+            "title": "Calcul de la demande en travailleurs",
+            "paragraphs": [
+              "Chaque bloc Production manuel requiert un colon pour chaque tranche de cinq itérations configurées, arrondie vers le haut. Un bloc avec 1–5 itérations nécessite 1 colon ; 6–10 en nécessite 2. La demande du programme est la somme de tous les blocs Production, pas seulement de la branche actuellement active.",
+              "La production manuelle prend deux fois le temps d’automatisation de base. En échange, elle ne requiert pas le noyau électronique ni le modèle de puissance électronique. Elle consomme tout de même les intrants physiques, le carburant et les outils de la recette."
+            ]
+          },
+          {
+            "title": "Règles de repos",
+            "bullets": [
+              "Le programme a besoin d’au moins un bloc Rest pour chaque groupe de deux colons requis, arrondi vers le haut.",
+              "Pour les routes de production répétitives, assez de blocs Rest doivent apparaître dans chaque cycle de production — pas simplement quelque part sur une branche secondaire inaccessible ou à passage unique.",
+              "Un composant cyclique partagé contenant plusieurs blocs Production est aussi vérifié pour disposer d’assez de blocs Rest au total.",
+              "Rest dure cinq secondes et ne peut pas être raccourci en modifiant une valeur.",
+              "Le mode manuel prend en charge Start, End, Production, Wait, Rest, Loop, Splitter, Joiner et Reroute. Condition et Barrier sont uniquement électroniques dans les règles actuelles."
+            ],
+            "callout": {
+              "title": "Planification de la capacité",
+              "body": "Un lot plus grand peut demander un colon supplémentaire avant d’améliorer le débit utile. Comparez l’arrondi des travailleurs, la demande en repos et l’approvisionnement en ressources au lieu de toujours sélectionner le maximum d’itérations."
+            }
+          }
+        ]
+      },
+      "automation-upgrades": {
+        "title": "Noyaux d’automatisation et améliorations",
+        "summary": "Coût d’installation, Régulateur de vitesse, Gestionnaire de lots, Contrôleur parallèle, mise à l’échelle et niveaux actifs.",
+        "unlockLabel": "Débloqué après avoir installé votre premier noyau d’automatisation",
+        "sections": [
+          {
+            "title": "Les améliorations sont recherchées, achetées et installées par bâtiment",
+            "paragraphs": [
+              "Chaque famille d’améliorations nécessite d’abord sa propre recherche. Ensuite, les niveaux sont achetés séparément pour chaque noyau de bâtiment installé avec un coût en matériaux dépendant du bâtiment et du niveau. Acheter une amélioration consomme définitivement des ressources ; ce n’est pas un bonus à l’échelle de la colonie.",
+              "Les niveaux achetés et actifs sont généralement les mêmes. La vitesse est l’exception : vous pouvez abaisser son niveau actif jusqu’à zéro et le remonter jusqu’au niveau acheté sans remboursement ni nouvel achat."
+            ],
+            "media": {
+              "alt": "Améliorations d’automatisation montrant les niveaux achetés, les contrôles de niveau de Vitesse actif, les coûts et les conséquences énergétiques.",
+              "caption": "Chaque augmentation de débit impose un compromis local de capacité ou d’énergie."
+            }
+          },
+          {
+            "title": "Les trois familles d’améliorations",
+            "bullets": [
+              "Régulateur de vitesse : chaque niveau actif multiplie la vitesse des blocs Production par 1,5, donc les niveaux se composent au lieu d’ajouter 50 points de pourcentage fixes. Le taux de puissance total double par niveau actif ; l’énergie par cycle est ajustée, car le cycle plus rapide se termine aussi plus tôt.",
+              "Gestionnaire de lots : chaque niveau acheté ajoute une itération maximale à chaque bloc Production électronique. Le multiplicateur d’énergie se compose par ×1,15 pour chaque itération configurée au-delà de 1.",
+              "Contrôleur parallèle : chaque niveau acheté ajoute un bloc Production autorisé au schéma électronique. Chaque bloc Production supplémentaire double la consommation électrique de chaque bloc Production."
+            ]
+          },
+          {
+            "title": "Les multiplicateurs se composent",
+            "paragraphs": [
+              "La vitesse, les lots plus grands et les blocs de production supplémentaires affectent différentes parties du modèle et peuvent se combiner en une demande d’électricité spectaculaire. L’éditeur et le Tableau d’automatisation estiment le flux avec le graphe actuel et les niveaux actifs. Vérifiez ces estimations après chaque amélioration.",
+              "Un programme amélioré peut tout de même être plus lent en pratique s’il se bloque à répétition sur les intrants ou l’électricité. Le matériel de débit ne génère pas de ressources en amont."
+            ],
+            "callout": {
+              "title": "Acheté ne veut pas dire durable",
+              "body": "Si un niveau de Vitesse déstabilise le réseau, réduisez le niveau actif pendant que vous développez la production d’énergie. L’investissement matériel reste installé et peut être réactivé plus tard."
+            }
+          },
+          {
+            "title": "Prix exacts des améliorations",
+            "paragraphs": [
+              "Pour chaque matériau dans le coût de base d’une amélioration, le niveau suivant coûte plafond(quantité de base × 2^niveauAcheté × (1 + 0,15 × t)), avec un minimum de 1 et le niveau de bâtiment t borné de 0 à 10. « Niveau acheté » est le niveau avant l’achat : le niveau 0 utilise ×1, le niveau 1 utilise ×2, le niveau 2 utilise ×4, et ainsi de suite. Réduire la Vitesse active ne réduit pas le prix de son prochain niveau acheté."
+            ],
+            "bullets": [
+              "Base du Gestionnaire de lots : Engrenage en acier 4, Plaque d’aluminium 2, Acier inoxydable 2, Circuit électronique 2, Laiton 1, Moteur électrique 1.",
+              "Base du Contrôleur parallèle : Engrenage en acier 5, Lubrifiant 4, Acier plaqué chrome 4, Plastique 2, Circuit avancé 2, Transformateur 1, Machine simple (Module mécatronique) 1.",
+              "Base du Régulateur de vitesse : Lubrifiant 6, Plastique 5, Circuit avancé 4, Transformateur 2, Machine simple (Module mécatronique) 2, Alliage d’aluminium 2, Acier à outils 2, Cylindre hydraulique 2, Caoutchouc 1, Capteur optique 1, Unité de traitement 1."
+            ]
+          },
+          {
+            "title": "Modèle exact de temps et d’énergie électronique",
+            "paragraphs": [
+              "La durée automatisée sans vitesse d’une recette est la plus grande valeur entre 5 secondes, son automationTimeSeconds explicite lorsqu’il existe (sinon 5 secondes + 0,75 seconde pour chaque besoin distinct d’intrant, d’extrant, de carburant et d’outil + 0,25 seconde par niveau de bâtiment), et le temps de recharge de sa recette. La Vitesse divise cette durée par 1,5^niveauVitesseActif, avec un minimum strict de 1 seconde. Le mode manuel ignore la Vitesse électronique puis double la durée sans vitesse.",
+              "L’énergie électronique consommée lorsqu’un bloc Production se termine est arrondie à deux décimales depuis : niveau du bâtiment × (2 ÷ 1,5)^niveauVitesseActif × 1,15^(itérations − 1) × 2^(blocs Production électroniques − 1). Le terme de vitesse est une énergie par cycle, pas un taux de puissance : comme le cycle est aussi 1,5 fois plus rapide par niveau, le taux de puissance résultant double par niveau de Vitesse actif. Le terme parallèle utilise le nombre de blocs Production électroniques dans le schéma, pas le nombre en cours d’exécution."
+            ]
+          }
+        ]
+      },
+      "automation-runtime-and-validation": {
+        "title": "Validation et exécution de l’automatisation",
+        "summary": "Vérifications de lancement, blocage, erreurs, persistance, sécurité de l’horloge hors ligne et modifications de programme en cours d’exécution.",
+        "unlockLabel": "Débloqué après avoir démarré votre premier schéma d’automatisation",
+        "sections": [
+          {
+            "title": "Validation avant lancement",
+            "paragraphs": [
+              "Le validateur vérifie la structure du graphe, les blocs atteignables, les limites de ports, la propriété des recettes, les limites d’itérations et de blocs Production, la validité du carburant, la prise en charge du mode manuel, la capacité en colons et la structure de repos. Les erreurs empêchent le lancement. Les avertissements identifient les graphes discutables mais potentiellement intentionnels, comme l’absence de bloc End.",
+              "La validation est structurelle et tient compte de l’état, mais elle ne promet pas un approvisionnement ininterrompu. Un programme valide peut ensuite se bloquer parce que l’inventaire ou l’électricité s’épuise."
+            ],
+            "media": {
+              "alt": "Un schéma d’automatisation invalide avec nœuds, arêtes et message de validation spécifique surlignés, à côté d’un état prêt corrigé.",
+              "caption": "Corrigez la première erreur structurelle signalée, puis vérifiez de nouveau."
+            }
+          },
+          {
+            "title": "Production bloquée",
+            "bullets": [
+              "Une tâche Production atteint son point d’achèvement, vérifie les besoins, puis soit les consomme et produit la sortie, soit signale une raison de blocage et une ressource.",
+              "Sans route d’erreur électronique, la tâche attend sur place et peut reprendre lorsque la ressource manquante devient disponible.",
+              "Avec une connexion d’erreur électronique, l’échec route le contrôle par cette sortie au lieu de maintenir la tâche au bloc Production.",
+              "L’en-tête compte les schémas bloqués ; la console du bâtiment et le Tableau d’automatisation exposent plus de détails.",
+              "Les Conditions ne réessaient pas automatiquement une production échouée, sauf si votre graphe route vers une vérification ou une boucle appropriée."
+            ]
+          },
+          {
+            "title": "Modifier un schéma en cours",
+            "paragraphs": [
+              "Les modifications purement visuelles peuvent préserver l’exécution lorsque le graphe exécutable n’a pas changé. Si la structure d’exécution change, les tâches actives sont réinitialisées. Si un programme en cours devient invalide, il est sauvegardé mais arrêté afin qu’un graphe malformé ne continue pas à utiliser un état d’exécution obsolète.",
+              "Démarrer un mode pendant que l’autre mode fonctionne dans le même bâtiment est rejeté. L’arrêt efface les tâches actives, les arrivées de barrières, l’état bloqué et le marqueur de mode actif du bâtiment."
+            ]
+          },
+          {
+            "title": "Sauvegardes et temps écoulé",
+            "paragraphs": [
+              "L’automatisation utilise une horloge d’historique relative à la sauvegarde et normalise les anciens horodatages pendant le chargement. Cela protège l’historique des discontinuités de l’horloge murale et préserve l’état en cours. La simulation traite une quantité limitée de travail par tick ; modifier l’horloge de l’ordinateur n’est pas une méthode prise en charge pour fabriquer des ressources.",
+              "Les cycles instantanés sont détectés par la répétition d’un état d’exécution et bloqués avec la raison loopGuard ; les longs parcours acycliques de durée nulle sont autorisés. Les programmes peuvent conserver des milliers de tâches actives, seule une limite d’urgence élevée protégeant contre un éventail exponentiel incontrôlé. Les blocs temporisés Production, Wait ou Rest restent recommandés dans les cycles intentionnels.",
+              "Exportez avant les modifications expérimentales d’un grand schéma. Un presse-papiers de programme conserve la conception, tandis qu’une sauvegarde conserve la conception plus les installations, améliorations, statistiques, historique et état d’exécution."
+            ]
+          }
+        ]
+      },
+      "automation-board": {
+        "title": "Tableau d’automatisation et analyses",
+        "summary": "KPI en direct, cartes, graphes, modes de flux, plages temporelles, bloqueurs et répartitions par bâtiment.",
+        "unlockLabel": "Débloqué après avoir ouvert le Tableau d’automatisation",
+        "sections": [
+          {
+            "title": "Une vue d’automatisation à l’échelle de la colonie",
+            "paragraphs": [
+              "Le Tableau d’automatisation résume les programmes actifs dans tous les bâtiments. Il indique les bâtiments actifs, les recettes ou blocs Production, l’électricité estimée par minute, les intrants par minute, les extrants par minute, les détails du cycle actuel et les états bloqués. Utilisez-le pour trouver les goulots d’étranglement systémiques difficiles à voir depuis la console d’une seule installation.",
+              "Le tableau est une superposition en direct avec vues en cartes et en graphes. Le replier préserve ses paramètres et son historique. Sa poignée peut être masquée lorsque le Tableau des opérations est déployé afin que les deux panneaux latéraux n’occupent pas le même espace d’interaction."
+            ],
+            "media": {
+              "alt": "Tableau d’automatisation en mode graphe avec KPI, historique de production et d’électricité, contrôles de plage et ligne de bâtiment bloqué.",
+              "caption": "Comparez le flux estimé avec les résultats historiques."
+            }
+          },
+          {
+            "title": "Modes cartes, graphes et listes",
+            "bullets": [
+              "La vue Cartes met l’accent sur l’état actuel des bâtiments et des blocs.",
+              "La vue Graphes met l’accent sur l’historique enregistré de production et d’électricité.",
+              "La liste Bâtiments groupe le travail actif par installation ; la liste Recettes met l’accent sur le travail de production individuel.",
+              "Retourner une carte révèle ses détails alternatifs sans modifier le programme.",
+              "Les actions contextuelles peuvent ouvrir le bâtiment source, la recette de production, la recherche ou la ressource de l’Almanach."
+            ]
+          },
+          {
+            "title": "Flux brut et net",
+            "paragraphs": [
+              "Le flux brut affiche la production et la consommation comme des grandeurs séparées. Le flux net les combine par ressource afin de rendre visibles les surplus et les déficits. L’option d’inclure l’énergie d’automatisation détermine si la demande d’électricité participe à cette présentation du flux.",
+              "Les chiffres par minute sont des estimations dérivées du graphe exécutable, des durées, des améliorations et des blocs configurés. Les graphiques historiques enregistrent ce qui s’est réellement produit. Un programme privé de ressources peut donc avoir une estimation attrayante et une production observée médiocre."
+            ]
+          },
+          {
+            "title": "Plages d’historique",
+            "bullets": [
+              "Les plages 10m, 1h, 10h, 100h et 1000h agrègent l’historique sauvegardé dans des compartiments adaptés.",
+              "Les instantanés d’historique sont enregistrés au maximum une fois toutes les dix secondes de l’horloge d’historique relative à la sauvegarde ; les points de graphique ne sont pas un échantillon par cycle de production.",
+              "Les plages courtes révèlent les oscillations et bloqueurs récents ; les longues plages révèlent les tendances stratégiques.",
+              "Aucun historique signifie que le système n’a pas encore enregistré d’échantillons utilisables pour cette vue, pas que le programme est nécessairement invalide.",
+              "Les KPI à vie restent utiles même lorsqu’une fenêtre de graphique sélectionnée contient peu d’activité."
+            ]
+          }
+        ]
+      },
+      "guide-records": {
+        "title": "Utiliser ce Guide",
+        "summary": "Déblocages de fiches, badges non lus, recherche, catégories, images et limites anti-spoiler.",
+        "unlockLabel": "Disponible au début de chaque affectation",
+        "sections": [
+          {
+            "title": "Les fiches apparaissent lorsqu’elles deviennent pertinentes",
+            "paragraphs": [
+              "Le Guide est progressif. Il commence par l’orientation et les contrôles de base, puis débloque des fiches après des événements concrets : ouvrir un écran pour la première fois, terminer un jalon, épingler un projet, installer l’automatisation ou atteindre un seuil technologique. Les déblocages sont permanents dans cette sauvegarde.",
+              "Une petite notification de mise à jour du Guide apparaît lorsqu’une ou plusieurs fiches deviennent nouvellement éligibles pendant le jeu actif. Un déblocage unique nomme la fiche ; un lot indique le nombre. Les fiches déjà débloquées lorsqu’une sauvegarde est chargée ne rejouent pas une rafale d’anciennes notifications de déblocage. Comme les autres messages d’information, ce toast peut être supprimé par la préférence globale Notifications ; le badge non lu reste l’autorité.",
+              "Le badge numéroté sur le bouton de navigation GUIDE compte les fiches débloquées qui n’ont pas été ouvertes. Ouvrir une fiche marque seulement cette fiche comme lue et décrémente le badge. Tout marquer comme lu efface l’ensemble non lu actuel ; les fiches débloquées plus tard créeront un nouveau badge."
+            ],
+            "media": {
+              "alt": "La fenêtre modale du Guide avec rail de catégories, recherche, marques de fiches non lues, index d’articles et panneau de contenu.",
+              "caption": "Le Guide lui-même est un système sauvegardé et progressif."
+            }
+          },
+          {
+            "title": "Trouver des informations",
+            "bullets": [
+              "La recherche vérifie les titres de fiches, résumés, mots-clés, titres de sections, paragraphes, puces, étapes et encadrés.",
+              "Les filtres de catégorie réduisent l’index sans modifier l’état de lecture.",
+              "Les nouvelles fiches sont marquées dans l’index jusqu’à leur ouverture.",
+              "Fiches associées à la fin d’un article ne renvoie qu’aux fiches associées que vous avez déjà débloquées.",
+              "Les fiches verrouillées ne sont représentées que par un compteur en attente. Leurs titres et contenus restent cachés afin d’éviter de révéler des systèmes ultérieurs."
+            ]
+          },
+          {
+            "title": "Ce que le Guide révélera et ne révélera pas",
+            "paragraphs": [
+              "Les règles opérationnelles sont explicites, y compris les coûts de niche, les arrondis, les bloqueurs et le comportement des graphes. Le matériel narratif est volontairement retenu. Les archives restreintes et médias récupérés sont destinés à être découverts dans leurs propres interfaces ; ce Guide explique le fonctionnement de ces systèmes seulement après que le joueur les a atteints, et ne publie jamais de solutions ni de résultats de fin de partie.",
+              "Les formulations corporatives occasionnelles, numéros de document ou sommes de contrôle étrangement persistantes peuvent chevaucher la fiction plus large. Traitez-les comme de l’ambiance sauf si le jeu lui-même vous demande de vérifier quelque chose. La Division de documentation technique nie que cette phrase ait jamais contenu treize mots de moins."
+            ]
+          }
+        ]
+      },
+      "registry-access": {
+        "title": "Accès au Registre",
+        "summary": "Trouver le Registre, séquence de démarrage, accès par niveau, recherche, vérification et utilisation sans spoiler.",
+        "unlockLabel": "Débloqué après avoir ouvert le Registre pour la première fois",
+        "sections": [
+          {
+            "title": "Accéder à l’archive",
+            "paragraphs": [
+              "Au niveau technologique 5, une interaction subtile du Registre devient disponible dans la marque centrale de l’en-tête. La première transition est volontairement différente d’une notification de menu ordinaire. Une fois l’accès établi, ouvrir le Registre lance sa propre présentation de démarrage et d’autorisation.",
+              "Le Registre est une archive progressive séparée. Le niveau technologique détermine quelles entrées sont accessibles à l’inspection ; une vérification réussie détermine quelles entrées protégées ont été déchiffrées. Les identifiants d’entrées déchiffrées sont sauvegardés définitivement.",
+              "La copie destinée au Directeur dans cette fiche a été reconstruite depuis une interface que le Directeur n’était pas censé manipuler à l’origine. Plusieurs notes procédurales restent volontairement caviardées : chaîne d’accès █████████, propriétaire d’autorisation ████████ et routage post-vérification █████████████. Les instructions restantes suffisent à une utilisation sûre de l’interface."
+            ],
+            "media": {
+              "alt": "L’index du Registre avec entrées accessibles et verrouillées, recherche, niveau d’accès et un panneau de vérification sans code résolu.",
+              "caption": "Le Guide explique l’archive mais ne fournit jamais ses réponses."
+            }
+          },
+          {
+            "title": "Index et vue détaillée",
+            "bullets": [
+              "La recherche du Registre vérifie l’identifiant interne de l’entrée, sa catégorie et le texte brut d’aperçu. Elle ne recherche pas le contenu complet déchiffré, les étiquettes d’état, le texte de remplacement traduit ni les réponses de vérification.",
+              "Accessible signifie que votre niveau actuel permet l’inspection. Cela ne garantit pas que le contenu chiffré soit déjà déchiffré.",
+              "Les entrées verrouillées restent indisponibles jusqu’à ce que leur condition d’accès soit satisfaite.",
+              "Les données intégrées, images récupérées ou autres médias appartiennent à l’entrée sélectionnée et peuvent contenir des détails non répétés dans le texte.",
+              "Le pied de page indique la connexion, l’intégrité et le niveau d’accès. Ce sont des états de présentation, pas des indicateurs d’électricité de la colonie ou de santé de la sauvegarde."
+            ]
+          },
+          {
+            "title": "Défis de vérification",
+            "paragraphs": [
+              "Une entrée protégée présente une référence, un indice ou un repère contextuel et un champ de vérification. Les réponses sont comparées sans tenir compte de la casse après suppression des espaces de début et de fin ; les autres signes de ponctuation restent significatifs sauf si une réponse acceptée inclut explicitement une alternative. Un échec laisse l’entrée chiffrée et autorise une autre tentative. Un succès stocke l’identifiant de l’entrée dans la sauvegarde et révèle le contenu restauré.",
+              "Certaines références sont volontairement liées à des connaissances réelles industrielles, scientifiques, historiques ou culturelles. Rechercher la référence fait partie de l’énigme. Le Guide n’imprimera pas les solutions, codes exacts ou séquence de révélations narratives."
+            ],
+            "callout": {
+              "title": "Gardez la découverte hors de la liste de production",
+              "body": "Les entrées du Registre peuvent approfondir l’histoire et compter pour des issues dissimulées, mais un échec de vérification ne consomme jamais d’inventaire. Faites une sauvegarde de secours, lisez attentivement et résolvez à votre rythme. ████████ n’est pas un coût en ressources."
+            }
+          },
+          {
+            "title": "Une observation sans spoiler",
+            "paragraphs": [
+              "Plusieurs fiches ne s’accordent pas sur la raison d’être de la colonie. Ce désaccord est intentionnel. Aucun slogan corporatif, somme de contrôle endommagée ou image récupérée isolée ne doit être traité comme toute la réponse. Si une transmission externe semble reconnaître une formulation utilisée ici, notez le chevauchement et continuez ; le système est plus intéressant lorsqu’il est assemblé plutôt qu’annoncé."
+            ]
+          }
+        ]
+      },
+      "demo-evaluation-build": {
+        "title": "Version d’évaluation démo",
+        "summary": "Portée, objectif d’achèvement, retours, liens de liste de souhaits et attentes de sauvegarde dans la démo.",
+        "unlockLabel": "Disponible dans la version d’évaluation démo",
+        "sections": [
+          {
+            "title": "Une évaluation industrielle bornée",
+            "paragraphs": [
+              "La démo est une version volontairement limitée avec ses propres recherches, bâtiments, recettes, ressources, matériel narratif et objectif d’achèvement disponibles. Les systèmes peuvent contenir des références à la progression complète parce que l’interface et le Guide partagent le même langage industriel, mais le contenu indisponible ne peut pas être atteint simplement en accumulant des stocks au-delà de la limite de la démo.",
+              "Les superpositions de bienvenue et de victoire résument la portée de l’évaluation. L’événement d’achèvement de la démo est lié à son objectif d’évaluation déclaré et présente les statistiques de partie, les liens de retour, les liens communautaires et la page de boutique du jeu complet."
+            ]
+          },
+          {
+            "title": "Bonnes pratiques de sauvegarde et de retour",
+            "bullets": [
+              "Utilisez les emplacements manuels normaux et les sauvegardes automatiques pendant l’évaluation.",
+              "Exportez une sauvegarde avant de signaler un bloqueur de progression afin que l’état exact puisse être reproduit.",
+              "Le lien de liste de souhaits ouvre la page officielle du jeu complet sur la boutique ; il ne modifie pas la sauvegarde.",
+              "Les liens de retour et de communauté quittent le jeu par le chemin de navigation externe pris en charge.",
+              "Une superposition de victoire de la démo peut être fermée ; la fermer n’efface pas les statistiques d’achèvement."
+            ]
+          },
+          {
+            "title": "Interpréter les fiches du Guide verrouillées",
+            "paragraphs": [
+              "Le Guide affiche seulement les fiches dont les systèmes sont pertinents et débloqués dans la sauvegarde active. Un compteur de fiches en attente ne prouve pas que chaque mécanique correspondante existe dans la démo. Il évite aussi d’utiliser les titres d’articles pour révéler ce que contient la campagne complète."
+            ]
+          }
+        ]
+      },
+      "diagnostics-and-bottlenecks": {
+        "title": "Diagnostic des goulots d’étranglement",
+        "summary": "Une liste de vérification systématique pour « impossible de produire », « ne se débloque pas » et « l’automatisation est lente ».",
+        "unlockLabel": "Débloqué après avoir utilisé Production ou Recherche",
+        "sections": [
+          {
+            "title": "Quand la production manuelle ne se lance pas",
+            "steps": [
+              "Confirmez que la recette est sélectionnée et recherchée pour ce bâtiment.",
+              "Confirmez que le bâtiment est construit et opérationnel.",
+              "Vérifiez chaque intrant mis à l’échelle pour le nombre d’itérations sélectionné.",
+              "Vérifiez le sélecteur de carburant séparé et le total de carburant.",
+              "Vérifiez le nombre d’outils requis avec plafond(itérations ÷ durabilité).",
+              "Réduisez la quantité ou utilisez MAX pour identifier le lot actuellement abordable.",
+              "S’il s’agit d’une recette de collecte, inspectez son lot maximal et son minuteur de recharge."
+            ]
+          },
+          {
+            "title": "Quand la recherche ou la construction semble bloquée",
+            "bullets": [
+              "Survolez le nœud de recherche pour tracer les prérequis ; un niveau supérieur visible ne contourne pas une arête incomplète.",
+              "Ouvrez le détail du nœud et distinguez le verrou de prérequis du coût en ressources.",
+              "Après la recherche, retournez dans Bâtiments et payez le coût de construction séparé.",
+              "Si une recette est recherchée mais ne peut pas s’ouvrir, utilisez l’action d’état de l’Almanach pour trouver l’installation non construite.",
+              "Épinglez la cible et comparez les besoins agrégés avec l’inventaire en direct afin qu’un autre projet ne dépense pas le même stock sans que vous le remarquiez."
+            ]
+          },
+          {
+            "title": "Quand l’automatisation sous-performe",
+            "steps": [
+              "Vérifiez que le bon mode est en cours et que l’autre mode n’occupe pas le bâtiment.",
+              "Inspectez la raison de blocage et la ressource bloquée dans la console ou le Tableau d’automatisation.",
+              "Comparez les intrants estimés par minute avec la production en amont et l’inventaire actuel.",
+              "Comparez la demande d’électricité avec la génération et le stock. Réduisez temporairement la Vitesse active si nécessaire.",
+              "Vérifiez les branches de Condition, les sorties de Loop, la sémantique Joiner contre Barrier, et que chaque route manuelle répétitive contient assez de Rest.",
+              "Utilisez les graphes historiques pour déterminer si l’échec est continu ou périodique.",
+              "Validez de nouveau après les modifications de graphe ; les changements exécutables réinitialisent le travail d’exécution."
+            ],
+            "callout": {
+              "title": "Diagnostiquez une couche à la fois",
+              "body": "Accès → abordabilité → besoins spéciaux → timing → flux d’automatisation. Sauter directement à une couche tardive masque souvent un simple bloqueur plus ancien."
+            }
+          },
+          {
+            "title": "Quand l’interface est le problème",
+            "bullets": [
+              "Effacez la recherche et les filtres avant de supposer que des données manquent.",
+              "Restaurez les niveaux cachés, les recettes non recherchées de l’Almanach ou les recettes de bâtiments non construits lorsque vous planifiez à l’avance.",
+              "Réduisez les effets graphiques exigeants si l’interaction ou l’animation du graphe est lente.",
+              "Augmentez l’échelle de l’interface si les contrôles sont difficiles à lire, ou réduisez-la si une fenêtre modale manque d’espace de travail.",
+              "Exportez la sauvegarde affectée avant de réinitialiser les paramètres ou de tester une autre version."
+            ]
+          },
+          {
+            "title": "Interfaces de diagnostic intégrées",
+            "paragraphs": [
+              "Ctrl+Maj+M (Cmd+Maj+M sur macOS) bascule le Moniteur de ressources pendant le jeu. C’est un diagnostic Electron : lorsqu’il est visible, il demande des statistiques de processus fraîches toutes les cinq secondes et affiche la mémoire heap / RSS / externe du processus principal, les informations des processus de rendu et GPU lorsqu’elles sont fournies, ainsi que la mémoire système totale / libre, le nombre de CPU et la plateforme. Dans une version navigateur sans pont de statistiques Electron, le raccourci n’affiche aucun panneau visible car aucune statistique n’arrive.",
+              "Ctrl+Maj+D bascule l’onglet de navigation Développeur. Ses outils de sauvegarde exportent un enregistrement sélectionné principal, automatique ou d’emplacement numéroté et peuvent importer une sauvegarde JSON directement dans la cible sélectionnée. C’est une opération de plus bas niveau qu’Exporter tout / Importer une archive et elle peut écraser la cible, donc utilisez-la seulement avec une archive séparée.",
+              "L’onglet Développeur contient aussi Hiérarchie des recettes. La vue Liste expose les identifiants de recettes, intrants, extrants et bâtiments ; la vue Graphe étend les producteurs en amont et consommateurs en aval autour d’une recette sélectionnée jusqu’à la profondeur choisie ; la vue Chaîne liste les producteurs et consommateurs de la ressource sélectionnée. La recherche correspond au nom, à l’identifiant ou à la description de recette, tandis que les filtres de ressource et de bâtiment réduisent les données indépendamment. Cet outil lit les données de recettes et n’exécute ni ne débloque rien."
+            ],
+            "callout": {
+              "title": "Les diagnostics ne sont pas de la progression",
+              "body": "La mémoire de processus, les identifiants bruts et les graphes de dépendances peuvent expliquer un défaut, mais aucun de ces panneaux ne modifie l’abordabilité, les prérequis de recherche ou l’état des archives à accès tardif, sauf si vous importez délibérément une sauvegarde différente."
+            }
+          }
+        ]
+      }
+    }
+  },
   "tutorial": {
-    "welcome": {
+    "briefing": {
       "speaker": "Dr. Mira Holland",
-      "text": "Bonjour, Directeur. Je suis le Dr Mira Holland, votre liaison technique avec Realindustry Corporation. Bienvenue dans la Nouvelle Zone Industrielle Zéro-Huit — votre nouvelle responsabilité. Je sais ce que vous pensez : « Où est mon équipement ? Ma machinerie avancée ? » Eh bien, les coûts de fret interstellaire sont... astronomiques. Littéralement. La Corporation a calculé qu'il est 340 % plus rentable d'expédier un humain doté de connaissances de base qu'un conteneur à marchandises rempli d'outils. Alors félicitations — vous coûtez moins cher qu'une boîte à outils. Je suis ici pour m'assurer que vous comprenez votre mission et les outils à votre disposition."
-    },
-    "mission": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Votre objectif principal est clair : établir une colonie industrielle pleinement opérationnelle sur Kepler-442b. Le but ultime ? Produire un moteur d'hyperpropulsion fonctionnel pour l'expansion interstellaire. Cela nécessitera une gestion stratégique des ressources, de la recherche technologique et des chaînes de production efficaces. La Corporation attend des résultats, Directeur."
+      "text": "Directeur, je suis le Dr Mira Holland, votre liaison technique. Bienvenue dans la Nouvelle Zone Industrielle Zéro-Huit sur Kepler-442b. Vous avez sans doute remarqué que votre équipement n’a pas été livré. Le fret interstellaire coûte cher. Selon les calculs de la Corporation, vous envoyer revenait 340 pour cent moins cher que transporter un conteneur d’outils. Votre mission consiste à bâtir une colonie industrielle puis, à terme, un moteur d’hyperpropulsion. Il vous faudra des ressources, de la recherche et des chaînes de production bien organisées. Commençons."
     },
     "gather-wood": {
       "speaker": "Dr. Mira Holland",
-      "text": "Commençons par les bases. Vous voyez deux bâtiments dans votre liste : le Bosquet d'arbres et l'Affleurement rocheux. Cliquez sur Bosquet d'arbres pour ouvrir son interface de production."
+      "text": "Ouvrez le Bosquet d'arbres. Il nous faut des matières premières pour développer la colonie."
     },
-    "select-wood-recipe": {
+    "produce-wood-batch": {
       "speaker": "Dr. Mira Holland",
-      "text": "Bien. Sélectionnez maintenant la recette « Ramasser des branches mortes » dans la liste."
-    },
-    "set-wood-amount": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Fixez la quantité de production à 10 unités en cliquant sur le bouton de préréglage x10."
-    },
-    "produce-wood": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Maintenant, appuyez sur le bouton Produire pour récolter du bois."
+      "text": "Sélectionnez « Ramasser des branches mortes », réglez la quantité sur x10, puis appuyez sur Produire."
     },
     "back-from-tree": {
       "speaker": "Dr. Mira Holland",
-      "text": "Excellent. Revenez maintenant au menu des bâtiments en cliquant sur le bouton Retour."
+      "text": "Bien. Revenez à la liste des bâtiments."
     },
     "gather-stone": {
       "speaker": "Dr. Mira Holland",
-      "text": "Maintenant, récoltons de la pierre. Cliquez sur Affleurement rocheux."
+      "text": "Ouvrez maintenant l’Affleurement rocheux."
     },
-    "select-stone-recipe": {
+    "produce-stone-batch": {
       "speaker": "Dr. Mira Holland",
-      "text": "Sélectionnez la recette « Ramasser des pierres éparses »."
-    },
-    "set-stone-amount": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Fixez la quantité à 10 unités en cliquant sur le bouton de préréglage x10."
-    },
-    "produce-stone": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Appuyez sur Produire pour récolter de la pierre."
+      "text": "Sélectionnez « Ramasser des pierres éparses », réglez la quantité sur x10, puis appuyez sur Produire."
     },
     "back-from-stone": {
       "speaker": "Dr. Mira Holland",
-      "text": "Bon travail. Revenez au menu des bâtiments."
+      "text": "Cela suffit pour notre première recherche. Revenez à la liste des bâtiments."
     },
     "open-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "La technologie est votre échelle vers le succès. Cliquez sur l'onglet Recherche en haut."
+      "text": "La recherche transforme les ressources stockées en nouvelles possibilités permanentes. Ouvrez l’onglet Recherche."
     },
     "jump-to-tier": {
       "speaker": "Dr. Mira Holland",
-      "text": "Cliquez maintenant sur le bouton « Aller au niveau : 1 » en haut pour accéder aux recherches de niveau 1."
+      "text": "Allez au niveau 1."
     },
     "select-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "Cliquez sur le nœud de recherche « Techniques de fabrication de base » pour le développer."
+      "text": "Développez « Fabrication manuelle et outils en bois »."
     },
     "start-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "Maintenant, cliquez sur le bouton Rechercher à l'intérieur du nœud développé pour lancer la recherche."
+      "text": "Appuyez sur Rechercher. Les ressources indiquées seront consommées immédiatement. Une fois la recherche terminée, ses bâtiments et recettes resteront définitivement disponibles."
+    },
+    "research-capacity": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Chaque nouveau niveau de recherche maximal augmente la capacité de la colonie de cinq personnes. Le niveau 1 vous donne cinq colons. La barre supérieure indique combien sont libres, combien vous en avez au total et combien travaillent dans des programmes actifs."
     },
     "back-to-buildings": {
       "speaker": "Dr. Mira Holland",
-      "text": "Parfait. Revenez maintenant à l'onglet Bâtiments."
+      "text": "La fabrication de base est disponible. Revenez aux Bâtiments. Avant de construire, nous allons automatiser une tâche répétitive."
+    },
+    "open-automation-building": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Rouvrez le Bosquet d’arbres. Nous allons mettre en place une collecte continue de bois sans répéter les ordres manuels."
+    },
+    "open-manual-editor": {
+      "speaker": "Dr. Mira Holland",
+      "text": "L’Automatisation par colons est disponible dès le départ dans chaque site de production. Elle ne nécessite pas de Noyau électronique d’automatisation. Ouvrez l’éditeur."
+    },
+    "automation-layout": {
+      "speaker": "Dr. Mira Holland",
+      "text": "L’automatisation est entièrement personnalisable dans les limites des blocs disponibles. Vous pouvez créer des séquences, des boucles, des pauses et, plus tard, une logique bien plus complexe. Les blocs accomplissent le travail, mais les connexions entre leurs ports déterminent le comportement. Ce premier cycle n’est qu’un exemple."
+    },
+    "build-automation-loop": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Réglez « Itérations » sur 10 dans le bloc « Production ». Deux colons y seront affectés, et un seul bloc « Repos » suffit exactement pour les deux. La main-d’œuvre est ainsi utilisée au mieux. Construisez ensuite un cycle continu : « Début » vers l’entrée 1 de « Jonction », « Jonction » vers « Boucle », le port « boucle » de « Boucle » vers « Production », « Production » vers « Repos » et « Repos » vers l’entrée 2 de « Jonction ». Reliez aussi le port « sortie » de « Boucle » à « Fin ». Laissez « Répétitions » à zéro et appuyez sur « Vérifier le schéma »."
+    },
+    "start-automation": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Le schéma a passé la vérification. Actionnez le levier pour le lancer."
+    },
+    "close-automation-editor": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Les colons ramassent désormais du bois pendant que vous vous occupez d’autres tâches. Fermez l’éditeur."
+    },
+    "open-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Ouvrez le Tableau d’automatisation depuis le bord de l’écran. Il présente tous les schémas actifs de la colonie."
+    },
+    "close-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Le tableau affiche les programmes actifs, les débits estimés, la consommation électrique, l’historique de production et les schémas bloqués. Il permet de repérer des problèmes difficiles à voir dans un seul bâtiment. Refermez-le lorsque vous avez terminé."
+    },
+    "back-from-automated-tree": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Revenez à la liste des bâtiments."
     },
     "hover-hand-crafting": {
       "speaker": "Dr. Mira Holland",
-      "text": "Vous avez débloqué un nouveau bâtiment : Fabrication manuelle. Survolez sa carte avec votre souris pour voir les conditions de construction."
+      "text": "La recherche a déverrouillé Fabrication manuelle. Survolez sa carte pour consulter les conditions de construction."
+    },
+    "pin-hand-crafting": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Épinglez ces conditions au Tableau des opérations. Un projet épinglé ne réserve et ne dépense aucune ressource. Il garde simplement les besoins à jour pendant que vous travaillez ailleurs."
+    },
+    "open-operations-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Ouvrez le Tableau des opérations depuis le bord de l’écran."
+    },
+    "close-operations-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Le tableau regroupe les besoins des bâtiments, recherches et recettes épinglés, puis les compare à votre inventaire. Si « Réagir aux événements du jeu » est activé, les projets terminés sont retirés automatiquement. Refermez le tableau et rassemblez ce qui manque."
     },
     "wait-for-construction": {
       "speaker": "Dr. Mira Holland",
-      "text": "Je vois que vous avez besoin de plus de ressources. Rassemblez ce dont vous avez besoin, puis construisez le bâtiment « Fabrication manuelle »."
+      "text": "Construisez Fabrication manuelle lorsque vous disposez des ressources nécessaires. C’est votre première décision de production autonome."
     },
     "almanac": {
       "speaker": "Dr. Mira Holland",
-      "text": "Un dernier outil avant de vous laisser à votre travail : l'Almanach. Cette base de données exhaustive contient des informations sur chaque ressource, recette et chaîne de production. Cliquez sur l'onglet Almanach pour l'ouvrir."
+      "text": "Ouvrez l’Almanach. Il explique les ressources et les recettes, indique où les matériaux sont produits et utilisés, et permet de suivre des chaînes de production complètes."
+    },
+    "open-guide": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Pour consulter les règles exactes, les formules, les blocs avancés, les commandes et les solutions aux problèmes, ouvrez le Guide. Les articles utiles se débloquent à mesure que vous découvrez les systèmes. Vous n’avez donc pas besoin de tout lire immédiatement."
     },
     "conclusion": {
       "speaker": "Dr. Mira Holland",
-      "text": "Cela couvre l'essentiel. Vous avez maintenant tout ce qu'il faut pour commencer. Rappelez-vous : la Corporation surveille vos progrès. L'efficacité est récompensée. La stagnation est... notée. Je surveillerai vos indicateurs, Directeur. Ne nous décevez pas. Bonne chance."
+      "text": "Vous savez maintenant collecter, rechercher, planifier, construire et automatiser. Développez désormais la colonie jusqu’au moteur d’hyperpropulsion. La Corporation surveille les progrès. L’efficacité est récompensée. La stagnation est... consignée. Je suivrai vos indicateurs, Directeur. Bonne chance."
     }
   },
   "terminusFragments": {}

@@ -6,7 +6,7 @@ These notes are intended to keep Realindustry's localized text consistent.
 
 - Prefer clear, natural language over literal word-for-word translation.
 - Keep the meaning of the English text.
-- Keep UI text concise.
+- Keep UI text in `ui.json` concise.
 - Preserve the game's industrial, technical, and slightly corporate tone.
 - Do not add new jokes, lore, or explanations.
 
@@ -54,13 +54,17 @@ For these sections:
 
 ## UI Length
 
-Some names appear in compact game panels. If a direct translation is much longer than English, prefer a shorter natural phrase when possible.
+Most `ui.json` strings and some names from `gamedata.json` appear in compact game panels. If a direct translation is much longer than English, prefer a shorter natural phrase when possible.
 
 If a correct translation is necessarily long, mention possible UI overflow in the pull request.
 
 ## Verification Answers
 
 Registry verification answers may include additional local-language variants when they help players enter a natural answer. Keep the numeric or English-compatible answer when present, and add only genuinely useful variants.
+
+## Plural Forms
+
+Some languages need additional i18next plural keys such as `_few` or `_many`. Add them only when the language requires them, and keep the base meaning aligned with the English plural string.
 
 ## When The English Text Seems Wrong
 

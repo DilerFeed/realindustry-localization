@@ -669,7 +669,7 @@
     "stannite-processing": {
       "name": "Lavorazione della Stannite",
       "description": "Lavora il minerale di stannite per estrarre solfuro di rame, cassiterite e ossido di ferro",
-      "chemicalFormula": "Cu₂FeSnS₄ + O₂ → Cu₂S + FeO + SnO₂ + 2SO₂"
+      "chemicalFormula": "2Cu₂FeSnS₄ + 9O₂ → 2Cu₂S + 2FeO + 2SnO₂ + 6SO₂"
     },
     "magnetite-mining": {
       "name": "Estrazione di Magnetite",
@@ -682,7 +682,7 @@
     "gibbsite-processing": {
       "name": "Lavorazione della Gibbsite",
       "description": "Lavora la gibbsite in allumina tramite il processo Bayer",
-      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O, 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH"
+      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O; 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH; 2Al(OH)₃ → Al₂O₃ + 3H₂O"
     },
     "azurite-mining": {
       "name": "Estrazione di Azurite",
@@ -696,11 +696,6 @@
     "bornite-mining": {
       "name": "Estrazione di Bornite",
       "description": "Estrai bornite di alta qualità (minerale pavone) da depositi più profondi"
-    },
-    "bornite-smelting": {
-      "name": "Bornite Refining",
-      "description": "Refine high-grade bornite ore to blister copper using bloomery",
-      "chemicalFormula": "2 Cu₅FeS₄ + 8 O₂ → 10 Cu + 2 FeO + 8 SO₂"
     },
     "bauxite-mining": {
       "name": "Estrazione di Bauxite",
@@ -738,12 +733,12 @@
     "limonite-processing": {
       "name": "Lavorazione della Limonite",
       "description": "Lavora il minerale di limonite (FeO(OH)·nH₂O) in ossido di ferro",
-      "chemicalFormula": "2FeO(OH)·nH₂O + Calore → Fe₂O₃ + (n+1)H₂O"
+      "chemicalFormula": "2FeO(OH)·nH₂O + calore → Fe₂O₃ + (2n+1)H₂O"
     },
     "hematite-processing": {
       "name": "Lavorazione dell'Ematite",
       "description": "Lavora il minerale di ematite (Fe₂O₃) in ossido di ferro",
-      "chemicalFormula": "2Fe₂O₃ + 3C → 4Fe + 3CO₂"
+      "chemicalFormula": "Fe₂O₃(minerale) + separazione meccanica → Fe₂O₃(concentrato) + ganga"
     },
     "flotation-separation": {
       "name": "Separazione per Flottazione della Calcopirite",
@@ -753,7 +748,7 @@
     "advanced-bornite-processing": {
       "name": "Lavorazione Avanzata della Bornite",
       "description": "Lavora la bornite in solfuro di rame e ossido di ferro con metodi moderni per una resa maggiore",
-      "chemicalFormula": "Cu₅FeS₄ + O₂ → Cu₂S + CuS + CuO + FeS + SO₂"
+      "chemicalFormula": "2Cu₅FeS₄ + 3O₂ → 4Cu₂S + 2CuS + 2FeO + 2SO₂"
     },
     "magnetic-separation": {
       "name": "Separazione Magnetica della Magnetite",
@@ -783,7 +778,7 @@
     "chalcopyrite-smelting": {
       "name": "Fusione Primitiva della Calcopirite",
       "description": "Fondi il minerale di rame calcopirite per produrre rame impuro",
-      "chemicalFormula": "CuFeS₂ + O₂ → Cu + FeO + SO₂"
+      "chemicalFormula": "2CuFeS₂ + 5O₂ → 2Cu + 2FeO + 4SO₂"
     },
     "magnetite-bloomery": {
       "name": "Lavorazione in Basso Fuoco della Magnetite",
@@ -794,6 +789,11 @@
       "name": "Lavorazione in Basso Fuoco dell'Ematite",
       "description": "Lavora l'ematite in ossido di ferro utilizzando il basso fuoco",
       "chemicalFormula": "Fe₂O₃(minerale) + Calore → Fe₂O₃(concentrata) + CO₂"
+    },
+    "bornite-smelting": {
+      "name": "Raffinazione della Bornite",
+      "description": "Raffina il minerale di bornite di alta qualità in rame blister utilizzando il basso fuoco",
+      "chemicalFormula": "2 Cu₅FeS₄ + 9 O₂ → 10 Cu + 2 FeO + 8 SO₂"
     },
     "malachite-smelting": {
       "name": "Lavorazione della Malachite",
@@ -808,7 +808,7 @@
     "copper-sulfate-electrolysis": {
       "name": "Elettrolisi del Solfato di Rame",
       "description": "Elettrolizza il solfato di rame per produrre rame ad alta purezza",
-      "chemicalFormula": "CuSO₄ + Elettrolisi → Cu + H₂SO₄"
+      "chemicalFormula": "2CuSO₄ + 2H₂O → 2Cu + 2H₂SO₄ + O₂"
     },
     "wrought-iron-refining": {
       "name": "Raffinazione del Ferro Battuto",
@@ -897,12 +897,12 @@
     "fire-bricks": {
       "name": "Produzione di Mattoni Refrattari",
       "description": "Produci mattoni resistenti alle alte temperature",
-      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + SiO₂ → Mattone Refrattario (3Al₂O₃·2SiO₂) + H₂O↑"
+      "chemicalFormula": "3Al₂Si₂O₅(OH)₄ + calore → 3Al₂O₃·2SiO₂ + 4SiO₂ + 6H₂O↑"
     },
     "bricks": {
       "name": "Produzione di Mattoni",
       "description": "Produci mattoni regolari da costruzione",
-      "chemicalFormula": "Al₂Si₂O₅(OH)₄ → Mattone (3Al₂O₃·2SiO₂) + H₂O↑"
+      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + calore → Al₂Si₂O₇ + 2H₂O↑"
     },
     "iron-bloom": {
       "name": "Produzione di Blumo di Ferro",
@@ -939,12 +939,12 @@
     "sulfuric-acid": {
       "name": "Produzione di Acido Solforico",
       "description": "Produci H₂SO₄ per processi industriali",
-      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+      "chemicalFormula": "2S + 3O₂ + 2H₂O → 2H₂SO₄"
     },
     "advanced-chemical-circulation": {
       "name": "Produzione Avanzata di Acido Solforico",
       "description": "Produzione efficiente di H₂SO₄ con pompe ad alta pressione",
-      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+      "chemicalFormula": "2S + 3O₂ + 2H₂O → 2H₂SO₄"
     },
     "biomass-steam": {
       "name": "Produzione di Biomassa con Riscaldamento a Vapore",
@@ -978,12 +978,12 @@
     "concrete-production": {
       "name": "Produzione di Calcestruzzo",
       "description": "Mescola cemento con sabbia e ghiaia per creare calcestruzzo",
-      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+      "chemicalFormula": "2 Ca₃SiO₅ + 6 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
     },
     "manual-concrete-production": {
       "name": "Produzione Manuale di Calcestruzzo",
       "description": "Mescola a mano cemento con sabbia e ghiaia per creare calcestruzzo",
-      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+      "chemicalFormula": "2 Ca₃SiO₅ + 6 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
     },
     "iron-gear-production": {
       "name": "Produzione di Ingranaggi di Ferro",
@@ -1024,9 +1024,9 @@
       "description": "Usa macchine per assemblare circuiti elettronici in modo più efficiente"
     },
     "basic-chemical-processes": {
-      "name": "Produzione di Base di Zolfo",
-      "description": "Lavora prodotti chimici di base in zolfo per uso industriale",
-      "chemicalFormula": "C + O₂ + H₂O → H₂S + CO₂"
+      "name": "Desolforazione del carbone",
+      "description": "Lava le impurità contenenti zolfo dal carbone per recuperare zolfo per uso industriale",
+      "chemicalFormula": "C₁₃₅H₉₆O₉NS + H₂O → C₁₃₅H₉₆O₉N + S + H₂O"
     },
     "crude-oil-extraction": {
       "name": "Estrazione di Petrolio Greggio",
@@ -1084,12 +1084,12 @@
     "nickel-ore-processing": {
       "name": "Lavorazione dal Minerale di Nichel alla Matte di Nichel",
       "description": "Lavora il minerale di nichel in matte di nichel",
-      "chemicalFormula": "2NiS + 3O₂ → 2NiO + 2SO₂"
+      "chemicalFormula": "3NiS + O₂ → Ni₃S₂ + SO₂"
     },
     "nickel-refining": {
       "name": "Raffinazione dalla Matte di Nichel in Lingotti di Nichel",
       "description": "Raffina la matte di nichel in nichel puro",
-      "chemicalFormula": "Ni₃S₂ + H₂SO₄ + Elettrolisi → 3Ni + 3S + H₂O"
+      "chemicalFormula": "Ni₃S₂ → 3Ni + 2S (raffinazione elettrolitica)"
     },
     "chromite-processing": {
       "name": "Lavorazione dalla Cromite al Ferrocromo",
@@ -1202,7 +1202,7 @@
     "silica-extraction": {
       "name": "Estrazione della Silice",
       "description": "Estrai silice ad alta purezza dalla sabbia",
-      "chemicalFormula": "SiO₂·impurità + 2NaOH → Na₂SiO₃ + H₂O → SiO₂(pura)"
+      "chemicalFormula": "SiO₂ + 2NaOH → Na₂SiO₃ + H₂O; Na₂SiO₃ + CO₂ + H₂O → SiO₂·H₂O + Na₂CO₃"
     },
     "alcohol-production": {
       "name": "Produzione di Alcol Industriale",
@@ -1224,7 +1224,7 @@
     "zinc-electrolysis": {
       "name": "Elettrolisi dello Zinco",
       "description": "Estrai zinco puro tramite lavorazione elettrolitica",
-      "chemicalFormula": "ZnS + O₂ → ZnO + SO₂, ZnO + H₂SO₄ → ZnSO₄, Zn²⁺ + 2e⁻ → Zn"
+      "chemicalFormula": "2ZnS + 3O₂ → 2ZnO + 2SO₂; ZnO + H₂SO₄ → ZnSO₄ + H₂O; Zn²⁺ + 2e⁻ → Zn"
     },
     "sawmill-planks": {
       "name": "Lavorazione Industriale di Assi",
@@ -1418,8 +1418,8 @@
       "description": "Estrai sfalerite e pirite, poi trasforma la pirite in zolfo e ossido di ferro."
     },
     "research-basic-chemicals": {
-      "name": "Produzione base di zolfo",
-      "description": "Produci zolfo da carbone e acqua come prima materia prima chimica industriale."
+      "name": "Desolforazione del carbone",
+      "description": "Lava le impurità contenenti zolfo dal carbone per ottenere la prima materia prima solforata industriale."
     },
     "research-steam-power": {
       "name": "Generazione elettrica a vapore",
@@ -1499,7 +1499,7 @@
     },
     "research-automation-batch-handling": {
       "name": "Gestione automatica dei lotti",
-      "description": "Sblocca upgrade di lotto ripetibili dopo l’automazione di assemblaggio. Ogni livello attivo aggiunge un’iterazione per ciclo."
+      "description": "Sblocca upgrade di lotto ripetibili dopo l’automazione di assemblaggio. Ogni livello acquistato aggiunge un’iterazione massima per blocco di produzione; ogni iterazione oltre la prima aumenta il suo consumo del 15%."
     },
     "research-oil-prospecting": {
       "name": "Estrazione di petrolio greggio",
@@ -2008,7 +2008,7 @@
     "nickel-ore": {
       "name": "Minerale di Nichel",
       "description": "Un minerale denso tipicamente trovato come solfuri o lateriti, che funge da fonte primaria di nichel industriale.",
-      "formula": "Ni",
+      "formula": "NiS (minerale solforato semplificato)",
       "historical_info": "Il nichel è stato a lungo una fonte di frustrazione per i minatori tedeschi medievali, che incontravano un minerale rossastro che sembrava rame ma non ne produceva affatto; lo chiamarono \"Kupfernickel\" o \"Rame del Vecchio Nick\", credendo che un demone dispettoso avesse maledetto la roccia. Non fu prima del 1751 che Axel Fredrik Cronstedt isolò il metallo, dimostrando che era un elemento unico. Il suo valore si trasformò nel XIX secolo quando si scoprì che il nichel poteva trasformare l'acciaio ordinario in una \"super-lega\" capace di resistere alla ruggine e al calore estremo. Entro la metà del XX secolo, è diventato una pietra miliare delle industrie aerospaziale e militare, e oggi ha raggiunto un nuovo picco di importanza strategica come materiale catodico critico nelle batterie agli ioni di litio ad alta capacità che alimentano la rivoluzione globale dei veicoli elettrici.",
       "facts": "La maggior parte dei depositi di nichel più ricchi del mondo si trova nel bacino di Sudbury in Canada, che è in realtà il sito di un massiccio impatto meteoritico preistorico che portò il metallo dallo spazio oltre 1,8 miliardi di anni fa. Il nichel è uno dei soli quattro elementi – insieme a ferro, cobalto e gadolinio – che sono ferromagnetici a temperatura ambiente, il che significa che possono essere fortemente magnetizzati. Nel mondo naturale, alcune piante rare note come \"iperaccumulatori\" possono assorbire così tanto nichel dal terreno che la loro linfa diventa di un verde neon brillante, un processo ora studiato per la \"fitodepurazione\" dove le piante vengono usate per raccogliere metallo dalla terra. Nonostante la sua durezza industriale, il nichel è anche un metallo \"nobile\" nel mondo culinario, poiché è l'ingrediente segreto nelle pentole in acciaio inossidabile che impedisce al metallo di reagire con cibi acidi come pomodori o vino."
     },
@@ -2078,14 +2078,14 @@
     "bricks": {
       "name": "Mattoni",
       "description": "Unità strutturali rettangolari fatte di argilla o scisto modellati, indurite attraverso la vetrificazione ad alta temperatura.",
-      "formula": "Basato su Al₂Si₂O₅(OH)₄",
+      "formula": "Al₂Si₂O₇ (argilla cotta semplificata)",
       "historical_info": "Il mattone è uno dei più antichi materiali da costruzione creati dall'uomo, originatosi intorno al 7500 a.C. come \"adobe\" essiccato al sole nella Mezzaluna Fertile. Il suo valore si trasformò drammaticamente nell'antica Mesopotamia e a Roma con l'invenzione della fornace, che usava il fuoco per trasformare l'argilla tenera in una ceramica dura come la roccia e resistente all'acqua. Questa innovazione permise la costruzione di strutture multipiano e massicci acquedotti capaci di sopravvivere a secoli di intemperie. Durante la Rivoluzione Industriale, il mattone è passato da prodotto artigianale modellato a mano a unità modulare industriale prodotta in massa, grazie all'invenzione della fornace Hoffman nel 1852. Questo ha spostato la percezione dei mattoni da materiale di lusso per fortezze a DNA universale del moderno paesaggio urbano, permettendo la rapida ascesa delle città industriali vittoriane e degli iconici edifici in mattoni rossi di New York.",
       "facts": "I mattoni sono essenzialmente \"rocce metamorfiche create dall'uomo\"; il processo di cottura fa sì che i minerali nell'argilla si fondano insieme in una struttura interna densa e simile al vetro. Sono uno dei pochi materiali da costruzione che diventano effettivamente più forti nel tempo poiché continuano ad assorbire piccole quantità di anidride carbonica dall'atmosfera, un processo chiamato carbonatazione. Un mattone standard può resistere a temperature fino a 1000°C, rendendolo un tagliafuoco naturale che ha salvato intere città dalla distruzione totale durante storici incendi urbani. Curiosamente, il colore di un mattone è una firma geologica della sua chimica; un alto contenuto di ferro produce il classico rosso intenso, mentre un alto contenuto di calce risulta in un aspetto giallo pallido."
     },
     "fire-bricks": {
       "name": "Mattoni Refrattari",
       "description": "Blocchi ceramici refrattari progettati per mantenere l'integrità strutturale e una bassa conduttività termica a temperature estreme.",
-      "formula": "Al₂O₃·2SiO₂",
+      "formula": "3Al₂O₃·2SiO₂ (ricco di mullite, semplificato)",
       "historical_info": "Sebbene il concetto di rivestimento resistente al calore risalga alle antiche fusioni, il moderno mattone refrattario fu perfezionato all'inizio del XIX secolo per soddisfare le brutali richieste del processo siderurgico Bessemer. Prima del loro perfezionamento, gli altiforni fallivano frequentemente poiché i mattoni standard si scioglievano o esplodevano sotto il calore intenso richiesto per raffinare il ferro. La scoperta dei depositi di argilla refrattaria permise la creazione di un materiale che non si espandeva o contraeva significativamente se riscaldato, \"addomesticando\" di fatto la fornace. Questo ha trasformato i mattoni refrattari da una ceramica di nicchia nella letterale armatura della Rivoluzione Industriale, permettendo la produzione di massa di acciaio, vetro e prodotti chimici che hanno definito il XX secolo. Oggi rimangono una risorsa strategica, poiché nessun metallo moderno o lega high-tech può essere forgiata senza un recipiente rivestito con queste unità refrattarie specializzate.",
       "facts": "I mattoni refrattari sono capaci di resistere a un'esposizione costante a temperature superiori a 1500°C, ovvero più calde della lava fluida della maggior parte dei vulcani. A differenza dei mattoni da costruzione standard, sono progettati con un'alta porosità per intrappolare l'aria, rendendoli isolanti incredibili che mantengono il calore all'interno di una fornace mentre l'esterno rimane abbastanza freddo da impedire al guscio metallico di deformarsi. Sono chimicamente \"inerti\", il che significa che non reagiscono con i metalli fusi o le scorie corrosive che contengono, una proprietà ottenuta attraverso il loro alto contenuto di allumina e silice. Interessante notare che le piastrelle termiche dello Space Shuttle sono un'evoluzione high-tech del mattone refrattario, utilizzando principi refrattari simili per proteggere il veicolo dal calore di 1650°C del rientro atmosferico."
     },
@@ -2494,90 +2494,1590 @@
       "facts": "Il vapore è essenzialmente un vettore energetico ad alta densità; quando l'acqua si trasforma in vapore, si espande fino a 1.600 volte il suo volume originale, creando l'immensa pressione richiesta per far ruotare le pale delle turbine a migliaia di giri al minuto. Agisce come un mezzo di trasferimento del calore incredibilmente efficiente grazie al suo \"calore latente\", il che significa che immagazzina una vasta quantità di energia solo per mantenere il suo stato gassoso, che rilascia istantaneamente al contatto con una superficie più fredda. Poiché il vapore può essere riscaldato ben oltre il punto di ebollizione dell'acqua, il \"vapore surriscaldato\" viene usato nelle moderne centrali elettriche per assicurare che nessuna goccia di liquido danneggi i sensibili componenti interni di un generatore. Interessante notare che il vapore è invisibile all'occhio umano; la \"nuvola\" bianca che tipicamente si vede uscire da un bollitore o da una torre di raffreddamento è in realtà vapore acqueo che ha già iniziato a condensarsi in minuscole goccioline liquide colpendo l'aria più fredda."
     }
   },
+  "guide": {
+    "entries": {
+      "director-orientation": {
+        "title": "Orientamento del Direttore",
+        "summary": "Il tuo incarico, il ciclo industriale e ciò che conta come progresso.",
+        "unlockLabel": "Disponibile all'inizio di ogni incarico",
+        "sections": [
+          {
+            "title": "Il tuo incarico",
+            "paragraphs": [
+              "Sei il Direttore ad interim di una colonia industriale. Il tuo compito pratico è raccogliere materie prime, trasformarle in prodotti sempre più sofisticati, ricercare nuovi metodi, costruire le strutture richieste da quei metodi e collegare i processi risultanti in lunghe catene produttive.",
+              "Non esiste una singola linea di produzione corretta in modo permanente. Le risorse iniziali restano rilevanti perché i prodotti avanzati spesso dipendono da più rami precedenti allo stesso tempo. Considera ogni ricetta sbloccata come una capacità industriale riutilizzabile, non come un gradino da abbandonare dopo averlo superato."
+            ],
+            "bullets": [
+              "Raccogli o produci le risorse richieste da un progetto di ricerca disponibile.",
+              "Completa la ricerca per sbloccare ricette, edifici o un nuovo ramo dell'albero tecnologico.",
+              "Costruisci gli edifici appena sbloccati; la sola ricerca non rende operativo un edificio.",
+              "Produci i nuovi intermedi, poi ripeti il ciclo su scala più ampia.",
+              "L'obiettivo aziendale a lungo termine è il Motore a Iperguida. Raggiungerlo richiede l'intera rete industriale, non una singola catena isolata."
+            ]
+          },
+          {
+            "title": "Di base non esiste produzione passiva",
+            "paragraphs": [
+              "Le ricette normali vengono eseguite quando premi Produce. Gli input vengono consumati e gli output consegnati immediatamente. Il semplice fatto che un edificio esista nella tua colonia non lo fa produrre da solo. Il funzionamento continuo diventa possibile solo tramite schemi di automazione, e quegli schemi richiedono comunque risorse valide, una struttura di programma e, dove applicabile, personale o energia.",
+              "Questo rende la pianificazione più preziosa dei clic frenetici. Prima di impegnarti in un grande lotto, controlla tutti gli input, la capacità degli utensili, il carburante, la quantità massima e la prossima dipendenza che stai cercando di soddisfare."
+            ],
+            "callout": {
+              "title": "Primo percorso consigliato",
+              "body": "Apri uno dei siti di raccolta iniziali, raccogli Legna e Pietra, poi apri Ricerca. Artigianato di Base è il primo snodo importante: introduce gli utensili ed espande la tua capacità di raccogliere in modo efficiente."
+            }
+          },
+          {
+            "title": "Il progresso viene conservato, l'attenzione no",
+            "paragraphs": [
+              "Inventario, ricerca, costruzione, statistiche, schede sbloccate, elementi della Bacheca operativa, programmi di automazione e stato di lettura della Guida vengono memorizzati nel salvataggio corrente. Lo stato temporaneo dell'interfaccia—come una finestra modale aperta o una query di ricerca inserita a metà—non è la stessa cosa del progresso industriale salvato.",
+              "I sistemi aziendali valutano la produzione con un entusiasmo insolito. Non richiedono che tu imiti tale entusiasmo. Fermarsi per consultare l'Almanacco o riprogettare un programma fa parte della corretta gestione della colonia."
+            ]
+          }
+        ]
+      },
+      "game-modes-and-training": {
+        "title": "Modalità di gioco e addestramento guidato",
+        "summary": "La scelta della modalità salvata e l'introduzione opzionale in 30 passaggi a produzione, ricerca, automazione, pianificazione, costruzione, Almanacco e Guida.",
+        "unlockLabel": "Disponibile all'inizio di ogni incarico",
+        "sections": [
+          {
+            "title": "Scegliere un incarico",
+            "paragraphs": [
+              "Una nuova partita ti permette di scegliere una modalità operativa, uno slot di salvataggio e se eseguire la sequenza di addestramento guidato. Avviare una partita in uno slot occupato richiede conferma e poi sovrascrive quello slot. La Guida resta disponibile in ogni modalità e non dipende dall'addestramento.",
+              "La modalità selezionata viene memorizzata nel salvataggio come metadato dell'incarico. Nella build attuale, tuttavia, la simulazione non legge quel valore dopo la creazione della nuova partita: Standard e Modalità ultra-realistica usano attualmente le stesse ricette, costi, regole di produzione e condizioni di fallimento. Le regole su emissioni e salute planetaria descritte nella scheda di selezione della Modalità ultra-realistica non sono ancora attive. Non pianificare una colonia attuale attorno a un misuratore di inquinamento non implementato."
+            ],
+            "bullets": [
+              "Standard: l'impostazione predefinita onesta per il set di regole attuale.",
+              "Modalità ultra-realistica: la scelta viene conservata nello slot, ma al momento non attiva meccaniche diverse. Questa Guida descriverà quelle meccaniche solo dopo che esisteranno nella simulazione.",
+              "Addestramento guidato: una sequenza vocale temporanea in 30 passaggi guidata dalla Dr. Mira Holland. Può essere saltata in qualsiasi momento e non è richiesta per sbloccare le schede della Guida.",
+              "Le build demo di valutazione contengono una porzione limitata della campagna e identificano chiaramente il loro obiettivo di completamento. Le schede della versione completa non devono essere interpretate come promessa che contenuti demo non disponibili possano essere raggiunti in quella build."
+            ]
+          },
+          {
+            "title": "Cosa copre ora l'addestramento guidato",
+            "paragraphs": [
+              "L'addestramento attuale ha 30 passaggi. Dopo il briefing dell'incarico, ti guida nella raccolta di lotti da dieci di Legna e Pietra, nel completamento della ricerca Artigianato di Base e nella comprensione dell'aumento di capacità di cinque coloni concesso da un nuovo livello di ricerca più alto.",
+              "Poi introduce l'Automazione dei coloni nel Boschetto. Apri l'editor manuale degli schemi, assembli e convalidi un ciclo continuo con un blocco Produzione impostato su dieci iterazioni, lo avvii e usi la Scheda automazione per ispezionare il programma in esecuzione.",
+              "La sequenza pratica finale introduce pianificazione dei progetti e costruzione: ispezioni Artigianato a Mano, fissi i suoi requisiti, leggi i totali combinati sulla Bacheca operativa, raccogli ciò che manca ancora e costruisci l'edificio. L'addestramento apre poi l'Almanacco e la Guida prima del briefing conclusivo. È un tour delle basi, non una soluzione completa della campagna."
+            ]
+          },
+          {
+            "title": "Come si comportano i passaggi interattivi",
+            "paragraphs": [
+              "Un passaggio interattivo evidenzia il controllo rilevante e disabilita Avanti finché non viene osservata l'azione prevista. I passaggi di produzione verificano sia la ricetta selezionata sia la quantità di lotto richiesta. Il passaggio di automazione verifica lo schema manuale continuo richiesto prima di permettere alla sequenza di proseguire. Il completamento di un'azione avanza automaticamente dopo un breve ritardo.",
+              "Il dialogo può essere trascinato durante i passaggi interattivi e alternato tra layout compatto ed espanso. I passaggi esplicativi bloccano temporaneamente lo scorrimento dello sfondo, mentre i passaggi d'azione lasciano disponibile l'interfaccia richiesta. Cliccare un dialogo non ancora rivelato completa immediatamente la sua animazione dattilografica; non salta l'azione richiesta. Salta chiude l'intera sequenza di addestramento e interrompe la voce attuale.",
+              "L'addestramento dimostra un primo percorso sicuro attraverso la colonia. La Guida spiega le regole sottostanti e resta ricercabile in seguito. Saltare l'addestramento non rimuove mai meccaniche, risorse o progressione.",
+              "Le schede della Guida si sbloccano quando il sistema rilevante entra nel tuo contesto operativo. Un badge numerato sul pulsante Guida mostra quante schede disponibili non hai ancora aperto. Aprire una scheda la segna come letta; può sempre essere consultata di nuovo."
+            ]
+          }
+        ]
+      },
+      "interface-and-navigation": {
+        "title": "Interfaccia e navigazione",
+        "summary": "L'header dei comandi, le schede principali, gli overlay, i salti di focus e il comportamento Indietro.",
+        "unlockLabel": "Disponibile all'inizio di ogni incarico",
+        "sections": [
+          {
+            "title": "La superficie di comando persistente",
+            "paragraphs": [
+              "La parte superiore del gioco è divisa in una banca di stato e una barra di navigazione. Le schede centrali—Edifici, Inventario, Ricerca e Almanacco—cambiano l'area di lavoro principale. Obiettivi, Statistiche, Guida e Menu si aprono come overlay sopra l'area di lavoro corrente, quindi chiuderli ti riporta nello stesso punto.",
+              "Molti collegamenti sono contestuali. Cliccare una risorsa può aprire la sua pagina esatta nell'Almanacco; cliccare Apri Ricerca può mettere a fuoco il nodo tecnologico rilevante; un'azione della Bacheca operativa può saltare all'edificio o alla ricetta richiesta. Questi salti sono deliberatamente preferibili alla ricerca manuale in un grande catalogo di fine partita."
+            ],
+            "media": {
+              "alt": "L'header completo del gioco con celle di stato, schede di navigazione, pulsante Guida e badge di notifica.",
+              "caption": "Superficie di comando principale e controlli degli overlay."
+            }
+          },
+          {
+            "title": "Indietro, chiusura e priorità modale",
+            "bullets": [
+              "Escape chiude l'overlay supportato più in alto prima di cambiare la schermata sottostante.",
+              "All'interno di un edificio di produzione, Indietro torna alla directory Edifici.",
+              "Premere la scheda Edifici mentre un edificio di produzione è già aperto torna anch'esso alla directory.",
+              "Da un'altra scheda principale, Indietro torna a Edifici. Dalla directory Edifici, Indietro apre il menu di gioco.",
+              "Durante una cinematica bloccante, un'azione tutorial o una successiva rivelazione a schermo intero, la navigazione ordinaria può essere sospesa intenzionalmente finché quel livello non termina o viene chiuso."
+            ]
+          },
+          {
+            "title": "Comportamento dell'header fissato e compatto",
+            "paragraphs": [
+              "Le impostazioni Schermo possono mantenere l'header completo fissato mentre il contenuto principale scorre, fissare solo una porzione compatta, ricordare l'ultima posizione della lista Edifici e scalare l'interfaccia. Queste sono impostazioni di presentazione; non alterano produzione o sblocchi."
+            ],
+            "callout": {
+              "title": "I piccoli badge sono informazioni in tempo reale",
+              "body": "Le etichette delle scorciatoie riflettono le associazioni correnti. Il badge della Guida riflette le schede sbloccate ma non lette. Nessuno dei due numeri è un punteggio obiettivo."
+            }
+          }
+        ]
+      },
+      "keyboard-controls": {
+        "title": "Controlli da tastiera",
+        "summary": "Scorciatoie predefinite, azioni contestuali, riassegnazione e condivisione intenzionale dei tasti.",
+        "unlockLabel": "Disponibile all'inizio di ogni incarico",
+        "sections": [
+          {
+            "title": "Controlli globali predefiniti",
+            "bullets": [
+              "Tab mostra o nasconde la Bacheca operativa.",
+              "A mostra o nasconde la Scheda automazione.",
+              "Spazio esegue la ricetta di produzione attualmente selezionata quando la produzione può procedere.",
+              "Invio conferma un'azione evidenziata o apre un elemento selezionato da tastiera.",
+              "Escape esegue Indietro / Chiudi in base alla pila di overlay corrente.",
+              "I tasti freccia spostano le selezioni da tastiera supportate. F mette a fuoco il campo di ricerca nelle schermate che espongono la ricerca.",
+              "F1 e F2 aprono Obiettivi e Statistiche. F3–F6 selezionano Edifici, Inventario, Ricerca e Almanacco. F7 apre Menu.",
+              "Page Up e Page Down si spostano all'inizio o alla fine dell'interfaccia di produzione. H nasconde o ripristina l'overlay di produzione in modo che l'illustrazione della struttura possa essere vista."
+            ]
+          },
+          {
+            "title": "Tasti numerici contestuali",
+            "paragraphs": [
+              "I numeri 1–6 selezionano i preset di produzione (x10, x20, x50, x100, x1000 e MAX) mentre un'interfaccia di produzione possiede quel contesto. I numeri 1–9 partecipano anche al selettore della griglia Edifici: scegli una riga, poi una colonna e conferma l'edificio evidenziato. Questa sovrapposizione è intenzionale perché le due azioni operano in contesti diversi.",
+              "La maggior parte delle associazioni duplicate viene rifiutata. I gruppi preset di produzione e selettore edifici sono l'eccezione esplicita. Se riassegni un comando, le piccole etichette mostrate sui controlli supportati si aggiornano di conseguenza. I suggerimenti delle scorciatoie possono essere nascosti senza disabilitare le associazioni."
+            ]
+          },
+          {
+            "title": "Riassegnare in sicurezza",
+            "steps": [
+              "Apri Menu, poi Impostazioni, poi Scorciatoie.",
+              "Seleziona il campo di associazione per un'azione e premi la combinazione di tasti desiderata.",
+              "Se la combinazione è in conflitto, scegline un'altra o ripristina prima l'azione in conflitto.",
+              "Usa Ripristina su una riga per ripristinare un singolo valore predefinito, oppure Ripristina tutte le scorciatoie per ripristinare l'intera mappa."
+            ],
+            "callout": {
+              "title": "I campi di digitazione hanno priorità",
+              "body": "La maggior parte delle scorciatoie globali viene soppressa mentre digiti in un input, una casella di ricerca, un selettore o una cattura di scorciatoia. I comandi per mostrare o nascondere le bacheche restano disponibili per progettazione. Questo evita che una query di ricerca produca inaspettatamente un lotto o cambi schermata."
+            }
+          }
+        ]
+      },
+      "saving-and-slots": {
+        "title": "Salvataggi, slot e recupero",
+        "summary": "Salvataggi manuali, salvataggi automatici, proprietà degli slot, esportazioni, backup e ciò che viene conservato.",
+        "unlockLabel": "Disponibile all'inizio di ogni incarico",
+        "sections": [
+          {
+            "title": "Due percorsi di salvataggio",
+            "paragraphs": [
+              "I salvataggi manuali vengono scritti nello slot numerato che scegli. I salvataggi automatici vengono scritti in una voce autosave dedicata all'intervallo configurato; non sovrascrivono silenziosamente uno slot manuale numerato. Continua usa prima lo slot manuale ricordato e altrimenti cerca gli slot numerati dall'inizio. Caricare l'autosave non sostituisce il marcatore dello slot manuale ricordato.",
+              "Ci sono cinque slot manuali numerati più la voce autosave separata. I riepiloghi degli slot variano in base al contesto: il pannello Salva in gioco mostra timestamp più conteggi di ricerca, edifici costruiti e chiavi inventario; le schede del menu principale e di caricamento espongono i propri campi di progresso compatti. Caricare sostituisce lo stato attivo della colonia, quindi conferma lo slot e il timestamp di destinazione prima di procedere."
+            ],
+            "bullets": [
+              "Il salvataggio automatico può essere abilitato o disabilitato, e il suo intervallo può essere impostato da 1 a 30 minuti.",
+              "Un salvataggio manuale registra il tempo di gioco corrente prima di scrivere, poi avvia un nuovo timer della sessione.",
+              "Sblocchi della Guida, stato di lettura della Guida, messaggi narrativi chiusi, stato dell'archivio ad accesso tardivo, bacheche, filtri, cronologia dell'automazione e programmi fanno parte dei dati di salvataggio.",
+              "Le preferenze generali di schermo, lingua, grafica, audio e scorciatoie sono impostazioni globali dell'applicazione anziché progressione della colonia."
+            ]
+          },
+          {
+            "title": "Sicurezza dell'archiviazione",
+            "paragraphs": [
+              "Il gioco conserva record di salvataggio locali e, nella build desktop, può mantenere una copia speculare lato Electron e copie di backup. All'avvio controlla lo stato dell'archiviazione e può tentare il recupero dalla copia speculare. Una notifica di recupero è prova che è stata usata una copia di ripiego; salva di nuovo dopo aver verificato lo stato della colonia.",
+              "Esporta tutto crea un archivio JSON contenente i salvataggi primari disponibili, gli slot numerati, l'autosave, il marcatore dell'ultimo slot, le copie shadow e i backup locali rotanti. Importa archivio ripristina da quell'archivio i record di archiviazione salvataggi riconosciuti; è più ampio dell'importazione di un singolo slot selezionato. Conserva un'esportazione prima di spostarti tra macchine, testare build di sviluppo o fare una modifica di fine partita ad alto rischio a una colonia fortemente automatizzata."
+            ],
+            "media": {
+              "alt": "L'overlay Salva partita che mostra slot manuali, informazioni sull'autosave e controlli di sicurezza dell'archiviazione.",
+              "caption": "Slot manuali e strumenti di recupero."
+            }
+          },
+          {
+            "title": "Compatibilità e vecchi salvataggi",
+            "paragraphs": [
+              "Quando un salvataggio precede un sistema, i campi mancanti vengono inizializzati durante il caricamento. Il gioco ricostruisce valori predefiniti ragionevoli per filtri di ricerca, opzioni dell'Almanacco, bacheche operative, stato dell'automazione, record d'archivio e stato della Guida. Il progresso esistente non dovrebbe essere scartato solo perché una build successiva ha aggiunto una nuova interfaccia."
+            ],
+            "callout": {
+              "title": "Un salvataggio non è uno screenshot",
+              "body": "Se devi segnalare un difetto di progressione, esporta lo slot interessato prima di provare azioni correttive. Un'immagine mostra il sintomo; il salvataggio conserva l'esatto stato industriale che lo ha prodotto."
+            }
+          },
+          {
+            "title": "Conferme di salvataggio e caricamento",
+            "bullets": [
+              "Salvare in uno slot numerato occupato richiede conferma di sovrascrittura. Salvare in uno slot vuoto no.",
+              "Caricare uno slot esistente richiede conferma perché il progresso corrente non salvato andrà perso. Importa archivio scrive di per sé i record d'archivio riconosciuti senza una conferma di sovrascrittura; il prompt successivo controlla se il salvataggio primario ripristinato viene caricato nella sessione attiva, non se l'archiviazione è già stata sostituita.",
+              "Il pannello Salva in gioco elenca tutti e cinque gli slot manuali, inclusi quelli vuoti. Il pannello Carica elenca solo l'autosave e i record manuali esistenti.",
+              "Tornare al Menu principale non è di per sé un'azione di salvataggio. Salva prima, poi conferma il ritorno."
+            ]
+          }
+        ]
+      },
+      "buildings-directory": {
+        "title": "Directory Edifici",
+        "summary": "Strutture bloccate, costruibili e operative; filtri, ordinamento e selezione rapida.",
+        "unlockLabel": "Disponibile con la scheda Edifici",
+        "sections": [
+          {
+            "title": "Tre stati degli edifici",
+            "paragraphs": [
+              "Ricercare un edificio non paga mai il suo costo di costruzione. Costruire consuma una volta le risorse elencate e aggiunge permanentemente quel tipo di struttura alla colonia. Una ricetta può essere ricercata mentre l'edificio assegnato resta non costruito; in quel caso la ricetta è conosciuta ma non può essere eseguita."
+            ],
+            "bullets": [
+              "Bloccato: la ricerca richiesta non è stata completata. Il retro della scheda può portare al nodo di ricerca rilevante.",
+              "Sbloccato, non costruito: il progetto è conosciuto, ma la struttura non è operativa. La sua scheda mostra i requisiti di costruzione e offre l'azione Costruisci edificio.",
+              "Operativo: l'edificio è stato costruito. Seleziona la scheda per aprire la sua interfaccia di produzione."
+            ],
+            "media": {
+              "alt": "La directory Edifici con una scheda bloccata, una scheda costruibile mostrata dal retro e una scheda operativa.",
+              "caption": "Leggi una scheda struttura in base al suo stato prima di aprirla."
+            }
+          },
+          {
+            "title": "Trovare la struttura giusta",
+            "bullets": [
+              "La ricerca ordina le corrispondenze prima dal nome edificio visualizzato, poi da identificatore interno e descrizione. Restringe immediatamente la griglia.",
+              "I quattro filtri di categoria sono Tutti, Raccolta, Produzione e Energia. Produzione è il gruppo ampio: include strutture di fusione, artigianato, lavorazione, manifattura, chimica, elettronica e ricerca.",
+              "Solo sbloccati rimuove i progetti che non possono ancora essere costruiti o aperti.",
+              "Ordina per livello tecnologico per seguire la progressione, oppure alfabeticamente quando conosci già il nome della struttura.",
+              "La navigazione con i tasti freccia e il selettore numerico riga/colonna permettono l'apertura rapida da tastiera. Il suggerimento sullo schermo riporta la riga selezionata mentre il selettore attende una colonna."
+            ]
+          },
+          {
+            "title": "Interazioni con le schede",
+            "paragraphs": [
+              "Passare il cursore su una scheda bloccata o costruibile espone le informazioni del suo retro. I requisiti di risorse sono interattivi: passa il cursore per identità e informazioni d'inventario, clicca per aprire quella risorsa nell'Almanacco, oppure fissa il requisito completo di costruzione alla Bacheca operativa.",
+              "Una posizione ricordata della lista Edifici è utile in un grande catalogo. Se abilitata nelle Impostazioni, il ritorno dalla produzione può ripristinare la tua posizione precedente invece di costringere la directory all'inizio."
+            ]
+          }
+        ]
+      },
+      "building-construction": {
+        "title": "Costruzione degli edifici",
+        "summary": "Strutture permanenti, costi di costruzione, requisiti mancanti e monitoraggio in bacheca.",
+        "unlockLabel": "Sbloccata quando il primo progetto di edificio aggiuntivo diventa disponibile",
+        "sections": [
+          {
+            "title": "Prima ricerca, poi approvvigiona, poi costruisci",
+            "steps": [
+              "Completa la tecnologia che sblocca il progetto dell'edificio.",
+              "Trova l'edificio nella directory Edifici. Il suo stato cambia da bloccato a pronto per la costruzione.",
+              "Controlla ogni materiale richiesto sul retro della scheda. Le quantità rosse o insufficienti devono essere prodotte prima.",
+              "Facoltativamente fissa i requisiti alla Bacheca operativa così i totali restano visibili mentre visiti altre schermate.",
+              "Premi Costruisci edificio. Il costo completo viene rimosso atomicamente; la costruzione parziale non viene salvata.",
+              "Apri la scheda ora operativa e seleziona una delle ricette che hai ricercato per essa."
+            ],
+            "media": {
+              "alt": "Una scheda edificio pronta per la costruzione con costi in risorse, quantità insufficienti, collegamenti all'Almanacco e controllo di fissaggio.",
+              "caption": "I requisiti di costruzione sono separati dagli input delle ricette."
+            }
+          },
+          {
+            "title": "Regole specifiche",
+            "bullets": [
+              "La costruzione è permanente all'interno del salvataggio. Gli edifici non vengono venduti, smantellati o duplicati individualmente.",
+              "Il contatore Edifici nell'header conta i tipi di struttura costruiti rispetto al catalogo delle strutture, inclusi i due siti di raccolta iniziali.",
+              "Se un collegamento contestuale apre la produzione per un edificio non costruito, il gioco ti reindirizza alla directory Edifici e mette a fuoco la struttura richiesta.",
+              "L'auto-reazione della Bacheca operativa rimuove un elemento di costruzione fissato dopo che quell'edificio è stato costruito con successo. Disabilita l'auto-reazione se vuoi che gli elementi di riferimento completati restino finché non vengono rimossi manualmente.",
+              "L'installazione dell'automazione è un costo successivo e separato per edificio. Costruire una struttura non include un nucleo di automazione."
+            ]
+          },
+          {
+            "title": "Pianificare catene di costruzione",
+            "paragraphs": [
+              "Un costo di costruzione va trattato come un progetto una tantum sovrapposto alla domanda continua delle ricette. Se un materiale è necessario anche per una ricerca immediata, fissa entrambi gli obiettivi e controlla i totali aggregati prima di spenderlo. La bacheca mostra intenzionalmente l'inventario in tempo reale rispetto al requisito combinato, così una costruzione “pronta” non nasconde un'altra carenza."
+            ]
+          }
+        ]
+      },
+      "production-interface": {
+        "title": "Interfaccia di produzione",
+        "summary": "Selezione delle ricette, lettura del diagramma di processo, produzione e spostamento tra dipendenze.",
+        "unlockLabel": "Sbloccata dopo aver aperto per la prima volta un edificio di produzione",
+        "sections": [
+          {
+            "title": "Anatomia della schermata",
+            "paragraphs": [
+              "La lista ricette contiene solo le ricette sbloccate per l'edificio corrente. La ricerca trova corrispondenze nel nome della ricetta, nella descrizione della ricetta o nel nome visualizzato di una risorsa in output; non cerca tra gli input. Selezionare una scheda carica il processo completo nel pannello principale: input, output e requisiti separati di utensili o carburante.",
+              "Un edificio può avere molti processi possibili ma una sola ricetta selezionata manualmente alla volta. L'ultima ricetta selezionata viene memorizzata per edificio, quindi tornare a quella struttura ripristina normalmente il tuo contesto di lavoro."
+            ],
+            "media": {
+              "alt": "Una schermata di produzione completa con lista ricette, ricetta selezionata, diagramma di processo, controlli quantità, requisiti di carburante o utensili e pulsante Produce.",
+              "caption": "Tutti i costi immediati dovrebbero essere visibili prima dell'esecuzione."
+            }
+          },
+          {
+            "title": "Eseguire un lotto manuale",
+            "steps": [
+              "Scegli una ricetta dalla lista dell'edificio.",
+              "Se la ricetta offre scelte di carburante, controlla il selettore. La prima opzione viene selezionata automaticamente ogni volta che la ricetta cambia. Il carburante è un costo aggiuntivo e non deve essere confuso con la normale lista degli input.",
+              "Imposta il numero di iterazioni con lo stepper, un preset o MAX.",
+              "Leggi i totali di anteprima. Scalano input, output, carburante e utensili in base alla quantità selezionata.",
+              "Premi Produce o usa la scorciatoia Produce. Il pulsante è abilitato solo quando il controllo combinato dei requisiti in tempo reale riesce. Gli output vengono aggiunti subito dopo il pagamento; la produzione manuale non ha una fase di elaborazione con tempo trascorso."
+            ]
+          },
+          {
+            "title": "Le dipendenze sono interattive",
+            "paragraphs": [
+              "Le icone risorsa espongono informazioni su inventario e identità. Dalle interazioni risorsa supportate puoi aprire la scheda esatta dell'Almanacco, controllare dove una risorsa viene prodotta o consumata e saltare a un altro edificio di produzione. Fissare la ricetta selezionata crea un progetto persistente sulla Bacheca operativa, includendo il conteggio di iterazioni e il carburante scelti.",
+              "L'interfaccia può essere nascosta con il suo interruttore di visualizzazione o con la scorciatoia per rivelare lo sfondo della struttura. È un'azione puramente visiva; non avvia né interrompe la produzione. Il comportamento dell'audio ambientale e della musica di produzione è controllato separatamente nelle Impostazioni."
+            ]
+          }
+        ]
+      },
+      "production-batches-and-costs": {
+        "title": "Ricette, lotti e costi",
+        "summary": "Iterazioni, totali scalati, MAX, redditività e contabilità esatta delle risorse.",
+        "unlockLabel": "Sbloccata con la scheda Interfaccia di produzione",
+        "sections": [
+          {
+            "title": "Una quantità è un numero di iterazioni della ricetta",
+            "paragraphs": [
+              "Se una iterazione consuma 2 unità e produce 3, una quantità di 10 consuma 20 e produce 30. Il campo quantità non significa “unità di output desiderate” a meno che quella ricetta non produca esattamente una unità per iterazione. Leggi sempre l'anteprima scalata invece di dedurre i totali dall'etichetta del pulsante.",
+              "MAX calcola il lotto più grande attualmente supportato dagli input ordinari, dal carburante selezionato, dalla capacità degli utensili e da qualsiasi limite specifico della ricetta. Se non è ancora selezionato alcun carburante, l'interfaccia può valutare le opzioni disponibili per trovare un massimo permissivo, ma devi comunque confermare la scelta effettiva del carburante prima di produrre."
+            ]
+          },
+          {
+            "title": "Cosa conta come costo",
+            "bullets": [
+              "Input: consumati una volta per iterazione secondo la mappa della ricetta.",
+              "Carburante: consumato in aggiunta agli input, usando l'opzione selezionata e la sua quantità per iterazione.",
+              "Utensili: consumati come oggetti interi secondo la capacità di durabilità, arrotondando verso l'alto.",
+              "Materiali di costruzione: non collegati a un lotto di ricetta; vengono pagati una volta quando una struttura viene costruita.",
+              "Elettricità dell'automazione: una domanda operativa basata sul tempo stimata e consumata dai programmi elettronici attivi, non parte di un clic manuale su Produce."
+            ],
+            "callout": {
+              "title": "Il pagamento degli utensili manuali è una transazione separata",
+              "body": "Il gestore attuale della produzione manuale rimuove gli utensili interi prima di rimuovere la mappa ordinaria input-e-carburante. Il pulsante normalmente impedisce un tentativo non pagabile, ma se l'inventario cambia tra quei controlli, un utensile rimosso non viene ripristinato automaticamente quando il pagamento successivo fallisce. Lascia un margine quando l'automazione compete per le stesse scorte."
+            }
+          },
+          {
+            "title": "Redditività e valore industriale",
+            "paragraphs": [
+              "La redditività della ricetta è un rapporto informativo usato dall'intelligence delle ricette dell'Almanacco. Aiuta a confrontare trasformazioni, ma non è denaro, un ottimo garantito o un sostituto della pianificazione delle dipendenze. Un processo con rapporto più basso può essere strategicamente essenziale perché sblocca una catena, usa una risorsa che hai in abbondanza o evita un collo di bottiglia altrove.",
+              "Inventario e valori di produzione possono contenere decimali per alcuni processi. L'interfaccia formatta i valori per leggibilità, mentre lo stato conserva una precisione controllata. Non pianificare sulla base dell'arrotondamento visivo al limite della possibilità di pagamento; lascia un piccolo margine per le catene a più fasi."
+            ],
+            "callout": {
+              "title": "La Bacheca operativa usa totali in tempo reale",
+              "body": "Per una ricetta fissata, cambiare iterazioni o carburante sulla bacheca ricalcola immediatamente i requisiti. È più sicuro che memorizzare un'anteprima da uno stato inventario precedente."
+            }
+          }
+        ]
+      },
+      "gathering-and-cooldowns": {
+        "title": "Raccolta e tempi di recupero",
+        "summary": "Risorse iniziali, lotti manuali finiti, rifornimento e raccolta assistita da utensili.",
+        "unlockLabel": "Sbloccata dopo aver aperto qualsiasi edificio di produzione",
+        "sections": [
+          {
+            "title": "Estrazione iniziale",
+            "paragraphs": [
+              "Boschetto e Affioramento Roccioso iniziano già costruiti e forniscono le ricette di raccolta manuale necessarie per avviare la colonia. La raccolta manuale non ha input di risorse, ma è comunque una ricetta: seleziona una quantità, rispetta il suo lotto massimo, produci, poi attendi che il sito si rifornisca se quella ricetta ha un tempo di recupero.",
+              "I tempi di recupero sono tracciati per edificio e ricetta nel salvataggio. Uscire dalla schermata di produzione non li azzera. Quando il timer scade, l'interfaccia e il sistema di notifiche possono segnalare che l'estrazione è di nuovo disponibile.",
+              "L'automazione non scrive in questo record di recupero manuale. Invece, il tempo di recupero di una ricetta diventa una durata minima per quel blocco Produzione automatizzato. Disponibilità manuale e tempistica dei cicli automatizzati sono quindi orologi separati."
+            ]
+          },
+          {
+            "title": "Raccolta massima",
+            "bullets": [
+              "Un lotto massimo visualizzato è un limite rigido per operazione per quella ricetta, anche se il tuo inventario potrebbe supportare un numero più grande.",
+              "Per la raccolta assistita da utensili, il massimo può anche essere limitato da quanto lavoro i tuoi utensili possono coprire.",
+              "Premere Produce mentre resta un tempo di recupero non consuma input; segnala l'attesa rimanente.",
+              "Il preset MAX rispetta il limite e i requisiti correnti della ricetta. Non è un'istruzione per svuotare indiscriminatamente l'intero inventario della colonia."
+            ]
+          },
+          {
+            "title": "Quando smettere di raccogliere a mano",
+            "paragraphs": [
+              "La raccolta manuale è affidabile ma lenta. Le ricette con utensili producono lotti più grandi, e miniere successive o strutture di estrazione industriale spostano il collo di bottiglia lontano dai ripetuti tempi di recupero dei siti iniziali. Tuttavia, le risorse iniziali continuano ad alimentare costruzione, carburante, chimica e componenti, quindi “avanzato” non significa “sicuro da ignorare”."
+            ],
+            "callout": {
+              "title": "Attività registrata",
+              "body": "Le Statistiche distinguono raccolta senza utensili, grandi operazioni singole, produzione totale e output per edificio. Questi contatori descrivono ciò che è accaduto; non alterano tempi di recupero o rese delle ricette."
+            }
+          }
+        ]
+      },
+      "tools-and-efficiency": {
+        "title": "Utensili ed efficienza",
+        "summary": "Consumo di utensili interi, durabilità come capacità di lotto ed evitare usi sprecati.",
+        "unlockLabel": "Sbloccata dopo aver ricercato Artigianato di Base",
+        "sections": [
+          {
+            "title": "La durabilità è capacità, non una barra della salute",
+            "paragraphs": [
+              "Gli utensili non restano nell'inventario con durabilità parzialmente consumata. Un utensile con durabilità 10 copre fino a 10 iterazioni di ricetta in un singolo calcolo di produzione. Il gioco consuma il numero di utensili interi richiesto: utensili necessari = soffitto(iterazioni ÷ durabilità).",
+              "Quel soffitto è il dettaglio cruciale. Produrre 11 iterazioni con durabilità 10 consuma due utensili, anche se il secondo utensile fornisce solo una iterazione utile. I nove punti di capacità non usati non vengono conservati per dopo."
+            ],
+            "media": {
+              "alt": "Un pannello requisiti utensile che mostra durabilità, lotto selezionato, avviso di capacità sprecata e azione Imposta su ottimale.",
+              "caption": "Fai corrispondere i lotti a multipli interi della durabilità quando le risorse lo permettono."
+            }
+          },
+          {
+            "title": "Esempi di lotti efficienti",
+            "paragraphs": [
+              "Quando gli avvisi di efficienza degli utensili sono abilitati, un lotto non multiplo mostra il suo avviso dopo un ritardo di 500 ms così i rapidi cambiamenti dello stepper non fanno saltare il layout. Imposta su ottimale normalmente aumenta la quantità fino alla capacità completa degli utensili interi già richiesti; se ciò superasse maxBatchSize, ricade su un multiplo completo di durabilità più basso quando ne esiste uno. Disabilitare l'avviso nasconde questo consiglio e non cambia il consumo."
+            ],
+            "bullets": [
+              "Durabilità 10, quantità 10: 1 utensile, nessuna capacità inutilizzata.",
+              "Durabilità 10, quantità 11: 2 utensili, 9 capacità sprecata.",
+              "Durabilità 10, quantità 20: 2 utensili, nessuna capacità inutilizzata.",
+              "Durabilità 10, quantità 1: 1 utensile viene consumato; produrre un piccolo lotto d'emergenza può essere valido, ma è intenzionalmente inefficiente."
+            ]
+          },
+          {
+            "title": "Progressione degli utensili",
+            "paragraphs": [
+              "Le famiglie di utensili migliori supportano generalmente ricette di raccolta più forti e lotti utili più grandi. Sono risorse prodotte con i propri costi a monte, non potenziamenti permanenti applicati al giocatore. Mantieni utensili di scorta prima di entrare in una fase di estrazione o raccolta, e includi la loro catena produttiva quando stimi il costo reale del materiale estratto."
+            ],
+            "callout": {
+              "title": "L'anteprima è autorevole",
+              "body": "Una ricetta può richiedere sia input ordinari sia un utensile. La riga dell'utensile è separata dal diagramma degli input, ma viene comunque consumata quando l'operazione riesce."
+            }
+          }
+        ]
+      },
+      "inventory-and-resources": {
+        "title": "Inventario e risorse",
+        "summary": "Quantità in tempo reale, ordinamento, identità delle risorse e navigazione diretta nell'Almanacco.",
+        "unlockLabel": "Sbloccata dopo aver aperto Inventario per la prima volta",
+        "sections": [
+          {
+            "title": "Cosa mostra l'Inventario",
+            "paragraphs": [
+              "L'Inventario elenca le risorse la cui quantità corrente è maggiore di zero. Ogni scheda contiene immagine della risorsa, nome localizzato, quantità in tempo reale, descrizione e un'azione diretta Visualizza nell'Almanacco. Consumare l'ultima unità rimuove quella scheda dalla lista visibile; la risorsa esiste ancora nel gioco e può essere trovata nell'Almanacco.",
+              "Le quantità si aggiornano dal deposito di gioco condiviso, inclusi i cambiamenti effettuati dall'automazione mentre la schermata Inventario è aperta. Non devi uscire dalla scheda e rientrare per aggiornarla."
+            ],
+            "media": {
+              "alt": "La scheda Inventario con diverse schede risorsa, quantità in tempo reale, controllo di ordinamento e suggerimento Visualizza nell'Almanacco.",
+              "caption": "L'Inventario è una vista scorte in tempo reale, non un catalogo ricette."
+            }
+          },
+          {
+            "title": "Ordinamento e interpretazione",
+            "bullets": [
+              "Predefinito conserva l'ordine naturale di inserimento dell'inventario.",
+              "Alfabetico ordina per nome della risorsa visualizzato.",
+              "Quantità decrescente porta in superficie gli accumuli; quantità crescente porta in superficie le carenze imminenti.",
+              "La modalità di ordinamento dell'inventario selezionata appartiene al salvataggio.",
+              "Il valore descrittivo o calcolato di una risorsa è informativo. Non esiste un'azione generale di vendita che converta il valore d'inventario in valuta."
+            ]
+          },
+          {
+            "title": "Le risorse sono nodi del grafo",
+            "paragraphs": [
+              "La stessa risorsa può essere output in diverse ricette e input in molte altre. La sua identità più utile non è quindi solo “che cos'è”, ma “dove entra nel grafo”. Clicca la scheda per aprire la sua pagina dell'Almanacco, poi usa l'intelligence delle ricette per confrontare ogni fonte e consumatore conosciuti."
+            ]
+          }
+        ]
+      },
+      "resource-interactions": {
+        "title": "Tooltip e ricerche delle risorse",
+        "summary": "Riepiloghi al passaggio del cursore, azioni contestuali, quantità in tempo reale e salti alle dipendenze.",
+        "unlockLabel": "Sbloccata dopo aver ispezionato una schermata orientata alle risorse",
+        "sections": [
+          {
+            "title": "Passa il cursore per l'identità; interagisci per il contesto",
+            "paragraphs": [
+              "I tooltip delle risorse sono condivisi tra produzione, ricerca, costruzione, bacheche e Almanacco. Un normale passaggio del cursore può mostrare immagine della risorsa, nome, quantità in inventario, valore calcolato e descrizione. La quantità in tempo reale può continuare a cambiare mentre l'automazione è in esecuzione.",
+              "Le azioni interattive delle risorse possono esporre le viste Dove si produce e Dove si usa. Sono calcolate dai dati delle ricette anziché dalle tue scorte correnti. Una ricetta elencata può essere ricercata, non ricercata o assegnata a un edificio non costruito; marcature di stato ed etichette d'azione spiegano quale salto è attualmente possibile."
+            ]
+          },
+          {
+            "title": "Comportamento della ricerca ricette",
+            "bullets": [
+              "Dove si produce elenca le ricette i cui output contengono la risorsa selezionata.",
+              "Dove si usa attualmente indicizza solo la mappa ordinaria recipe.inputs. Una risorsa usata soltanto come opzione di carburante o soltanto come toolRequired non apparirà lì, anche se la scheda ricetta stessa mostra comunque i suoi requisiti di carburante e utensile.",
+              "Aprire Produzione riesce solo per una ricetta sbloccata in un edificio costruito. Altrimenti il gioco può condurre a Ricerca o alla directory Edifici.",
+              "Cliccare fuori da una ricerca interattiva la chiude. I semplici riepiloghi al passaggio del cursore non catturano i clic.",
+              "I tooltip di anteprima ricette possono essere disabilitati globalmente se le schede dettagliate al passaggio del cursore oscurano l'interfaccia; la navigazione diretta tramite Almanacco e ricerca resta la fonte durevole di informazioni."
+            ]
+          },
+          {
+            "title": "Evitare presupposti obsoleti",
+            "paragraphs": [
+              "Una quantità nel tooltip è una lettura momentanea dell'inventario. Per grandi piani, fissa la ricetta o il progetto di costruzione e usa l'aggregato in tempo reale della Bacheca operativa. Quella bacheca rivaluta le scorte dopo ogni evento di produzione o automazione, mentre un tooltip ricordato no."
+            ]
+          }
+        ]
+      },
+      "fuel-and-electricity": {
+        "title": "Carburante, elettricità ed energia",
+        "summary": "Opzioni di carburante, energia come risorsa immagazzinata, generazione e domanda dell'automazione.",
+        "unlockLabel": "Sbloccata al raggiungimento del Livello Tecnologico 3",
+        "sections": [
+          {
+            "title": "Il carburante è separato dagli input della ricetta",
+            "paragraphs": [
+              "Alcune ricette espongono diverse opzioni di carburante. Ogni opzione identifica una risorsa e una quantità consumata per iterazione. Selezionane una prima della produzione; il carburante scelto scala con il lotto e viene rimosso in aggiunta agli input ordinari.",
+              "Carburanti diversi possono rendere pratico lo stesso processo in fasi diverse. L'interfaccia non conserva automaticamente una scelta non disponibile sostituendola di nascosto con un altro carburante. Se l'opzione selezionata è insufficiente, scegline un'altra o producine di più."
+            ],
+            "media": {
+              "alt": "Un selettore di carburante con più risorse carburante accanto a una ricetta di generazione energetica e alla cella elettricità dell'header.",
+              "caption": "Scelta del carburante e scorta di elettricità sono risorse esplicite."
+            }
+          },
+          {
+            "title": "L'elettricità è inventario",
+            "paragraphs": [
+              "Le ricette di generazione energetica producono Elettricità nello stesso inventario della colonia usato dalle altre risorse. Le ricette manuali possono consumare elettricità come carburante o input. L'automazione elettronica attiva consuma elettricità nel tempo secondo il programma, edificio, lotto e configurazione di velocità correnti.",
+              "La cella Elettricità dell'header mostra la scorta corrente, non il tasso di generazione. Tasso di generazione e domanda dell'automazione sono misure diverse; usa la Scheda automazione per confrontare il flusso al minuto."
+            ],
+            "bullets": [
+              "Un edificio energetico deve essere ricercato, costruito, rifornito e operato come qualsiasi altra struttura.",
+              "Un blocco Produzione elettronico senza percorso di errore attende e segnala uno stato bloccato quando l'elettricità richiesta non è disponibile. Se la sua porta di errore è collegata, il tentativo fallito segue quel percorso invece di attendere.",
+              "I potenziamenti di velocità aumentano la produttività ma moltiplicano la domanda di energia. I livelli di velocità acquistati possono essere ridotti senza rimborsare il potenziamento.",
+              "Sulla Scheda automazione, il flusso lordo separa output e input automatizzati stimati; il flusso netto sottrae i tassi automatizzati opposti per risorsa. I clic manuali su Produce non hanno un tasso continuo al minuto e non fanno parte di quelle stime di flusso."
+            ]
+          },
+          {
+            "title": "Carburante nei piani e nei programmi",
+            "paragraphs": [
+              "Una ricetta fissata memorizza una scelta di carburante specifica della bacheca e la include nei totali della Bacheca operativa. Anche un blocco Produzione di automazione memorizza la propria scelta di carburante. Il selettore manuale è temporaneo e si ripristina alla prima opzione della ricetta quando quella ricetta viene selezionata di nuovo; cambiarlo non riscrive retroattivamente un progetto fissato o un blocco di automazione."
+            ]
+          }
+        ]
+      },
+      "research-tree": {
+        "title": "Albero Ricerca",
+        "summary": "Disponibilità, prerequisiti, costi, stati dei nodi, filtri e collegamenti di focus diretti.",
+        "unlockLabel": "Sbloccata dopo aver aperto Ricerca per la prima volta",
+        "sections": [
+          {
+            "title": "Come una tecnologia diventa disponibile",
+            "paragraphs": [
+              "Un nodo di ricerca è disponibile quando ogni tecnologia elencata come suo prerequisito è completa. Disponibilità non significa accessibilità economica: espandi il nodo e confronta il suo costo in risorse con l'inventario in tempo reale. Completare la ricerca consuma quelle risorse, poi registra permanentemente la tecnologia nel salvataggio.",
+              "La ricerca può sbloccare una o più ricette, un progetto di edificio o una tecnologia di supporto usata solo come prerequisito. Lo sblocco di una ricetta e lo sblocco di un edificio sono indipendenti. Quando entrambi vengono concessi insieme, la nuova struttura richiede comunque costruzione prima che la produzione possa avvenire."
+            ],
+            "media": {
+              "alt": "L'Albero Ricerca che mostra nodi ricercati, disponibili e bloccati su sfondi di livello, con un pannello dettaglio nodo aperto.",
+              "caption": "Segui i collegamenti dei prerequisiti, poi controlla il costo in risorse."
+            }
+          },
+          {
+            "title": "Stati dei nodi e lettura del grafo",
+            "bullets": [
+              "I nodi ricercati sono completi. Selezionane uno per rivedere ciò che ha sbloccato.",
+              "I nodi disponibili hanno tutti i prerequisiti completati. Selezionane uno per controllare il costo ed eseguire la ricerca.",
+              "I nodi bloccati hanno ancora lavoro prerequisito. Passa il cursore per enfatizzare le connessioni rilevanti passate e future del grafo.",
+              "Gli sfondi dei livelli raggruppano le tecnologie per complessità generale, ma i collegamenti visibili—non la sola posizione orizzontale—definiscono i prerequisiti.",
+              "La legenda riporta i colori dello stato corrente. Non dedurre la disponibilità dal nome o dal numero di livello di una tecnologia."
+            ]
+          },
+          {
+            "title": "Navigazione e filtri",
+            "bullets": [
+              "La ricerca di Ricerca apre fino a otto suggerimenti ordinati; non rimuove dal grafo i nodi non corrispondenti. Trova corrispondenze nel nome o nella descrizione della ricerca, nei nomi degli edifici sbloccati da quella ricerca e nei nomi delle ricette che sblocca. I tasti freccia si spostano tra i suggerimenti, Invio mette a fuoco il nodo evidenziato ed Escape cancella la query.",
+              "Le azioni contestuali Apri Ricerca da un altro sistema mettono a fuoco il nodo tecnologico esatto anche in un grande albero.",
+              "Gli interruttori di livello possono nascondere interi livelli senza cambiare il progresso.",
+              "Mostra solo ricercati e disponibili rimuove i nodi bloccati per una vista di lavoro più pulita.",
+              "La navigazione dei livelli sposta la camera direttamente a un livello scelto.",
+              "I controlli zoom, adatta vista e blocco interazione influenzano solo il viewport del grafo.",
+              "I tuoi livelli visibili, filtro di disponibilità e viewport vengono salvati per colonia."
+            ],
+            "callout": {
+              "title": "Fissa le ricerche costose",
+              "body": "Fissare un nodo di ricerca aggiunge il suo costo completo alla Bacheca operativa. Con auto-reazione abilitata, l'elemento viene rimosso dopo il completamento della tecnologia."
+            }
+          }
+        ]
+      },
+      "research-progression": {
+        "title": "Livelli tecnologici e progressione",
+        "summary": "Tracciamento del livello più alto, dipendenze tra livelli, nuova musica e ordine strategico della ricerca.",
+        "unlockLabel": "Sbloccata dopo aver completato il tuo primo progetto di ricerca",
+        "sections": [
+          {
+            "title": "Livello tecnologico più alto",
+            "paragraphs": [
+              "L'header mostra il livello tecnologico più alto che hai raggiunto, definito dalla ricerca completata di livello più alto. Non è una media e non richiede che ogni nodo di livello inferiore sia completo. Raggiungere un livello può espandere la capacità della colonia e sbloccare la colonna sonora di quel livello, ma singole ricette ed edifici seguono comunque i propri prerequisiti di ricerca.",
+              "Alcuni rami si ricollegano dopo diversi livelli. Se un materiale apparentemente modesto blocca un lavoro avanzato, traccia i collegamenti di ricerca richiesti e usa l'Almanacco per identificare il suo percorso produttivo invece di presumere che ogni prerequisito debba trovarsi nello stesso livello visibile."
+            ]
+          },
+          {
+            "title": "Cosa cambia quando viene raggiunto un nuovo livello",
+            "bullets": [
+              "La cella di stato del livello più alto si aggiorna.",
+              "Il gestore musicale sblocca le tracce assegnate a quel livello. Il Jukebox può poi abilitare o disabilitare le singole tracce sbloccate.",
+              "La capacità dei coloni aumenta con la progressione di livello. Capacità e riserve attive sono visibili nell'header.",
+              "A soglie successive, sistemi aggiuntivi possono diventare accessibili. La tecnologia o l'evento d'interfaccia esatto che li attiva controlla comunque la relativa scheda della Guida.",
+              "Il timestamp del tempo di gioco accumulato di ogni nuovo livello più alto raggiunto viene registrato per il grafico di progressione delle Statistiche; non impone un limite di tempo."
+            ]
+          },
+          {
+            "title": "Scegliere le ricerche in modo intelligente",
+            "paragraphs": [
+              "Dai priorità al collo di bottiglia, non solo al nodo disponibile numericamente più alto. Una nuova miniera può risolvere la pressione sulle materie prime; un metodo di lavorazione può moltiplicare l'utilità del minerale esistente; un ramo energetico può supportare l'automazione futura; un intermedio che abilita la costruzione può sbloccare più strutture insieme.",
+              "Prima di pagare un grande costo di ricerca, controlla la sua lista di sblocchi e i costi di costruzione di eventuali nuovi edifici. La ricerca senza i materiali per costruire o alimentare la sua struttura è comunque progresso valido, ma potrebbe non risolvere il tuo problema produttivo immediato."
+            ],
+            "callout": {
+              "title": "Una lieve irregolarità amministrativa",
+              "body": "I timestamp dei livelli sono conservati con più cura di alcuni registri del personale. Questo non ha effetto sul grafo di ricerca. È, a quanto pare, un'eccellente burocrazia."
+            }
+          }
+        ]
+      },
+      "almanac-basics": {
+        "title": "Almanacco delle risorse",
+        "summary": "Il libro, i contenuti, la navigazione alfabetica, le opzioni e le schede risorsa.",
+        "unlockLabel": "Sbloccata dopo aver aperto l'Almanacco per la prima volta",
+        "sections": [
+          {
+            "title": "Un catalogo completo delle risorse",
+            "paragraphs": [
+              "L'Almanacco contiene ogni scheda risorsa nei dati di gioco attivi, inclusi materiali non ancora presenti nell'inventario. Una pagina risorsa può includere categoria, immagine, valore materiale, descrizione, formula chimica, contesto storico e note fattuali. Il libro è quindi sia un riferimento di produzione sia l'enciclopedia industriale del gioco.",
+              "Aprire l'Almanacco da un'interazione risorsa mette a fuoco quella risorsa esatta. Aprirlo dalla scheda di navigazione usa la pagina iniziale configurata: copertina per impostazione predefinita, oppure Indice se Apri sulla pagina dei contenuti è abilitato."
+            ],
+            "media": {
+              "alt": "Una doppia pagina dell'Almanacco che mostra una pagina risorsa, navigazione pagina, opzioni e controllo Visualizza ricette.",
+              "caption": "Identità della risorsa e contesto produttivo condividono una sola scheda."
+            }
+          },
+          {
+            "title": "Trovare una pagina",
+            "bullets": [
+              "L'Almanacco attuale non ha una ricerca risorse a testo libero. Usa l'Indice, i suoi controlli di salto alfabetico o un collegamento risorsa contestuale da Inventario, Produzione, Ricerca, costruzione o una bacheca.",
+              "Selezionare una riga dell'Indice salta direttamente alla pagina di quella risorsa.",
+              "I pulsanti alfabetici scorrono l'Indice fino a un gruppo per lettera iniziale; non rimuovono le altre righe. Questi pulsanti sono omessi nella localizzazione cinese, dove non si usa il raggruppamento per iniziali latine.",
+              "I controlli Copertina, Contenuti, Precedente e Successivo offrono navigazione deterministica anche quando lo sfogliamento realistico delle pagine è disabilitato.",
+              "Cliccare l'immagine della risorsa apre una vista immagine più grande.",
+              "L'attività di sfogliamento pagine viene tracciata per Statistiche e obiettivi; non sblocca ricette."
+            ]
+          },
+          {
+            "title": "Opzioni dell'Almanacco",
+            "bullets": [
+              "Apri sulla pagina dei contenuti cambia dove iniziano le visite ordinarie all'Almanacco.",
+              "Nascondi ricette non ricercate rimuove dalla ricerca ricette le ricette che non hai sbloccato.",
+              "Nascondi ricette per edifici non costruiti rimuove i processi assegnati a strutture che non hai costruito.",
+              "Questi filtri semplificano la ricerca visibile; non eliminano conoscenza delle ricette né cambiano il grafo produttivo.",
+              "Lo sfogliamento realistico delle pagine è un'impostazione globale dell'interfaccia. Trascinare i bordi delle pagine è opzionale; i pulsanti di navigazione restano disponibili."
+            ]
+          },
+          {
+            "title": "Il valore materiale non è valuta",
+            "paragraphs": [
+              "Valore materiale è precalcolato dai dati completi delle ricette, non dalle ricette ricercate in questo salvataggio. Output senza input ed Elettricità iniziano con un valore base di 1. Gli altri valori si propagano attraverso costi di input e carburante per unità di output, conservano il percorso calcolabile più basso e non scendono mai sotto 1; anche una risorsa non risolta ricade su 1. Il costo degli utensili non fa parte di quel calcolo del valore. Il numero è utile per confronti generali, ma la colonia non ha mercato e non può vendere una risorsa per quel valore."
+            ]
+          }
+        ]
+      },
+      "almanac-recipe-intelligence": {
+        "title": "Intelligence delle ricette dell'Almanacco",
+        "summary": "Ricette che producono e consumano, marcature di stato, redditività e salti contestuali.",
+        "unlockLabel": "Sbloccata dopo aver aperto Visualizza ricette nell'Almanacco",
+        "sections": [
+          {
+            "title": "Due direzioni attraverso il grafo",
+            "paragraphs": [
+              "Visualizza ricette apre un pannello diviso in Ricette produttrici e Ricette consumatrici. Le ricette produttrici hanno la risorsa corrente negli output. Le ricette consumatrici la hanno negli input ordinari. Le relazioni solo carburante e solo utensile non sono indicizzate come consumatori nell'implementazione attuale, quindi controlla le schede ricetta quando pianifichi quei costi speciali.",
+              "Ogni scheda ricetta espone l'edificio assegnato, mappe di input e output, informazioni su carburante o utensili dove applicabile, redditività e stato di ricerca / costruzione. La risorsa corrente è evidenziata all'interno della scheda così resta chiaro quale lato della trasformazione stai ispezionando."
+            ],
+            "media": {
+              "alt": "La Ricerca ricette dell'Almanacco con schede produttrici e consumatrici in stati ricercato, non ricercato ed edificio non costruito.",
+              "caption": "I collegamenti consapevoli dello stato trasformano il catalogo in un hub di navigazione."
+            }
+          },
+          {
+            "title": "L'azione cambia in base allo stato",
+            "bullets": [
+              "Ricetta ricercata + edificio costruito: Visualizza in Produzione apre l'edificio corretto e seleziona la ricetta.",
+              "Ricetta ricercata + edificio non costruito: Apri in Edifici mette a fuoco la struttura che devi costruire.",
+              "Ricetta non ricercata: Apri ricerca richiesta mette a fuoco la tecnologia che la sblocca.",
+              "Le schede tratteggiate o etichettate indicano conoscenza non disponibile anziché dati mancanti.",
+              "Può essere prodotta ora è un suggerimento di pagabilità per una iterazione. Controlla ricerca della ricetta, input ordinari, almeno una opzione di carburante valida e almeno un utensile richiesto. Non controlla se l'edificio assegnato è costruito, non testa un tempo di recupero manuale e non promette che il tuo lotto multi-iterazione selezionato sia pagabile."
+            ]
+          },
+          {
+            "title": "Usare la redditività senza essere fuorviati",
+            "paragraphs": [
+              "La redditività è un rapporto memorizzato derivato dal valore calcolato dell'output diviso per il costo calcolato dell'input. Il suo calcolo può includere valore proporzionale degli utensili e costo del carburante, ma quella contabilità teorica non è la stessa del soffitto per utensili interi applicato a un lotto reale. Costruzione, ricerca, opportunità del tempo di recupero, disponibilità di carburante e potenza dell'automazione possono comunque cambiare la risposta pratica.",
+              "La ricetta teoricamente più redditizia può appartenere a una struttura non costruita o richiedere un ramo non disponibile. Usa le opzioni dell'Almanacco per nascondere tali percorsi quando ti serve un piano immediatamente eseguibile, poi disabilita i filtri quando pianifichi in anticipo."
+            ]
+          }
+        ]
+      },
+      "operations-board": {
+        "title": "Bacheca operativa",
+        "summary": "Fissare progetti, requisiti aggregati, completamento in tempo reale, scelte di carburante e auto-reazione.",
+        "unlockLabel": "Sbloccata dopo aver fissato la tua prima ricetta, ricerca o progetto di costruzione",
+        "sections": [
+          {
+            "title": "Una lista progetti trasversale alle schermate",
+            "paragraphs": [
+              "La Bacheca operativa traccia ricette, costi di ricerca e costi di costruzione degli edifici in un unico pannello persistente. I controlli di fissaggio appaiono in quei sistemi. Apri o comprimi la bacheca con la sua maniglia laterale o scorciatoia; comprimerla non rimuove i suoi elementi.",
+              "In alto, Requisiti totali aggrega ogni elemento fissato. Ogni risorsa confronta il requisito combinato con l'inventario in tempo reale, quindi produrre un materiale può trasformare una carenza in una riga soddisfatta senza riaprire la bacheca."
+            ],
+            "media": {
+              "alt": "La Bacheca operativa espansa con chip risorse aggregati ed elementi fissati di ricette, ricerca ed edifici.",
+              "caption": "Un singolo piano in tempo reale può coprire l'intera colonia."
+            }
+          },
+          {
+            "title": "Comportamento specifico degli elementi",
+            "bullets": [
+              "Gli elementi ricetta permettono di aumentare o diminuire il conteggio di iterazioni. Input, output, carburante e domanda di utensili si ricalcolano immediatamente.",
+              "Le ricette con opzioni di carburante conservano un carburante selezionato specifico della bacheca.",
+              "Gli elementi ricerca mostrano il costo esatto e saltano di nuovo al nodo di ricerca messo a fuoco.",
+              "Gli elementi edificio mostrano i requisiti di costruzione e saltano alla scheda edificio messa a fuoco.",
+              "Una ricetta la cui struttura non è costruita segnala quel blocco e può reindirizzarti a Edifici.",
+              "Rimuovi elimina solo quel progetto. Cancella tutto rimuove immediatamente ogni progetto e non chiede conferma. Nessuna delle due azioni consuma o rimborsa risorse."
+            ]
+          },
+          {
+            "title": "Auto-reagire agli eventi di gioco",
+            "paragraphs": [
+              "Con Auto-reagisci abilitato, un elemento ricerca fissato viene rimosso quando quella ricerca si completa, un elemento costruzione viene rimosso quando il suo edificio viene costruito e un elemento ricetta effettua un conto alla rovescia dopo il completamento di iterazioni manuali o automatizzate corrispondenti. Il percorso di produzione manuale mostra una notifica di progresso o rimozione limitata. L'automazione applica lo stesso conto alla rovescia nel suo tick di simulazione ma non emette quel toast specifico della bacheca, quindi un obiettivo automatizzato può diminuire o scomparire silenziosamente.",
+              "Con Auto-reagisci disabilitato, la bacheca diventa una lista di riferimento statica. È utile per obiettivi di produzione ricorrenti o quando vuoi che un progetto completato resti come modello."
+            ],
+            "callout": {
+              "title": "La bacheca è una calcolatrice, non un sistema di prenotazione",
+              "body": "I requisiti fissati non bloccano l'inventario. Puoi spendere quelle risorse altrove e lo stato in tempo reale tornerà insufficiente. La bacheca non esegue mai produzione o ricerca da sola."
+            }
+          }
+        ]
+      },
+      "colony-status-deck": {
+        "title": "Banca di stato della colonia",
+        "summary": "Output totale, strutture, livello, coloni, schemi attivi, blocchi ed elettricità.",
+        "unlockLabel": "Sbloccata al raggiungimento del Livello Tecnologico 1",
+        "sections": [
+          {
+            "title": "Banca progresso colonia",
+            "paragraphs": [
+              "Questi valori riassumono la progressione; non sono pulsanti. I dettagli completi si trovano in Statistiche, Edifici e Ricerca."
+            ],
+            "bullets": [
+              "Produzione totale è il numero cumulativo di unità output prodotte, non l'inventario corrente. Il consumo non lo riduce.",
+              "Edifici mostra i tipi di struttura costruiti rispetto al catalogo edifici valido.",
+              "Livello mostra il livello di ricerca completato più alto."
+            ],
+            "media": {
+              "alt": "La banca di stato completa con banche di progresso e operazioni annotate per metrica.",
+              "caption": "Scorte correnti, output cumulativo e capacità sono misurazioni diverse."
+            }
+          },
+          {
+            "title": "Banca operazioni colonia",
+            "paragraphs": [
+              "Uno schema bloccato resta attivo ma non può avanzare il lavoro corrente. Apri il suo edificio o la Scheda automazione per identificare risorse o elettricità mancanti. Uno schema fermo non viene contato come attivo e non riserva coloni."
+            ],
+            "bullets": [
+              "Coloni mostra disponibili / totale. La riga di dettaglio riporta quanti sono riservati da programmi di automazione manuale in esecuzione.",
+              "Schemi attivi conta programmi manuali ed elettronici in esecuzione. Se qualcuno ha un motivo di blocco, la cella riporta il numero bloccato.",
+              "Elettricità mostra l'inventario corrente, non generazione o consumo al minuto."
+            ]
+          },
+          {
+            "title": "Il marchio centrale",
+            "paragraphs": [
+              "Il wordmark centrale Realindustry è una parte permanente dell'header. Alcune sequenze d'interfaccia avanzate possono attribuire significato o interazione a quel marchio. Se l'interfaccia inizia a comportarsi come se un elemento decorativo avesse acquisito significato amministrativo, questa Guida consiglia curiosità professionale e un salvataggio di backup."
+            ]
+          }
+        ]
+      },
+      "achievements": {
+        "title": "Obiettivi e riconoscimenti",
+        "summary": "Categorie, rarità, progresso, condizioni nascoste, organizzazioni e tempistica di sblocco.",
+        "unlockLabel": "Sbloccata dopo aver aperto Obiettivi per la prima volta",
+        "sections": [
+          {
+            "title": "Cosa registra un obiettivo",
+            "paragraphs": [
+              "Gli Obiettivi valutano statistiche della colonia salvate e contatori di eventi: totali di produzione, risorse specifiche, ricerca, costruzione, uso dell'interfaccia, schemi temporali, automazione e altre pietre miliari. Sbloccare un obiettivo registra permanentemente il suo identificatore nel salvataggio e mostra una notifica di riconoscimento.",
+              "L'overlay Obiettivi può essere filtrato per categoria e cercato. Ogni scheda identifica rarità, progresso dove la condizione espone un obiettivo misurabile, testo della ricompensa e organizzazione assegnante. L'illustrazione bloccata può essere nascosta finché non viene ottenuta."
+            ],
+            "media": {
+              "alt": "L'overlay Obiettivi con filtri di categoria, barre di progresso, stile della rarità e un riconoscimento sbloccato.",
+              "caption": "I riconoscimenti descrivono la storia della colonia; non sostituiscono i sistemi di progressione."
+            }
+          },
+          {
+            "title": "Limitazioni importanti",
+            "bullets": [
+              "Non ogni condizione rivela il proprio obiettivo esatto prima del completamento.",
+              "Il progresso può aggiornarsi dopo che cambiano la produzione, ricerca, costruzione, Almanacco, menu o contatore attività rilevanti.",
+              "Una notifica obiettivo non implica che una ricetta, un edificio o una voce d'archivio protetta sia stata sbloccata, a meno che quel sistema non lo dica separatamente.",
+              "Le Statistiche possono aiutare a diagnosticare obiettivi misurabili, ma obiettivi nascosti o comportamentali possono richiedere sperimentazione."
+            ]
+          },
+          {
+            "title": "Linguaggio aziendale dei riconoscimenti",
+            "paragraphs": [
+              "Le note dei riconoscimenti sono scritte dalla prospettiva di diverse organizzazioni, inclusi organismi aziendali interni. Il loro tono fa parte dell'ambientazione. “Prestazioni entro i parametri previsti” è comunque un obiettivo, anche se chi l'ha scritto sembra costituzionalmente incapace di sembrare compiaciuto."
+            ]
+          }
+        ]
+      },
+      "statistics-dashboard": {
+        "title": "Pannello statistiche",
+        "summary": "Panoramica, produzione, attività, tempistiche dei livelli e contabilità dell'automazione.",
+        "unlockLabel": "Sbloccata dopo aver aperto Statistiche per la prima volta",
+        "sections": [
+          {
+            "title": "Scheda Panoramica",
+            "paragraphs": [
+              "Panoramica riassume le chiavi risorsa presenti nell'oggetto inventario, edifici costruiti, ricerche completate, tempo di gioco totale, produzione totale, produzione oraria, i dieci maggiori accumuli correnti, progressione dei livelli tecnologici e output automatizzato. La scheda “risorse uniche” conta le chiavi inventario memorizzate, inclusa una chiave la cui quantità è poi arrivata a zero; non è necessariamente il numero di schede Inventario visibili con quantità positiva. La produzione oraria usa il tempo di gioco accumulato, quindi è un tasso storico di lungo periodo anziché un tasso macchina istantaneo."
+            ],
+            "media": {
+              "alt": "Panoramica Statistiche con schede riepilogo, risorse principali e progressione dei livelli tecnologici.",
+              "caption": "Usa il pannello statistiche per comprendere la cronologia, non per controllare la produzione."
+            }
+          },
+          {
+            "title": "Scheda Produzione",
+            "bullets": [
+              "Risorse più prodotte è l'output cumulativo per risorsa, non la scorta corrente.",
+              "Produzione per edificio attribuisce output manuale e tracciato ai tipi di struttura.",
+              "Output più grande in una singola operazione registra il maggiore evento di output completato. Sia la produzione manuale sia i blocchi Produzione automatizzati possono aumentarlo.",
+              "Raccolta senza utensili traccia separatamente il comportamento di estrazione iniziale.",
+              "Totale risorse input lavorate viene aggiornato solo dagli edifici la cui categoria è riciclaggio. Le esecuzioni manuali aggiungono la mappa ordinaria di pagamento input-e-carburante; l'utensile rimosso separatamente non è incluso. Il riciclaggio automatizzato aggiunge ogni requisito fisico, inclusi utensili e carburante, ma esclude l'Elettricità dell'automazione.",
+              "I contatori dell'automazione includono output, consumo di input fisici, consumo di elettricità, cicli dei blocchi Produzione completati e iterazioni ricetta configurate. Un blocco completato aumenta i cicli di 1 e le iterazioni del conteggio lotto di quel blocco."
+            ]
+          },
+          {
+            "title": "Scheda Attività",
+            "bullets": [
+              "Funzionalità più usate si basa sulle interazioni tracciate con pulsanti e navigazione.",
+              "Sfogli dell'Almanacco, aperture del menu, giorni giocati e tracce musicali ascoltate sono contatori storici.",
+              "Giorni giocati usa le date di calendario distinte incontrate dal salvataggio, non il tempo di gioco totale diviso per 24 ore.",
+              "Le tracce ascoltate vengono sincronizzate dal gestore musicale prima di aprire Statistiche, così il conteggio riflette la sessione corrente."
+            ],
+            "callout": {
+              "title": "Un numero può essere vero in due modi diversi",
+              "body": "Inventario risponde a “Quanto esiste adesso?” Statistiche risponde a “Quanto è accaduto?” La distinzione conta ogni volta che una risorsa viene prodotta e immediatamente consumata a monte."
+            }
+          }
+        ]
+      },
+      "notifications-and-idle": {
+        "title": "Notifiche e monitoraggio inattività",
+        "summary": "Tipi di messaggi, aggiornamenti della bacheca, avvisi di tempo di recupero e protocollo di inattività.",
+        "unlockLabel": "Sbloccata dopo aver completato il tuo primo progetto di ricerca",
+        "sections": [
+          {
+            "title": "Tipi di notifica",
+            "paragraphs": [
+              "Una notifica è temporanea; lo stato sottostante no. Se un messaggio scompare, ispeziona la schermata rilevante, la scheda della Guida o il pannello statistiche salvato invece di tentare di riprodurre l'azione solo per leggerlo di nuovo."
+            ],
+            "bullets": [
+              "I messaggi di successo confermano azioni completate come salvataggio, costruzione, installazione dell'automazione o produzione.",
+              "I messaggi informativi spiegano cambiamenti di stato, completamento dei tempi di recupero, sblocchi e blocchi non fatali.",
+              "I messaggi di errore segnalano risorse mancanti, programmi non validi, strutture non disponibili o problemi di archiviazione.",
+              "Le notifiche di obiettivi e bacheca hanno uno stile dedicato e possono riassumere il progresso automatico dei progetti.",
+              "La lista notifiche live conserva al massimo 24 elementi. Se un'ondata supera quel limite, gli elementi attivi più vecchi vengono eliminati e quelli più recenti conservati.",
+              "La maggior parte dei messaggi si rimuove da sola dopo la durata configurata. Un messaggio persistente rimane finché la logica dell'applicazione non lo rimuove o cancella; il renderer toast attuale non ha un pulsante di chiusura azionabile dall'utente."
+            ]
+          },
+          {
+            "title": "Monitoraggio inattività",
+            "paragraphs": [
+              "Dopo 60 secondi senza attività di tastiera, puntatore, rotella, scorrimento, tocco o clic, il gioco mostra un avviso di inattività senza suono. Dopo 300 secondi passa a un severo avviso aziendale e riproduce il suono di avvertimento. Qualsiasi interazione monitorata cancella l'avviso e ripristina entrambe le soglie.",
+              "Il monitoraggio inattività è presentazione e lore. Non elimina risorse, non fa fallire ricerche e non impone una penalità di produzione nascosta. L'automazione può continuare secondo le proprie regole di risorse ed elettricità mentre l'applicazione resta attiva."
+            ],
+            "callout": {
+              "title": "Protocollo di efficienza",
+              "body": "La preoccupazione del sistema per un Direttore incustodito è operativamente sincera ed emotivamente inutile. Puoi fare delle pause. Nessuna scheda della Guida autorizza la colonia a obiettare."
+            }
+          }
+        ]
+      },
+      "settings-and-accessibility": {
+        "title": "Impostazioni e accessibilità",
+        "summary": "Comportamento generale, schermo, grafica, audio, lingue e ripristini sicuri.",
+        "unlockLabel": "Sbloccata dopo aver aperto il Menu in gioco per la prima volta",
+        "sections": [
+          {
+            "title": "Impostazioni generali e dell'interfaccia",
+            "bullets": [
+              "La lingua può seguire il sistema o usare una localizzazione supportata selezionata manualmente.",
+              "Il salvataggio automatico e il suo intervallo controllano la voce autosave dedicata.",
+              "Le notifiche possono essere disabilitate per messaggi di successo, informativi, obiettivi, bacheca e simili inviati tramite il provider notifiche. Le notifiche di errore ignorano deliberatamente questa preferenza. L'overlay separato di avviso inattività non è controllato da questa casella e appare comunque alle sue soglie di inattività.",
+              "Tooltip di anteprima ricette, badge dei suggerimenti scorciatoia, posizione Edifici ricordata e avvisi di efficienza degli utensili possono essere attivati o disattivati indipendentemente.",
+              "Lo sfogliamento realistico delle pagine dell'Almanacco è opzionale e non rimuove la navigazione tramite pulsanti."
+            ]
+          },
+          {
+            "title": "La shell del Menu in gioco",
+            "paragraphs": [
+              "Menu contiene Riprendi, Salva partita, Carica partita, Impostazioni, Jukebox, Menu principale ed Esci. Cliccare l'area scura fuori dal menu si comporta come Riprendi. Jukebox mostra anche la traccia attualmente riportata sotto il suo pulsante.",
+              "Menu principale ed Esci richiedono conferma. Nella build Electron, Esci confermato chiede alla shell desktop di chiudersi; in un altro host usa l'azione di uscita di ripiego dell'applicazione. Aprire e chiudere Menu non mette in pausa, non salva e non ripristina di per sé l'automazione."
+            ]
+          },
+          {
+            "title": "Schermo e grafica",
+            "paragraphs": [
+              "Modalità finestra, senza bordi dove supportata, e schermo intero controllano la shell. La modalità finestra può usare una risoluzione scelta. La scala interfaccia va da un'interfaccia compatta a una ingrandita, e la scala della griglia edifici cambia quante schede struttura entrano nella directory.",
+              "Qualità grafica e interruttori delle funzionalità controllano shader, effetti WebGL, effetti ottici, particelle ambientali realistiche, normali effetti particellari, animazioni e gli effetti particolarmente pesanti dell'Albero Ricerca. Alcuni controlli dipendono da shader, WebGL o qualità Alta e vengono disabilitati quando quei prerequisiti sono spenti."
+            ],
+            "media": {
+              "alt": "Impostazioni con schede Generale, Schermo, Grafica, Audio e Scorciatoie visibili.",
+              "caption": "La presentazione può essere ridotta senza cambiare le regole della simulazione."
+            }
+          },
+          {
+            "title": "Audio e uso sicuro",
+            "bullets": [
+              "Volumi master, musica, ambiente, interfaccia / effetti sonori e voce sono indipendenti. Master scala ogni altro canale.",
+              "La musica di produzione può essere disabilitata per le interfacce delle strutture, lasciata a livello normale o abilitata con ducking. La casella ducking non ha effetto mentre Musica di produzione è disattivata.",
+              "L'anteprima dell'ambiente degli edifici al passaggio del cursore sulle schede può essere disabilitata.",
+              "La musica in gioco è originale e pensata per essere sicura per video registrati e streaming.",
+              "Ripristina riporta le impostazioni ai valori predefiniti dopo conferma. Non è la stessa azione del ripristino di uno slot di salvataggio."
+            ]
+          }
+        ]
+      },
+      "jukebox-and-audio": {
+        "title": "Jukebox e musica dinamica",
+        "summary": "Sblocchi delle tracce basati sul livello, disattivazione delle tracce, comportamento in produzione e statistiche delle tracce ascoltate.",
+        "unlockLabel": "Sbloccata con la scheda Menu in gioco",
+        "sections": [
+          {
+            "title": "La tecnologia sblocca la colonna sonora",
+            "paragraphs": [
+              "La musica è raggruppata per livello tecnologico. Raggiungere un nuovo livello più alto sblocca le tracce associate nel gestore musicale attivo. Il Jukebox elenca le tracce disponibili e può disabilitare singole canzoni senza abbassare il volume musicale complessivo.",
+              "Le tracce disabilitate restano sbloccate e possono essere ripristinate in seguito. Un salvataggio conserva la sua lista di tracce disabilitate, mentre le impostazioni generali del volume sono preferenze dell'applicazione."
+            ]
+          },
+          {
+            "title": "Musica in produzione",
+            "bullets": [
+              "Musica di produzione determina se la colonna sonora continua mentre l'interfaccia di una struttura è aperta.",
+              "Il ducking riduce notevolmente il volume della musica in produzione invece di interrompere la riproduzione.",
+              "Macchinari ambientali ed effetti dell'interfaccia usano canali volume separati.",
+              "Le trasmissioni dell'assistente e altro materiale parlato usano il canale voce.",
+              "Statistiche registra le tracce distinte ascoltate. Non è lo stesso conteggio delle tracce sbloccate o abilitate."
+            ]
+          },
+          {
+            "title": "Se manca una traccia appena sbloccata",
+            "paragraphs": [
+              "Controlla lo stato abilitato nel Jukebox, il volume musica, il volume master e se la musica di produzione è disabilitata. La selezione delle tracce resta dinamica; sbloccare un livello espande il pool ma non garantisce che una traccia esatta venga riprodotta immediatamente."
+            ]
+          }
+        ]
+      },
+      "automation-foundations": {
+        "title": "Fondamenti dell'automazione",
+        "summary": "Schemi locali agli edifici, squadre manuali, successivi nuclei elettronici e modalità operative.",
+        "unlockLabel": "Sbloccata dopo aver aperto la tua prima interfaccia di produzione",
+        "sections": [
+          {
+            "title": "L'automazione è locale a ogni edificio",
+            "paragraphs": [
+              "Automazione significa uno schema eseguibile salvato per una struttura costruita. Un edificio può contenere uno schema manuale fin dall'inizio, e in seguito può contenere anche uno schema elettronico, installazione del nucleo, potenziamenti, attività runtime, modalità selezionata e contributo alla cronologia. Un programma configurato in un edificio non può eseguire una ricetta assegnata a un altro edificio.",
+              "L'automazione ripete il lavoro delle ricette nel tempo invece di eseguirlo istantaneamente. Input fisici, carburante selezionato e utensili interi vengono rimossi quando un blocco Produzione completa. I blocchi Produzione elettronici rimuovono anche l'Elettricità calcolata. Gli output entrano nello stesso inventario live usato dalla produzione manuale e da ogni altro programma."
+            ],
+            "media": {
+              "alt": "La console di automazione di un edificio di produzione che mostra modalità elettronica e manuale, installazione del nucleo, controlli del programma e potenziamenti.",
+              "caption": "L'automazione appartiene alla struttura di cui esegue le ricette."
+            }
+          },
+          {
+            "title": "Due modalità, un edificio",
+            "bullets": [
+              "Automazione dei coloni è disponibile tramite i controlli dello schema manuale in un edificio di produzione. Non richiede la ricerca Automazione degli edifici né un nucleo elettronico installato.",
+              "Automazione elettronica è il successivo livello basato su nucleo sbloccato dalla ricerca Automazione degli edifici. Richiede un nucleo di automazione installato in quell'edificio e consuma elettricità mentre i blocchi Produzione operano.",
+              "Un edificio non può eseguire contemporaneamente il suo programma elettronico e quello manuale. Ferma la modalità attiva prima di avviare l'altra.",
+              "I programmi restano salvati mentre sono fermi. Fermare cancella attività runtime attive e riserve, ma non elimina il grafo.",
+              "Il normale Produce manuale resta un'azione separata. Un programma in esecuzione non ti impedisce di visualizzare l'interfaccia di produzione, ma competere per lo stesso inventario può creare blocchi."
+            ]
+          },
+          {
+            "title": "Installare un nucleo elettronico",
+            "steps": [
+              "Ricerca Automazione degli edifici.",
+              "Apri un edificio operativo e individua la sua console di automazione.",
+              "Ispeziona il costo di installazione specifico dell'edificio.",
+              "Installa Nucleo di automazione. Il costo completo viene consumato una volta per quell'edificio.",
+              "Configura e convalida uno schema elettronico prima di avviarlo."
+            ],
+            "callout": {
+              "title": "Costruzione non è installazione",
+              "body": "Costruire la struttura, ricercare l'automazione e installare il suo nucleo sono tre soglie separate. Un nucleo installato inoltre non fa funzionare un programma vuoto o non valido."
+            }
+          },
+          {
+            "title": "Costo esatto di installazione del nucleo",
+            "paragraphs": [
+              "Sia t il Livello Tecnologico dell'edificio, limitato da 0 a 10. Installare il nucleo elettronico di quell'edificio costa le seguenti unità intere: Filo di rame = soffitto(30 + t³), Ingranaggio d'acciaio = soffitto(5 + t²), Piastra d'acciaio = soffitto(4 + t^1.8), Circuito elettronico = soffitto(2 + t^1.5) e Motore = soffitto(2 + t^1.5). La formula viene valutata separatamente per ogni edificio; installare un nucleo non sconta il successivo."
+            ]
+          }
+        ]
+      },
+      "automation-program-editor": {
+        "title": "Editor programmi di automazione",
+        "summary": "Creazione di grafi, connessione di porte, controllo, salvataggio automatico, azioni degli appunti e avvio degli schemi.",
+        "unlockLabel": "Sbloccata dopo aver aperto un editor di schema manuale o elettronico",
+        "sections": [
+          {
+            "title": "Uno schema è un grafo eseguibile",
+            "paragraphs": [
+              "Trascina un blocco sulla tela o cliccalo nella palette, configura i suoi campi e collega le porte di output a porte di input compatibili. L'esecuzione inizia dall'unico blocco Start e segue le connessioni. La posizione è visiva; connessioni e dati dei blocchi definiscono il comportamento.",
+              "Le modifiche vengono salvate automaticamente nell'edificio e nella modalità, ma un grafo modificato deve essere controllato di nuovo prima del lancio. Controlla schema convalida la struttura ed evidenzia nodi o archi coinvolti. Avvia schema è abilitato solo quando i requisiti di lancio sono soddisfatti."
+            ],
+            "media": {
+              "alt": "L'editor di automazione con palette blocchi, grafo connesso, minimappa o controlli, pannello di convalida e leva di avvio.",
+              "caption": "Le connessioni, non la posizione sullo schermo, definiscono il flusso di controllo."
+            }
+          },
+          {
+            "title": "Controlli dell'editor",
+            "bullets": [
+              "Ctrl + trascinamento esegue la selezione ad area.",
+              "Ctrl+A seleziona tutto. Ctrl+C, Ctrl+X, Ctrl+V e Ctrl+D copiano, tagliano, incollano e duplicano i frammenti selezionati.",
+              "Ctrl+Z annulla; Ctrl+Shift+Z o Ctrl+Y ripete.",
+              "Delete rimuove blocchi o archi selezionati. Escape cancella la selezione.",
+              "Doppio clic su una connessione per inserire un punto di deviazione; clic destro su una connessione per rimuoverla.",
+              "Aggancia alla griglia cambia solo l'assistenza al posizionamento.",
+              "Cancella rimuove lo schema modificabile dopo l'interazione rilevante; copia prima un grafo riutilizzabile se necessario."
+            ]
+          },
+          {
+            "title": "Copiare tra edifici e modalità",
+            "paragraphs": [
+              "Copia schema memorizza il grafo completo in appunti schema locali persistenti. Incolla schema sostituisce l'intero grafo dell'editor di destinazione; non è un'operazione di aggiunta. I tipi di blocco non supportati vengono omessi per la modalità di destinazione, i blocchi Produzione elettronici oltre il limite di slot corrente vengono omessi, gli archi di errore manuali vengono rimossi, i conteggi di iterazioni vengono limitati, e un blocco Produzione la cui ricetta salvata non appartiene all'edificio di destinazione ripiega sulla prima ricetta disponibile di quell'edificio e sulla prima scelta di carburante.",
+              "Copia/incolla selezione è separato. Memorizza i blocchi selezionati più solo gli archi i cui due estremi sono selezionati, poi aggiunge un nuovo frammento vicino al centro della camera. I blocchi incollati ricevono nuovi identificatori. Se il programma elettronico di destinazione non ha slot Produzione liberi, i blocchi Produzione selezionati in eccesso e i loro archi ora non validi vengono saltati mentre altri blocchi accettati possono comunque essere incollati.",
+              "Un grafo copiato è un progetto, non uno stato runtime live. Progresso, risorse bloccate, arrivi alle barriere e attività correnti non sono una coda di produzione portatile."
+            ],
+            "callout": {
+              "title": "Costruisci un passaggio valido prima di un grafo ripetitivo",
+              "body": "Start → Produzione → End è il più piccolo schema a un passaggio. Per uno schema ripetitivo finito, usa Start → Joiner → Produzione → Loop; collega Loop.body di nuovo a Joiner e Loop.exit a End. Una versione manuale deve collocare i blocchi Rest richiesti sul percorso ripetitivo, normalmente tra Produzione e Loop. Start non ha porta di input, e due percorsi non possono condividere una porta di input ordinaria: ecco perché Joiner è necessario."
+            }
+          }
+        ]
+      },
+      "automation-blocks": {
+        "title": "Blocchi di automazione e flusso",
+        "summary": "Ogni tipo di blocco, semantica delle porte, diramazione, sincronizzazione, cicli, errori e deviazioni.",
+        "unlockLabel": "Sbloccata dopo aver aggiunto logica di produzione a uno schema di automazione",
+        "sections": [
+          {
+            "title": "Blocchi di base e temporizzati",
+            "bullets": [
+              "La disponibilità dei blocchi dipende dalla modalità. Gli schemi manuali usano la palette sicura per i coloni; gli schemi elettronici aggiungono blocchi di controllo solo elettronici dopo che il sistema del nucleo diventa disponibile.",
+              "Start: l'unico punto di ingresso. Ne è richiesto esattamente uno, e deve avere una connessione in uscita.",
+              "End: termina un'attività che lo raggiunge. End è opzionale; ometterlo produce un avviso perché un ciclo intenzionale potrebbe non terminare mai.",
+              "Produzione: esegue una ricetta appartenente all'edificio corrente per il numero configurato di iterazioni e la scelta di carburante. Le iterazioni elettroniche sono limitate a 1 + livelli Batch Handler acquistati; le iterazioni manuali vanno da 1 a 9.999. Ha un percorso next normale; la modalità elettronica può anche instradare un output error quando la produzione non può completarsi.",
+              "Wait: mette in pausa la sua attività per un valore intero da 1 a 3.600 secondi, poi segue next.",
+              "Rest: una pausa fissa di cinque secondi usata dall'automazione dei coloni e conteggiata nella sua struttura di recupero obbligatoria."
+            ],
+            "media": {
+              "alt": "Un grafo di automazione etichettato che dimostra ogni blocco e le sue porte.",
+              "caption": "I segnali viaggiano lungo connessioni dirette da Start."
+            }
+          },
+          {
+            "title": "Decisione e ripetizione",
+            "bullets": [
+              "Condition confronta una risorsa inventario selezionata con una quantità da 0 a 999.999.999 e instrada attraverso true o false. I confronti supportati sono <, ≤, esatto =, ≥ e >. Sono consentite soglie decimali.",
+              "Loop accetta un conteggio da 0 a 9.999. Invia l'esecuzione attraverso body per il conteggio configurato, poi attraverso exit. Un conteggio di 0 seleziona sempre body e non seleziona mai exit. Per ripetere lavoro precedente, il percorso body deve tornare attraverso un Joiner o un altro punto di unione legale; Loop non salta implicitamente all'indietro.",
+              "Il contatore Loop conta le selezioni body al blocco Loop. In Start → Joiner → Produzione → Loop con body che torna a Joiner, Produzione viene eseguita una volta prima che Loop veda il suo contatore, poi una volta per ogni selezione body. Un valore Loop finito di 3 produce quindi quattro visite a Produzione prima dell'uscita.",
+              "Un Loop finito senza uscita è consentito solo come problema di livello avviso; decidi se il percorso mancante è davvero intenzionale.",
+              "Le Conditions leggono l'inventario quando vengono raggiunte. Non riservano la quantità testata, e un altro ramo o edificio può cambiare l'inventario dopo."
+            ]
+          },
+          {
+            "title": "Flusso parallelo",
+            "bullets": [
+              "Splitter emette un'attività lungo ogni ramo collegato. Richiede almeno due connessioni di ramo.",
+              "Joiner accetta qualsiasi ramo in arrivo e passa immediatamente in avanti quel singolo arrivo. Unisce geometricamente i percorsi ma non attende ogni ramo.",
+              "Barrier attende finché ogni input collegato non ha ricevuto un arrivo, consuma un arrivo da ciascun input, poi emette un'attività next. Gli arrivi extra restano in coda per la sincronizzazione successiva.",
+              "Il conteggio output di Splitter e il conteggio input di Joiner / Barrier possono essere configurati da 2 a 8. Ridurre un conteggio elimina immediatamente le connessioni attaccate alle porte numerate rimosse.",
+              "Un blocco Produzione è single-flight: se un altro segnale raggiunge lo stesso blocco mentre è già attivo, il lavoro duplicato non viene generato."
+            ],
+            "callout": {
+              "title": "Joiner e Barrier sono deliberatamente diversi",
+              "body": "Usa Joiner quando qualsiasi ramo può continuare. Usa Barrier quando tutti i rami collegati devono riunirsi. Confonderli può moltiplicare il lavoro a valle o lasciare un programma in attesa per sempre."
+            }
+          },
+          {
+            "title": "Reroute e porte",
+            "paragraphs": [
+              "Reroute è un nodo di instradamento visivo con una connessione per lato. Un'attività che entra da un lato esce dall'altro. Non ritarda, copia, filtra o sincronizza il lavoro.",
+              "Ogni porta ordinaria di output e input accetta solo una connessione. Splitter e blocchi multi-input espongono porte dedicate per il loro fan-out o fan-in. Le porte condivise non valide vengono segnalate durante la convalida."
+            ]
+          }
+        ]
+      },
+      "colonist-automation": {
+        "title": "Automazione dei coloni",
+        "summary": "Capacità, riserve, lavoro più lento, calcolo dei lavoratori, riposo obbligatorio e blocchi supportati.",
+        "unlockLabel": "Sbloccata dopo aver aperto la tua prima interfaccia di produzione",
+        "sections": [
+          {
+            "title": "Disponibile prima dei nuclei elettronici",
+            "paragraphs": [
+              "Automazione dei coloni è la modalità di automazione manuale. Non viene sbloccata dalla ricerca Automazione degli edifici e non dipende da un nucleo elettronico installato. Apri un edificio costruito, usa il pannello Automazione dei coloni, configura uno schema manuale valido, controllalo e avvialo se la colonia ha abbastanza capacità coloni disponibile.",
+              "Salvare o avviare uno schema manuale crea stato di automazione per quell'edificio, ma non conta come installazione del nucleo elettronico. Installazione elettronica, potenziamenti elettronici e consumo di elettricità elettronico restano un livello successivo separato."
+            ]
+          },
+          {
+            "title": "Capacità della colonia",
+            "paragraphs": [
+              "La capacità dei coloni è di cinque persone per livello tecnologico più alto. Una colonia di Livello 1 ha 5 totali, Livello 5 ne ha 25 e Livello 10 ne ha 50. L'header mostra disponibili / totale e il numero riservato dagli schemi manuali in esecuzione.",
+              "I coloni vengono riservati dal programma, non consumati come risorse. Fermare uno schema manuale libera la sua riserva. Uno schema salvato ma fermo non usa capacità."
+            ],
+            "media": {
+              "alt": "Uno schema di automazione manuale con conteggi iterazioni di produzione, costo lavoratori, blocchi Rest richiesti e capacità coloni nell'header.",
+              "caption": "La capacità del personale è un limite condiviso della colonia."
+            }
+          },
+          {
+            "title": "Come viene calcolata la domanda di lavoratori",
+            "paragraphs": [
+              "Ogni blocco Produzione manuale richiede un colono per ogni cinque iterazioni configurate, arrotondato verso l'alto. Un blocco con 1–5 iterazioni richiede 1 colono; 6–10 ne richiede 2. La domanda del programma è la somma di tutti i blocchi Produzione, non solo del ramo attualmente attivo.",
+              "La produzione manuale richiede il doppio del tempo base dell'automazione. In cambio, non richiede il nucleo elettronico né il modello energetico elettronico. Consuma comunque input fisici, carburante e utensili della ricetta."
+            ]
+          },
+          {
+            "title": "Regole di riposo",
+            "bullets": [
+              "Il programma richiede almeno un blocco Rest per ogni due coloni richiesti, arrotondato verso l'alto.",
+              "Per percorsi di produzione ripetitivi, abbastanza blocchi Rest devono apparire dentro ogni ciclo produttivo, non semplicemente da qualche parte su un ramo laterale irraggiungibile o una tantum.",
+              "Anche una componente ciclica condivisa contenente diversi blocchi Produzione viene controllata per un numero sufficiente di blocchi Rest totali.",
+              "Rest dura cinque secondi e non può essere accorciato modificando un valore.",
+              "La modalità manuale supporta Start, End, Produzione, Wait, Rest, Loop, Splitter, Joiner e Reroute. Condition e Barrier sono solo elettronici nelle regole attuali."
+            ],
+            "callout": {
+              "title": "Pianificazione della capacità",
+              "body": "Un lotto più grande può richiedere un altro colono prima di migliorare il throughput utile. Confronta arrotondamento dei lavoratori, domanda di riposo e disponibilità di risorse invece di selezionare sempre le iterazioni massime."
+            }
+          }
+        ]
+      },
+      "automation-upgrades": {
+        "title": "Nuclei e potenziamenti dell'automazione",
+        "summary": "Costo di installazione, Speed Governor, Batch Handler, Parallel Controller, scalatura e livelli attivi.",
+        "unlockLabel": "Sbloccata dopo aver installato il tuo primo nucleo di automazione",
+        "sections": [
+          {
+            "title": "I potenziamenti sono ricercati, acquistati e installati per edificio",
+            "paragraphs": [
+              "Ogni famiglia di potenziamenti richiede prima la propria ricerca. Dopo, i livelli vengono acquistati separatamente per ogni nucleo edificio installato usando un costo materiale dipendente dall'edificio e dal livello. Acquistare un potenziamento consuma risorse permanentemente; non è un bonus a livello colonia.",
+              "Livelli acquistati e attivi sono di solito uguali. Speed è l'eccezione: puoi abbassare il suo livello attivo fino a zero e rialzarlo fino al livello acquistato senza rimborsare o riacquistare nulla."
+            ],
+            "media": {
+              "alt": "Potenziamenti automazione che mostrano livelli acquistati, controlli dei livelli Speed attivi, costi e conseguenze energetiche.",
+              "caption": "Ogni aumento di throughput ha un compromesso locale di capacità o energia."
+            }
+          },
+          {
+            "title": "Le tre famiglie di potenziamenti",
+            "bullets": [
+              "Speed Governor: ogni livello attivo moltiplica la velocità dei blocchi Produzione per 1,5, quindi i livelli si compongono invece di aggiungere 50 punti percentuali fissi. Il tasso di potenza totale raddoppia per livello attivo; l'energia per ciclo viene regolata perché anche il ciclo più veloce finisce prima.",
+              "Batch Handler: ogni livello acquistato aggiunge una iterazione massima a ogni blocco Produzione elettronico. Il moltiplicatore energetico si compone di ×1,15 per ogni iterazione configurata oltre 1.",
+              "Parallel Controller: ogni livello acquistato aggiunge un blocco Produzione consentito allo schema elettronico. Ogni blocco Produzione aggiuntivo raddoppia l'assorbimento di potenza di ogni blocco Produzione."
+            ]
+          },
+          {
+            "title": "I moltiplicatori si compongono",
+            "paragraphs": [
+              "Velocità, lotti più grandi e blocchi di produzione aggiuntivi influenzano parti diverse del modello e possono comporsi in una richiesta elettrica drammatica. L'editor e la Scheda automazione stimano il flusso usando il grafo corrente e i livelli attivi. Controlla quelle stime dopo ogni potenziamento.",
+              "Un programma potenziato può comunque essere più lento nella pratica se si blocca ripetutamente su input o elettricità. L'hardware di throughput non genera risorse a monte."
+            ],
+            "callout": {
+              "title": "Acquistato non significa sostenibile",
+              "body": "Se un livello Speed destabilizza la rete, riduci il livello attivo mentre espandi la potenza. L'investimento materiale resta installato e può essere riattivato in seguito."
+            }
+          },
+          {
+            "title": "Prezzi esatti dei potenziamenti",
+            "paragraphs": [
+              "Per ogni materiale nel costo base di un potenziamento, il livello successivo costa soffitto(importo base × 2^livelloAcquistato × (1 + 0,15 × t)), con minimo di 1 e livello edificio t limitato da 0 a 10. “Livello acquistato” è il livello prima dell'acquisto: livello 0 usa ×1, livello 1 usa ×2, livello 2 usa ×4 e così via. Ridurre lo Speed attivo non riduce il prezzo del suo prossimo livello acquistato."
+            ],
+            "bullets": [
+              "Base Batch Handler: Ingranaggio d'acciaio 4, Piastra di alluminio 2, Acciaio inox 2, Circuito elettronico 2, Ottone 1, Motore 1.",
+              "Base Parallel Controller: Ingranaggio d'acciaio 5, Lubrificante 4, Acciaio cromato 4, Plastica 2, Circuito avanzato 2, Trasformatore 1, Macchina semplice 1.",
+              "Base Speed Governor: Lubrificante 6, Plastica 5, Circuito avanzato 4, Trasformatore 2, Macchina semplice 2, Lega di alluminio 2, Acciaio per utensili 2, Cilindro idraulico 2, Gomma 1, Sensore ottico 1, Unità di elaborazione 1."
+            ]
+          },
+          {
+            "title": "Modello esatto di tempi ed energia elettronica",
+            "paragraphs": [
+              "La durata automatizzata senza velocità di una ricetta è il maggiore tra 5 secondi, il suo automationTimeSeconds esplicito quando presente (altrimenti 5 secondi + 0,75 secondi per ogni distinto requisito di input, output, carburante e utensile + 0,25 secondi per livello edificio), e il suo tempo di recupero ricetta. Speed divide quella durata per 1,5^livelloSpeedAttivo, con un minimo rigido di 1 secondo. La modalità manuale ignora lo Speed elettronico e poi raddoppia la durata senza velocità.",
+              "L'energia elettronica consumata quando un blocco Produzione completa viene arrotondata a due decimali da: livello edificio × (2 ÷ 1,5)^livelloSpeedAttivo × 1,15^(iterazioni − 1) × 2^(blocchi Produzione elettronici − 1). Il termine velocità è energia per ciclo, non tasso di potenza: poiché il ciclo è anche 1,5 volte più veloce per livello, il tasso di potenza risultante raddoppia per livello Speed attivo. Il termine parallelo usa il numero di blocchi Produzione elettronici nello schema, non il numero attualmente in esecuzione."
+            ]
+          }
+        ]
+      },
+      "automation-runtime-and-validation": {
+        "title": "Convalida e runtime dell'automazione",
+        "summary": "Controlli di lancio, blocchi, errori, persistenza, sicurezza dell'orologio offline e modifiche ai programmi in esecuzione.",
+        "unlockLabel": "Sbloccata dopo aver avviato il tuo primo schema di automazione",
+        "sections": [
+          {
+            "title": "Convalida prima del lancio",
+            "paragraphs": [
+              "Il validatore controlla struttura del grafo, blocchi raggiungibili, limiti delle porte, proprietà delle ricette, limiti di iterazioni e blocchi produzione, validità del carburante, supporto della modalità manuale, capacità coloni e struttura di riposo. Gli errori impediscono il lancio. Gli avvisi identificano grafi discutibili ma potenzialmente intenzionali, come l'assenza di un blocco End.",
+              "La convalida è strutturale e consapevole dello stato, ma non promette una fornitura ininterrotta. Un programma valido può bloccarsi in seguito perché inventario o elettricità finiscono."
+            ],
+            "media": {
+              "alt": "Uno schema di automazione non valido con nodi, archi e un messaggio di convalida specifico evidenziati accanto a uno stato corretto pronto.",
+              "caption": "Correggi il primo errore strutturale segnalato, poi controlla di nuovo."
+            }
+          },
+          {
+            "title": "Produzione bloccata",
+            "bullets": [
+              "Un'attività Produzione raggiunge il suo punto di completamento, controlla i requisiti e consuma e produce output oppure segnala un motivo di blocco e una risorsa.",
+              "Senza un percorso di errore elettronico, l'attività attende sul posto e può riprendere quando la risorsa mancante diventa disponibile.",
+              "Con una connessione di errore elettronica, il fallimento instrada il controllo attraverso quell'output invece di trattenere l'attività al blocco Produzione.",
+              "L'header conta gli schemi bloccati; la console dell'edificio e la Scheda automazione espongono più dettagli.",
+              "Le Conditions non ritentano automaticamente una produzione fallita a meno che il tuo grafo non instradi di nuovo verso un controllo o ciclo appropriato."
+            ]
+          },
+          {
+            "title": "Modificare uno schema in esecuzione",
+            "paragraphs": [
+              "Le modifiche solo visive possono preservare il runtime quando il grafo eseguibile non è cambiato. Se la struttura di esecuzione cambia, le attività attive vengono ripristinate. Se un programma in esecuzione diventa non valido, viene salvato ma fermato così un grafo malformato non continua a usare uno stato runtime obsoleto.",
+              "Avviare una modalità mentre l'altra modalità è in esecuzione nello stesso edificio viene rifiutato. Fermare cancella attività attive, arrivi alle barriere, stato bloccato e marcatore della modalità attiva dell'edificio."
+            ]
+          },
+          {
+            "title": "Salvataggi e tempo trascorso",
+            "paragraphs": [
+              "L'automazione usa un orologio storico relativo al salvataggio e normalizza i timestamp legacy durante il caricamento. Questo protegge la cronologia dalle discontinuità dell'orologio di sistema e preserva lo stato in corso. La simulazione elabora lavoro limitato per tick; cambiare l'orologio del computer non è un modo supportato per produrre risorse.",
+              "I cicli istantanei vengono rilevati dalla ripetizione di uno stato di esecuzione e bloccati con il motivo loopGuard; i lunghi percorsi aciclici a durata zero sono consentiti. I programmi possono conservare migliaia di attività attive e solo un elevato limite di emergenza protegge da un fan-out esponenziale incontrollato. Nei cicli intenzionali sono ancora consigliati blocchi temporizzati Produzione, Wait o Rest.",
+              "Esporta prima di modifiche sperimentali a uno schema grande. Gli appunti programma preservano il progetto, mentre un salvataggio preserva il progetto più installazioni, potenziamenti, statistiche, cronologia e stato runtime."
+            ]
+          }
+        ]
+      },
+      "automation-board": {
+        "title": "Scheda automazione e analisi",
+        "summary": "KPI live, schede, grafici, modalità flusso, intervalli temporali, blocchi e riepiloghi per edificio.",
+        "unlockLabel": "Sbloccata dopo aver aperto la Scheda automazione",
+        "sections": [
+          {
+            "title": "Una vista automazione a livello colonia",
+            "paragraphs": [
+              "La Scheda automazione riassume i programmi attivi in tutti gli edifici. Riporta edifici attivi, ricette o blocchi Produzione, elettricità stimata al minuto, input al minuto, output al minuto, dettagli del ciclo corrente e stati bloccati. Usala per trovare colli di bottiglia sistemici difficili da vedere da una singola console struttura.",
+              "La bacheca è un overlay live con viste schede e grafici. Comprimerla conserva impostazioni e cronologia. La sua maniglia può essere nascosta quando la Bacheca operativa è espansa, così i due pannelli laterali non occupano lo stesso spazio d'interazione."
+            ],
+            "media": {
+              "alt": "Scheda automazione in modalità grafico con KPI, cronologia output ed elettricità, controlli intervallo e una riga edificio bloccata.",
+              "caption": "Confronta il flusso stimato con i risultati storici."
+            }
+          },
+          {
+            "title": "Modalità schede, grafici e liste",
+            "bullets": [
+              "La vista Schede enfatizza lo stato corrente di edifici e blocchi.",
+              "La vista Grafici enfatizza la cronologia registrata di output ed elettricità.",
+              "La lista Edifici raggruppa il lavoro attivo per struttura; la lista Ricette enfatizza il singolo lavoro di produzione.",
+              "Girare una scheda rivela i suoi dettagli alternativi senza cambiare il programma.",
+              "Le azioni contestuali possono aprire l'edificio sorgente, la ricetta di produzione, la ricerca o la risorsa nell'Almanacco."
+            ]
+          },
+          {
+            "title": "Flusso lordo e netto",
+            "paragraphs": [
+              "Il flusso lordo mostra produzione e consumo come magnitudini separate. Il flusso netto li combina per risorsa così surplus e deficit diventano visibili. L'opzione per includere energia dell'automazione determina se la domanda di elettricità partecipa a quella presentazione del flusso.",
+              "Le cifre al minuto sono stime derivate dal grafo eseguibile, dalle durate, dai potenziamenti e dai blocchi configurati. I grafici storici registrano ciò che è realmente accaduto. Un programma affamato di risorse può quindi avere una stima attraente e scarso output osservato."
+            ]
+          },
+          {
+            "title": "Intervalli cronologia",
+            "bullets": [
+              "Gli intervalli 10m, 1h, 10h, 100h e 1000h aggregano la cronologia salvata in bucket adatti.",
+              "Gli snapshot della cronologia vengono registrati non più spesso di una volta ogni dieci secondi dell'orologio storico relativo al salvataggio; i punti del grafico non sono un campione per ciclo di produzione.",
+              "Gli intervalli brevi rivelano oscillazioni e blocchi recenti; quelli lunghi rivelano tendenze strategiche.",
+              "Nessuna cronologia significa che il sistema non ha ancora registrato campioni utilizzabili per quella vista, non che il programma sia necessariamente non valido.",
+              "I KPI a vita restano utili anche quando una finestra grafico selezionata contiene poca attività."
+            ]
+          }
+        ]
+      },
+      "guide-records": {
+        "title": "Usare questa Guida",
+        "summary": "Sblocchi delle schede, badge non letti, ricerca, categorie, immagini e limiti spoiler.",
+        "unlockLabel": "Disponibile all'inizio di ogni incarico",
+        "sections": [
+          {
+            "title": "Le schede appaiono quando diventano rilevanti",
+            "paragraphs": [
+              "La Guida è progressiva. Inizia con orientamento e controlli fondamentali, poi sblocca schede dopo eventi concreti: apertura di una schermata per la prima volta, completamento di un traguardo, fissaggio di un progetto, installazione dell'automazione o raggiungimento di una soglia tecnologica. Gli sblocchi sono permanenti in quel salvataggio.",
+              "Una piccola notifica Guida aggiornata appare quando una o più schede diventano appena idonee durante il gioco attivo. Un singolo sblocco nomina la scheda; un gruppo riporta il conteggio. Le schede già sbloccate quando un salvataggio viene caricato non riproducono un'ondata di vecchie notifiche di sblocco. Come altri messaggi informativi, questo toast può essere soppresso dalla preferenza globale Notifiche; il badge non letto resta autorevole.",
+              "Il badge numerato sul pulsante di navigazione GUIDA conta le schede sbloccate che non sono state aperte. Aprire una scheda segna solo quella scheda come letta e decrementa il badge. Segna tutte come lette cancella l'insieme corrente di non lette; le schede sbloccate in seguito creeranno un nuovo badge."
+            ],
+            "media": {
+              "alt": "La finestra modale Guida con barra categorie, ricerca, segni scheda non letta, indice articoli e pannello contenuti.",
+              "caption": "La Guida stessa è un sistema progressivo e salvato."
+            }
+          },
+          {
+            "title": "Trovare informazioni",
+            "bullets": [
+              "La ricerca controlla titoli delle schede, riepiloghi, parole chiave, intestazioni, paragrafi, punti elenco, passaggi e callout.",
+              "I filtri categoria restringono l'indice senza cambiare lo stato di lettura.",
+              "Le nuove schede sono marcate nell'indice finché non vengono aperte.",
+              "Schede correlate alla fine di un articolo collega solo a schede correlate che hai già sbloccato.",
+              "Le schede bloccate sono rappresentate solo da un conteggio in attesa. Titoli e contenuti restano nascosti per evitare di rivelare sistemi successivi."
+            ]
+          },
+          {
+            "title": "Cosa rivelerà e non rivelerà la Guida",
+            "paragraphs": [
+              "Le regole operative sono esplicite, inclusi costi di nicchia, arrotondamenti, blocchi e comportamento dei grafi. Il materiale narrativo è deliberatamente contenuto. Archivi riservati e media recuperati sono pensati per essere scoperti nelle loro interfacce; questa Guida spiega come funzionano quei sistemi solo dopo che il giocatore li ha raggiunti, e non pubblica mai soluzioni o esiti di fine partita.",
+              "Formulazioni aziendali occasionali, numeri documento o checksum stranamente persistenti possono sovrapporsi alla fiction più ampia. Trattali come atmosfera a meno che il gioco stesso non ti chieda di verificare qualcosa. La Divisione Documentazione Tecnica nega che questa frase abbia mai contenuto tredici parole in meno."
+            ]
+          }
+        ]
+      },
+      "registry-access": {
+        "title": "Accesso al Registro",
+        "summary": "Trovare il Registro, sequenza di avvio, accesso per livello, ricerca, verifica e uso sicuro dagli spoiler.",
+        "unlockLabel": "Sbloccata dopo aver aperto il Registro per la prima volta",
+        "sections": [
+          {
+            "title": "Accedere all'archivio",
+            "paragraphs": [
+              "Al Livello Tecnologico 5, un sottile affordance del Registro diventa disponibile nel marchio centrale dell'header. La prima transizione è intenzionalmente diversa da una normale notifica di menu. Dopo che l'accesso è stato stabilito, aprire il Registro avvia la propria presentazione di boot e autorizzazione.",
+              "Il Registro è un archivio progressivo separato. Il livello tecnologico determina quali voci sono accessibili per l'ispezione; una verifica riuscita determina quali voci protette sono state decrittate. Gli identificatori delle voci decrittate vengono salvati permanentemente.",
+              "Il testo rivolto al Direttore in questa scheda è stato ricostruito da un'interfaccia che il Direttore non era originariamente previsto dovesse usare. Diverse note procedurali restano intenzionalmente censurate: catena di accesso █████████, proprietario autorizzazione ████████ e instradamento post-verifica █████████████. Le istruzioni rimanenti sono sufficienti per un uso sicuro dell'interfaccia."
+            ],
+            "media": {
+              "alt": "L'indice del Registro con voci accessibili e bloccate, ricerca, livello di accesso e un pannello di verifica senza codice risolto.",
+              "caption": "La Guida spiega l'archivio ma non fornisce mai le sue risposte."
+            }
+          },
+          {
+            "title": "Indice e vista dettaglio",
+            "bullets": [
+              "La ricerca del Registro controlla identificatore interno, categoria e testo grezzo di anteprima della voce. Non cerca nel contenuto completo decrittato, nelle etichette di stato, nel testo sostitutivo tradotto o nelle risposte di verifica.",
+              "Accessibile significa che il tuo livello corrente permette l'ispezione. Non garantisce che il contenuto crittografato sia già decrittato.",
+              "Le voci bloccate restano non disponibili finché la loro condizione di accesso non viene soddisfatta.",
+              "Dati incorporati, immagini recuperate o altri media appartengono alla voce selezionata e possono contenere dettagli non ripetuti nel testo.",
+              "Il footer riporta connessione, integrità e livello di accesso. Sono stati di presentazione, non indicatori di elettricità della colonia o salute del salvataggio."
+            ]
+          },
+          {
+            "title": "Sfide di verifica",
+            "paragraphs": [
+              "Una voce protetta presenta un riferimento, suggerimento o indizio contestuale e un campo di verifica. Le risposte vengono confrontate senza distinzione tra maiuscole e minuscole dopo aver eliminato spazi iniziali e finali; altra punteggiatura resta significativa a meno che una risposta accettata includa esplicitamente un'alternativa. Il fallimento lascia la voce crittografata e permette un altro tentativo. Il successo memorizza l'identificatore della voce nel salvataggio e rivela il contenuto ripristinato.",
+              "Alcuni riferimenti sono intenzionalmente collegati a conoscenze reali industriali, scientifiche, storiche o culturali. Ricercare il riferimento fa parte dell'enigma. La Guida non stamperà soluzioni, codici esatti o una sequenza di rivelazioni narrative."
+            ],
+            "callout": {
+              "title": "Tieni la scoperta fuori dalla checklist di produzione",
+              "body": "Le voci del Registro possono approfondire la storia e possono contare per esiti nascosti, ma un fallimento di verifica non consuma mai inventario. Fai backup del salvataggio, leggi attentamente e risolvi al tuo ritmo. ████████ non è un costo risorsa."
+            }
+          },
+          {
+            "title": "Un'osservazione sicura dagli spoiler",
+            "paragraphs": [
+              "Diversi record non concordano su quale sia lo scopo della colonia. Il disaccordo è intenzionale. Nessun singolo slogan aziendale, checksum danneggiato o frame recuperato dovrebbe essere trattato come l'intera risposta. Se una trasmissione esterna sembra riconoscere il linguaggio usato qui, nota la sovrapposizione e continua; il sistema è più interessante quando viene assemblato anziché annunciato."
+            ]
+          }
+        ]
+      },
+      "demo-evaluation-build": {
+        "title": "Build demo di valutazione",
+        "summary": "Ambito, obiettivo di completamento, feedback, link wishlist e aspettative sui salvataggi nella demo.",
+        "unlockLabel": "Disponibile nella build demo di valutazione",
+        "sections": [
+          {
+            "title": "Una valutazione industriale limitata",
+            "paragraphs": [
+              "La demo è una build deliberatamente limitata con proprie ricerche, edifici, ricette, risorse, materiale narrativo e obiettivo di completamento disponibili. I sistemi possono contenere riferimenti alla progressione completa perché l'interfaccia e la Guida condividono lo stesso linguaggio industriale, ma i contenuti non disponibili non possono essere raggiunti semplicemente accumulando oltre il confine della demo.",
+              "Gli overlay di benvenuto e vittoria riassumono l'ambito della valutazione. L'evento di completamento della demo è legato al suo obiettivo di valutazione dichiarato e presenta statistiche della run, link di feedback, link della community e la pagina store del gioco completo."
+            ]
+          },
+          {
+            "title": "Pratiche di salvataggio e feedback",
+            "bullets": [
+              "Usa i normali slot manuali e autosave durante la valutazione.",
+              "Esporta un salvataggio prima di segnalare un blocco di progressione così lo stato esatto può essere riprodotto.",
+              "Il link wishlist apre la pagina store ufficiale del gioco completo; non altera il salvataggio.",
+              "I link feedback e community escono dal gioco tramite il percorso di navigazione esterna supportato.",
+              "Un overlay di vittoria della demo può essere chiuso; chiuderlo non cancella le statistiche di completamento."
+            ]
+          },
+          {
+            "title": "Interpretare le schede Guida bloccate",
+            "paragraphs": [
+              "La Guida mostra solo schede i cui sistemi sono rilevanti e sbloccati nel salvataggio attivo. Un conteggio di schede in attesa non prova che ogni meccanica corrispondente esista dentro la demo. Evita inoltre di usare i titoli degli articoli per spoilerare cosa contiene la campagna completa."
+            ]
+          }
+        ]
+      },
+      "diagnostics-and-bottlenecks": {
+        "title": "Diagnostica dei colli di bottiglia",
+        "summary": "Una checklist sistematica per “non posso produrre”, “non si sblocca” e “l'automazione è lenta”.",
+        "unlockLabel": "Sbloccata dopo aver usato Produzione o Ricerca",
+        "sections": [
+          {
+            "title": "Quando la produzione manuale non parte",
+            "steps": [
+              "Conferma che la ricetta sia selezionata e ricercata per questo edificio.",
+              "Conferma che l'edificio sia costruito e operativo.",
+              "Controlla ogni input scalato per il numero di iterazioni selezionato.",
+              "Controlla il selettore carburante separato e il totale carburante.",
+              "Controlla il conteggio utensili richiesto usando soffitto(iterazioni ÷ durabilità).",
+              "Riduci la quantità o usa MAX per identificare il lotto attualmente sostenibile.",
+              "Se è una ricetta di raccolta, ispeziona il suo lotto massimo e il timer di recupero."
+            ]
+          },
+          {
+            "title": "Quando ricerca o costruzione sembrano bloccate",
+            "bullets": [
+              "Passa il cursore sul nodo ricerca per tracciare i prerequisiti; un livello superiore visibile non bypassa un collegamento incompleto.",
+              "Apri il dettaglio del nodo e distingui blocco da prerequisito e costo in risorse.",
+              "Dopo la ricerca, torna a Edifici e paga il costo di costruzione separato.",
+              "Se una ricetta è ricercata ma non può aprirsi, usa l'azione di stato dell'Almanacco per trovare la struttura non costruita.",
+              "Fissa il bersaglio e confronta i requisiti aggregati con l'inventario live così un altro progetto non spende la stessa scorta senza che te ne accorga."
+            ]
+          },
+          {
+            "title": "Quando l'automazione rende meno del previsto",
+            "steps": [
+              "Controlla che sia in esecuzione la modalità corretta e che l'altra modalità non occupi l'edificio.",
+              "Ispeziona il motivo di blocco e la risorsa bloccata nella console o nella Scheda automazione.",
+              "Confronta gli input stimati al minuto con l'output a monte e l'inventario corrente.",
+              "Confronta la domanda di elettricità con generazione e scorte. Se necessario, abbassa temporaneamente lo Speed attivo.",
+              "Verifica rami Condition, uscite Loop, semantica Joiner contro Barrier, e che ogni percorso manuale ripetitivo contenga abbastanza Rest.",
+              "Usa i grafici storici per determinare se il fallimento è continuo o periodico.",
+              "Convalida di nuovo dopo modifiche al grafo; i cambiamenti eseguibili ripristinano il lavoro runtime."
+            ],
+            "callout": {
+              "title": "Diagnostica uno strato alla volta",
+              "body": "Accesso → sostenibilità economica → requisiti speciali → tempistica → flusso automazione. Saltare direttamente a uno strato tardo spesso nasconde un semplice blocco precedente."
+            }
+          },
+          {
+            "title": "Quando il problema è l'interfaccia",
+            "bullets": [
+              "Cancella ricerca e filtri prima di presumere che i dati manchino.",
+              "Ripristina livelli nascosti, ricette dell'Almanacco non ricercate o ricette per edifici non costruiti quando pianifichi in anticipo.",
+              "Abbassa gli effetti grafici pesanti se l'interazione o l'animazione del grafo è lenta.",
+              "Aumenta la scala interfaccia se i controlli sono difficili da leggere, o riducila se una modale ha troppo poco spazio di lavoro.",
+              "Esporta il salvataggio interessato prima di ripristinare impostazioni o testare un'altra build."
+            ]
+          },
+          {
+            "title": "Interfacce diagnostiche integrate",
+            "paragraphs": [
+              "Ctrl+Shift+M (Cmd+Shift+M su macOS) mostra o nasconde il Monitor risorse durante il gameplay. È una diagnostica Electron: mentre è visibile richiede statistiche di processo aggiornate ogni cinque secondi e mostra heap / RSS / memoria esterna del processo principale, informazioni sui processi renderer e GPU quando fornite, e memoria totale / libera del sistema, conteggio CPU e piattaforma. In una build browser senza il bridge statistiche Electron, la scorciatoia non mostra alcun pannello visibile perché non arrivano statistiche.",
+              "Ctrl+Shift+D mostra o nasconde la scheda di navigazione Sviluppatore. I suoi strumenti di salvataggio esportano un singolo record selezionato tra primario, autosave o slot numerato e possono importare un salvataggio JSON direttamente nel bersaglio selezionato. È un'operazione di livello inferiore rispetto a Esporta tutto / Importa archivio e può sovrascrivere il bersaglio, quindi usala solo con un archivio separato.",
+              "La scheda Sviluppatore contiene anche Gerarchia ricette. La vista lista espone identificatori ricetta, input, output ed edifici; la vista grafo espande produttori a monte e consumatori a valle intorno a una ricetta selezionata fino alla profondità scelta; la vista catena elenca produttori e consumatori per la risorsa selezionata. La ricerca trova corrispondenze nel nome della ricetta, identificatore o descrizione, mentre i filtri risorsa ed edificio restringono i dati indipendentemente. Questo strumento legge i dati delle ricette e non esegue né sblocca nulla."
+            ],
+            "callout": {
+              "title": "La diagnostica non è progressione",
+              "body": "Memoria di processo, identificatori grezzi e grafi delle dipendenze possono spiegare un difetto, ma nessuno di questi pannelli cambia sostenibilità economica, prerequisiti di ricerca o stato dell'archivio ad accesso tardivo a meno che tu non importi deliberatamente un salvataggio diverso."
+            }
+          }
+        ]
+      }
+    }
+  },
   "tutorial": {
-    "welcome": {
+    "briefing": {
       "speaker": "Dr. Mira Holland",
-      "text": "Salve, Direttore. Sono la Dr. Mira Holland, il suo referente tecnico presso la Realindustry Corporation. Benvenuto nella Nuova Zona Industriale Zero-Otto — la sua nuova responsabilità. So cosa sta pensando: \"Dove sono le mie attrezzature? I miei macchinari avanzati?\" Ebbene, i costi dei trasporti interstellari sono... astronomici. Letteralmente. La Corporation ha calcolato che è più conveniente del 340% spedire un essere umano con conoscenze di base piuttosto che un container di strumenti. Quindi, congratulazioni — lei costa meno di una cassetta degli attrezzi. Sono qui per assicurarmi che comprenda la sua missione e gli strumenti a sua disposizione."
-    },
-    "mission": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Il suo obiettivo primario è chiaro: stabilire una colonia industriale pienamente operativa su Kepler-442b. Il fine ultimo? Produrre un Motore a Iperguida funzionante per l'espansione interstellare. Ciò richiederà una gestione strategica delle risorse, ricerca tecnologica e catene di produzione efficienti. La Corporation si aspetta risultati, Direttore."
+      "text": "Direttore, sono la Dr. Mira Holland, il suo referente tecnico. Benvenuto nella Nuova Zona Industriale Zero-Otto su Kepler-442b. Avrà già notato che non è stata consegnata alcuna attrezzatura. Il trasporto interstellare è costoso. Secondo i calcoli della Corporation, inviare lei costava il 340 per cento in meno rispetto a un container di utensili. Il suo incarico è costruire una colonia industriale e, in seguito, produrre un Motore a Iperguida. Serviranno risorse, ricerca e catene produttive ben organizzate. Cominciamo."
     },
     "gather-wood": {
       "speaker": "Dr. Mira Holland",
-      "text": "Cominciamo dalle basi. Vede due edifici nella sua lista: Boschetto e Affioramento Roccioso. Clicchi su Boschetto per aprire l'interfaccia di produzione."
+      "text": "Apra il Boschetto. Per sviluppare la colonia servono le prime materie prime."
     },
-    "select-wood-recipe": {
+    "produce-wood-batch": {
       "speaker": "Dr. Mira Holland",
-      "text": "Bene. Ora selezioni la ricetta \"Raccogli Rami Caduti\" dalla lista."
-    },
-    "set-wood-amount": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Imposti la quantità di produzione a 10 unità cliccando sul pulsante x10."
-    },
-    "produce-wood": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Ora prema il pulsante Produci per raccogliere il legno."
+      "text": "Selezioni «Raccogli Rami Caduti», imposti x10 e prema Produci."
     },
     "back-from-tree": {
       "speaker": "Dr. Mira Holland",
-      "text": "Eccellente. Ora torni al menu degli edifici cliccando sul pulsante Indietro."
+      "text": "Bene. Torni all’elenco degli edifici."
     },
     "gather-stone": {
       "speaker": "Dr. Mira Holland",
-      "text": "Ora raccogliamo della pietra. Clicchi su Affioramento Roccioso."
+      "text": "Ora apra l’Affioramento Roccioso."
     },
-    "select-stone-recipe": {
+    "produce-stone-batch": {
       "speaker": "Dr. Mira Holland",
-      "text": "Selezioni la ricetta \"Raccogli Pietre Sciolte\"."
-    },
-    "set-stone-amount": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Imposti la quantità a 10 unità cliccando sul pulsante x10."
-    },
-    "produce-stone": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Prema Produci per raccogliere la pietra."
+      "text": "Selezioni «Raccogli Pietre Sciolte», imposti x10 e prema Produci."
     },
     "back-from-stone": {
       "speaker": "Dr. Mira Holland",
-      "text": "Ottimo lavoro. Torni al menu degli edifici."
+      "text": "È sufficiente per la prima ricerca. Torni all’elenco degli edifici."
     },
     "open-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "La tecnologia è la sua scala per il successo. Clicchi sulla scheda Ricerca in alto."
+      "text": "La ricerca trasforma le risorse accumulate in nuove possibilità permanenti. Apra la scheda Ricerca."
     },
     "jump-to-tier": {
       "speaker": "Dr. Mira Holland",
-      "text": "Ora fai clic sul pulsante \"Vai al Gradorad: 1\" in alto per passare alle ricerche di livello 1."
+      "text": "Passi al livello 1."
     },
     "select-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "Clicchi sul nodo di ricerca \"Tecniche di Artigianato di Base\" per espanderlo."
+      "text": "Espanda «Lavorazione manuale e utensili di legno»."
     },
     "start-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "Ora clicchi sul pulsante Ricerca all'interno del nodo espanso per avviare la ricerca."
+      "text": "Prema Ricerca. Le risorse indicate verranno consumate immediatamente. Al termine, gli edifici e le ricette collegati resteranno sbloccati in modo permanente."
+    },
+    "research-capacity": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Ogni nuovo livello massimo di ricerca aumenta di cinque persone la capacità della colonia. Il livello 1 fornisce cinque coloni. La barra superiore mostra quanti sono liberi, quanti sono in totale e quanti lavorano nei programmi attivi."
     },
     "back-to-buildings": {
       "speaker": "Dr. Mira Holland",
-      "text": "Perfetto. Ora torni alla scheda Edifici."
+      "text": "L’artigianato di base è disponibile. Torni a Edifici. Prima di costruire, automatizzeremo un compito ripetitivo."
+    },
+    "open-automation-building": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Riapra il Boschetto. Imposteremo una raccolta continua del legno senza ripetere ordini manuali."
+    },
+    "open-manual-editor": {
+      "speaker": "Dr. Mira Holland",
+      "text": "L’Automazione dei coloni è disponibile fin dall’inizio in ogni sito produttivo. Non richiede un Nucleo elettronico di automazione. Apra l’editor."
+    },
+    "automation-layout": {
+      "speaker": "Dr. Mira Holland",
+      "text": "L’automazione è completamente personalizzabile entro i blocchi e i limiti disponibili. Può creare sequenze, cicli, pause e, in seguito, logiche molto più complesse. I blocchi svolgono il lavoro, ma sono i collegamenti tra le porte a determinare il comportamento. Questo primo ciclo è solo un esempio."
+    },
+    "build-automation-loop": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Imposti «Iterazioni» su 10 nel blocco «Produzione». Verranno assegnati due coloni, e un solo blocco «Riposo» è sufficiente per entrambi. In questo modo la forza lavoro viene sfruttata al massimo. Costruisca poi un ciclo continuo: «Inizio» nell’ingresso 1 di «Unione», «Unione» in «Ciclo», la porta «ciclo» di «Ciclo» in «Produzione», «Produzione» in «Riposo» e «Riposo» nell’ingresso 2 di «Unione». Colleghi anche la porta «uscita» di «Ciclo» a «Fine». Lasci «Ripetizioni» a zero e prema «Verifica schema»."
+    },
+    "start-automation": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Lo schema ha superato la verifica. Azioni la leva per avviarlo."
+    },
+    "close-automation-editor": {
+      "speaker": "Dr. Mira Holland",
+      "text": "I coloni ora raccolgono legno mentre lei si occupa di altro. Chiuda l’editor."
+    },
+    "open-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Apra la Scheda automazione dal bordo dello schermo. Qui sono riuniti tutti gli schemi attivi della colonia."
+    },
+    "close-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Il pannello mostra programmi attivi, flussi stimati in entrata e in uscita, consumo elettrico, cronologia produttiva e schemi bloccati. È utile per trovare problemi difficili da notare in un singolo edificio. Lo richiuda quando ha finito."
+    },
+    "back-from-automated-tree": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Torni all’elenco degli edifici."
     },
     "hover-hand-crafting": {
       "speaker": "Dr. Mira Holland",
-      "text": "Ha sbloccato un nuovo edificio: Artigianato a Mano. Passi il mouse sulla sua scheda per vedere i requisiti di costruzione."
+      "text": "La ricerca ha sbloccato Artigianato a Mano. Passi sulla scheda dell’edificio per vedere i requisiti di costruzione."
+    },
+    "pin-hand-crafting": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Fissi questi requisiti nella Bacheca operativa. Un progetto fissato non riserva e non consuma risorse. Mantiene semplicemente aggiornate le necessità mentre lavora altrove."
+    },
+    "open-operations-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Apra la Bacheca operativa dal bordo dello schermo."
+    },
+    "close-operations-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Il pannello riunisce i requisiti di edifici, ricerche e ricette fissati e li confronta con l’inventario attuale. Con «Reagisci agli eventi di gioco» attivo, i progetti completati vengono rimossi automaticamente. Richiuda il pannello e raccolga ciò che manca."
     },
     "wait-for-construction": {
       "speaker": "Dr. Mira Holland",
-      "text": "Vedo che ti servono più risorse. Raccogli quello che ti serve e poi costruisci l'edificio «Artigianato a Mano»."
+      "text": "Costruisca Artigianato a Mano quando dispone di tutte le risorse. Questa è la sua prima decisione produttiva indipendente."
     },
     "almanac": {
       "speaker": "Dr. Mira Holland",
-      "text": "Ancora uno strumento prima di lasciarla al suo lavoro: l'Almanacco. Questo database completo contiene informazioni su ogni risorsa, ricetta e catena di produzione. Clicchi sulla scheda Almanacco per aprirlo."
+      "text": "Apra l’Almanacco. Spiega risorse e ricette, mostra dove vengono prodotti e utilizzati i materiali e permette di seguire intere catene produttive."
+    },
+    "open-guide": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Per regole precise, formule, blocchi avanzati, comandi e risoluzione dei problemi, apra la Guida. Gli articoli pertinenti si sbloccano man mano che incontra nuovi sistemi, quindi non deve leggere tutto subito."
     },
     "conclusion": {
       "speaker": "Dr. Mira Holland",
-      "text": "Questo copre l'essenziale. Ora ha tutto ciò che serve per iniziare. Ricordi: la Corporation monitora i progressi. L'efficienza viene premiata. La stagnazione viene... annotata. Terrò d'occhio le sue metriche, Direttore. Non ci deluda. Buona fortuna là fuori."
+      "text": "Ora sa raccogliere, ricercare, pianificare, costruire e automatizzare. Da qui sviluppi la colonia fino al Motore a Iperguida. La Corporation controlla i progressi. L’efficienza viene premiata. La stagnazione viene... registrata. Terrò d’occhio i suoi indicatori, Direttore. Buona fortuna."
     }
   },
   "terminusFragments": {}

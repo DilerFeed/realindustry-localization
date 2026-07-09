@@ -7,6 +7,7 @@ const ROOT = path.resolve(__dirname, '..');
 const LOCALES_DIR = path.join(ROOT, 'locales');
 const BASELINE_LANG = 'en';
 const MAX_EXAMPLES = 20;
+const PLURAL_SUFFIXES = new Set(['zero', 'one', 'two', 'few', 'many', 'other']);
 
 function fail(message) {
   console.error(message);
@@ -84,6 +85,16 @@ function printExamples(title, entries) {
   }
 }
 
+function isAllowedLocalePluralExtra(key, baselinePathSet) {
+  const match = key.match(/^(.*)_([^.]+)$/);
+  if (!match || !PLURAL_SUFFIXES.has(match[2])) return false;
+
+  const basePath = match[1];
+  return baselinePathSet.has(basePath)
+    || baselinePathSet.has(`${basePath}_one`)
+    || baselinePathSet.has(`${basePath}_other`);
+}
+
 function compareStringPaths(lang, file, baselineMap, localeMap) {
   const baselinePaths = [...baselineMap.keys()];
   const localePaths = [...localeMap.keys()];
@@ -91,7 +102,9 @@ function compareStringPaths(lang, file, baselineMap, localeMap) {
   const baselinePathSet = new Set(baselinePaths);
 
   const missing = baselinePaths.filter((key) => !localePathSet.has(key));
-  const extra = localePaths.filter((key) => !baselinePathSet.has(key));
+  const extra = localePaths.filter((key) => {
+    return !baselinePathSet.has(key) && !isAllowedLocalePluralExtra(key, baselinePathSet);
+  });
 
   if (missing.length || extra.length) {
     fail(`String key mismatch in ${lang}/${file}`);

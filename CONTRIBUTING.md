@@ -23,7 +23,7 @@ Before opening a pull request:
 - Keep JSON keys and structure unchanged.
 - Check that the file is valid JSON.
 - Run `npm run validate` if possible.
-- Explain what language and area you changed.
+- Explain what language and area you changed, such as `gamedata.json` or `ui.json`.
 
 Example PR title:
 

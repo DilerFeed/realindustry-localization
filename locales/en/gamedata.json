@@ -669,7 +669,7 @@
     "stannite-processing": {
       "name": "Stannite Processing",
       "description": "Process stannite ore to extract copper sulfide, cassiterite and iron oxide",
-      "chemicalFormula": "Cu₂FeSnS₄ + O₂ → Cu₂S + FeO + SnO₂ + 2SO₂"
+      "chemicalFormula": "2Cu₂FeSnS₄ + 9O₂ → 2Cu₂S + 2FeO + 2SnO₂ + 6SO₂"
     },
     "magnetite-mining": {
       "name": "Magnetite Mining",
@@ -682,7 +682,7 @@
     "gibbsite-processing": {
       "name": "Gibbsite Processing",
       "description": "Process gibbsite to alumina via the Bayer process",
-      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O, 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH"
+      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O; 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH; 2Al(OH)₃ → Al₂O₃ + 3H₂O"
     },
     "azurite-mining": {
       "name": "Azurite Mining",
@@ -733,12 +733,12 @@
     "limonite-processing": {
       "name": "Limonite Processing",
       "description": "Process limonite ore (FeO(OH)·nH₂O) to iron oxide",
-      "chemicalFormula": "2FeO(OH)·nH₂O + heat → Fe₂O₃ + (n+1)H₂O"
+      "chemicalFormula": "2FeO(OH)·nH₂O + heat → Fe₂O₃ + (2n+1)H₂O"
     },
     "hematite-processing": {
       "name": "Hematite Processing",
       "description": "Process hematite ore (Fe₂O₃) to iron oxide",
-      "chemicalFormula": "2Fe₂O₃ + 3C → 4Fe + 3CO₂"
+      "chemicalFormula": "Fe₂O₃(ore) + mechanical separation → Fe₂O₃(concentrate) + gangue"
     },
     "flotation-separation": {
       "name": "Chalcopyrite Flotation Separation",
@@ -748,7 +748,7 @@
     "advanced-bornite-processing": {
       "name": "Advanced Bornite Processing",
       "description": "Process bornite to copper sulfide and iron oxide with modern methods for higher yield",
-      "chemicalFormula": "Cu₅FeS₄ + O₂ → Cu₂S + CuS + CuO + FeS + SO₂"
+      "chemicalFormula": "2Cu₅FeS₄ + 3O₂ → 4Cu₂S + 2CuS + 2FeO + 2SO₂"
     },
     "magnetic-separation": {
       "name": "Magnetite Magnetic Separation",
@@ -778,7 +778,7 @@
     "chalcopyrite-smelting": {
       "name": "Primitive Chalcopyrite Smelting",
       "description": "Smelt chalcopyrite copper ore to produce impure copper",
-      "chemicalFormula": "CuFeS₂ + O₂ → Cu + FeO + SO₂"
+      "chemicalFormula": "2CuFeS₂ + 5O₂ → 2Cu + 2FeO + 4SO₂"
     },
     "magnetite-bloomery": {
       "name": "Magnetite Bloomery Processing",
@@ -793,7 +793,7 @@
     "bornite-smelting": {
       "name": "Bornite Refining",
       "description": "Refine high-grade bornite ore to blister copper using bloomery",
-      "chemicalFormula": "2 Cu₅FeS₄ + 8 O₂ → 10 Cu + 2 FeO + 8 SO₂"
+      "chemicalFormula": "2 Cu₅FeS₄ + 9 O₂ → 10 Cu + 2 FeO + 8 SO₂"
     },
     "malachite-smelting": {
       "name": "Malachite Processing",
@@ -808,7 +808,7 @@
     "copper-sulfate-electrolysis": {
       "name": "Copper Sulfate Electrolysis",
       "description": "Electrolyze copper sulfate to produce high-purity copper",
-      "chemicalFormula": "CuSO₄ + electrolysis → Cu + H₂SO₄"
+      "chemicalFormula": "2CuSO₄ + 2H₂O → 2Cu + 2H₂SO₄ + O₂"
     },
     "wrought-iron-refining": {
       "name": "Wrought Iron Refining",
@@ -897,12 +897,12 @@
     "fire-bricks": {
       "name": "Fire Bricks Production",
       "description": "Produce high temperature resistant bricks",
-      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + SiO₂ → Fire Brick (3Al₂O₃·2SiO₂) + H₂O↑"
+      "chemicalFormula": "3Al₂Si₂O₅(OH)₄ + heat → 3Al₂O₃·2SiO₂ + 4SiO₂ + 6H₂O↑"
     },
     "bricks": {
       "name": "Bricks Production",
       "description": "Produce regular construction bricks",
-      "chemicalFormula": "Al₂Si₂O₅(OH)₄ → Brick (3Al₂O₃·2SiO₂) + H₂O↑"
+      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + heat → Al₂Si₂O₇ + 2H₂O↑"
     },
     "iron-bloom": {
       "name": "Iron Bloom Production",
@@ -939,12 +939,12 @@
     "sulfuric-acid": {
       "name": "Sulfuric Acid Production",
       "description": "Produce H₂SO₄ for industrial processes",
-      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+      "chemicalFormula": "2S + 3O₂ + 2H₂O → 2H₂SO₄"
     },
     "advanced-chemical-circulation": {
       "name": "Advanced Sulfuric Acid Production",
       "description": "Efficient H₂SO₄ production with high-pressure pumps",
-      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+      "chemicalFormula": "2S + 3O₂ + 2H₂O → 2H₂SO₄"
     },
     "biomass-steam": {
       "name": "Biomass Production using Steam Heating",
@@ -978,12 +978,12 @@
     "concrete-production": {
       "name": "Concrete Production",
       "description": "Mix cement with sand and gravel to create concrete",
-      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+      "chemicalFormula": "2 Ca₃SiO₅ + 6 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
     },
     "manual-concrete-production": {
       "name": "Manual Concrete Production",
       "description": "Mix cement with sand and gravel to create concrete by hand",
-      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+      "chemicalFormula": "2 Ca₃SiO₅ + 6 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
     },
     "iron-gear-production": {
       "name": "Iron Gear Production",
@@ -1024,9 +1024,9 @@
       "description": "Use machines to assemble electronic circuits more efficiently"
     },
     "basic-chemical-processes": {
-      "name": "Basic Sulfur Production",
-      "description": "Process basic chemicals to sulfur for industrial use",
-      "chemicalFormula": "C + O₂ + H₂O → H₂S + CO₂"
+      "name": "Coal Desulfurization",
+      "description": "Wash sulfur-bearing impurities from coal to recover sulfur for industrial use",
+      "chemicalFormula": "C₁₃₅H₉₆O₉NS + H₂O → C₁₃₅H₉₆O₉N + S + H₂O"
     },
     "crude-oil-extraction": {
       "name": "Crude Oil Extraction",
@@ -1084,12 +1084,12 @@
     "nickel-ore-processing": {
       "name": "Nickel Ore to Nickel Matte Processing",
       "description": "Process nickel ore into nickel matte",
-      "chemicalFormula": "2NiS + 3O₂ → 2NiO + 2SO₂"
+      "chemicalFormula": "3NiS + O₂ → Ni₃S₂ + SO₂"
     },
     "nickel-refining": {
       "name": "Nickel Matte to Nickel Ingots Refining",
       "description": "Refine nickel matte into pure nickel",
-      "chemicalFormula": "Ni₃S₂ + H₂SO₄ + electrolysis → 3Ni + 3S + H₂O"
+      "chemicalFormula": "Ni₃S₂ → 3Ni + 2S (electrolytic refining)"
     },
     "chromite-processing": {
       "name": "Chromite to Ferrochrome Processing",
@@ -1202,7 +1202,7 @@
     "silica-extraction": {
       "name": "Silica Extraction",
       "description": "Extract high-purity silica from sand",
-      "chemicalFormula": "SiO₂·impurities + 2NaOH → Na₂SiO₃ + H₂O → SiO₂(pure)"
+      "chemicalFormula": "SiO₂ + 2NaOH → Na₂SiO₃ + H₂O; Na₂SiO₃ + CO₂ + H₂O → SiO₂·H₂O + Na₂CO₃"
     },
     "alcohol-production": {
       "name": "Industrial Alcohol Production",
@@ -1224,7 +1224,7 @@
     "zinc-electrolysis": {
       "name": "Zinc Electrolysis",
       "description": "Extract pure zinc through electrolytic processing",
-      "chemicalFormula": "ZnS + O₂ → ZnO + SO₂, ZnO + H₂SO₄ → ZnSO₄, Zn²⁺ + 2e⁻ → Zn"
+      "chemicalFormula": "2ZnS + 3O₂ → 2ZnO + 2SO₂; ZnO + H₂SO₄ → ZnSO₄ + H₂O; Zn²⁺ + 2e⁻ → Zn"
     },
     "sawmill-planks": {
       "name": "Industrial Plank Processing",
@@ -1418,8 +1418,8 @@
       "description": "Mine sphalerite and pyrite, then process pyrite into sulfur and iron oxide."
     },
     "research-basic-chemicals": {
-      "name": "Basic Sulfur Production",
-      "description": "Produce sulfur from coal and water as the first industrial chemical feedstock."
+      "name": "Coal Desulfurization",
+      "description": "Wash sulfur-bearing impurities from coal to recover the first industrial sulfur feedstock."
     },
     "research-steam-power": {
       "name": "Steam Engine Power Generation",
@@ -1499,7 +1499,7 @@
     },
     "research-automation-batch-handling": {
       "name": "Automated Batch Handling",
-      "description": "Unlock repeatable batch upgrades after assembly automation. Each active level adds one recipe iteration per automated cycle."
+      "description": "Unlock repeatable batch upgrades after assembly automation. Each purchased level adds one maximum iteration per production block; every iteration above 1 raises that block's power draw by 15%."
     },
     "research-oil-prospecting": {
       "name": "Crude Oil Extraction",
@@ -2008,7 +2008,7 @@
     "nickel-ore": {
       "name": "Nickel Ore",
       "description": "A dense mineral ore typically found as sulfides or laterites, serving as the primary source of industrial nickel.",
-      "formula": "Ni",
+      "formula": "NiS (simplified sulfide ore)",
       "historical_info": "Nickel was long a source of frustration for medieval German miners, who encountered a reddish ore that looked like copper but yielded none; they named it \"Kupfernickel\" or \"Old Nick's Copper,\" believing a mischievous demon had cursed the rock. It wasn't until 1751 that Axel Fredrik Cronstedt isolated the metal, proving it was a unique element. Its value transformed in the 19th century when it was discovered that nickel could turn ordinary steel into a \"super-alloy\" capable of resisting rust and extreme heat. By the mid-20th century, it became a cornerstone of the aerospace and military industries, and today it has reached a new peak of strategic importance as the critical cathode material in the high-capacity lithium-ion batteries that power the global electric vehicle revolution.",
       "facts": "Most of the world's richest nickel deposits are found in the Sudbury Basin in Canada, which is actually the site of a massive prehistoric meteorite impact that brought the metal from space over 1.8 billion years ago. Nickel is one of only four elements – along with iron, cobalt, and gadolinium – that are ferromagnetic at room temperature, meaning they can be strongly magnetized. In the natural world, some rare plants known as \"hyperaccumulators\" can absorb so much nickel from the soil that their sap turns a brilliant neon green, a process now being studied for \"phytomining\" where plants are used to harvest metal from the earth. Despite its industrial toughness, nickel is also a \"noble\" metal in the culinary world, as it is the secret ingredient in stainless steel cookware that prevents the metal from reacting with acidic foods like tomatoes or wine."
     },
@@ -2078,14 +2078,14 @@
     "bricks": {
       "name": "Bricks",
       "description": "Rectangular structural units made from shaped clay or shale, hardened through high-temperature vitrification.",
-      "formula": "Al₂Si₂O₅(OH)₄ based",
+      "formula": "Al₂Si₂O₇ (simplified fired clay)",
       "historical_info": "The brick is one of the oldest man-made building materials, originating around 7500 BCE as sun-dried \"adobe\" in the Fertile Crescent. Its value transformed dramatically in ancient Mesopotamia and Rome with the invention of the kiln, which used fire to turn soft clay into a rock-hard, water-resistant ceramic. This innovation allowed for the construction of multi-story structures and massive aqueducts that could survive centuries of weathering. During the Industrial Revolution, the brick transitioned from a hand-molded artisan product to a mass-produced industrial modular unit, fueled by the 1852 invention of the Hoffman kiln. This shifted the perception of bricks from a luxury material for fortresses to the universal DNA of the modern urban landscape, enabling the rapid rise of the Victorian factory cities and the iconic brownstones of New York.",
       "facts": "Bricks are essentially \"man-made metamorphic rocks\"; the firing process causes the minerals in the clay to fuse together into a dense, glass-like internal structure. They are one of the few building materials that actually get stronger over time as they continue to absorb small amounts of carbon dioxide from the atmosphere, a process called carbonation. A standard brick can withstand temperatures of up to 1000°C (1832°F), making it a natural firebreak that has saved entire cities from total destruction during historic urban fires. Interestingly, the color of a brick is a geological signature of its chemistry; high iron content produces the classic deep red, while a high lime content results in a pale yellow appearance."
     },
     "fire-bricks": {
       "name": "Fire Bricks",
       "description": "Refractory ceramic blocks engineered to maintain structural integrity and low thermal conductivity at extreme temperatures.",
-      "formula": "Al₂O₃·2SiO₂",
+      "formula": "3Al₂O₃·2SiO₂ (mullite-rich, simplified)",
       "historical_info": "While the concept of heat-resistant lining dates back to ancient smelting, the modern fire brick was perfected in the early 19th century to meet the brutal demands of the Bessemer steel process. Before their refinement, blast furnaces frequently failed as standard bricks would melt or explode under the intense heat required to refine iron. The discovery of fire-clay deposits allowed for the creation of a material that did not expand or contract significantly when heated, effectively \"taming\" the furnace. This transformed fire bricks from a niche ceramic into the literal armor of the Industrial Revolution, enabling the mass production of steel, glass, and chemicals that defined the 20th century. Today, they remain a strategic resource, as no modern metal or high-tech alloy can be forged without a vessel lined with these specialized refractory units.",
       "facts": "Fire bricks are capable of withstanding constant exposure to temperatures exceeding 1500°C (2732°F) without melting, which is hotter than the flowing lava of most volcanoes. Unlike standard construction bricks, they are designed with high porosity to trap air, making them incredible insulators that keep the heat inside a furnace while the exterior remains cool enough to prevent the metal shell from buckling. They are chemically \"inert,\" meaning they do not react with the molten metals or corrosive slag they contain, a property achieved through their high alumina and silica content. Interestingly, space shuttle heat tiles are a high-tech evolution of the fire brick, utilizing similar refractory principles to protect the craft from the 1650°C (3002°F) heat of atmospheric reentry."
     },
@@ -2494,90 +2494,1590 @@
       "facts": "Steam is essentially a high-density energy carrier; when water turns into steam, it expands to 1,600 times its original volume, creating the immense pressure required to spin turbine blades at thousands of rotations per minute. It acts as an incredibly efficient heat transfer medium due to its \"latent heat,\" meaning it stores a vast amount of energy just to maintain its gaseous state, which it releases instantly upon contact with a cooler surface. Because steam can be heated far beyond the boiling point of water, \"superheated steam\" is used in modern power plants to ensure no liquid droplets damage the sensitive internal components of a generator. Interestingly, steam is invisible to the human eye; the white \"cloud\" typically seen exiting a kettle or a cooling tower is actually water vapor that has already begun to condense back into tiny liquid droplets upon hitting cooler air."
     }
   },
+  "guide": {
+    "entries": {
+      "director-orientation": {
+        "title": "Director Orientation",
+        "summary": "Your assignment, the industrial loop, and what counts as progress.",
+        "unlockLabel": "Available at the start of every assignment",
+        "sections": [
+          {
+            "title": "Your assignment",
+            "paragraphs": [
+              "You are the acting Director of an industrial colony. Your practical job is to gather raw materials, turn them into increasingly sophisticated products, research new methods, construct the facilities those methods require, and join the resulting processes into long production chains.",
+              "There is no single permanently correct production line. Early resources remain relevant because advanced products often depend on several older branches at once. Treat every unlocked recipe as a reusable industrial capability, not as a rung you discard after climbing past it."
+            ],
+            "bullets": [
+              "Gather or manufacture the resources required by an available research project.",
+              "Complete the research to unlock recipes, buildings, or a new branch of the technology tree.",
+              "Construct newly unlocked buildings; research alone does not make a building operational.",
+              "Produce the new intermediates, then repeat the cycle at a larger scale.",
+              "The long-term corporate objective is the Hyperdrive Engine. Reaching it requires the whole industrial network, not one isolated chain."
+            ]
+          },
+          {
+            "title": "There is no passive base production by default",
+            "paragraphs": [
+              "Normal recipes execute when you press Produce. Inputs are consumed and outputs are delivered immediately. A building existing in your colony does not make it manufacture on its own. Continuous operation becomes possible only through automation schemes, and those schemes still need valid resources, program structure, and—where applicable—personnel or energy.",
+              "This makes planning more valuable than frantic clicking. Before committing a large batch, inspect all inputs, tool capacity, fuel, the maximum amount, and the next dependency you are trying to satisfy."
+            ],
+            "callout": {
+              "title": "Recommended first route",
+              "body": "Open either starting gathering site, collect Wood and Stone, then open Research. Basic Crafting is the first important junction: it introduces tools and expands your ability to gather efficiently."
+            }
+          },
+          {
+            "title": "Progress is preserved, attention is not",
+            "paragraphs": [
+              "Inventory, research, construction, statistics, unlocked records, operations-board items, automation programs, and Guide reading state are stored in the current save. Temporary interface state—such as an open modal or a half-entered search query—is not the same thing as saved industrial progress.",
+              "Corporate systems evaluate output with unusual enthusiasm. They do not require you to imitate that enthusiasm. Pausing to inspect the Almanac or redesign a program is part of running the colony correctly."
+            ]
+          }
+        ]
+      },
+      "game-modes-and-training": {
+        "title": "Game Modes and Guided Training",
+        "summary": "The saved mode choice and the optional 30-step introduction to production, research, automation, planning, construction, the Almanac, and the Guide.",
+        "unlockLabel": "Available at the start of every assignment",
+        "sections": [
+          {
+            "title": "Choosing an assignment",
+            "paragraphs": [
+              "A new game lets you choose an operating mode, a save slot, and whether to run the guided training sequence. Starting in an occupied slot asks for confirmation and then overwrites that slot. The Guide remains available in every mode and does not depend on training.",
+              "The selected mode is stored in the save as assignment metadata. In the current build, however, the simulation does not read that value after the new game is created: Standard and High-Realistic currently use the same recipes, costs, production rules, and failure conditions. The emissions and planetary-health rules described on the High-Realistic selection card are not active yet. Do not plan a current colony around an unimplemented pollution meter."
+            ],
+            "bullets": [
+              "Standard: the honest default for the current ruleset.",
+              "High-Realistic: its choice is preserved in the slot, but it does not presently activate different mechanics. This Guide will describe those mechanics only after they exist in the simulation.",
+              "Guided training: a temporary 30-step voiced sequence led by Dr. Mira Holland. It can be skipped at any point and is not required to unlock Guide records.",
+              "Demo evaluation builds contain a bounded slice of the campaign and clearly identify their completion target. Full-game records should not be interpreted as a promise that unavailable demo content can be reached in that build."
+            ]
+          },
+          {
+            "title": "What guided training now covers",
+            "paragraphs": [
+              "The current training has 30 steps. After the assignment briefing, it guides you through collecting batches of ten Wood and Stone, completing Basic Crafting research, and understanding the five-colonist capacity increase granted by a new highest research tier.",
+              "It then introduces Colonist Automation in the Tree Grove. You open the manual scheme editor, assemble and validate a continuous loop with a Production block set to ten iterations, start it, and use the Automation Board to inspect the running program.",
+              "The final practical sequence introduces project planning and construction: inspect Hand Crafting, pin its requirements, read the combined totals on the Operations Board, gather anything still missing, and construct the building. Training then opens the Almanac and the Guide before the concluding briefing. It is a foundation tour, not a complete walkthrough of the campaign."
+            ]
+          },
+          {
+            "title": "How interactive steps behave",
+            "paragraphs": [
+              "An interactive step highlights the relevant control and disables Next until the expected action is observed. Production steps verify both the selected recipe and the requested batch amount. The automation step verifies the required continuous manual scheme before allowing the sequence to continue. Completing an action advances automatically after a short delay.",
+              "The dialogue can be dragged during interactive steps and switched between compact and expanded layouts. Explanatory steps temporarily lock background scrolling, while action steps leave the required interface available. Clicking unrevealed dialogue finishes its typewriter animation immediately; it does not skip the required action. Skip closes the entire training sequence and stops its current voice line.",
+              "Training demonstrates a safe first route through the colony. The Guide explains the underlying rules and remains searchable afterward. Skipping training never removes mechanics, resources, or progression.",
+              "Guide records unlock when the relevant system enters your working context. A numbered badge on the Guide button shows how many available records you have not opened. Opening a record marks that record as read; it can always be revisited."
+            ]
+          }
+        ]
+      },
+      "interface-and-navigation": {
+        "title": "Interface and Navigation",
+        "summary": "The command header, primary tabs, overlays, focus jumps, and back behavior.",
+        "unlockLabel": "Available at the start of every assignment",
+        "sections": [
+          {
+            "title": "The persistent command surface",
+            "paragraphs": [
+              "The top of the game is divided into a status deck and a navigation strip. The central tabs—Buildings, Inventory, Research, and Almanac—change the main workspace. Achievements, Statistics, Guide, and Menu open as overlays above the current workspace, so closing them returns you to the same place.",
+              "Many links are contextual. Clicking a resource can open its exact Almanac page; clicking Open Research can focus the relevant technology node; an Operations Board action can jump to the required building or recipe. These jumps are deliberately preferable to manually searching a large late-game catalogue."
+            ],
+            "media": {
+              "alt": "The full game header with status cells, navigation tabs, Guide button, and notification badge.",
+              "caption": "Primary command surface and overlay controls."
+            }
+          },
+          {
+            "title": "Back, close, and modal priority",
+            "bullets": [
+              "Escape closes the topmost supported overlay before changing the underlying screen.",
+              "Inside a production building, Back returns to the Buildings directory.",
+              "Pressing the Buildings tab while a production building is already open also returns to the directory.",
+              "From another main tab, Back returns to Buildings. From the Buildings directory, Back opens the game menu.",
+              "During a blocking cinematic, tutorial action, or later full-screen reveal, ordinary navigation may be intentionally suspended until that layer completes or is dismissed."
+            ]
+          },
+          {
+            "title": "Pinned and compact header behavior",
+            "paragraphs": [
+              "Display settings can keep the complete header pinned while the main content scrolls, pin only a compact portion, remember the last Buildings-list position, and scale the UI. These are presentation settings; they do not alter production or unlocks."
+            ],
+            "callout": {
+              "title": "Small badges are live information",
+              "body": "Hotkey labels reflect your current bindings. The Guide badge reflects unlocked-but-unread records. Neither number is an achievement score."
+            }
+          }
+        ]
+      },
+      "keyboard-controls": {
+        "title": "Keyboard Controls",
+        "summary": "Default shortcuts, contextual actions, rebinding, and intentional key sharing.",
+        "unlockLabel": "Available at the start of every assignment",
+        "sections": [
+          {
+            "title": "Default global controls",
+            "bullets": [
+              "Tab toggles the Operations Board.",
+              "A toggles the Automation Board.",
+              "Space runs the currently selected production recipe when production can proceed.",
+              "Enter confirms a highlighted action or opens a keyboard-selected item.",
+              "Escape performs Back / Close according to the current overlay stack.",
+              "Arrow keys move supported keyboard selections. F focuses the search field on screens that expose search.",
+              "F1 and F2 open Achievements and Statistics. F3–F6 select Buildings, Inventory, Research, and Almanac. F7 opens Menu.",
+              "Page Up and Page Down move to the top or bottom of the production interface. H hides or restores the production overlay so the facility artwork can be viewed."
+            ]
+          },
+          {
+            "title": "Contextual number keys",
+            "paragraphs": [
+              "Digits 1–6 select production presets (x10, x20, x50, x100, x1000, and MAX) while a production interface owns that context. Digits 1–9 also participate in the Buildings grid selector: choose a row, then a column, and confirm the highlighted building. This overlap is intentional because the two actions operate in different contexts.",
+              "Most duplicate bindings are rejected. The production-preset and building-selector groups are the explicit exception. If you rebind a command, the small labels shown on supported controls update to match. Hotkey hints themselves can be hidden without disabling the bindings."
+            ]
+          },
+          {
+            "title": "Rebinding safely",
+            "steps": [
+              "Open Menu, then Settings, then Hotkeys.",
+              "Select the binding field for one action and press the desired key combination.",
+              "If the combination conflicts, choose another or reset the conflicting action first.",
+              "Use Reset on one row to restore one default, or Reset All Hotkeys to restore the complete map."
+            ],
+            "callout": {
+              "title": "Typing fields take priority",
+              "body": "Most global shortcuts are suppressed while you type into an input, search box, selector, or hotkey capture. Board toggles remain available by design. This prevents a search query from unexpectedly producing a batch or changing screens."
+            }
+          }
+        ]
+      },
+      "saving-and-slots": {
+        "title": "Saving, Slots, and Recovery",
+        "summary": "Manual saves, autosaves, slot ownership, exports, backups, and what is persisted.",
+        "unlockLabel": "Available at the start of every assignment",
+        "sections": [
+          {
+            "title": "Two save paths",
+            "paragraphs": [
+              "Manual saves are written to the numbered slot you choose. Autosaves are written to a dedicated autosave record at the configured interval; they do not silently overwrite a numbered manual slot. Continue first uses the remembered manual slot and otherwise searches numbered slots from the beginning. Loading the autosave does not replace the remembered manual-slot marker.",
+              "There are five numbered manual slots plus the separate autosave entry. Slot summaries vary by context: the in-game Save panel shows timestamp plus research, constructed-building, and inventory-key counts; main-menu and load cards expose their own compact progress fields. Loading replaces the active colony state, so confirm the target slot and timestamp before proceeding."
+            ],
+            "bullets": [
+              "Autosave can be enabled or disabled, and its interval can be set from 1 to 30 minutes.",
+              "A manual save records current play time before writing, then starts a fresh in-session timer.",
+              "Guide unlocks, Guide read state, dismissed narrative messages, late-access archive state, boards, filters, automation history, and programs are part of save data.",
+              "General display, language, graphics, audio, and hotkey preferences are global application settings rather than colony progression."
+            ]
+          },
+          {
+            "title": "Storage safety",
+            "paragraphs": [
+              "The game keeps local save records and, in the desktop build, can maintain an Electron-side mirror and backup copies. On startup it checks storage health and can attempt recovery from the mirror. A recovery notification is evidence that a fallback copy was used; save again once you have verified the colony state.",
+              "Export All creates one JSON archive containing the available primary saves, numbered slots, autosave, last-slot marker, shadow copies, and rotating local backups. Import Archive restores recognized save-storage records from that archive; it is broader than importing a single selected slot. Keep an export before moving between machines, testing development builds, or making a high-risk late-game change to a heavily automated colony."
+            ],
+            "media": {
+              "alt": "The Save Game overlay showing manual slots, autosave information, and storage safety controls.",
+              "caption": "Manual slots and recovery tools."
+            }
+          },
+          {
+            "title": "Compatibility and old saves",
+            "paragraphs": [
+              "When a save predates a system, missing fields are initialized during loading. The game reconstructs reasonable defaults for research filters, Almanac options, operations boards, automation state, archive records, and Guide state. Existing progress is not supposed to be discarded merely because a later build added a new interface."
+            ],
+            "callout": {
+              "title": "A save is not a screenshot",
+              "body": "If you need to report a progression defect, export the affected slot before trying corrective actions. A picture shows the symptom; the save preserves the exact industrial state that produced it."
+            }
+          },
+          {
+            "title": "Save and load confirmations",
+            "bullets": [
+              "Saving into an occupied numbered slot asks for overwrite confirmation. Saving into an empty slot does not.",
+              "Loading an existing slot asks for confirmation because unsaved current progress will be lost. Import Archive itself writes recognized archive records without an overwrite confirmation; the later prompt controls whether its restored primary save is loaded into the active session, not whether storage has already been replaced.",
+              "The in-game Save panel lists all five manual slots, including empty ones. The Load panel lists only existing autosave and manual records.",
+              "Returning to Main Menu is not itself a save action. Save first, then confirm the return."
+            ]
+          }
+        ]
+      },
+      "buildings-directory": {
+        "title": "Buildings Directory",
+        "summary": "Locked, constructible, and operational facilities; filtering, sorting, and quick selection.",
+        "unlockLabel": "Available with the Buildings tab",
+        "sections": [
+          {
+            "title": "Three building states",
+            "paragraphs": [
+              "Researching a building never pays its construction cost. Constructing consumes the listed resources once and permanently adds that facility type to the colony. A recipe can be researched while its assigned building remains unconstructed; in that case the recipe is known but cannot be run."
+            ],
+            "bullets": [
+              "Locked: the required research has not been completed. The reverse side of the card can lead to the relevant research node.",
+              "Unlocked, not constructed: the design is known, but the facility is not operational. Its card shows construction requirements and offers the Construct Building action.",
+              "Operational: the building has been constructed. Select the card to open its production interface."
+            ],
+            "media": {
+              "alt": "The Buildings directory with one locked card, one constructible card shown from the back, and one operational card.",
+              "caption": "Read a facility card by its state before opening it."
+            }
+          },
+          {
+            "title": "Finding the right facility",
+            "bullets": [
+              "Search ranks matches from the displayed building name first, then internal identifier and description. It immediately narrows the grid.",
+              "The four category filters are All, Gathering, Production, and Power. Production is the broad group: it includes smelting, crafting, processing, manufacturing, chemical, electronics, and research facilities.",
+              "Unlocked Only removes designs that cannot yet be built or opened.",
+              "Sort by Technology Level to follow progression, or alphabetically when you already know the facility name.",
+              "Arrow-key navigation and the row/column number selector allow fast keyboard opening. The on-screen hint reports the selected row while the selector waits for a column."
+            ]
+          },
+          {
+            "title": "Card interactions",
+            "paragraphs": [
+              "Hovering a locked or constructible card exposes its reverse-side information. Resource requirements are interactive: hover for identity and inventory information, click to open that resource in the Almanac, or pin the complete construction requirement to the Operations Board.",
+              "A remembered Buildings-list position is useful in a large catalogue. If enabled in Settings, returning from production can restore your previous location rather than forcing the directory to the top."
+            ]
+          }
+        ]
+      },
+      "building-construction": {
+        "title": "Building Construction",
+        "summary": "Permanent facilities, construction costs, unmet requirements, and board tracking.",
+        "unlockLabel": "Unlocked when your first additional building design becomes available",
+        "sections": [
+          {
+            "title": "Research, then provision, then construct",
+            "steps": [
+              "Complete the technology that unlocks the building design.",
+              "Find the building in the Buildings directory. Its state changes from locked to construction-ready.",
+              "Inspect every required material on the back of the card. Red or insufficient amounts must be produced first.",
+              "Optionally pin the requirements to the Operations Board so totals stay visible while you visit other screens.",
+              "Press Construct Building. The complete cost is removed atomically; partial construction is not stored.",
+              "Open the now-operational card and select one of the recipes you have researched for it."
+            ],
+            "media": {
+              "alt": "A construction-ready building card with resource costs, insufficient amounts, Almanac links, and the pin control.",
+              "caption": "Construction requirements are separate from recipe inputs."
+            }
+          },
+          {
+            "title": "Specific rules",
+            "bullets": [
+              "Construction is permanent within the save. Buildings are not sold, dismantled, or individually duplicated.",
+              "The Buildings counter in the header counts constructed facility types against the facility catalogue, including the two starting gathering sites.",
+              "If a contextual link opens production for an unconstructed building, the game redirects you to the Buildings directory and focuses the required facility.",
+              "Operations Board auto-react removes a pinned construction item after that building is successfully constructed. Disable auto-react if you want completed reference items to remain until manually removed.",
+              "Automation installation is a later, separate per-building cost. Constructing a facility does not include an automation core."
+            ]
+          },
+          {
+            "title": "Planning construction chains",
+            "paragraphs": [
+              "A construction cost is best treated as a one-time project layered on top of ongoing recipe demand. If a material is also needed for immediate research, pin both targets and inspect the aggregated totals before spending it. The board deliberately shows the live inventory against the combined requirement so a “ready” construction does not conceal another shortage."
+            ]
+          }
+        ]
+      },
+      "production-interface": {
+        "title": "Production Interface",
+        "summary": "Selecting recipes, reading the process diagram, producing, and moving between dependencies.",
+        "unlockLabel": "Unlocked after opening a production building for the first time",
+        "sections": [
+          {
+            "title": "Screen anatomy",
+            "paragraphs": [
+              "The recipe list contains only recipes unlocked for the current building. Search matches recipe name, recipe description, or the displayed name of an output resource; it does not search inputs. Selecting a card loads the complete process into the main panel: inputs, outputs, and separate tool or fuel requirements.",
+              "A building may have many possible processes but only one manually selected recipe at a time. The last selected recipe is stored per building, so returning to that facility normally restores your working context."
+            ],
+            "media": {
+              "alt": "A complete production screen with recipe list, selected recipe, process diagram, amount controls, fuel or tool requirements, and Produce button.",
+              "caption": "All immediate costs should be visible before execution."
+            }
+          },
+          {
+            "title": "Executing a manual batch",
+            "steps": [
+              "Choose a recipe from the building list.",
+              "If the recipe offers fuel choices, inspect the selector. The first option is selected automatically whenever the recipe changes. Fuel is an additional cost and must not be confused with the normal input list.",
+              "Set the number of iterations with the stepper, a preset, or MAX.",
+              "Read the preview totals. They scale inputs, outputs, fuel, and tools to the selected amount.",
+              "Press Produce or use the Produce hotkey. The button is enabled only when the live combined requirement check succeeds. Outputs are added immediately after payment; manual production has no elapsed processing phase."
+            ]
+          },
+          {
+            "title": "Dependencies are interactive",
+            "paragraphs": [
+              "Resource icons expose inventory and identity information. From supported resource interactions you can open the exact Almanac record, inspect where a resource is produced or consumed, and jump to another production building. Pinning the selected recipe creates a persistent project on the Operations Board, including the chosen iteration count and fuel.",
+              "The interface can be hidden with its view toggle or hotkey to reveal the facility background. This is purely visual; it does not start or interrupt production. Ambient audio and production music behavior are controlled separately in Settings."
+            ]
+          }
+        ]
+      },
+      "production-batches-and-costs": {
+        "title": "Recipes, Batches, and Costs",
+        "summary": "Iterations, scaled totals, MAX, profitability, and exact resource accounting.",
+        "unlockLabel": "Unlocked with the Production Interface record",
+        "sections": [
+          {
+            "title": "An amount is a number of recipe iterations",
+            "paragraphs": [
+              "If one iteration consumes 2 units and outputs 3, an amount of 10 consumes 20 and outputs 30. The amount field does not mean “desired output units” unless that recipe happens to output exactly one unit per iteration. Always read the scaled preview rather than inferring totals from the button label.",
+              "MAX computes the greatest batch currently supported by ordinary inputs, the selected fuel, tool capacity, and any recipe-specific cap. If no fuel is selected yet, the interface can evaluate available options to find a permissive maximum, but you must still confirm the actual fuel choice before producing."
+            ]
+          },
+          {
+            "title": "What counts as a cost",
+            "bullets": [
+              "Inputs: consumed once per iteration according to the recipe map.",
+              "Fuel: consumed in addition to inputs, using the selected option and its per-iteration amount.",
+              "Tools: consumed in whole items according to durability capacity, rounded upward.",
+              "Construction materials: unrelated to a recipe batch; they are paid once when a facility is constructed.",
+              "Automation electricity: a time-based operating demand estimated and consumed by active electronic programs, not part of a manual Produce click."
+            ],
+            "callout": {
+              "title": "Manual tool payment is a separate transaction",
+              "body": "The current manual-production handler removes whole tools before it removes the ordinary input-and-fuel map. The button normally prevents an unaffordable attempt, but if inventory changes between those checks, a removed tool is not automatically restored when the later payment fails. Leave a buffer when automation is competing for the same stock."
+            }
+          },
+          {
+            "title": "Profitability and industrial value",
+            "paragraphs": [
+              "Recipe profitability is an informational ratio used by the Almanac’s recipe intelligence. It helps compare transformations but is not money, a guaranteed optimum, or a substitute for dependency planning. A lower-ratio process may be strategically essential because it unlocks a chain, uses a resource you have in abundance, or avoids a bottleneck elsewhere.",
+              "Inventory and production values can contain decimals for some processes. The interface formats values for readability, while the state keeps controlled precision. Do not plan around visual rounding at the edge of affordability; leave a small buffer for multi-stage chains."
+            ],
+            "callout": {
+              "title": "The Operations Board uses live totals",
+              "body": "For a pinned recipe, changing iterations or fuel on the board immediately recalculates requirements. This is safer than memorizing a preview from an earlier inventory state."
+            }
+          }
+        ]
+      },
+      "gathering-and-cooldowns": {
+        "title": "Gathering and Cooldowns",
+        "summary": "Starting resources, finite manual batches, replenishment, and tool-assisted gathering.",
+        "unlockLabel": "Unlocked after opening any production building",
+        "sections": [
+          {
+            "title": "Starting extraction",
+            "paragraphs": [
+              "Tree Grove and Stone Outcrop begin constructed and provide the hand-gathering recipes needed to start the colony. Hand gathering has no input resource, but it is still a recipe: select an amount, respect its maximum batch, produce, then wait for the site to replenish if that recipe has a cooldown.",
+              "Cooldowns are tracked by building and recipe in the save. Leaving the production screen does not reset them. When the timer expires, the interface and notification system can report that extraction is available again.",
+              "Automation does not write to this manual cooldown record. Instead, a recipe cooldown becomes a minimum duration for that automated Production block. Manual availability and automated cycle timing are therefore separate clocks."
+            ]
+          },
+          {
+            "title": "Maximum gathering",
+            "bullets": [
+              "A displayed maximum batch is a hard per-operation limit for that recipe, even if your inventory could support a larger number.",
+              "For tool-assisted gathering, the maximum can also be constrained by how much work your tools can cover.",
+              "Pressing Produce while a cooldown remains does not consume inputs; it reports the remaining wait.",
+              "The MAX preset respects the current recipe cap and requirements. It is not an instruction to drain the entire colony inventory indiscriminately."
+            ]
+          },
+          {
+            "title": "When to stop gathering by hand",
+            "paragraphs": [
+              "Hand gathering is reliable but slow. Tool recipes produce larger batches, and later mines or industrial extraction facilities shift the bottleneck away from repeated starter-site cooldowns. Nevertheless, early resources continue to feed construction, fuel, chemicals, and components, so “advanced” does not mean “safe to ignore.”"
+            ],
+            "callout": {
+              "title": "Recorded activity",
+              "body": "Statistics distinguish gathering without tools, large single operations, total production, and output by building. These counters describe what happened; they do not alter cooldowns or recipe yields."
+            }
+          }
+        ]
+      },
+      "tools-and-efficiency": {
+        "title": "Tools and Efficiency",
+        "summary": "Whole-tool consumption, durability as batch capacity, and avoiding wasted uses.",
+        "unlockLabel": "Unlocked after researching Basic Crafting",
+        "sections": [
+          {
+            "title": "Durability is capacity, not a health bar",
+            "paragraphs": [
+              "Tools do not remain in inventory with partially depleted durability. A tool with durability 10 covers up to 10 recipe iterations in one production calculation. The game consumes the number of whole tools required: tools needed = ceiling(iterations ÷ durability).",
+              "That ceiling is the crucial detail. Producing 11 iterations with durability 10 consumes two tools, even though the second tool supplies only one useful iteration. The unused nine points of capacity are not stored for later."
+            ],
+            "media": {
+              "alt": "A tool requirement panel showing durability, selected batch, wasted capacity warning, and the Set to Optimal action.",
+              "caption": "Match batches to whole durability multiples when resources permit."
+            }
+          },
+          {
+            "title": "Efficient batch examples",
+            "paragraphs": [
+              "When tool-efficiency warnings are enabled, a non-multiple batch shows its warning after a 500 ms delay so rapid stepper changes do not make the layout jump. Set to Optimal normally raises the amount to the full capacity of the whole tools already required; if that would exceed maxBatchSize, it falls back to a lower complete durability multiple when one exists. Disabling the warning hides this advice and does not change consumption."
+            ],
+            "bullets": [
+              "Durability 10, amount 10: 1 tool, no unused capacity.",
+              "Durability 10, amount 11: 2 tools, 9 capacity wasted.",
+              "Durability 10, amount 20: 2 tools, no unused capacity.",
+              "Durability 10, amount 1: 1 tool is consumed; producing a tiny emergency batch can be valid, but it is intentionally inefficient."
+            ]
+          },
+          {
+            "title": "Tool progression",
+            "paragraphs": [
+              "Better tool families generally support stronger gathering recipes and larger useful batches. They are manufactured resources with their own upstream costs, not permanent upgrades applied to the player. Keep spare tools before entering a mining or gathering phase, and include their production chain when estimating the true cost of extracted material."
+            ],
+            "callout": {
+              "title": "The preview is authoritative",
+              "body": "A recipe can require both ordinary inputs and a tool. The tool line is separate from the input diagram, but it is still consumed when the operation succeeds."
+            }
+          }
+        ]
+      },
+      "inventory-and-resources": {
+        "title": "Inventory and Resources",
+        "summary": "Live quantities, sorting, resource identities, and direct Almanac navigation.",
+        "unlockLabel": "Unlocked after opening Inventory for the first time",
+        "sections": [
+          {
+            "title": "What Inventory shows",
+            "paragraphs": [
+              "Inventory lists resources whose current amount is greater than zero. Each card contains the resource image, localized name, live amount, description, and a direct View in Almanac affordance. Consuming the last unit removes that card from the visible list; the resource still exists in the game and can be found in the Almanac.",
+              "Amounts update from the shared game store, including changes made by automation while the Inventory screen is open. You do not need to leave and re-enter the tab to refresh it."
+            ],
+            "media": {
+              "alt": "The Inventory tab with several resource cards, live quantities, sort control, and View in Almanac hint.",
+              "caption": "Inventory is a live stock view, not a recipe catalogue."
+            }
+          },
+          {
+            "title": "Sorting and interpretation",
+            "bullets": [
+              "Default preserves the inventory’s natural insertion order.",
+              "Alphabetical sorts by the displayed resource name.",
+              "Amount high-to-low surfaces stockpiles; amount low-to-high surfaces impending shortages.",
+              "The selected inventory sort mode belongs to the save.",
+              "A resource’s descriptive or calculated value is informational. There is no general sell action that converts inventory value into currency."
+            ]
+          },
+          {
+            "title": "Resources are graph nodes",
+            "paragraphs": [
+              "The same resource can be an output in several recipes and an input in many others. Its most useful identity is therefore not only “what it is,” but “where it enters the graph.” Click the card to open its Almanac page, then use recipe intelligence to compare every known source and consumer."
+            ]
+          }
+        ]
+      },
+      "resource-interactions": {
+        "title": "Resource Tooltips and Lookups",
+        "summary": "Hover summaries, context actions, live amounts, and dependency jumps.",
+        "unlockLabel": "Unlocked after inspecting a resource-oriented screen",
+        "sections": [
+          {
+            "title": "Hover for identity; interact for context",
+            "paragraphs": [
+              "Resource tooltips are shared across production, research, construction, boards, and the Almanac. A normal hover can show the resource image, name, inventory amount, calculated value, and description. The live amount may continue changing while automation runs.",
+              "Interactive resource affordances can expose Where Produced and Where Used views. These are computed from recipe data rather than from your current stock. A listed recipe may be researched, unresearched, or assigned to an unconstructed building; status markings and action labels explain which jump is currently possible."
+            ]
+          },
+          {
+            "title": "Recipe lookup behavior",
+            "bullets": [
+              "Where Produced lists recipes whose outputs contain the selected resource.",
+              "Where Used currently indexes only the ordinary recipe.inputs map. A resource used solely as a fuel option or solely as toolRequired will not appear there, even though the recipe card itself still displays its fuel and tool requirements.",
+              "Opening Production succeeds only for an unlocked recipe in a constructed building. Otherwise the game can lead to Research or the Buildings directory.",
+              "Clicking outside an interactive lookup closes it. Simple hover summaries do not capture clicks.",
+              "Recipe-preview tooltips can be disabled globally if detailed hover cards obscure the interface; direct Almanac and lookup navigation remains the durable source of information."
+            ]
+          },
+          {
+            "title": "Avoiding stale assumptions",
+            "paragraphs": [
+              "A tooltip amount is a momentary inventory reading. For large plans, pin the recipe or construction project and use the Operations Board’s live aggregate. That board re-evaluates stock after every production or automation event, whereas a remembered tooltip does not."
+            ]
+          }
+        ]
+      },
+      "fuel-and-electricity": {
+        "title": "Fuel, Electricity, and Power",
+        "summary": "Fuel options, power as a stored resource, generation, and automation demand.",
+        "unlockLabel": "Unlocked on reaching Technology Tier 3",
+        "sections": [
+          {
+            "title": "Fuel is separate from recipe inputs",
+            "paragraphs": [
+              "Some recipes expose several fuel options. Each option identifies a resource and a quantity consumed per iteration. Select one before production; the chosen fuel scales with the batch and is removed in addition to ordinary inputs.",
+              "Different fuels can make the same process practical at different stages. The interface does not automatically preserve an unavailable choice by secretly substituting another fuel. If the selected option is insufficient, choose another or produce more of it."
+            ],
+            "media": {
+              "alt": "A fuel selector with multiple fuel resources beside a power-generation recipe and the header electricity cell.",
+              "caption": "Fuel choice and electricity stock are explicit resources."
+            }
+          },
+          {
+            "title": "Electricity is inventory",
+            "paragraphs": [
+              "Power-generation recipes output Electricity into the same colony inventory used by other resources. Manual recipes may consume electricity as a fuel or input. Active electronic automation consumes electricity over time according to its current program, building, batch, and speed configuration.",
+              "The header’s Electricity cell shows current stock, not generation rate. Generation rate and automation demand are different measurements; use the Automation Board to compare per-minute flow."
+            ],
+            "bullets": [
+              "A power building must be researched, constructed, supplied, and operated like any other facility.",
+              "An electronic Production block without an error route waits and reports a blocked state when required electricity is unavailable. If its error port is connected, the failed attempt follows that route instead of waiting.",
+              "Speed upgrades increase throughput but multiply power demand. Purchased speed levels can be dialed down without refunding the upgrade.",
+              "On the Automation Board, Gross flow separates estimated automated outputs and inputs; Net flow subtracts opposing automated rates by resource. Manual Produce clicks have no continuous per-minute rate and are not part of those flow estimates."
+            ]
+          },
+          {
+            "title": "Fuel in plans and programs",
+            "paragraphs": [
+              "A pinned recipe stores a board-specific fuel choice and includes it in Operations Board totals. An automation Production block also stores its own fuel choice. The manual selector is temporary and resets to the recipe’s first option when that recipe is selected again; changing it does not retroactively rewrite a pinned project or automation block."
+            ]
+          }
+        ]
+      },
+      "research-tree": {
+        "title": "Research Tree",
+        "summary": "Availability, prerequisites, costs, node states, filters, and direct focus links.",
+        "unlockLabel": "Unlocked after opening Research for the first time",
+        "sections": [
+          {
+            "title": "How a technology becomes available",
+            "paragraphs": [
+              "A research node is available when every technology listed as its prerequisite is complete. Availability does not mean affordability: expand the node and compare its resource cost with live inventory. Completing research consumes those resources, then permanently records the technology in the save.",
+              "Research can unlock one or more recipes, a building design, or a supporting technology used only as a prerequisite. A recipe unlock and a building unlock are independent. When both are granted together, the new facility still requires construction before production can occur."
+            ],
+            "media": {
+              "alt": "The Research Tree showing researched, available, and locked nodes across tier backgrounds, with a node detail panel open.",
+              "caption": "Follow prerequisite edges, then inspect the resource cost."
+            }
+          },
+          {
+            "title": "Node states and graph reading",
+            "bullets": [
+              "Researched nodes are complete. Select one to review what it unlocked.",
+              "Available nodes have all prerequisites complete. Select one to inspect cost and perform the research.",
+              "Locked nodes still have prerequisite work. Hover to emphasize the relevant past and future graph connections.",
+              "Tier backgrounds group technologies by broad complexity, but visible edges—not horizontal position alone—define prerequisites.",
+              "The legend reports current state colors. Do not infer availability from a technology’s name or tier number."
+            ]
+          },
+          {
+            "title": "Navigation and filtering",
+            "bullets": [
+              "Research search opens up to eight ranked suggestions; it does not remove nonmatching nodes from the graph. It matches research name or description, names of buildings unlocked by that research, and names of recipes it unlocks. Arrow keys move through suggestions, Enter focuses the highlighted node, and Escape clears the query.",
+              "Contextual Open Research actions from another system focus the exact technology node even in a large tree.",
+              "Tier toggles can hide entire tiers without changing progress.",
+              "Show only researched & available removes locked nodes for a cleaner working view.",
+              "Tier navigation jumps the camera directly to a chosen tier.",
+              "Zoom, fit-view, and interaction-lock controls affect only the graph viewport.",
+              "Your visible tiers, availability filter, and viewport are saved per colony."
+            ],
+            "callout": {
+              "title": "Pin expensive research",
+              "body": "Pinning a research node adds its complete cost to the Operations Board. With auto-react enabled, the item is removed after the technology is completed."
+            }
+          }
+        ]
+      },
+      "research-progression": {
+        "title": "Technology Tiers and Progression",
+        "summary": "Highest-tier tracking, cross-tier dependencies, new music, and strategic research order.",
+        "unlockLabel": "Unlocked after completing your first research project",
+        "sections": [
+          {
+            "title": "Highest Technology Tier",
+            "paragraphs": [
+              "The header displays the highest technology tier you have reached, defined by the highest-tier completed research. It is not an average and does not require every lower-tier node to be complete. Reaching a tier can expand colony capacity and unlock that tier’s soundtrack, but individual recipes and buildings still follow their own research prerequisites.",
+              "Some branches reconnect after several tiers. If a seemingly modest material blocks advanced work, trace the required-research edges and use the Almanac to identify its production route instead of assuming that every prerequisite must be located in the same visible tier."
+            ]
+          },
+          {
+            "title": "What changes when a new tier is reached",
+            "bullets": [
+              "The highest-tier status cell updates.",
+              "The music manager unlocks tracks assigned to that tier. The Jukebox can then enable or disable individual unlocked tracks.",
+              "Colonist capacity rises with tier progression. Capacity and active reservations are visible in the header.",
+              "At later thresholds, additional systems may become accessible. The exact triggering technology or interface event still controls its Guide record.",
+              "The accumulated play-time timestamp of each newly reached highest tier is recorded for the Statistics progression chart; it does not impose a time limit."
+            ]
+          },
+          {
+            "title": "Choosing research intelligently",
+            "paragraphs": [
+              "Prioritize the bottleneck, not merely the numerically highest available node. A new mine can solve raw-material pressure; a processing method can multiply the usefulness of existing ore; a power branch can support future automation; a construction-enabling intermediate may unblock several facilities at once.",
+              "Before paying a large research cost, inspect its unlock list and the construction costs of any new building. Research without the materials to build or feed its facility is still valid progress, but it may not solve your immediate production problem."
+            ],
+            "callout": {
+              "title": "A faint administrative irregularity",
+              "body": "Tier timestamps are preserved with more care than some personnel records. This has no effect on the research graph. It is, apparently, excellent paperwork."
+            }
+          }
+        ]
+      },
+      "almanac-basics": {
+        "title": "Resource Almanac",
+        "summary": "The book, contents, alphabetical navigation, options, and resource records.",
+        "unlockLabel": "Unlocked after opening the Almanac for the first time",
+        "sections": [
+          {
+            "title": "A complete resource catalogue",
+            "paragraphs": [
+              "The Almanac contains every resource record in the active game data, including materials not yet present in inventory. A resource page can include its category, image, material value, description, chemical formula, historical background, and factual notes. The book is therefore both a production reference and the game’s industrial encyclopedia.",
+              "Opening the Almanac from a resource interaction focuses that exact resource. Opening it from the navigation tab uses the configured starting page: cover by default, or Table of Contents if Open on contents page is enabled."
+            ],
+            "media": {
+              "alt": "An Almanac spread showing a resource page, page navigation, options, and the View Recipes control.",
+              "caption": "Resource identity and production context share one record."
+            }
+          },
+          {
+            "title": "Finding a page",
+            "bullets": [
+              "The current Almanac has no free-text resource search. Use the Table of Contents, its alphabet jump controls, or a contextual resource link from Inventory, Production, Research, construction, or a board.",
+              "Selecting a Table of Contents row jumps directly to that resource page.",
+              "Alphabet buttons scroll the Table of Contents to a starting-letter group; they do not remove other rows. These buttons are omitted in the Chinese locale, where Latin initial grouping is not used.",
+              "Cover, Contents, Previous, and Next controls provide deterministic navigation even when realistic page flipping is disabled.",
+              "Clicking the resource image opens a larger image view.",
+              "Page-flip activity is tracked for Statistics and achievements; it does not unlock recipes."
+            ]
+          },
+          {
+            "title": "Almanac options",
+            "bullets": [
+              "Open on contents page changes where ordinary Almanac visits begin.",
+              "Hide unresearched recipes removes recipes you have not unlocked from recipe lookup.",
+              "Hide recipes for unbuilt buildings removes processes assigned to facilities you have not constructed.",
+              "These filters simplify the visible lookup; they do not delete recipe knowledge or change the production graph.",
+              "Realistic page flipping is a global interface setting. Dragging page edges is optional; navigation buttons remain available."
+            ]
+          },
+          {
+            "title": "Material value is not currency",
+            "paragraphs": [
+              "Material Value is precomputed from the complete recipe data, not from the recipes researched in this save. No-input outputs and Electricity begin at a base value of 1. Other values propagate through input and fuel costs per unit of output, keep the lowest calculable route, and never fall below 1; an unresolved resource also falls back to 1. Tool cost is not part of that value calculation. The number is useful for broad comparison, but the colony has no market and cannot sell a resource for it."
+            ]
+          }
+        ]
+      },
+      "almanac-recipe-intelligence": {
+        "title": "Almanac Recipe Intelligence",
+        "summary": "Producing and consuming recipes, status markings, profitability, and contextual jumps.",
+        "unlockLabel": "Unlocked after opening View Recipes in the Almanac",
+        "sections": [
+          {
+            "title": "Two directions through the graph",
+            "paragraphs": [
+              "View Recipes opens a panel divided into Producing Recipes and Consuming Recipes. Producing recipes have the current resource in outputs. Consuming recipes have it in ordinary inputs. Fuel-only and tool-only relationships are not indexed as consumers in the current implementation, so inspect recipe cards when planning those special costs.",
+              "Each recipe card exposes its assigned building, input and output maps, fuel or tool information where applicable, profitability, and research / construction status. The current resource is highlighted inside the card so it remains clear which side of the transformation you are inspecting."
+            ],
+            "media": {
+              "alt": "The Almanac Recipe Lookup with producing and consuming cards in researched, unresearched, and unbuilt-building states.",
+              "caption": "Status-aware links turn the catalogue into a navigation hub."
+            }
+          },
+          {
+            "title": "Action changes by status",
+            "bullets": [
+              "Researched recipe + constructed building: View in Production opens the correct building and selects the recipe.",
+              "Researched recipe + unconstructed building: Open in Buildings focuses the facility you must construct.",
+              "Unresearched recipe: Open Required Research focuses the technology that unlocks it.",
+              "Striped or labeled cards indicate unavailable knowledge rather than missing data.",
+              "Can be produced now is a one-iteration affordability hint. It checks recipe research, ordinary inputs, at least one valid fuel option, and at least one required tool. It does not check whether the assigned building is constructed, does not test a manual cooldown, and does not promise that your selected multi-iteration batch is affordable."
+            ]
+          },
+          {
+            "title": "Using profitability without being misled",
+            "paragraphs": [
+              "Profitability is a stored ratio derived from calculated output value divided by calculated input cost. Its calculation can include proportional tool value and fuel cost, but that theoretical accounting is not the same as the whole-tool ceiling applied to an actual batch. Construction, research, cooldown opportunity, fuel availability, and automation power can still change the practical answer.",
+              "The most profitable theoretical recipe may belong to an unbuilt facility or require an unavailable branch. Use the Almanac options to hide such routes when you need an immediately actionable plan, then disable the filters when planning ahead."
+            ]
+          }
+        ]
+      },
+      "operations-board": {
+        "title": "Operations Board",
+        "summary": "Pinning projects, aggregate requirements, live completion, fuel choices, and auto-react.",
+        "unlockLabel": "Unlocked after pinning your first recipe, research, or construction project",
+        "sections": [
+          {
+            "title": "A cross-screen project list",
+            "paragraphs": [
+              "The Operations Board tracks recipes, research costs, and building-construction costs in one persistent panel. Pin controls appear in those systems. Open or collapse the board with its edge handle or hotkey; collapsing does not remove its items.",
+              "At the top, Total Requirements aggregates every pinned item. Each resource compares the combined requirement with live inventory, so producing a material can turn a shortage into a satisfied row without reopening the board."
+            ],
+            "media": {
+              "alt": "The expanded Operations Board with aggregate resource chips and pinned recipe, research, and building items.",
+              "caption": "One live plan can span the entire colony."
+            }
+          },
+          {
+            "title": "Item-specific behavior",
+            "bullets": [
+              "Recipe items allow the iteration count to be increased or decreased. Inputs, outputs, fuel, and tool demand recalculate immediately.",
+              "Recipes with fuel options preserve a board-specific selected fuel.",
+              "Research items show the exact cost and jump back to the focused research node.",
+              "Building items show construction requirements and jump to the focused building card.",
+              "A recipe whose facility is not constructed reports that blocker and can redirect you to Buildings.",
+              "Unpin removes only that project. Clear All removes every project immediately and does not ask for confirmation. Neither action consumes nor refunds resources."
+            ]
+          },
+          {
+            "title": "Auto-react to game events",
+            "paragraphs": [
+              "With Auto-react enabled, a pinned research item is removed when that research completes, a construction item is removed when its building is constructed, and a recipe item counts down after matching manual or automated iterations complete. The manual-production path shows a throttled progress or removal notification. Automation applies the same countdown inside its simulation tick but does not emit that board-specific toast, so an automated target can decrease or disappear quietly.",
+              "With Auto-react disabled, the board becomes a static reference list. This is useful for recurring production targets or when you want a completed project to remain as a template."
+            ],
+            "callout": {
+              "title": "The board is a calculator, not a reservation system",
+              "body": "Pinned requirements do not lock inventory. You can spend those resources elsewhere, and the live status will return to insufficient. The board never executes production or research on its own."
+            }
+          }
+        ]
+      },
+      "colony-status-deck": {
+        "title": "Colony Status Deck",
+        "summary": "Total output, facilities, tier, colonists, active schemes, blockers, and electricity.",
+        "unlockLabel": "Unlocked on reaching Technology Tier 1",
+        "sections": [
+          {
+            "title": "Colony progress bank",
+            "paragraphs": [
+              "These values summarize progression; they are not buttons. Detailed breakdowns live in Statistics, Buildings, and Research."
+            ],
+            "bullets": [
+              "Total Production is the cumulative number of output units produced, not current inventory. Consumption does not subtract from it.",
+              "Buildings shows constructed facility types against the valid building catalogue.",
+              "Tier shows the highest completed research tier."
+            ],
+            "media": {
+              "alt": "The full status deck with progress and operations banks annotated by metric.",
+              "caption": "Current stock, cumulative output, and capacity are different measurements."
+            }
+          },
+          {
+            "title": "Colony operations bank",
+            "paragraphs": [
+              "A blocked scheme remains active but cannot advance its current work. Open its building or the Automation Board to identify missing resources or electricity. A stopped scheme is not counted as active and does not reserve colonists."
+            ],
+            "bullets": [
+              "Colonists shows available / total. The detail line reports how many are reserved by running manual automation programs.",
+              "Active Schemes counts running manual and electronic programs. If any has a blocked reason, the cell reports the number blocked.",
+              "Electricity shows current inventory, not per-minute generation or consumption."
+            ]
+          },
+          {
+            "title": "The central mark",
+            "paragraphs": [
+              "The central Realindustry wordmark is a permanent part of the header. Some late interface sequences may attach meaning or interaction to that mark. If the interface begins behaving as though a decorative element has acquired administrative significance, this Guide recommends professional curiosity and a backup save."
+            ]
+          }
+        ]
+      },
+      "achievements": {
+        "title": "Achievements and Awards",
+        "summary": "Categories, rarity, progress, hidden conditions, organizations, and unlock timing.",
+        "unlockLabel": "Unlocked after opening Achievements for the first time",
+        "sections": [
+          {
+            "title": "What an achievement records",
+            "paragraphs": [
+              "Achievements evaluate saved colony statistics and event counters: production totals, specific resources, research, construction, interface use, time patterns, automation, and other milestones. Unlocking an achievement records its identifier permanently in the save and displays an award notification.",
+              "The Achievements overlay can be filtered by category and searched. Each card identifies rarity, progress where the condition exposes a measurable target, reward text, and the awarding organization. Locked artwork may be concealed until earned."
+            ],
+            "media": {
+              "alt": "The Achievements overlay with category filters, progress bars, rarity styling, and one unlocked award.",
+              "caption": "Awards describe colony history; they do not replace progression systems."
+            }
+          },
+          {
+            "title": "Important limitations",
+            "bullets": [
+              "Not every condition reveals its exact target before completion.",
+              "Progress can update after the relevant production, research, construction, Almanac, menu, or activity counter changes.",
+              "An achievement notification does not imply that a recipe, building, or protected archive entry was unlocked unless that system separately says so.",
+              "Statistics can help diagnose measurable goals, but hidden or behavioral achievements may require experimentation."
+            ]
+          },
+          {
+            "title": "Corporate awards language",
+            "paragraphs": [
+              "Award notes are written from the perspective of several organizations, including internal corporate bodies. Their tone is part of the setting. “Performance within expected parameters” is still an achievement, even if whoever wrote it appears constitutionally unable to sound pleased."
+            ]
+          }
+        ]
+      },
+      "statistics-dashboard": {
+        "title": "Statistics Dashboard",
+        "summary": "Overview, production, activity, tier timing, and automation accounting.",
+        "unlockLabel": "Unlocked after opening Statistics for the first time",
+        "sections": [
+          {
+            "title": "Overview tab",
+            "paragraphs": [
+              "Overview summarizes resource keys present in the inventory object, constructed buildings, completed research, total play time, total production, production per hour, the ten largest current stockpiles, technology-tier progression, and automated output. The “unique resources” card counts stored inventory keys, including a key whose amount has later reached zero; it is not necessarily the number of visible positive-amount Inventory cards. Production per hour uses accumulated play time, so it is a long-run historical rate rather than an instantaneous machine rate."
+            ],
+            "media": {
+              "alt": "Statistics Overview with summary cards, top resources, and technology tier progression.",
+              "caption": "Use the dashboard to understand history, not to control production."
+            }
+          },
+          {
+            "title": "Production tab",
+            "bullets": [
+              "Top Produced Resources is cumulative output by resource, not current stock.",
+              "Production by Building attributes manual and tracked output to facility types.",
+              "Largest Output in One Operation records the largest completed output event. Both manual production and automated Production blocks can raise it.",
+              "Gathering Without Tools tracks the early extraction behavior separately.",
+              "Total Processed Input Resources is updated only by buildings whose category is recycling. Manual runs add the ordinary input-and-fuel payment map; their separately removed tool is not included. Automated recycling adds every physical requirement, including tools and fuel, but excludes automation Electricity.",
+              "Automation counters include output, physical input consumption, electricity consumption, completed Production-block cycles, and configured recipe iterations. One completed block raises cycles by 1 and iterations by that block’s batch count."
+            ]
+          },
+          {
+            "title": "Activity tab",
+            "bullets": [
+              "Most Used Features is based on tracked button and navigation interactions.",
+              "Almanac flips, menu opens, days played, and music tracks heard are historical counters.",
+              "Days played uses distinct calendar dates encountered by the save, not total play time divided by 24 hours.",
+              "Tracks heard are synchronized from the music manager before opening Statistics so the count reflects the current session."
+            ],
+            "callout": {
+              "title": "A number can be true in two different ways",
+              "body": "Inventory answers “How much exists now?” Statistics answers “How much has happened?” The distinction matters whenever a resource is produced and immediately consumed upstream."
+            }
+          }
+        ]
+      },
+      "notifications-and-idle": {
+        "title": "Notifications and Idle Monitoring",
+        "summary": "Message types, board updates, cooldown notices, and the inactivity protocol.",
+        "unlockLabel": "Unlocked after completing your first research project",
+        "sections": [
+          {
+            "title": "Notification types",
+            "paragraphs": [
+              "A notification is transient; the underlying state is not. If a message disappears, inspect the relevant screen, Guide record, or saved dashboard rather than attempting to reproduce the action merely to read it again."
+            ],
+            "bullets": [
+              "Success messages confirm completed actions such as saving, construction, automation installation, or production.",
+              "Information messages explain state changes, cooldown completion, unlocks, and non-fatal blockers.",
+              "Error messages report missing resources, invalid programs, unavailable facilities, or storage problems.",
+              "Achievement and board notifications have dedicated styling and can summarize automatic project progress.",
+              "The live notification list keeps at most 24 items. If a burst exceeds that bound, the oldest active items are dropped and the newest are retained.",
+              "Most messages remove themselves after their configured duration. A persistent message remains until application logic removes or clears it; the current toast renderer has no user-operated close button."
+            ]
+          },
+          {
+            "title": "Idle monitoring",
+            "paragraphs": [
+              "At 60 seconds without keyboard, pointer, wheel, scroll, touch, or click activity, the game displays an inactivity warning without sound. At 300 seconds it changes to a severe corporate warning and plays the warning sound. Any monitored interaction clears the warning and resets both thresholds.",
+              "Idle monitoring is presentation and lore. It does not delete resources, fail research, or impose a hidden production penalty. Automation may continue according to its own resource and electricity rules while the application remains active."
+            ],
+            "callout": {
+              "title": "Efficiency protocol",
+              "body": "The system’s concern about an unattended Director is operationally sincere and emotionally unhelpful. You may take breaks. No Guide record authorizes the colony to object."
+            }
+          }
+        ]
+      },
+      "settings-and-accessibility": {
+        "title": "Settings and Accessibility",
+        "summary": "General behavior, display, graphics, audio, languages, and safe resets.",
+        "unlockLabel": "Unlocked after opening the in-game Menu for the first time",
+        "sections": [
+          {
+            "title": "General and interface settings",
+            "bullets": [
+              "Language can follow the system or use a manually selected supported locale.",
+              "Autosave and its interval control the dedicated autosave record.",
+              "Notifications can be disabled for success, information, achievement, board, and similar messages sent through the notification provider. Error notifications deliberately bypass this preference. The separate idle-warning overlay is not controlled by this checkbox and still appears at its inactivity thresholds.",
+              "Recipe preview tooltips, hotkey hint badges, remembered Buildings position, and tool-efficiency warnings can be toggled independently.",
+              "Realistic Almanac page flipping is optional and does not remove button navigation."
+            ]
+          },
+          {
+            "title": "The in-game Menu shell",
+            "paragraphs": [
+              "Menu contains Resume, Save Game, Load Game, Settings, Jukebox, Main Menu, and Exit. Clicking the dark area outside the menu behaves like Resume. Jukebox also shows the currently reported track beneath its button.",
+              "Main Menu and Exit require confirmation. In the Electron build, confirmed Exit asks the desktop shell to quit; in another host it uses the application’s fallback exit action. Opening and closing Menu does not pause, save, or roll back automation by itself."
+            ]
+          },
+          {
+            "title": "Display and graphics",
+            "paragraphs": [
+              "Windowed, borderless where supported, and fullscreen modes control the shell. Windowed mode can use a chosen resolution. UI scale ranges from a compact to an enlarged interface, and building-grid scale changes how many facility cards fit in the directory.",
+              "Graphics quality and feature switches control shaders, WebGL effects, optical effects, realistic ambient particles, ordinary particle effects, animations, and the especially demanding Research Tree effects. Some controls depend on shaders, WebGL, or High quality and are disabled when those prerequisites are off."
+            ],
+            "media": {
+              "alt": "Settings with General, Display, Graphics, Audio, and Hotkeys tabs visible.",
+              "caption": "Presentation can be reduced without changing simulation rules."
+            }
+          },
+          {
+            "title": "Audio and safe use",
+            "bullets": [
+              "Master, music, ambient, UI / sound-effect, and voice volumes are independent. Master scales every other channel.",
+              "Production music can be disabled for facility interfaces, left at normal level, or enabled with ducking. The ducking checkbox has no effect while Production Music itself is off.",
+              "Building ambient preview on card hover can be disabled.",
+              "The in-game music is original and intended to be safe for recorded videos and streams.",
+              "Reset restores setting defaults after confirmation. It is not the same action as resetting a save slot."
+            ]
+          }
+        ]
+      },
+      "jukebox-and-audio": {
+        "title": "Jukebox and Dynamic Music",
+        "summary": "Tier-based track unlocks, disabling tracks, production behavior, and heard-track statistics.",
+        "unlockLabel": "Unlocked with the in-game Menu record",
+        "sections": [
+          {
+            "title": "Technology unlocks the soundtrack",
+            "paragraphs": [
+              "Music is grouped by technology tier. Reaching a new highest tier unlocks its associated tracks in the active music manager. The Jukebox lists available tracks and can disable individual songs without lowering overall music volume.",
+              "Disabled tracks remain unlocked and can be restored later. A save keeps its disabled-track list, while general volume settings are application preferences."
+            ]
+          },
+          {
+            "title": "Music in production",
+            "bullets": [
+              "Production Music determines whether the soundtrack continues while a facility interface is open.",
+              "Ducking reduces music volume substantially in production rather than stopping playback.",
+              "Ambient machinery and UI effects use separate volume channels.",
+              "Assistant transmissions and other voiced material use the voice channel.",
+              "Statistics records distinct tracks heard. It is not the same count as tracks unlocked or enabled."
+            ]
+          },
+          {
+            "title": "Missing a newly unlocked track",
+            "paragraphs": [
+              "Check the Jukebox’s enabled state, music volume, master volume, and whether production music is disabled. Track selection remains dynamic; unlocking a tier expands the pool but does not guarantee that one exact track plays immediately."
+            ]
+          }
+        ]
+      },
+      "automation-foundations": {
+        "title": "Automation Foundations",
+        "summary": "Building-local schemes, manual crews, later electronic cores, and operating modes.",
+        "unlockLabel": "Unlocked after opening your first production interface",
+        "sections": [
+          {
+            "title": "Automation is local to each building",
+            "paragraphs": [
+              "Automation means a saved executable scheme for one constructed facility. A building can hold a manual scheme from the beginning, and later can also hold an electronic scheme, core installation, upgrades, runtime tasks, selected mode, and history contribution. A program configured in one building cannot run a recipe assigned to another building.",
+              "Automation repeats recipe work over time instead of executing instantly. Physical inputs, selected fuel, and whole tools are removed when a Production block completes. Electronic Production blocks also remove their calculated Electricity. Outputs enter the same live inventory used by manual production and every other program."
+            ],
+            "media": {
+              "alt": "A production building’s automation console showing electronic and manual modes, core installation, program controls, and upgrades.",
+              "caption": "Automation belongs to the facility whose recipes it executes."
+            }
+          },
+          {
+            "title": "Two modes, one building",
+            "bullets": [
+              "Colonist Automation is available through the manual scheme controls in a production building. It does not require Building Automation research or an installed electronic core.",
+              "Electronic Automation is the later core-based layer unlocked by Building Automation research. It requires an installed automation core in that building and consumes electricity while Production blocks operate.",
+              "A building cannot run its electronic and manual program simultaneously. Stop the active mode before starting the other.",
+              "Programs remain saved while stopped. Stopping clears active runtime tasks and reservations but does not delete the graph.",
+              "Ordinary manual Produce remains a separate action. A running program does not prevent you from viewing the production interface, but competing for the same inventory can create blockers."
+            ]
+          },
+          {
+            "title": "Installing an electronic core",
+            "steps": [
+              "Research Building Automation.",
+              "Open an operational building and locate its automation console.",
+              "Inspect the building-specific installation cost.",
+              "Install Automation Core. The complete cost is consumed once for that building.",
+              "Configure and validate an Electronic scheme before starting it."
+            ],
+            "callout": {
+              "title": "Construction is not installation",
+              "body": "Building the facility, researching automation, and installing its core are three separate gates. An installed core also does not make an empty or invalid program run."
+            }
+          },
+          {
+            "title": "Exact core installation cost",
+            "paragraphs": [
+              "Let t be the building Technology Level clamped from 0 through 10. Installing that building’s electronic core costs the following whole units: Copper Wire = ceiling(30 + t³), Steel Gear = ceiling(5 + t²), Steel Plate = ceiling(4 + t^1.8), Electronic Circuit = ceiling(2 + t^1.5), and Motor = ceiling(2 + t^1.5). The formula is evaluated separately for every building; installing one core does not discount the next."
+            ]
+          }
+        ]
+      },
+      "automation-program-editor": {
+        "title": "Automation Program Editor",
+        "summary": "Creating graphs, connecting ports, checking, autosaving, clipboard actions, and starting schemes.",
+        "unlockLabel": "Unlocked after opening a manual or electronic scheme editor",
+        "sections": [
+          {
+            "title": "A scheme is an executable graph",
+            "paragraphs": [
+              "Drag a block to the canvas or click it in the palette, configure its fields, and connect output ports to compatible input ports. Execution begins at the single Start block and follows connections. Position is visual; connections and block data define behavior.",
+              "Changes are saved automatically to the building and mode, but a changed graph must be checked again before launch. Check Scheme validates structure and highlights involved nodes or edges. Start Scheme is enabled only when launch requirements are satisfied."
+            ],
+            "media": {
+              "alt": "The automation editor with block palette, connected graph, minimap or controls, validation panel, and start lever.",
+              "caption": "Connections, not screen position, define control flow."
+            }
+          },
+          {
+            "title": "Editor controls",
+            "bullets": [
+              "Ctrl + drag performs area selection.",
+              "Ctrl+A selects all. Ctrl+C, Ctrl+X, Ctrl+V, and Ctrl+D copy, cut, paste, and duplicate selected fragments.",
+              "Ctrl+Z undoes; Ctrl+Shift+Z or Ctrl+Y redoes.",
+              "Delete removes selected blocks or edges. Escape clears selection.",
+              "Double-click a connection to insert a reroute point; right-click a connection to remove it.",
+              "Snap to grid changes placement assistance only.",
+              "Clear removes the editable scheme after the relevant interaction; copy a reusable graph first if needed."
+            ]
+          },
+          {
+            "title": "Copying between buildings and modes",
+            "paragraphs": [
+              "Copy Scheme stores the complete graph in a persistent local scheme clipboard. Paste Scheme replaces the target editor’s entire graph; it is not an append operation. Unsupported block types are omitted for the target mode, electronic Production blocks beyond the current slot limit are omitted, manual error edges are removed, iteration counts are clamped, and a Production block whose saved recipe does not belong to the target building falls back to that building’s first available recipe and first fuel choice.",
+              "Selection copy/paste is separate. It stores selected blocks plus only the edges whose two endpoints are selected, then appends a new fragment near the camera center. Pasted blocks receive new identifiers. If the target electronic program lacks free Production slots, excess selected Production blocks and their now-invalid edges are skipped while other accepted blocks can still be pasted.",
+              "A copied graph is a design, not live runtime state. Progress, blocked resources, barrier arrivals, and current tasks are not a portable production queue."
+            ],
+            "callout": {
+              "title": "Build one valid pass before a repeating graph",
+              "body": "Start → Production → End is the smallest one-pass scheme. For a finite repeating scheme, use Start → Joiner → Production → Loop; connect Loop.body back to Joiner and Loop.exit to End. A manual version must place its required Rest block(s) on the repeating route, normally between Production and Loop. Start has no input port, and two routes cannot share one ordinary input port—this is why the Joiner is necessary."
+            }
+          }
+        ]
+      },
+      "automation-blocks": {
+        "title": "Automation Blocks and Flow",
+        "summary": "Every block type, port semantics, branching, synchronization, loops, errors, and reroutes.",
+        "unlockLabel": "Unlocked after adding production logic to an automation scheme",
+        "sections": [
+          {
+            "title": "Basic and timed blocks",
+            "bullets": [
+              "Block availability depends on mode. Manual schemes use the colonist-safe palette; electronic schemes add electronic-only control blocks after the core system becomes available.",
+              "Start: the single entry point. Exactly one is required, and it needs an outgoing connection.",
+              "End: terminates a task reaching it. End is optional; omitting it produces a warning because an intentional loop may never terminate.",
+              "Production: runs one recipe belonging to the current building for the configured number of iterations and fuel choice. Electronic iterations are limited to 1 + purchased Batch Handler levels; manual iterations range from 1 through 9,999. It has a normal next route; electronic mode can also route an error output when production cannot complete.",
+              "Wait: pauses its task for an integer value from 1 through 3,600 seconds, then follows next.",
+              "Rest: a fixed five-second pause used by colonist automation and counted toward its mandatory recovery structure."
+            ],
+            "media": {
+              "alt": "A labeled automation graph demonstrating every block and its ports.",
+              "caption": "Signals travel along directed connections from Start."
+            }
+          },
+          {
+            "title": "Decision and repetition",
+            "bullets": [
+              "Condition compares a selected inventory resource with an amount from 0 through 999,999,999 and routes through true or false. Supported comparisons are <, ≤, exact =, ≥, and >. Decimal thresholds are allowed.",
+              "Loop accepts a count from 0 through 9,999. It sends execution through body for its configured count, then through exit. A count of 0 always selects body and never selects exit. To repeat earlier work, the body route must return through a Joiner or another legal merge point; Loop does not implicitly jump backward.",
+              "The Loop counter counts body selections at the Loop block. In Start → Joiner → Production → Loop with body returning to Joiner, Production runs once before the Loop sees its counter, then once per body selection. A finite Loop value of 3 therefore yields four Production visits before exit.",
+              "A finite Loop without an exit is allowed only as a warning-level design issue; decide whether the missing route is truly intentional.",
+              "Conditions read inventory when reached. They do not reserve the tested amount, and another branch or building can change inventory afterward."
+            ]
+          },
+          {
+            "title": "Parallel flow",
+            "bullets": [
+              "Splitter emits one task down every connected branch. It needs at least two branch connections.",
+              "Joiner accepts any incoming branch and immediately passes that individual arrival onward. It merges routes geometrically but does not wait for every branch.",
+              "Barrier waits until every connected input has received an arrival, consumes one arrival from each input, then emits one next task. Extra arrivals remain queued for the next synchronization.",
+              "Splitter output count and Joiner / Barrier input count can be configured from 2 through 8. Reducing a count immediately deletes connections attached to removed numbered ports.",
+              "A Production block is single-flight: if another signal reaches the same block while it is already active, the duplicate work is not spawned."
+            ],
+            "callout": {
+              "title": "Joiner and Barrier are deliberately different",
+              "body": "Use Joiner when any branch may continue. Use Barrier when all connected branches must rendezvous. Confusing them can multiply downstream work or leave a program waiting forever."
+            }
+          },
+          {
+            "title": "Reroute and ports",
+            "paragraphs": [
+              "Reroute is a visual routing node with one connection per side. A task entering from one side exits the other. It does not delay, copy, filter, or synchronize work.",
+              "Each ordinary output port and input port accepts only one connection. Splitters and multi-input blocks expose dedicated ports for their fan-out or fan-in. Invalid shared ports are reported during validation."
+            ]
+          }
+        ]
+      },
+      "colonist-automation": {
+        "title": "Colonist Automation",
+        "summary": "Capacity, reservations, slower work, worker calculation, mandatory rest, and supported blocks.",
+        "unlockLabel": "Unlocked after opening your first production interface",
+        "sections": [
+          {
+            "title": "Available before electronic cores",
+            "paragraphs": [
+              "Colonist Automation is the manual automation mode. It is not unlocked by Building Automation research and it does not depend on an installed electronic core. Open a constructed building, use the Colonist Automation panel, configure a valid manual scheme, check it, and start it if the colony has enough available colonist capacity.",
+              "Saving or starting a manual scheme creates automation state for that building, but it does not count as installing the electronic core. Electronic installation, electronic upgrades, and electronic electricity consumption remain a separate later layer."
+            ]
+          },
+          {
+            "title": "Colony capacity",
+            "paragraphs": [
+              "Colonist capacity is five people per highest technology tier. A Tier 1 colony has 5 total, Tier 5 has 25, and Tier 10 has 50. The header shows available / total and the number reserved by running manual schemes.",
+              "Colonists are reserved by the program, not consumed as resources. Stopping a manual scheme releases its reservation. A saved but stopped scheme uses no capacity."
+            ],
+            "media": {
+              "alt": "A manual automation scheme with production iteration counts, worker cost, required Rest blocks, and header colonist capacity.",
+              "caption": "Personnel capacity is a shared colony limit."
+            }
+          },
+          {
+            "title": "How worker demand is calculated",
+            "paragraphs": [
+              "Each manual Production block requires one colonist for every five configured iterations, rounded upward. A block with 1–5 iterations needs 1 colonist; 6–10 needs 2. Program demand is the sum across Production blocks, not only the branch currently active.",
+              "Manual production takes twice the base automation time. In exchange, it does not require the electronic core or electronic power model. It still consumes the recipe’s physical inputs, fuel, and tools."
+            ]
+          },
+          {
+            "title": "Rest rules",
+            "bullets": [
+              "The program needs at least one Rest block for every two required colonists, rounded upward.",
+              "For repeating production routes, enough Rest blocks must appear inside each production cycle—not merely somewhere on an unreachable or one-time side branch.",
+              "A shared cyclic component containing several Production blocks is also checked for enough total Rest blocks.",
+              "Rest lasts five seconds and cannot be shortened by editing a value.",
+              "Manual mode supports Start, End, Production, Wait, Rest, Loop, Splitter, Joiner, and Reroute. Condition and Barrier are electronic-only in the current rules."
+            ],
+            "callout": {
+              "title": "Capacity planning",
+              "body": "A larger batch can require another colonist before it improves useful throughput. Compare worker rounding, rest demand, and resource supply instead of always selecting the maximum iterations."
+            }
+          }
+        ]
+      },
+      "automation-upgrades": {
+        "title": "Automation Cores and Upgrades",
+        "summary": "Installation cost, Speed Governor, Batch Handler, Parallel Controller, scaling, and active levels.",
+        "unlockLabel": "Unlocked after installing your first automation core",
+        "sections": [
+          {
+            "title": "Upgrades are researched, purchased, and installed per building",
+            "paragraphs": [
+              "Each upgrade family first requires its own research. After that, levels are purchased separately for each installed building core using a building- and level-dependent material cost. Buying an upgrade consumes resources permanently; it is not a colony-wide bonus.",
+              "Purchased and active levels are usually the same. Speed is the exception: you can lower its active level down to zero and raise it again up to the purchased level without refunding or repurchasing anything."
+            ],
+            "media": {
+              "alt": "Automation upgrades showing purchased levels, active Speed level controls, costs, and power consequences.",
+              "caption": "Every throughput increase has a local capacity or energy tradeoff."
+            }
+          },
+          {
+            "title": "The three upgrade families",
+            "bullets": [
+              "Speed Governor: every active level multiplies Production-block speed by 1.5, so levels compound rather than add a flat 50 percentage points. The total power rate doubles per active level; per-cycle energy is adjusted because the faster cycle also finishes sooner.",
+              "Batch Handler: each purchased level adds one maximum iteration to every electronic Production block. The energy multiplier compounds by ×1.15 for every configured iteration above 1.",
+              "Parallel Controller: each purchased level adds one permitted Production block to the electronic scheme. Every additional Production block doubles the power draw of every Production block."
+            ]
+          },
+          {
+            "title": "Multipliers compound",
+            "paragraphs": [
+              "Speed, larger batches, and additional production blocks affect different parts of the model and can compound into a dramatic electricity requirement. The editor and Automation Board estimate flow using the current graph and active levels. Check those estimates after each upgrade.",
+              "An upgraded program can still be slower in practice if it repeatedly blocks on inputs or electricity. Throughput hardware does not generate upstream resources."
+            ],
+            "callout": {
+              "title": "Purchased does not mean sustainable",
+              "body": "If a Speed level destabilizes the grid, reduce the active level while expanding power. The material investment remains installed and can be reactivated later."
+            }
+          },
+          {
+            "title": "Exact upgrade prices",
+            "paragraphs": [
+              "For each material in an upgrade’s base cost, the next level costs ceiling(base amount × 2^purchasedLevel × (1 + 0.15 × t)), with a minimum of 1 and building tier t clamped from 0 through 10. “Purchased level” is the level before buying: level 0 uses ×1, level 1 uses ×2, level 2 uses ×4, and so on. Reducing active Speed does not reduce the price of its next purchased level."
+            ],
+            "bullets": [
+              "Batch Handler base: Steel Gear 4, Aluminum Plate 2, Stainless Steel 2, Electronic Circuit 2, Brass 1, Motor 1.",
+              "Parallel Controller base: Steel Gear 5, Lubricant 4, Chrome-Plated Steel 4, Plastic 2, Advanced Circuit 2, Transformer 1, Simple Machine 1.",
+              "Speed Governor base: Lubricant 6, Plastic 5, Advanced Circuit 4, Transformer 2, Simple Machine 2, Aluminum Alloy 2, Tool Steel 2, Hydraulic Cylinder 2, Rubber 1, Optical Sensor 1, Processing Unit 1."
+            ]
+          },
+          {
+            "title": "Exact timing and electronic energy model",
+            "paragraphs": [
+              "A recipe’s unspeeded automated duration is the largest of 5 seconds, its explicit automationTimeSeconds when present (otherwise 5 seconds + 0.75 seconds for every distinct input, output, fuel requirement, and tool requirement + 0.25 seconds per building tier), and its recipe cooldown. Speed divides that duration by 1.5^activeSpeedLevel, with a hard minimum of 1 second. Manual mode ignores electronic Speed and then doubles the unspeeded duration.",
+              "Electronic energy consumed when one Production block completes is rounded to two decimals from: building tier × (2 ÷ 1.5)^activeSpeedLevel × 1.15^(iterations − 1) × 2^(electronic Production blocks − 1). The speed term is energy per cycle, not power rate: because the cycle is also 1.5 times faster per level, the resulting power rate doubles per active Speed level. The parallel term uses the number of electronic Production blocks in the scheme, not the number currently executing."
+            ]
+          }
+        ]
+      },
+      "automation-runtime-and-validation": {
+        "title": "Automation Validation and Runtime",
+        "summary": "Launch checks, blocking, errors, persistence, offline clock safety, and program edits while running.",
+        "unlockLabel": "Unlocked after starting your first automation scheme",
+        "sections": [
+          {
+            "title": "Validation before launch",
+            "paragraphs": [
+              "The validator checks graph structure, reachable blocks, port limits, recipe ownership, iteration and production-block limits, fuel validity, manual-mode support, colonist capacity, and rest structure. Errors prevent launch. Warnings identify questionable but potentially intentional graphs, such as no End block.",
+              "Validation is structural and state-aware, but it does not promise uninterrupted supply. A valid program can later block because inventory or electricity runs out."
+            ],
+            "media": {
+              "alt": "An invalid automation scheme with highlighted nodes, edges, and a specific validation message beside a corrected ready state.",
+              "caption": "Fix the first reported structural error, then check again."
+            }
+          },
+          {
+            "title": "Blocked production",
+            "bullets": [
+              "A Production task reaches its completion point, checks requirements, and either consumes them and produces output or reports a blocked reason and resource.",
+              "Without an electronic error route, the task waits in place and can resume when the missing resource becomes available.",
+              "With an electronic error connection, failure routes control through that output instead of holding the task at the Production block.",
+              "The header counts blocked schemes; the building console and Automation Board expose more detail.",
+              "Conditions do not automatically retry a failed production unless your graph routes back to an appropriate check or loop."
+            ]
+          },
+          {
+            "title": "Editing a running scheme",
+            "paragraphs": [
+              "Visual-only changes can preserve runtime when the executable graph has not changed. If execution structure changes, active tasks are reset. If a running program becomes invalid, it is saved but stopped so a malformed graph does not continue using stale runtime state.",
+              "Starting one mode while the other mode runs in the same building is rejected. Stopping clears active tasks, barrier arrivals, blocked status, and the building’s active-mode marker."
+            ]
+          },
+          {
+            "title": "Saves and elapsed time",
+            "paragraphs": [
+              "Automation uses a save-relative history clock and normalizes legacy timestamps during loading. This protects history from wall-clock discontinuities and preserves in-progress state. The simulation processes bounded work per tick; changing the computer clock is not a supported way to manufacture resources.",
+              "Instantaneous cycles are detected from repeated execution states and blocked with the loopGuard reason; long acyclic zero-duration routes are allowed. Programs can retain thousands of active tasks, with only a high emergency ceiling for runaway exponential fan-out. Timed Production, Wait, or Rest blocks are still recommended in intentional cycles.",
+              "Export before experimental edits to a large scheme. A program clipboard preserves design, while a save preserves the design plus installations, upgrades, statistics, history, and runtime state."
+            ]
+          }
+        ]
+      },
+      "automation-board": {
+        "title": "Automation Board and Analytics",
+        "summary": "Live KPIs, cards, graphs, flow modes, time ranges, blockers, and building breakdowns.",
+        "unlockLabel": "Unlocked after opening the Automation Board",
+        "sections": [
+          {
+            "title": "A colony-wide automation view",
+            "paragraphs": [
+              "The Automation Board summarizes active programs across every building. It reports active buildings, recipes or Production blocks, estimated electricity per minute, inputs per minute, outputs per minute, current-cycle details, and blocked states. Use it to find systemic bottlenecks that are difficult to see from one facility console.",
+              "The board is a live overlay with card and graph views. Collapsing it preserves settings and history. Its handle can be hidden when the Operations Board is expanded so the two edge panels do not occupy the same interaction space."
+            ],
+            "media": {
+              "alt": "Automation Board in graph mode with KPIs, output and electricity history, range controls, and a blocked building row.",
+              "caption": "Compare estimated flow with historical results."
+            }
+          },
+          {
+            "title": "Cards, graphs, and list modes",
+            "bullets": [
+              "Cards view emphasizes current building and block status.",
+              "Graphs view emphasizes recorded output and electricity history.",
+              "Buildings list groups active work by facility; Recipes list emphasizes individual production work.",
+              "Flipping a card reveals its alternate details without changing the program.",
+              "Context actions can open the source building, production recipe, research, or Almanac resource."
+            ]
+          },
+          {
+            "title": "Gross and net flow",
+            "paragraphs": [
+              "Gross flow displays production and consumption as separate magnitudes. Net flow combines them by resource so surplus and deficit become visible. The option to include automation energy determines whether electricity demand participates in that flow presentation.",
+              "Per-minute figures are estimates derived from the executable graph, durations, upgrades, and configured blocks. Historical charts record what actually happened. A resource-starved program can therefore have an attractive estimate and poor observed output."
+            ]
+          },
+          {
+            "title": "History ranges",
+            "bullets": [
+              "10m, 1h, 10h, 100h, and 1000h ranges aggregate saved history at suitable buckets.",
+              "History snapshots are recorded no more often than once every ten seconds of the save-relative history clock; chart points are not one sample per production cycle.",
+              "Short ranges reveal oscillation and recent blockers; long ranges reveal strategic trends.",
+              "No History means the system has not yet recorded usable samples for that view, not that the program is necessarily invalid.",
+              "Lifetime KPIs remain useful even when a selected chart window contains little activity."
+            ]
+          }
+        ]
+      },
+      "guide-records": {
+        "title": "Using This Guide",
+        "summary": "Record unlocks, unread badges, search, categories, images, and spoiler boundaries.",
+        "unlockLabel": "Available at the start of every assignment",
+        "sections": [
+          {
+            "title": "Records appear when they become relevant",
+            "paragraphs": [
+              "The Guide is progressive. It begins with orientation and foundational controls, then unlocks records after concrete events: opening a screen for the first time, completing a milestone, pinning a project, installing automation, or reaching a technology threshold. Unlocks are permanent in that save.",
+              "A small Guide updated notification appears when one or more records become newly eligible during active play. A single unlock names the record; a batch reports the count. Records already unlocked when a save is loaded do not replay a burst of old unlock notifications. Like other information messages, this toast can be suppressed by the global Notifications preference; the unread badge remains authoritative.",
+              "The numbered badge on the GUIDE navigation button counts unlocked records that have not been opened. Opening a record marks only that record as read and decrements the badge. Mark All Read clears the current unread set; records unlocked later will create a new badge."
+            ],
+            "media": {
+              "alt": "The Guide modal with category rail, search, unread record marks, article index, and content pane.",
+              "caption": "The Guide itself is a saved, progressive system."
+            }
+          },
+          {
+            "title": "Finding information",
+            "bullets": [
+              "Search checks record titles, summaries, keywords, headings, paragraphs, bullets, steps, and callouts.",
+              "Category filters narrow the index without changing read state.",
+              "New records are marked in the index until opened.",
+              "Related Records at the end of an article links only to related records you have already unlocked.",
+              "Locked records are represented only by a pending count. Their titles and contents stay hidden to avoid revealing later systems."
+            ]
+          },
+          {
+            "title": "What the Guide will and will not reveal",
+            "paragraphs": [
+              "Operational rules are explicit, including niche costs, rounding, blockers, and graph behavior. Narrative material is deliberately restrained. Restricted archives and recovered media are meant to be discovered in their own interfaces; this Guide explains how those systems work only after the player has reached them, and never publishes solutions or late-game outcomes.",
+              "Occasional corporate phrasing, document numbers, or oddly persistent checksums may overlap with the wider fiction. Treat them as atmosphere unless the game itself asks you to verify something. Technical Documentation Division denies that this sentence has ever contained thirteen words fewer."
+            ]
+          }
+        ]
+      },
+      "registry-access": {
+        "title": "Registry Access",
+        "summary": "Finding the Registry, boot sequence, tier access, searching, verification, and spoiler-safe use.",
+        "unlockLabel": "Unlocked after opening the Registry for the first time",
+        "sections": [
+          {
+            "title": "Accessing the archive",
+            "paragraphs": [
+              "At Technology Tier 5, a subtle Registry affordance becomes available in the central header mark. The first transition is intentionally unlike an ordinary menu notification. After access has been established, opening the Registry starts its own boot and authorization presentation.",
+              "The Registry is a separate progressive archive. Technology tier determines which entries are accessible to inspect; successful verification determines which protected entries have been decrypted. Decrypted entry identifiers are saved permanently.",
+              "Director-facing copy in this record has been reconstructed from an interface the Director was not originally expected to operate. Several procedural notes remain intentionally redacted: █████████ access chain, ████████ authorization owner, and █████████████ post-verification routing. The remaining instructions are sufficient for safe use of the UI."
+            ],
+            "media": {
+              "alt": "The Registry index with accessible and locked entries, search, access tier, and one verification panel without a solved code.",
+              "caption": "The Guide explains the archive but never supplies its answers."
+            }
+          },
+          {
+            "title": "Index and detail view",
+            "bullets": [
+              "Registry search checks the entry’s internal identifier, category, and raw preview text. It does not search decrypted full content, status labels, translated replacement text, or verification answers.",
+              "Accessible means your current tier permits inspection. It does not guarantee that encrypted content is already decrypted.",
+              "Locked entries remain unavailable until their access condition is satisfied.",
+              "Embedded data, recovered images, or other media belong to the selected entry and may contain details not repeated in the text.",
+              "The footer reports connection, integrity, and access level. These are presentation states, not colony electricity or save-health indicators."
+            ]
+          },
+          {
+            "title": "Verification challenges",
+            "paragraphs": [
+              "A protected entry presents a reference, hint, or contextual clue and a verification field. Answers are compared case-insensitively after trimming leading and trailing whitespace; other punctuation remains significant unless an accepted answer explicitly includes an alternative. Failure leaves the entry encrypted and permits another attempt. Success stores the entry identifier in the save and reveals restored content.",
+              "Some references are intentionally connected to real industrial, scientific, historical, or cultural knowledge. Researching the reference is part of the puzzle. The Guide will not print solutions, exact codes, or a sequence of narrative revelations."
+            ],
+            "callout": {
+              "title": "Keep discovery outside the production checklist",
+              "body": "Registry entries can deepen the story and may matter to concealed outcomes, but a verification failure never consumes inventory. Back up the save, read closely, and solve at your own pace. ████████ is not a resource cost."
+            }
+          },
+          {
+            "title": "A spoiler-safe observation",
+            "paragraphs": [
+              "Several records disagree about what the colony is for. The disagreement is intentional. No single corporate slogan, damaged checksum, or recovered frame should be treated as the whole answer. If an external transmission seems to recognize language used here, note the overlap and continue; the system is more interesting when assembled rather than announced."
+            ]
+          }
+        ]
+      },
+      "demo-evaluation-build": {
+        "title": "Demo Evaluation Build",
+        "summary": "Scope, completion target, feedback, wishlist links, and save expectations in the demo.",
+        "unlockLabel": "Available in the demo evaluation build",
+        "sections": [
+          {
+            "title": "A bounded industrial evaluation",
+            "paragraphs": [
+              "The demo is a deliberately limited build with its own available research, buildings, recipes, resources, narrative material, and completion target. Systems may contain references to the full progression because the interface and Guide share the same industrial language, but unavailable content cannot be reached merely by stockpiling past the demo boundary.",
+              "The welcome and victory overlays summarize the evaluation scope. The demo completion event is tied to its stated evaluation objective and presents run statistics, feedback links, community links, and the full-game store page."
+            ]
+          },
+          {
+            "title": "Save and feedback practice",
+            "bullets": [
+              "Use normal manual slots and autosaves during the evaluation.",
+              "Export a save before reporting a progression blocker so the exact state can be reproduced.",
+              "The wishlist link opens the official full-game store page; it does not alter the save.",
+              "Feedback and community links leave the game through the supported external-navigation path.",
+              "A demo victory overlay can be closed; closing it does not erase completion statistics."
+            ]
+          },
+          {
+            "title": "Interpreting locked Guide records",
+            "paragraphs": [
+              "The Guide shows only records whose systems are relevant and unlocked in the active save. A pending record count is not proof that every corresponding mechanic exists inside the demo. It also avoids using article titles to spoil what the full campaign contains."
+            ]
+          }
+        ]
+      },
+      "diagnostics-and-bottlenecks": {
+        "title": "Bottleneck Diagnostics",
+        "summary": "A systematic checklist for “cannot produce,” “not unlocking,” and “automation is slow.”",
+        "unlockLabel": "Unlocked after using Production or Research",
+        "sections": [
+          {
+            "title": "When manual production will not run",
+            "steps": [
+              "Confirm the recipe is selected and researched for this building.",
+              "Confirm the building is constructed and operational.",
+              "Check every scaled input for the selected number of iterations.",
+              "Check the separate fuel selector and fuel total.",
+              "Check the required tool count using ceiling(iterations ÷ durability).",
+              "Reduce the amount or use MAX to identify the currently affordable batch.",
+              "If it is a gathering recipe, inspect its maximum batch and cooldown timer."
+            ]
+          },
+          {
+            "title": "When research or construction seems stuck",
+            "bullets": [
+              "Hover the research node to trace prerequisites; a visible higher tier does not bypass an incomplete edge.",
+              "Open the node detail and distinguish prerequisite lock from resource cost.",
+              "After research, return to Buildings and pay the separate construction cost.",
+              "If a recipe is researched but cannot open, use the Almanac status action to find the unconstructed facility.",
+              "Pin the target and compare aggregate requirements against live inventory so another project does not spend the same stock unnoticed."
+            ]
+          },
+          {
+            "title": "When automation underperforms",
+            "steps": [
+              "Check that the correct mode is running and that the other mode is not occupying the building.",
+              "Inspect the blocked reason and blocked resource in the console or Automation Board.",
+              "Compare estimated inputs per minute with upstream output and current inventory.",
+              "Compare electricity demand with generation and stock. Temporarily lower active Speed if needed.",
+              "Verify Condition branches, Loop exits, Joiner versus Barrier semantics, and that every repeating manual route contains enough Rest.",
+              "Use historical graphs to determine whether the failure is continuous or periodic.",
+              "Validate again after graph edits; executable changes reset runtime work."
+            ],
+            "callout": {
+              "title": "Diagnose one layer at a time",
+              "body": "Access → affordability → special requirements → timing → automation flow. Skipping directly to a late layer often hides a simple earlier blocker."
+            }
+          },
+          {
+            "title": "When the interface is the problem",
+            "bullets": [
+              "Clear search and filters before assuming data is missing.",
+              "Restore hidden tiers, unresearched Almanac recipes, or unbuilt-building recipes when planning ahead.",
+              "Lower demanding graphics effects if interaction or graph animation is slow.",
+              "Increase UI scale if controls are difficult to read, or reduce it if a modal has too little working space.",
+              "Export the affected save before resetting settings or testing another build."
+            ]
+          },
+          {
+            "title": "Built-in diagnostic interfaces",
+            "paragraphs": [
+              "Ctrl+Shift+M (Cmd+Shift+M on macOS) toggles the Resource Monitor during gameplay. It is an Electron diagnostic: while visible it requests fresh process statistics every five seconds and shows main-process heap / RSS / external memory, renderer and GPU process information when supplied, and total / free system memory, CPU count, and platform. In a browser build without the Electron statistics bridge, the shortcut has no visible panel because no stats arrive.",
+              "Ctrl+Shift+D toggles the Developer navigation tab. Its save tools export one selected primary, autosave, or numbered-slot record and can import a JSON save directly into the selected target. This is a lower-level operation than Export All / Import Archive and can overwrite the target, so use it only with a separate archive.",
+              "The Developer tab also contains Recipe Hierarchy. List view exposes recipe identifiers, inputs, outputs, and buildings; Graph view expands upstream producers and downstream consumers around one selected recipe to the chosen depth; Chain view lists producers and consumers for the selected resource. Search matches recipe name, identifier, or description, while resource and building filters narrow the data independently. This tool reads recipe data and does not execute or unlock anything."
+            ],
+            "callout": {
+              "title": "Diagnostics are not progression",
+              "body": "Process memory, raw identifiers, and dependency graphs can explain a defect, but none of these panels changes affordability, research prerequisites, or late-access archive state unless you deliberately import a different save."
+            }
+          }
+        ]
+      }
+    }
+  },
   "tutorial": {
-    "welcome": {
+    "briefing": {
       "speaker": "Dr. Mira Holland",
-      "text": "Hello, Director. I'm Dr. Mira Holland, your technical liaison with Realindustry Corporation. Welcome to New Industrial Zone Zero-Eight — your new responsibility. I know what you're thinking: \"Where's my equipment? My advanced machinery?\" Well, interstellar freight costs are... astronomical. Literally. The Corporation calculated it's 340% more cost-effective to ship one human with basic knowledge than a cargo container of tools. So congratulations — you're cheaper than a toolbox. I'm here to ensure you understand your mission and the tools at your disposal."
-    },
-    "mission": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Your primary objective is clear: establish a fully operational industrial colony on Kepler-442b. The ultimate goal? Produce a functional Hyperdrive Engine for interstellar expansion. This will require strategic resource management, technological research, and efficient production chains. The Corporation expects results, Director."
+      "text": "Director, I am Dr. Mira Holland, your technical liaison. Welcome to New Industrial Zone Zero-Eight on Kepler-442b. You may be wondering where your equipment is. Interstellar cargo is expensive. According to the Corporation, sending you was 340 percent cheaper than shipping a container of tools. Your assignment is to build an industrial colony and eventually produce a Hyperdrive Engine. You will need resources, research, and well-organized production chains. Let us begin."
     },
     "gather-wood": {
       "speaker": "Dr. Mira Holland",
-      "text": "Let's start with basics. You see two buildings in your list: Tree Grove and Stone Outcrop. Click on Tree Grove to open its production interface."
+      "text": "Open the Tree Grove. We need raw materials before we can develop the colony."
     },
-    "select-wood-recipe": {
+    "produce-wood-batch": {
       "speaker": "Dr. Mira Holland",
-      "text": "Good. Now select the recipe \"Collect Fallen Branches\" from the list."
-    },
-    "set-wood-amount": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Set the production amount to 10 units by clicking the x10 preset button."
-    },
-    "produce-wood": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Now press the Produce button to gather wood."
+      "text": "Select “Collect Fallen Branches”, set the amount to x10, and press Produce."
     },
     "back-from-tree": {
       "speaker": "Dr. Mira Holland",
-      "text": "Excellent. Now return to the buildings menu by clicking the Back button."
+      "text": "Good. Return to the Buildings list."
     },
     "gather-stone": {
       "speaker": "Dr. Mira Holland",
-      "text": "Now let's gather stone. Click on Stone Outcrop."
+      "text": "Now open the Stone Outcrop."
     },
-    "select-stone-recipe": {
+    "produce-stone-batch": {
       "speaker": "Dr. Mira Holland",
-      "text": "Select the recipe \"Collect Loose Stones\"."
-    },
-    "set-stone-amount": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Set the amount to 10 units by clicking the x10 preset button."
-    },
-    "produce-stone": {
-      "speaker": "Dr. Mira Holland",
-      "text": "Press Produce to gather stone."
+      "text": "Select “Collect Loose Stones”, set the amount to x10, and press Produce."
     },
     "back-from-stone": {
       "speaker": "Dr. Mira Holland",
-      "text": "Good work. Return to the buildings menu."
+      "text": "That is enough for our first research. Return to the Buildings list."
     },
     "open-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "Technology is your ladder to success. Click on the Research tab at the top."
+      "text": "Research turns stored resources into permanent new options. Open the Research tab."
     },
     "jump-to-tier": {
       "speaker": "Dr. Mira Holland",
-      "text": "Now click the \"Jump to Tier: 1\" button at the top to navigate to tier 1 research."
+      "text": "Jump to Tier 1."
     },
     "select-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "Click on the \"Basic Crafting Techniques\" research node to expand it."
+      "text": "Expand “Hand Crafting and Wooden Tools”."
     },
     "start-research": {
       "speaker": "Dr. Mira Holland",
-      "text": "Now click the Research button inside the expanded node to start researching."
+      "text": "Press Research. The listed resources will be consumed immediately. Once completed, the research permanently unlocks its buildings and recipes."
+    },
+    "research-capacity": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Reaching a new highest research tier increases colony capacity by five colonists. Tier 1 gives you five. The header shows how many are available, how many you have in total, and how many are assigned to running programs."
     },
     "back-to-buildings": {
       "speaker": "Dr. Mira Holland",
-      "text": "Perfect. Now return to the Buildings tab."
+      "text": "Basic Crafting is now available. Return to Buildings. Before constructing anything, we will automate one repeated task."
+    },
+    "open-automation-building": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Open the Tree Grove again. We are going to make wood gathering continue without repeated manual orders."
+    },
+    "open-manual-editor": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Every production site supports Colonist Automation from the beginning. It does not require an electronic automation core. Open the editor."
+    },
+    "automation-layout": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Automation is fully customizable within the blocks and limits currently available to you. You can create sequences, loops, pauses, and later much more complex logic. Blocks perform work, but the connections between their ports determine what actually happens. This first cycle is only an example."
+    },
+    "build-automation-loop": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Set the Production block to 10 iterations. This assigns two colonists, and one Rest block is enough for both, so the crew is used as efficiently as possible. Build this continuous cycle: Start into Joiner input 1; Joiner into Loop; the Loop block’s loop port into Production; Production into Rest; Rest into Joiner input 2; and the Loop block’s exit port into End. Leave Loops at zero for continuous operation, then press Check Scheme."
+    },
+    "start-automation": {
+      "speaker": "Dr. Mira Holland",
+      "text": "The scheme passed validation. Pull the lever to start it."
+    },
+    "close-automation-editor": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Your colonists will now gather wood while you work elsewhere. Close the editor."
+    },
+    "open-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Open the Automation Board from the edge of the screen. It gives you a colony-wide view of every running scheme."
+    },
+    "close-automation-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "This board shows active programs, estimated input and output rates, electricity demand, production history, and blocked schemes. Use it to find problems that are difficult to notice inside one building. Collapse the board when you are ready."
+    },
+    "back-from-automated-tree": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Return to the Buildings list."
     },
     "hover-hand-crafting": {
       "speaker": "Dr. Mira Holland",
-      "text": "You've unlocked a new building: Hand Crafting. Hover your mouse over its card to see the construction requirements."
+      "text": "Your research unlocked Hand Crafting. Hover over its card to inspect the construction requirements."
+    },
+    "pin-hand-crafting": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Pin these requirements to the Operations Board. Pinning a project does not reserve or spend resources. It keeps the live requirements visible while you work elsewhere."
+    },
+    "open-operations-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "Open the Operations Board from the edge of the screen."
+    },
+    "close-operations-board": {
+      "speaker": "Dr. Mira Holland",
+      "text": "The board combines requirements from pinned buildings, research, and recipes, then compares the total with your current inventory. With Auto-react enabled, completed projects are removed automatically. Collapse the board and gather what is still missing."
     },
     "wait-for-construction": {
       "speaker": "Dr. Mira Holland",
-      "text": "I see you need more resources. Gather what you need and then construct the Hand Crafting building."
+      "text": "Construct Hand Crafting when you have the required resources. This is your first independent production decision."
     },
     "almanac": {
       "speaker": "Dr. Mira Holland",
-      "text": "One more tool before I leave you to your work: the Almanac. This comprehensive database contains information on every resource, recipe, and production chain. Click on the Almanac tab to open it."
+      "text": "Open the Almanac. It explains resources and recipes, shows where materials are produced and used, and helps trace complete production chains."
+    },
+    "open-guide": {
+      "speaker": "Dr. Mira Holland",
+      "text": "For exact rules, advanced automation blocks, formulas, controls, and troubleshooting, open the Guide. It unlocks relevant articles as you encounter new systems, so you can read as much or as little as you need."
     },
     "conclusion": {
       "speaker": "Dr. Mira Holland",
-      "text": "That covers the essentials. You now have everything you need to begin. Remember: the Corporation monitors progress. Efficiency is rewarded. Stagnation is... noted. I'll be watching your metrics, Director. Don't disappoint us. Good luck out there."
+      "text": "You now know how to gather, research, plan, build, and automate. From here, develop the colony toward the Hyperdrive Engine. The Corporation monitors progress. Efficiency is rewarded. Stagnation is... recorded. I will be watching your metrics, Director. Good luck."
     }
   },
   "terminusFragments": {}

@@ -669,7 +669,7 @@
     "stannite-processing": {
       "name": "Procesamiento de estannita",
       "description": "Procesa la mena de estannita para extraer sulfuro de cobre, casiterita y óxido de hierro",
-      "chemicalFormula": "Cu₂FeSnS₄ + O₂ → Cu₂S + FeO + SnO₂ + 2SO₂"
+      "chemicalFormula": "2Cu₂FeSnS₄ + 9O₂ → 2Cu₂S + 2FeO + 2SnO₂ + 6SO₂"
     },
     "magnetite-mining": {
       "name": "Minería de magnetita",
@@ -682,7 +682,7 @@
     "gibbsite-processing": {
       "name": "Procesamiento de gibbsita",
       "description": "Procesa gibbsita en alúmina mediante el proceso Bayer",
-      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O, 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH"
+      "chemicalFormula": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O; 2NaAlO₂ + 4H₂O → 2Al(OH)₃ + 2NaOH; 2Al(OH)₃ → Al₂O₃ + 3H₂O"
     },
     "azurite-mining": {
       "name": "Minería de azurita",
@@ -733,12 +733,12 @@
     "limonite-processing": {
       "name": "Procesamiento de limonita",
       "description": "Procesa mena de limonita (FeO(OH)·nH₂O) en óxido de hierro",
-      "chemicalFormula": "2FeO(OH)·nH₂O + Calor → Fe₂O₃ + (n+1)H₂O"
+      "chemicalFormula": "2FeO(OH)·nH₂O + calor → Fe₂O₃ + (2n+1)H₂O"
     },
     "hematite-processing": {
       "name": "Procesamiento de hematita",
       "description": "Procesa mena de hematita (Fe₂O₃) en óxido de hierro",
-      "chemicalFormula": "2Fe₂O₃ + 3C → 4Fe + 3CO₂"
+      "chemicalFormula": "Fe₂O₃(mena) + separación mecánica → Fe₂O₃(concentrado) + ganga"
     },
     "flotation-separation": {
       "name": "Separación por flotación de calcopirita",
@@ -748,7 +748,7 @@
     "advanced-bornite-processing": {
       "name": "Procesamiento avanzado de bornita",
       "description": "Procesa bornita en sulfuro de cobre y óxido de hierro con métodos modernos para mayor rendimiento",
-      "chemicalFormula": "Cu₅FeS₄ + O₂ → Cu₂S + CuS + CuO + FeS + SO₂"
+      "chemicalFormula": "2Cu₅FeS₄ + 3O₂ → 4Cu₂S + 2CuS + 2FeO + 2SO₂"
     },
     "magnetic-separation": {
       "name": "Separación magnética de magnetita",
@@ -778,7 +778,7 @@
     "chalcopyrite-smelting": {
       "name": "Fundición primitiva de calcopirita",
       "description": "Fundición de mena de cobre calcopirita para producir cobre impuro",
-      "chemicalFormula": "CuFeS₂ + O₂ → Cu + FeO + SO₂"
+      "chemicalFormula": "2CuFeS₂ + 5O₂ → 2Cu + 2FeO + 4SO₂"
     },
     "magnetite-bloomery": {
       "name": "Procesamiento en forja catalana de magnetita",
@@ -793,7 +793,7 @@
     "bornite-smelting": {
       "name": "Refinado de bornita",
       "description": "Refina mena de bornita de alta ley en cobre de ampolla mediante forja",
-      "chemicalFormula": "2 Cu₅FeS₄ + 8 O₂ → 10 Cu + 2 FeO + 8 SO₂"
+      "chemicalFormula": "2 Cu₅FeS₄ + 9 O₂ → 10 Cu + 2 FeO + 8 SO₂"
     },
     "malachite-smelting": {
       "name": "Procesamiento de malaquita",
@@ -808,7 +808,7 @@
     "copper-sulfate-electrolysis": {
       "name": "Electrólisis de sulfato de cobre",
       "description": "Realiza la electrólisis del sulfato de cobre para producir cobre de alta pureza",
-      "chemicalFormula": "CuSO₄ + electrólisis → Cu + H₂SO₄"
+      "chemicalFormula": "2CuSO₄ + 2H₂O → 2Cu + 2H₂SO₄ + O₂"
     },
     "wrought-iron-refining": {
       "name": "Refinado de hierro forjado",
@@ -897,12 +897,12 @@
     "fire-bricks": {
       "name": "Producción de ladrillos refractarios",
       "description": "Produce ladrillos resistentes a altas temperaturas",
-      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + SiO₂ → Ladrillo refractario (3Al₂O₃·2SiO₂) + H₂O↑"
+      "chemicalFormula": "3Al₂Si₂O₅(OH)₄ + calor → 3Al₂O₃·2SiO₂ + 4SiO₂ + 6H₂O↑"
     },
     "bricks": {
       "name": "Producción de ladrillos",
       "description": "Produce ladrillos de construcción regulares",
-      "chemicalFormula": "Al₂Si₂O₅(OH)₄ → Ladrillo (3Al₂O₃·2SiO₂) + H₂O↑"
+      "chemicalFormula": "Al₂Si₂O₅(OH)₄ + calor → Al₂Si₂O₇ + 2H₂O↑"
     },
     "iron-bloom": {
       "name": "Producción de hierro de reducción directa",
@@ -939,12 +939,12 @@
     "sulfuric-acid": {
       "name": "Producción de ácido sulfúrico",
       "description": "Produce H₂SO₄ para procesos industriales",
-      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+      "chemicalFormula": "2S + 3O₂ + 2H₂O → 2H₂SO₄"
     },
     "advanced-chemical-circulation": {
       "name": "Producción avanzada de ácido sulfúrico",
       "description": "Producción eficiente de H₂SO₄ con bombas de alta presión",
-      "chemicalFormula": "S + O₂ + H₂O → H₂SO₄"
+      "chemicalFormula": "2S + 3O₂ + 2H₂O → 2H₂SO₄"
     },
     "biomass-steam": {
       "name": "Producción de biomasa mediante calentamiento por vapor",
@@ -978,12 +978,12 @@
     "concrete-production": {
       "name": "Producción de hormigón",
       "description": "Mezcla cemento con arena y grava para crear hormigón",
-      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+      "chemicalFormula": "2 Ca₃SiO₅ + 6 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
     },
     "manual-concrete-production": {
       "name": "Producción manual de hormigón",
       "description": "Mezcla cemento con arena y grava para crear hormigón a mano",
-      "chemicalFormula": "2 Ca₃SiO₅ + 3 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
+      "chemicalFormula": "2 Ca₃SiO₅ + 6 H₂O → 3 CaO·2SiO₂·3 H₂O (C-S-H) + 3 Ca(OH)₂"
     },
     "iron-gear-production": {
       "name": "Producción de engranajes de hierro",
@@ -1024,9 +1024,9 @@
       "description": "Utiliza máquinas para ensamblar circuitos electrónicos de manera más eficiente"
     },
     "basic-chemical-processes": {
-      "name": "Producción básica de azufre",
-      "description": "Procesa productos químicos básicos para obtener azufre de uso industrial",
-      "chemicalFormula": "C + O₂ + H₂O → H₂S + CO₂"
+      "name": "Desulfuración del carbón",
+      "description": "Lava las impurezas sulfurosas del carbón para recuperar azufre de uso industrial",
+      "chemicalFormula": "C₁₃₅H₉₆O₉NS + H₂O → C₁₃₅H₉₆O₉N + S + H₂O"
     },
     "crude-oil-extraction": {
       "name": "Extracción de petróleo crudo",
@@ -1084,12 +1084,12 @@
     "nickel-ore-processing": {
       "name": "Procesamiento de mena de níquel a mata de níquel",
       "description": "Procesa la mena de níquel en mata de níquel",
-      "chemicalFormula": "2NiS + 3O₂ → 2NiO + 2SO₂"
+      "chemicalFormula": "3NiS + O₂ → Ni₃S₂ + SO₂"
     },
     "nickel-refining": {
       "name": "Refinado de mata de níquel a lingotes de níquel",
       "description": "Refina la mata de níquel en níquel puro",
-      "chemicalFormula": "Ni₃S₂ + H₂SO₄ + electrólisis → 3Ni + 3S + H₂O"
+      "chemicalFormula": "Ni₃S₂ → 3Ni + 2S (refinado electrolítico)"
     },
     "chromite-processing": {
       "name": "Procesamiento de cromita a ferrocromo",
@@ -1202,7 +1202,7 @@
     "silica-extraction": {
       "name": "Extracción de sílice",
       "description": "Extrae sílice de alta pureza de la arena",
-      "chemicalFormula": "SiO₂·impurezas + 2NaOH → Na₂SiO₃ + H₂O → SiO₂(pura)"
+      "chemicalFormula": "SiO₂ + 2NaOH → Na₂SiO₃ + H₂O; Na₂SiO₃ + CO₂ + H₂O → SiO₂·H₂O + Na₂CO₃"
     },
     "alcohol-production": {
       "name": "Producción de alcohol industrial",
@@ -1224,7 +1224,7 @@
     "zinc-electrolysis": {
       "name": "Electrólisis de zinc",
       "description": "Extrae zinc puro mediante procesamiento electrolítico",
-      "chemicalFormula": "ZnS + O₂ → ZnO + SO₂, ZnO + H₂SO₄ → ZnSO₄, Zn²⁺ + 2e⁻ → Zn"
+      "chemicalFormula": "2ZnS + 3O₂ → 2ZnO + 2SO₂; ZnO + H₂SO₄ → ZnSO₄ + H₂O; Zn²⁺ + 2e⁻ → Zn"
     },
     "sawmill-planks": {
       "name": "Procesamiento de tablones industrial",
@@ -1418,8 +1418,8 @@
       "description": "Extrae esfalerita y pirita, y procesa la pirita para obtener azufre y óxido de hierro."
     },
     "research-basic-chemicals": {
-      "name": "Producción básica de azufre",
-      "description": "Produce azufre a partir de carbón y agua como primera materia prima química industrial."
+      "name": "Desulfuración del carbón",
+      "description": "Lava las impurezas sulfurosas del carbón para obtener la primera materia prima industrial de azufre."
     },
     "research-steam-power": {
       "name": "Generación eléctrica con máquina de vapor",
@@ -1499,7 +1499,7 @@
     },
     "research-automation-batch-handling": {
       "name": "Manejo automatizado de lotes",
-      "description": "Desbloquea mejoras de lote repetibles tras la automatización de ensamblaje. Cada nivel activo añade una iteración por ciclo."
+      "description": "Desbloquea mejoras de lote repetibles tras la automatización de ensamblaje. Cada nivel comprado añade una iteración máxima por bloque de producción; cada iteración después de la primera aumenta su consumo un 15 %."
     },
     "research-oil-prospecting": {
       "name": "Extracción de petróleo crudo",
@@ -2008,7 +2008,7 @@
     "nickel-ore": {
       "name": "Mena de níquel",
       "description": "Una mena mineral densa que suele encontrarse en forma de sulfuros o lateritas, y que sirve como fuente principal de níquel industrial.",
-      "formula": "Ni",
+      "formula": "NiS (mineral sulfurado simplificado)",
       "historical_info": "El níquel fue durante mucho tiempo una fuente de frustración para los mineros alemanes medievales, que encontraban una mena rojiza que parecía cobre pero no lo rendía; la llamaron \"Kupfernickel\" o \"el cobre del viejo Nick\", creyendo que un demonio travieso había maldecido la roca. No fue hasta 1751 cuando Axel Fredrik Cronstedt aisló el metal, demostrando que era un elemento único. Su valor se transformó en el siglo XIX cuando se descubrió que el níquel podía convertir el acero ordinario en una \"superaleación\" capaz de resistir la oxidación y el calor extremo. A mediados del siglo XX se convirtió en una piedra angular de las industrias aeroespacial y militar, y hoy ha alcanzado un nuevo pico de importancia estratégica como el material crítico del cátodo en las baterías de iones de litio de alta capacidad que impulsan la revolución mundial de los vehículos eléctricos.",
       "facts": "La mayoría de los yacimientos de níquel más ricos del mundo se encuentran en la cuenca de Sudbury, en Canadá, que es en realidad el lugar de un impacto masivo de un meteorito prehistórico que trajo el metal desde el espacio hace más de 1,800 millones de años. El níquel es uno de los cuatro únicos elementos (junto con el hierro, el cobalto y el gadolinio) que son ferromagnéticos a temperatura ambiente, lo que significa que pueden ser fuertemente magnetizados. En el mundo natural, algunas plantas raras conocidas como \"hiperacumuladoras\" pueden absorber tanto níquel del suelo que su savia se vuelve de un color verde neón brillante, un proceso que se estudia ahora para la \"fitominería\", en la que se utilizan plantas para cosechar metal de la tierra. A pesar de su dureza industrial, el níquel es también un metal \"noble\" en el mundo culinario, ya que es el ingrediente secreto de los utensilios de cocina de acero inoxidable que evita que el metal reaccione con alimentos ácidos como los tomates o el vino."
     },
@@ -2078,14 +2078,14 @@
     "bricks": {
       "name": "Ladrillos",
       "description": "Unidades estructurales rectangulares fabricadas a partir de arcilla o esquisto moldeados, endurecidas mediante vitrificación a alta temperatura.",
-      "formula": "Basado en Al₂Si₂O₅(OH)₄",
+      "formula": "Al₂Si₂O₇ (arcilla cocida simplificada)",
       "historical_info": "El ladrillo es uno de los materiales de construcción más antiguos fabricados por el hombre, originado hacia el año 7500 a. C. en forma de \"adobe\" secado al sol en el Creciente Fértil. Su valor se transformó drásticamente en la antigua Mesopotamia y en Roma con la invención del horno, que utilizaba el fuego para convertir la arcilla blanda en una cerámica dura como la roca y resistente al agua. Esta innovación permitió la construcción de estructuras de varias plantas y enormes acueductos que pudieron sobrevivir a siglos de meteorización. Durante la Revolución Industrial, el ladrillo pasó de ser un producto artesanal moldeado a mano a una unidad modular industrial producida en masa, impulsada por la invención del horno Hoffmann en 1852. Esto desplazó la percepción de los ladrillos de ser un material de lujo para fortalezas a ser el ADN universal del paisaje urbano moderno, permitiendo el rápido auge de las ciudades industriales victorianas y de los icónicos edificios de ladrillo marrón (brownstones) de Nueva York.",
       "facts": "Los ladrillos son esencialmente \"rocas metamórficas fabricadas por el hombre\"; el proceso de cocción hace que los minerales de la arcilla se fundan entre sí en una estructura interna densa similar al vidrio. Son uno de los pocos materiales de construcción que se vuelven más resistentes con el tiempo, ya que siguen absorbiendo pequeñas cantidades de dióxido de carbono de la atmósfera, un proceso denominado carbonatación. Un ladrillo estándar puede soportar temperaturas de hasta 1,000 °C, lo que lo convierte en un cortafuegos natural que ha salvado ciudades enteras de la destrucción total durante incendios urbanos históricos. Curiosamente, el color de un ladrillo es una firma geológica de su química; un alto contenido en hierro produce el clásico rojo profundo, mientras que un alto contenido en cal da como resultado un aspecto amarillo pálido."
     },
     "fire-bricks": {
       "name": "Ladrillos refractarios",
       "description": "Bloques cerámicos refractarios diseñados para mantener la integridad estructural y una baja conductividad térmica a temperaturas extremas.",
-      "formula": "Al₂O₃·2SiO₂",
+      "formula": "3Al₂O₃·2SiO₂ (rico en mullita, simplificado)",
       "historical_info": "Aunque el concepto de revestimiento resistente al calor se remonta a la fundición antigua, el ladrillo refractario moderno se perfeccionó a principios del siglo XIX para satisfacer las brutales exigencias del proceso de acero Bessemer. Antes de su perfeccionamiento, los altos hornos fallaban con frecuencia ya que los ladrillos estándar se fundían o explotaban bajo el intenso calor necesario para refinar el hierro. El descubrimiento de yacimientos de arcilla refractaria permitió la creación de un material que no se expandía ni se contraía significativamente al calentarse, \"domesticando\" eficazmente el horno. Esto transformó los ladrillos refractarios de una cerámica de nicho en la armadura literal de la Revolución Industrial, permitiendo la producción masiva de acero, vidrio y productos químicos que definieron el siglo XX. Hoy en día, siguen siendo un recurso estratégico, ya que no se puede forjar ningún metal moderno ni aleación de alta tecnología sin un recipiente revestido con estas unidades refractarias especializadas.",
       "facts": "Los ladrillos refractarios son capaces de soportar una exposición constante a temperaturas superiores a los 1,500 °C sin fundirse, lo que es más caliente que la lava fluyendo de la mayoría de los volcanes. A diferencia de los ladrillos de construcción estándar, están diseñados con una alta porosidad para atrapar el aire, lo que los convierte en aislantes increíbles que mantienen el calor dentro de un horno mientras el exterior permanece lo suficientemente frío como para evitar que la carcasa metálica se deforme. Son químicamente \"inertes\", lo que significa que no reaccionan con los metales fundidos ni con la escoria corrosiva que contienen, propiedad que se consigue gracias a su alto contenido en alúmina y sílice. Curiosamente, las losetas térmicas del transbordador espacial son una evolución de alta tecnología del ladrillo refractario, que utiliza principios refractarios similares para proteger la nave de los 1,650 °C de calor de la reentrada atmosférica."
     },
@@ -2494,90 +2494,1590 @@
       "facts": "El vapor es esencialmente un transportador de energía de alta densidad; cuando el agua se convierte en vapor, se expande hasta 1,600 veces su volumen original, creando la inmensa presión necesaria para hacer girar los álabes de las turbinas a miles de revoluciones por minuto. Actúa como un medio de transferencia de calor increíblemente eficiente debido a su \"calor latente\", lo que significa que almacena una vasta cantidad de energía solo para mantener su estado gaseoso, la cual libera instantáneamente al entrar en contacto con una superficie más fría. Debido a que el vapor puede calentarse mucho más allá del punto de ebullición del agua, en las centrales eléctricas modernas se utiliza \"vapor sobrecalentado\" para garantizar que ninguna gota de líquido dañe los delicados componentes internos de un generador. Curiosamente, el vapor es invisible al ojo humano; la \"nube\" blanca que se suele ver saliendo de una tetera o de una torre de refrigeración es en realidad vapor de agua que ya ha empezado a condensarse de nuevo en diminutas gotas líquidas al chocar con el aire más frío."
     }
   },
+  "guide": {
+    "entries": {
+      "director-orientation": {
+        "title": "Orientación del Director",
+        "summary": "Su asignación, el bucle industrial y qué cuenta como progreso.",
+        "unlockLabel": "Disponible al inicio de cada asignación",
+        "sections": [
+          {
+            "title": "Su asignación",
+            "paragraphs": [
+              "Usted es el Director en funciones de una colonia industrial. Su trabajo práctico consiste en recolectar materias primas, transformarlas en productos cada vez más sofisticados, investigar nuevos métodos, construir las instalaciones que dichos métodos requieren y unir los procesos resultantes en largas cadenas de producción.",
+              "No existe una única línea de producción permanentemente correcta. Los recursos iniciales siguen siendo relevantes porque los productos avanzados a menudo dependen de varias ramas anteriores a la vez. Trate cada receta desbloqueada como una capacidad industrial reutilizable, no como un peldaño que se desecha tras superarlo."
+            ],
+            "bullets": [
+              "Recolecte o fabrique los recursos requeridos por un proyecto de investigación disponible.",
+              "Complete la investigación para desbloquear recetas, edificios o una nueva rama del árbol tecnológico.",
+              "Construya los edificios recién desbloqueados; la investigación por sí sola no hace que un edificio esté operativo.",
+              "Produzca los nuevos productos intermedios y luego repita el ciclo a mayor escala.",
+              "El objetivo corporativo a largo plazo es el Motor de hiperimpulso. Alcanzarlo requiere de toda la red industrial, no de una cadena aislada."
+            ]
+          },
+          {
+            "title": "No hay producción base pasiva de forma predeterminada",
+            "paragraphs": [
+              "Las recetas normales se ejecutan al pulsar Producir. Los componentes se consumen y los productos se entregan de inmediato. El hecho de que un edificio exista en su colonia no hace que fabrique por sí solo. El funcionamiento continuo solo es posible mediante esquemas de automatización, y dichos esquemas siguen necesitando recursos válidos, estructura de programa y, cuando corresponda, personal o energía.",
+              "Esto hace que la planificación sea más valiosa que hacer clics frenéticos. Antes de comprometer una tanda grande, inspeccione todos los componentes, la capacidad de las herramientas, el combustible, la cantidad máxima y la siguiente dependencia que está intentando satisfacer."
+            ],
+            "callout": {
+              "title": "Primera ruta recomendada",
+              "body": "Abra cualquiera de los lugares de recolección iniciales, recolecte Madera y Piedra, y luego abra Investigación. La Artesanía básica es la primera bifurcación importante: introduce herramientas y expande su capacidad para recolectar de manera eficiente."
+            }
+          },
+          {
+            "title": "El progreso se conserva, la atención no",
+            "paragraphs": [
+              "El inventario, la investigación, la construcción, las estadísticas, las fichas desbloqueadas, los elementos del tablero de operaciones, los programas de automatización y el estado de lectura de la Guía se almacenan en el guardado actual. El estado temporal de la interfaz (como un menú modal abierto o una búsqueda a medio escribir) no es lo mismo que el progreso industrial guardado.",
+              "Los sistemas corporativos evalúan los resultados con un entusiasmo inusual. No le exigen que imite ese entusiasmo. Pausar para inspeccionar el Almanaque o rediseñar un programa forma parte de la correcta gestión de la colonia."
+            ]
+          }
+        ]
+      },
+      "game-modes-and-training": {
+        "title": "Modos de juego y entrenamiento guiado",
+        "summary": "La elección del modo guardado y la introducción opcional de 30 pasos a la producción, investigación, automatización, planificación, construcción, el Almanaque y la Guía.",
+        "unlockLabel": "Disponible al inicio de cada asignación",
+        "sections": [
+          {
+            "title": "Elegir una asignación",
+            "paragraphs": [
+              "Una nueva partida le permite elegir un modo de funcionamiento, una ranura de guardado y si desea ejecutar la secuencia de entrenamiento guiado. Comenzar en una ranura ocupada solicitará confirmación y luego la sobrescribirá. La Guía sigue estando disponible en todos los modos y no depende del entrenamiento.",
+              "El modo seleccionado se almacena en el guardado como metadatos de la asignación. Sin embargo, en la versión actual, la simulación no lee ese valor después de crear la nueva partida: Estándar y Realista Alto utilizan actualmente las mismas recetas, costes, reglas de producción y condiciones de fallo. Las reglas de emisiones y de salud planetaria descritas en la tarjeta de selección de Realista Alto aún no están activas. No planifique una colonia actual en torno a un medidor de contaminación no implementado."
+            ],
+            "bullets": [
+              "Estándar: el valor predeterminado honesto para el conjunto de reglas actual.",
+              "Realista Alto: su elección se conserva en la ranura, pero actualmente no activa mecánicas diferentes. Esta Guía describirá dichas mecánicas únicamente cuando existan en la simulación.",
+              "Entrenamiento guiado: una secuencia temporal de 30 pasos con voz dirigida por la Dra. Mira Holland. Se puede omitir en cualquier momento y no es necesaria para desbloquear las fichas de la Guía.",
+              "Las versiones de evaluación demo contienen una sección acotada de la campaña e identifican claramente su objetivo de finalización. Las fichas del juego completo no deben interpretarse como una promesa de que se pueda alcanzar el contenido no disponible de la demo en esa versión."
+            ]
+          },
+          {
+            "title": "Qué abarca ahora el entrenamiento guiado",
+            "paragraphs": [
+              "El entrenamiento actual consta de 30 pasos. Tras el informe de la asignación, le guiará para recolectar tandas de diez de Madera y Piedra, completar la investigación de Artesanía básica y comprender el aumento de capacidad de cinco colonos otorgado por un nuevo nivel máximo de investigación.",
+              "A continuación, introduce la Automatización con colonos en la Arboleda. Deberá abrir el editor manual de esquemas, ensamblar y validar un bucle continuo con un bloque de Producción configurado en diez iteraciones, iniciarlo y usar el Tablero de automatización para inspeccionar el programa en ejecución.",
+              "La secuencia práctica final introduce la planificación de proyectos y la construcción: inspeccione Artesanía manual, fije sus requisitos, lea los totales combinados en el Tablero de operaciones, recolecte lo que falte y construya el edificio. El entrenamiento abrirá el Almanaque y la Guía antes del informe final. Es una visita a los cimientos, no una guía completa de la campaña."
+            ]
+          },
+          {
+            "title": "Cómo se comportan los pasos interactivos",
+            "paragraphs": [
+              "Un paso interactivo resalta el control correspondiente y desactiva «Siguiente» hasta que se observe la acción esperada. Los pasos de producción verifican tanto la receta seleccionada como la cantidad de la tanda solicitada. El paso de automatización verifica el esquema manual continuo requerido antes de permitir que la secuencia continúe. Completar una acción avanza automáticamente tras un breve retraso.",
+              "El diálogo se puede arrastrar durante los pasos interactivos y alternar entre diseños compacto y expandido. Los pasos explicativos bloquean temporalmente el desplazamiento de fondo, mientras que los pasos de acción dejan disponible la interfaz requerida. Hacer clic en un diálogo no revelado finaliza de inmediato su animación de máquina de escribir; no se salta la acción requerida. «Omitir» cierra toda la secuencia de entrenamiento y detiene su línea de voz actual.",
+              "El entrenamiento demuestra una primera ruta segura a través de la colonia. La Guía explica las reglas subyacentes y permite realizar búsquedas en ella posteriormente. Omitir el entrenamiento nunca elimina mecánicas, recursos ni progresión.",
+              "Las fichas de la Guía se desbloquean cuando el sistema correspondiente entra en su contexto de trabajo. Una insignia numerada en el botón de la Guía muestra cuántas fichas disponibles no ha abierto. Abrir una ficha la marca como leída; siempre se puede volver a visitar."
+            ]
+          }
+        ]
+      },
+      "interface-and-navigation": {
+        "title": "Interfaz y Navegación",
+        "summary": "La cabecera de comandos persistente, las pestañas primarias, las superposiciones, los saltos de enfoque y el comportamiento al volver atrás.",
+        "unlockLabel": "Disponible con la pestaña Edificios",
+        "sections": [
+          {
+            "title": "La superficie de comandos persistente",
+            "paragraphs": [
+              "La parte superior del juego se divide en un panel de estado y una barra de navegación. Las pestañas centrales (Edificios, Inventario, Investigación y Almanaque) cambian el espacio de trabajo principal. Logros, Estadísticas, Guía y Menú se abren como superposiciones sobre el espacio de trabajo actual, por lo que cerrarlos le devuelve al mismo lugar.",
+              "Muchos enlaces son contextuales. Hacer clic en un recurso puede abrir su página exacta del Almanaque; hacer clic en Abrir investigación puede enfocar el nodo tecnológico correspondiente; una acción del Tablero de operaciones puede saltar al edificio o receta requeridos. Estos saltos son deliberadamente preferibles a buscar manualmente en un gran catálogo de final de partida."
+            ],
+            "media": {
+              "alt": "La cabecera completa del juego con celdas de estado, pestañas de navegación, el botón de la Guía e insignia de notificación.",
+              "caption": "Superficie de comandos primaria y controles de superposición."
+            }
+          },
+          {
+            "title": "Atrás, cerrar y prioridad modal",
+            "bullets": [
+              "Escape cierra la superposición compatible situada más arriba antes de cambiar la pantalla subyacente.",
+              "Dentro de un edificio de producción, Volver regresa al directorio de Edificios.",
+              "Pulsar la pestaña Edificios mientras un edificio de producción ya está abierto también regresa al directorio.",
+              "Desde otra pestaña principal, Volver regresa a Edificios. Desde el directorio de Edificios, Volver abre el menú del juego.",
+              "Durante una escena cinematográfica de bloqueo, una acción de tutorial o una revelación posterior a pantalla completa, la navegación ordinaria puede suspenderse intencionadamente hasta que esa capa finalice o se descarte."
+            ]
+          },
+          {
+            "title": "Comportamiento de la cabecera fija y compacta",
+            "paragraphs": [
+              "Los ajustes de pantalla pueden mantener la cabecera completa fija mientras el contenido principal se desplaza, fijar solo una parte compacta, recordar la posición de la última lista de Edificios y escalar la interfaz. Estos son ajustes de presentación; no alteran la producción ni los desbloqueos."
+            ],
+            "callout": {
+              "title": "Las insignias pequeñas son información en vivo",
+              "body": "Las etiquetas de las teclas reflejan sus asignaciones actuales. La insignia de la Guía refleja las fichas desbloqueadas pero no leídas. Ninguno de los números es una puntuación de logros."
+            }
+          }
+        ]
+      },
+      "keyboard-controls": {
+        "title": "Controles de Teclado",
+        "summary": "Atajos predeterminados, acciones contextuales, reasignación e intercambio intencionado de teclas.",
+        "unlockLabel": "Disponible al inicio de cada asignación",
+        "sections": [
+          {
+            "title": "Controles globales predeterminados",
+            "bullets": [
+              "Tabulador alterna el Tablero de operaciones.",
+              "A alterna el Tablero de automatización.",
+              "Espacio ejecuta la receta de producción seleccionada actualmente cuando la producción puede proceder.",
+              "Intro confirma una acción resaltada o abre un elemento seleccionado mediante el teclado.",
+              "Escape ejecuta Volver / Cerrar según la pila de superposiciones actual.",
+              "Las teclas de dirección mueven las selecciones de teclado compatibles. F enfoca el campo de búsqueda en las pantallas que exponen búsquedas.",
+              "F1 y F2 abren Logros y Estadísticas. F3–F6 seleccionan Edificios, Inventario, Investigación y Almanaque. F7 abre el Menú.",
+              "Avanzar página y Retroceder página desplazan hacia arriba o hacia abajo en la interfaz de producción. H oculta o restablece la superposición de producción para poder ver la ilustración de las instalaciones."
+            ]
+          },
+          {
+            "title": "Teclas numéricas contextuales",
+            "paragraphs": [
+              "Los dígitos 1–6 seleccionan preajustes de producción (x10, x20, x50, x100, x1000 y MAX) mientras una interfaz de producción posee dicho contexto. Los dígitos 1–9 también participan en el selector de cuadrícula de Edificios: elija una fila, luego una columna y confirme el edificio resaltado. Esta superposición es intencionada porque las dos acciones funcionan en contextos diferentes.",
+              "La mayoría de las asignaciones duplicadas se rechazan. Los grupos de preajustes de producción y del selector de edificios son la excepción explícita. Si reasigna un comando, las pequeñas etiquetas que se muestran en los controles compatibles se actualizan para coincidir. Las propias pistas de atajos se pueden ocultar sin desactivar las asignaciones."
+            ]
+          },
+          {
+            "title": "Reasignar con seguridad",
+            "steps": [
+              "Abre el Menú, luego Ajustes y después Atajos.",
+              "Seleccione el campo de asignación para una acción y pulse la combinación de teclas deseada.",
+              "Si la combinación entra en conflicto, elija otra o restablezca primero la acción en conflicto.",
+              "Use Restablecer en una sola fila para restaurar un valor predeterminado, o Restablecer todos los atajos para restaurar el mapa completo."
+            ],
+            "callout": {
+              "title": "Los campos de escritura tienen prioridad",
+              "body": "La mayoría de los atajos globales se suprimen mientras escribe en una entrada, cuadro de búsqueda, selector o captura de atajos. Los modificadores de los tableros siguen estando disponibles por diseño. Esto evita que una búsqueda produzca inesperadamente una tanda o cambie de pantalla."
+            }
+          }
+        ]
+      },
+      "saving-and-slots": {
+        "title": "Guardado, Ranuras y Recuperación",
+        "summary": "Guardados manuales, guardados automáticos, propiedad de las ranuras, exportaciones, copias de seguridad y qué se persiste.",
+        "unlockLabel": "Disponible al inicio de cada asignación",
+        "sections": [
+          {
+            "title": "Dos rutas de guardado",
+            "paragraphs": [
+              "Los guardados manuales se escriben en la ranura numerada que elija. Los guardados automáticos se escriben en un registro dedicado a intervalos configurados; no sobrescriben silenciosamente una ranura manual numerada. «Continuar» utiliza primero la ranura manual recordada y, de lo contrario, busca ranuras numeradas desde el principio. Cargar el guardado automático no reemplaza el marcador de la ranura manual recordada.",
+              "Hay cinco ranuras manuales numeradas más la entrada independiente de guardado automático. Los resúmenes de las ranuras varían según el contexto: el panel de guardado del juego muestra la marca de tiempo más los recuentos de investigación, edificios construidos y elementos clave del inventario; las tarjetas del menú principal y de carga exponen sus propios campos compactos de progreso. La carga reemplaza el estado activo de la colonia, así que confirme la ranura de destino y la marca de tiempo antes de proceder."
+            ],
+            "bullets": [
+              "El guardado automático se puede activar o desactivar, y su intervalo se puede configurar de 1 a 30 minutos.",
+              "Un guardado manual registra el tiempo de juego actual antes de escribir, y luego inicia un nuevo temporizador para la sesión.",
+              "Los desbloqueos de la Guía, su estado de lectura, los mensajes narrativos descartados, el estado de los archivos de acceso tardío, los tableros, los filtros, el historial de automatización y los programas forman parte de los datos de guardado.",
+              "Las preferencias generales de pantalla, idioma, gráficos, audio y atajos son ajustes globales de la aplicación en lugar de progresión de la colonia."
+            ]
+          },
+          {
+            "title": "Seguridad del almacenamiento",
+            "paragraphs": [
+              "El juego mantiene registros de guardado locales y, en la versión de escritorio, puede mantener un espejo del lado de Electron y copias de seguridad. Al arrancar, comprueba la salud del almacenamiento y puede intentar la recuperación desde el espejo. Una notificación de recuperación es evidencia de que se utilizó una copia de respaldo; guarde de nuevo una vez que haya verificado el estado de la colonia.",
+              "«Exportar todo» crea un único archivo JSON que contiene los guardados principales disponibles, ranuras numeradas, guardado automático, el marcador de la última ranura, copias espejo y copias de seguridad locales rotativas. «Importar archivo» restaura los registros de almacenamiento de guardado reconocidos desde ese archivo; es un proceso más amplio que importar una sola ranura seleccionada. Conserve una exportación antes de cambiar de equipo, probar versiones de desarrollo o realizar un cambio de alto riesgo al final de la partida en una colonia muy automatizada."
+            ],
+            "media": {
+              "alt": "La superposición Guardar partida mostrando ranuras manuales, información de guardado automático y controles de seguridad de almacenamiento.",
+              "caption": "Ranuras manuales y herramientas de recuperación."
+            }
+          },
+          {
+            "title": "Compatibilidad y guardados antiguos",
+            "paragraphs": [
+              "Cuando un guardado es anterior a un sistema, los campos faltantes se inicializan durante la carga. El juego reconstruye valores predeterminados razonables para los filtros de investigación, opciones del Almanaque, tableros de operaciones, estado de automatización, registros de archivo y estado de la Guía. No se supone que el progreso existente deba descartarse simplemente porque una versión posterior haya añadido una interfaz nueva."
+            ],
+            "callout": {
+              "title": "Un guardado no es una captura de pantalla",
+              "body": "Si necesitas informar de un error de progresión, exporta la ranura afectada antes de intentar corregirlo. Una captura muestra el síntoma; el archivo de guardado conserva el estado industrial exacto que lo produjo."
+            }
+          },
+          {
+            "title": "Confirmaciones de guardado y carga",
+            "bullets": [
+              "Guardar en una ranura numerada ocupada solicita confirmación de sobrescritura. Guardar en una ranura vacía no lo hace.",
+              "Cargar una ranura existente solicita confirmación porque se perderá el progreso actual no guardado. «Importar archivo» escribe los registros de archivo reconocidos sin una confirmación de sobrescritura; el aviso posterior controla si su guardado principal restaurado se carga en la sesión activa, no si el almacenamiento ya ha sido reemplazado.",
+              "El panel de guardado del juego enumera las cinco ranuras manuales, incluidas las vacías. El panel de carga enumera únicamente el guardado automático y los registros manuales existentes.",
+              "Volver al menú principal no es en sí mismo una acción de guardado. Guarde primero y luego confirme el regreso."
+            ]
+          }
+        ]
+      },
+      "buildings-directory": {
+        "title": "Directorio de Edificios",
+        "summary": "Instalaciones bloqueadas, construibles y operativas; filtrado, clasificación y selección rápida.",
+        "unlockLabel": "Disponible con la pestaña Edificios",
+        "sections": [
+          {
+            "title": "Tres estados de los edificios",
+            "paragraphs": [
+              "Investigar un edificio nunca paga su coste de construcción. Construir consume los recursos enumerados una sola vez y añade permanentemente ese tipo de instalación a la colonia. Se puede investigar una receta mientras su edificio asignado siga sin construirse; en ese caso, la receta se conoce pero no se puede ejecutar."
+            ],
+            "bullets": [
+              "Bloqueado: la investigación requerida no se ha completado. El reverso de la tarjeta puede conducir al nodo de investigación correspondiente.",
+              "Desbloqueado, no construido: el diseño se conoce, pero la instalación no está operativa. Su tarjeta muestra los requisitos de construcción y ofrece la acción Construir edificio.",
+              "Operativo: el edificio ha sido construido. Seleccione la tarjeta para abrir su interfaz de producción."
+            ],
+            "media": {
+              "alt": "El directorio de Edificios con una tarjeta bloqueada, una tarjeta construible mostrada desde el reverso y una tarjeta operativa.",
+              "caption": "Lea la tarjeta de una instalación según su estado antes de abrirla."
+            }
+          },
+          {
+            "title": "Encontrar la instalación correcta",
+            "bullets": [
+              "La búsqueda clasifica las coincidencias primero por el nombre del edificio mostrado, luego por el identificador interno y la descripción. Reduce la cuadrícula de inmediato.",
+              "Los cuatro filtros de categoría son Todos, Recolección, Producción y Energía. Producción es el grupo amplio: incluye instalaciones de fundición, artesanía, procesamiento, fabricación, química, electrónica e investigación.",
+              "«Solo desbloqueados» elimina los diseños que aún no se pueden construir ni abrir.",
+              "Ordene por Nivel tecnológico para seguir la progresión, o alfabéticamente cuando ya conozca el nombre de la instalación.",
+              "La navegación con las teclas de dirección y el selector numérico de fila/columna permiten una apertura rápida mediante el teclado. La pista en pantalla informa de la fila seleccionada mientras el selector espera una columna."
+            ]
+          },
+          {
+            "title": "Interacciones de las tarjetas",
+            "paragraphs": [
+              "Pasar el cursor sobre una tarjeta bloqueada o construible expone la información de su reverso. Los requisitos de recursos son interactivos: pase el cursor para ver la identidad y la información del inventario, haga clic para abrir ese recurso en el Almanaque, o fije el requisito de construcción completo al Tablero de operaciones.",
+              "Recordar la posición en la lista de Edificios es útil en un catálogo grande. Si se activa en Ajustes, regresar de la producción puede restaurar su ubicación anterior en lugar de forzar al directorio a volver a la parte superior."
+            ]
+          }
+        ]
+      },
+      "building-construction": {
+        "title": "Construcción de Edificios",
+        "summary": "Instalaciones permanentes, costes de construcción, requisitos no cumplidos y seguimiento en el tablero.",
+        "unlockLabel": "Se desbloquea cuando el diseño de su primer edificio adicional está disponible",
+        "sections": [
+          {
+            "title": "Investigar, luego aprovisionar, luego construir",
+            "steps": [
+              "Complete la tecnología que desbloquea el diseño del edificio.",
+              "Busque el edificio en el directorio de Edificios. Su estado cambia de bloqueado a listo para la construcción.",
+              "Inspeccione cada material requerido en el reverso de la tarjeta. Las cantidades en rojo o insuficientes deben producirse primero.",
+              "Opcionalmente, fije los requisitos al Tablero de operaciones para que los totales permanezcan visibles mientras visita otras pantallas.",
+              "Pulse Construir edificio. El coste completo se retira de forma atómica; la construcción parcial no se almacena.",
+              "Abra la tarjeta ahora operativa y seleccione una de las recetas que haya investigado para ella."
+            ],
+            "media": {
+              "alt": "Una tarjeta de edificio listo para la construcción con costes de recursos, cantidades insuficientes, enlaces al Almanaque y el control para fijar.",
+              "caption": "Los requisitos de construcción son independientes de los componentes de las recetas."
+            }
+          },
+          {
+            "title": "Reglas específicas",
+            "bullets": [
+              "La construcción es permanente dentro del guardado. Los edificios no se venden, desmantelan ni se duplican individualmente.",
+              "El contador de Edificios en la cabecera cuenta los tipos de instalaciones construidas frente al catálogo de instalaciones, incluidos los dos lugares de recolección iniciales.",
+              "Si un enlace contextual abre la producción de un edificio no construido, el juego le redirige al directorio de Edificios y enfoca la instalación requerida.",
+              "La reacción automática del Tablero de operaciones elimina un elemento de construcción fijado después de que ese edificio se construya correctamente. Desactive la reacción automática si desea que los elementos de referencia completados permanezcan hasta que se retiren manualmente.",
+              "La instalación de la automatización es un coste posterior y separado por edificio. Construir una instalación no incluye un núcleo de automatización."
+            ]
+          },
+          {
+            "title": "Planificar cadenas de construcción",
+            "paragraphs": [
+              "Un coste de construcción se aborda mejor como un proyecto único superpuesto a la demanda continua de recetas. Si un material también se necesita para una investigación inmediata, fije ambos objetivos e inspeccione los totales agregados antes de gastarlo. El tablero muestra deliberadamente el inventario en vivo frente al requisito combinado para que una construcción «lista» no oculte otra escasez."
+            ]
+          }
+        ]
+      },
+      "production-interface": {
+        "title": "Interfaz de Producción",
+        "summary": "Seleccionar recetas, leer el diagrama del proceso, producir y moverse entre dependencias.",
+        "unlockLabel": "Se desbloquea tras abrir un edificio de producción por primera vez",
+        "sections": [
+          {
+            "title": "Anatomía de la pantalla",
+            "paragraphs": [
+              "La lista de recetas contiene únicamente las recetas desbloqueadas para el edificio actual. La búsqueda coincide con el nombre de la receta, su descripción o el nombre mostrado de un recurso de producto; no busca componentes. Al seleccionar una tarjeta se carga el proceso completo en el panel principal: componentes, productos y requisitos independientes de herramientas o combustible.",
+              "Un edificio puede tener muchos procesos posibles, pero solo una receta seleccionada manualmente a la vez. La última receta seleccionada se almacena por edificio, por lo que regresar a esa instalación normalmente restaura su contexto de trabajo."
+            ],
+            "media": {
+              "alt": "Una pantalla de producción completa con lista de recetas, receta seleccionada, diagrama de proceso, controles de cantidad, requisitos de combustible o herramientas y el botón Producir.",
+              "caption": "Todos los costes inmediatos deben ser visibles antes de la ejecución."
+            }
+          },
+          {
+            "title": "Ejecutar una tanda manual",
+            "steps": [
+              "Elija una receta de la lista del edificio.",
+              "Si la receta ofrece opciones de combustible, inspeccione el selector. La primera opción se selecciona automáticamente cada vez que cambia la receta. El combustible es un coste adicional y no debe confundirse con la lista normal de componentes.",
+              "Establezca el número de iteraciones con el regulador, un preajuste o MAX.",
+              "Lea la vista previa de los totales. Escalan los componentes, productos, combustible y herramientas a la cantidad seleccionada.",
+              "Pulse Producir o use el atajo Producir. El botón se activa únicamente cuando la comprobación combinada de requisitos en vivo tiene éxito. Los productos se añaden inmediatamente después del pago; la producción manual no tiene una fase de procesamiento transcurrido."
+            ]
+          },
+          {
+            "title": "Las dependencias son interactivas",
+            "paragraphs": [
+              "Los iconos de los recursos exponen información de inventario e identidad. Desde las interacciones de recursos compatibles puede abrir el registro exacto del Almanaque, inspeccionar dónde se produce o consume un recurso y saltar a otro edificio de producción. Fijar la receta seleccionada crea un proyecto persistente en el Tablero de operaciones, incluyendo el recuento de iteraciones elegido y el combustible.",
+              "La interfaz se puede ocultar con su alternador de vista o atajo para revelar el fondo de las instalaciones. Esto es puramente visual; no inicia ni interrumpe la producción. El comportamiento del audio ambiental y de la música de producción se controlan por separado en Ajustes."
+            ]
+          }
+        ]
+      },
+      "production-batches-and-costs": {
+        "title": "Recetas, Tandas y Costes",
+        "summary": "Iteraciones, totales escalados, MAX, rentabilidad y contabilidad exacta de recursos.",
+        "unlockLabel": "Se desbloquea con la ficha de la Interfaz de Producción",
+        "sections": [
+          {
+            "title": "Una cantidad es un número de iteraciones de receta",
+            "paragraphs": [
+              "Si una iteración consume 2 unidades y produce 3, una cantidad de 10 consume 20 y produce 30. El campo de cantidad no significa «unidades de producto deseadas» a menos que esa receta produzca exactamente una unidad por iteración. Lea siempre la vista previa escalada en lugar de inferir los totales a partir de la etiqueta del botón.",
+              "MAX calcula la mayor tanda admitida actualmente por los componentes ordinarios, el combustible seleccionado, la capacidad de las herramientas y cualquier límite específico de la receta. Si aún no se ha seleccionado ningún combustible, la interfaz puede evaluar las opciones disponibles para encontrar un máximo permisivo, pero aun así debe confirmar la elección real del combustible antes de producir."
+            ]
+          },
+          {
+            "title": "Qué cuenta como un coste",
+            "bullets": [
+              "Componentes: se consumen una vez por iteración según el mapa de la receta.",
+              "Combustible: se consume de forma adicional a los componentes, utilizando la opción seleccionada y su cantidad por iteración.",
+              "Herramientas: se consumen en unidades completas según la capacidad de durabilidad, redondeando hacia arriba.",
+              "Materiales de construcción: no guardan relación con una tanda de receta; se pagan una sola vez cuando se construye una instalación.",
+              "Electricidad de automatización: una demanda de funcionamiento basada en el tiempo, estimada y consumida por los programas electrónicos activos, que no forma parte de un clic manual en Producir."
+            ],
+            "callout": {
+              "title": "El pago manual de herramientas es una transacción independiente",
+              "body": "El gestor de producción manual actual retira las herramientas completas antes de retirar el mapa ordinario de componentes y combustible. El botón normalmente evita un intento inasumible, pero si el inventario cambia entre esas comprobaciones, una herramienta retirada no se restaura automáticamente cuando falla el pago posterior. Deje un margen de reserva cuando la automatización compita por las mismas existencias."
+            }
+          },
+          {
+            "title": "Rentabilidad y valor industrial",
+            "paragraphs": [
+              "La rentabilidad de la receta es una relación informativa utilizada por la inteligencia de recetas del Almanaque. Ayuda a comparar transformaciones, pero no es dinero, un óptimo garantizado ni un sustituto de la planificación de dependencias. Un proceso con una relación menor puede ser estratégicamente esencial porque desbloquea una cadena, utiliza un recurso que posee en abundancia o evita un cuello de botella en otra parte.",
+              "Los valores de inventario y producción pueden contener decimales en algunos procesos. La interfaz da formato a los valores para facilitar la lectura, mientras que el estado mantiene una precisión controlada. No planifique en torno al redondeo visual al límite de lo asumible; deje un pequeño margen de reserva para las cadenas de múltiples etapas."
+            ],
+            "callout": {
+              "title": "El Tablero de operaciones utiliza totales en vivo",
+              "body": "Para una receta fija, cambiar las iteraciones o el combustible en el tablero recalcula inmediatamente los requisitos. Esto es más seguro que memorizar una vista previa de un estado de inventario anterior."
+            }
+          }
+        ]
+      },
+      "gathering-and-cooldowns": {
+        "title": "Recolección y Tiemp. de espera",
+        "summary": "Recursos iniciales, tandas manuales finitas, reabastecimiento y recolección asistida por herramientas.",
+        "unlockLabel": "Se desbloquea tras abrir cualquier edificio de producción",
+        "sections": [
+          {
+            "title": "Iniciar la extracción",
+            "paragraphs": [
+              "La Arboleda y el Afloramiento de piedra comienzan ya construidos y proporcionan las recetas de recolección manual necesarias para iniciar la colonia. La recolección manual no tiene un recurso componente, pero sigue siendo una receta: seleccione una cantidad, respete su tanda máxima, produzca y luego espere a que el lugar se reabastezca si esa receta tiene un tiempo de espera.",
+              "Los tiempos de espera se controlan por edificio y receta en el guardado. Salir de la pantalla de producción no los restablece. Cuando el temporizador expira, la interfaz y el sistema de notificaciones pueden informar de que la extracción vuelve a estar disponible.",
+              "La automatización no escribe en este registro manual de tiempos de espera. En su lugar, el tiempo de espera de una receta se convierte en una duración mínima para ese bloque de Producción automatizado. Por lo tanto, la disponibilidad manual y la sincronización del ciclo automatizado son relojes independientes."
+            ]
+          },
+          {
+            "title": "Recolección máxima",
+            "bullets": [
+              "Una tanda máxima mostrada es un límite estricto por operación para esa receta, incluso si su inventario pudiera admitir un número mayor.",
+              "Para la recolección asistida por herramientas, el máximo también puede verse limitado por la cantidad de trabajo que sus herramientas puedan cubrir.",
+              "Pulsar Producir mientras permanece un tiempo de espera no consume componentes; informa del tiempo de espera restante.",
+              "El preajuste MAX respeta el límite y los requisitos actuales de la receta. No es una orden para agotar todo el inventario de la colonia de forma indiscriminada."
+            ]
+          },
+          {
+            "title": "Cuándo dejar de recolectar a mano",
+            "paragraphs": [
+              "La recolección manual es fiable pero lenta. Las recetas con herramientas producen tandas más grandes, y las minas posteriores o las instalaciones de extracción industrial desplazan el cuello de botella lejos de los repetidos tiempos de espera de los lugares iniciales. No obstante, los recursos iniciales siguen alimentando la construcción, el combustible, los productos químicos y los componentes, por lo que «avanzado» no significa «seguro de ignorar»."
+            ],
+            "callout": {
+              "title": "Actividad registrada",
+              "body": "Las estadísticas distinguen entre la recolección sin herramientas, las operaciones individuales grandes, la producción total y el rendimiento por edificio. Estos contadores describen lo sucedido; no alteran los tiempos de espera ni los rendimientos de las recetas."
+            }
+          }
+        ]
+      },
+      "tools-and-efficiency": {
+        "title": "Herramientas y Eficiencia",
+        "summary": "Consumo de herramientas completas, la durabilidad como capacidad de tanda y cómo evitar usos desperdiciados.",
+        "unlockLabel": "Se desbloquea tras investigar Fabricación manual y herramientas de madera",
+        "sections": [
+          {
+            "title": "La durabilidad es capacidad, no una barra de salud",
+            "paragraphs": [
+              "Las herramientas no permanecen en el inventario con una durabilidad parcialmente agotada. Una herramienta con durabilidad 10 cubre hasta 10 iteraciones de receta en un cálculo de producción. El juego consume el número de herramientas completas requeridas: herramientas necesarias = techo(iteraciones ÷ durabilidad).",
+              "Ese redondeo hacia arriba es el detalle crucial. Producir 11 iteraciones con durabilidad 10 consume dos herramientas, a pesar de que la segunda herramienta solo aporta una iteración útil. Los nueve puntos de capacidad no utilizados no se almacenan para más adelante."
+            ],
+            "media": {
+              "alt": "Un panel de requisitos de herramientas que muestra la durabilidad, la tanda seleccionada, la advertencia de capacidad desperdiciada y la acción Ajustar al óptimo.",
+              "caption": "Haga coincidir las tandas con múltiplos enteros de durabilidad cuando los recursos lo permitan."
+            }
+          },
+          {
+            "title": "Ejemplos de tandas eficientes",
+            "paragraphs": [
+              "Cuando las advertencias de eficiencia de las herramientas están activadas, una tanda que no sea múltiplo muestra su advertencia tras un retraso de 500 ms para que los cambios rápidos del regulador no hagan saltar el diseño. «Ajustar al óptimo» normalmente eleva la cantidad a la capacidad total de las herramientas completas ya requeridas; si eso superara el tamaño máximo de la tanda, recurre a un múltiplo de durabilidad completo inferior cuando exista. Desactivar la advertencia oculta este consejo y no cambia el consumo."
+            ],
+            "bullets": [
+              "Durabilidad 10, cantidad 10: 1 herramienta, sin capacidad no utilizada.",
+              "Durabilidad 10, cantidad 11: 2 herramientas, 9 de capacidad desperdiciada.",
+              "Durabilidad 10, cantidad 20: 2 herramientas, sin capacidad no utilizada.",
+              "Durabilidad 10, cantidad 1: se consume 1 herramienta; producir una tanda mínima de emergencia puede ser válido, pero es intencionadamente ineficiente."
+            ]
+          },
+          {
+            "title": "Progresión de herramientas",
+            "paragraphs": [
+              "Las familias de mejores herramientas generalmente admiten recetas de recolección más potentes y tandas útiles más grandes. Son recursos manufacturados con sus propios costes previos, no mejoras permanentes aplicadas al jugador. Conserve herramientas de repuesto antes de entrar en una fase de minería o recolección e incluya su cadena de producción al estimar el coste real del material extraído."
+            ],
+            "callout": {
+              "title": "La vista previa es autoritativa",
+              "body": "Una receta puede requerir tanto componentes ordinarios como una herramienta. La línea de la herramienta es independiente del diagrama de componentes, pero se consume igualmente cuando la operación tiene éxito."
+            }
+          }
+        ]
+      },
+      "inventory-and-resources": {
+        "title": "Inventario y Recursos",
+        "summary": "Cantidades en vivo, clasificación, identidades de los recursos y navegación directa al Almanaque.",
+        "unlockLabel": "Se desbloquea tras abrir Inventario por primera vez",
+        "sections": [
+          {
+            "title": "Qué muestra el Inventario",
+            "paragraphs": [
+              "El Inventario enumera los recursos cuya cantidad actual es mayor que cero. Cada tarjeta contiene la imagen del recurso, su nombre localizado, la cantidad en vivo, la descripción y un acceso directo para Ver en el Almanaque. Consumir la última unidad elimina esa tarjeta de la lista visible; el recurso sigue existiendo en el juego y se puede encontrar en el Almanaque.",
+              "Las cantidades se pretenden actualizar desde el almacén compartido del juego, incluyendo los cambios realizados por la automatización mientras la pantalla de Inventario está abierta. No necesita salir y volver a entrar en la pestaña para actualizarla."
+            ],
+            "media": {
+              "alt": "La pestaña Inventario con varias tarjetas de recursos, cantidades en vivo, control de clasificación y la pista Ver en el Almanaque.",
+              "caption": "El Inventario es una vista de existencias en vivo, no un catálogo de recetas."
+            }
+          },
+          {
+            "title": "Clasificación e interpretación",
+            "bullets": [
+              "Predeterminado conserva el orden de inserción natural del inventario.",
+              "Alfabético ordena por el nombre del recurso mostrado.",
+              "Cantidad de mayor a menor destaca las acumulaciones; cantidad de menor a mayor destaca las escaseces inminentes.",
+              "El modo de clasificación de inventario seleccionado pertenece al guardado.",
+              "El valor descriptivo o calculado de un recurso es informativo. No existe una acción general de venta que convierta el valor del inventario en moneda."
+            ]
+          },
+          {
+            "title": "Los recursos son nodos de un grafo",
+            "paragraphs": [
+              "El mismo recurso puede ser un producto en varias recetas y un componente en muchas otras. Por lo tanto, su identidad más útil no es solo «qué es», sino «dónde entra en el grafo». Haga clic en la tarjeta para abrir su página del Almanaque y luego use la inteligencia de recetas para comparar cada fuente y consumidor conocidos."
+            ]
+          }
+        ]
+      },
+      "resource-interactions": {
+        "title": "Descripciones emergentes e información de recursos",
+        "summary": "Resúmenes al pasar el cursor, acciones de contexto, cantidades en vivo y saltos de dependencia.",
+        "unlockLabel": "Se desbloquea tras inspeccionar una pantalla orientada a recursos",
+        "sections": [
+          {
+            "title": "Pase el cursor para ver la identidad; interactúe para el contexto",
+            "paragraphs": [
+              "Las descripciones emergentes de recursos se comparten en producción, investigación, construcción, tableros y el Almanaque. Al pasar el cursor de forma normal se puede mostrar la imagen del recurso, el nombre, la cantidad en el inventario, el valor calculado y la descripción. La cantidad en vivo puede seguir cambiando mientras se ejecuta la automatización.",
+              "Los accesos interactivos de recursos pueden exponer las vistas Dónde se produce y Dónde se usa. Estas se calculan a partir de los datos de las recetas y no de sus existencias actuales. Una receta enumerada puede estar investigada, no investigada o asignada a un edificio no construido; las marcas de estado y las etiquetas de acción explican qué salto es posible actualmente."
+            ]
+          },
+          {
+            "title": "Comportamiento de la búsqueda de recetas",
+            "bullets": [
+              "«Dónde se produce» enumera las recetas cuyos productos contienen el recurso seleccionado.",
+              "«Dónde se usa» indexa actualmente solo el mapa ordinario de componentes de la receta. Un recurso utilizado únicamente como opción de combustible o únicamente como herramienta requerida no aparecerá allí, a pesar de que la propia tarjeta de la receta siga mostrando sus requisitos de combustible y herramientas.",
+              "Abrir Producción tiene éxito únicamente para una receta unlocked en un edificio construido. De lo contrario, el juego puede conducir a Investigación o al directorio de Edificios.",
+              "Hacer clic fuera de una ventana de información interactiva la cierra. Los resúmenes simples al pasar el cursor no capturan los clics.",
+              "Las descripciones emergentes de vista previa de recetas se pueden desactivar globalmente si las tarjetas detalladas al pasar el cursor oscurecen la interfaz; la navegación directa al Almanaque y a la información sigue siendo la fuente duradera de información."
+            ]
+          },
+          {
+            "title": "Evitar suposiciones obsoletas",
+            "paragraphs": [
+              "La cantidad de una descripción emergente es una lectura momentánea del inventario. Para planes grandes, fije la receta o el proyecto de construcción y use el total agregado en vivo del Tablero de operaciones. Ese tablero vuelve a evaluar las existencias tras cada evento de producción o automatización, mientras que una descripción emergente recordada no lo hace."
+            ]
+          }
+        ]
+      },
+      "fuel-and-electricity": {
+        "title": "Combustible, Electricidad y Energía",
+        "summary": "Opciones de combustible, la energía como recurso almacenado, generación y demanda de automatización.",
+        "unlockLabel": "Se desbloquea al alcanzar el Nivel tecnológico 3",
+        "sections": [
+          {
+            "title": "El combustible es independiente de los componentes de la receta",
+            "paragraphs": [
+              "Algunas recetas exponen varias opciones de combustible. Cada opción identifica un recurso y una cantidad consumida por iteración. Seleccione una antes de la producción; el combustible elegido se escala con la tanda y se retira de forma adicional a los componentes ordinarios.",
+              "Diferentes combustibles pueden hacer que el mismo proceso sea práctico en diferentes etapas. La interfaz no conserva automáticamente una opción no disponible sustituyéndola en secreto por otro combustible. Si la opción seleccionada es insuficiente, elija otra o produzca más de ella."
+            ],
+            "media": {
+              "alt": "Un selector de combustible con múltiples recursos de combustible junto a una receta de generación de energía y la celda de electricidad de la cabecera.",
+              "caption": "La elección de combustible y las existencias de electricidad son recursos explícitos."
+            }
+          },
+          {
+            "title": "La electricidad es inventario",
+            "paragraphs": [
+              "Las recetas de generación de energía entregan Electricidad en el mismo inventario de la colonia utilizado por otros recursos. Las recetas manuales pueden consumir electricidad como combustible o componente. La automatización electrónica activa consume electricidad a lo largo del tiempo según su programa actual, edificio, tanda y configuración de velocidad.",
+              "La celda de Electricidad de la cabecera muestra las existencias actuales, no la tasa de generación. La tasa de generación y la demanda de la automatización son mediciones diferentes; use el Tablero de automatización para comparar el flujo por minuto."
+            ],
+            "bullets": [
+              "Un edificio de energía debe ser investigado, construido, abastecido y gestionado como cualquier otra instalación.",
+              "Un bloque de Producción electrónico sin una ruta de error espera e informa de un estado bloqueado cuando la electricidad requerida no está disponible. Si su puerto de error está conectado, el intento fallido sigue esa ruta en lugar de esperar.",
+              "Las mejoras de velocidad aumentan el rendimiento pero multiplican la demanda de energía. Los niveles de velocidad adquiridos se pueden reducir sin reembolsar la mejora.",
+              "En el Tablero de automatización, el Flujo bruto separa las estimaciones de productos y componentes automatizados; el Flujo neto resta las tasas automatizadas opuestas por recurso. Los clics manuales en Producir no tienen una tasa continua por minuto y no forman parte de esas estimaciones de flujo."
+            ]
+          },
+          {
+            "title": "El combustible en planes y programas",
+            "paragraphs": [
+              "Una receta fija almacena una elección de combustible específica del tablero y la incluye en los totales del Tablero de operaciones. Un bloque de Producción de automatización también almacena su propia elección de combustible. El selector manual es temporal y se restablece a la primera opción de la receta cuando se vuelve a seleccionar esa receta; cambiarlo no reescribe retroactivamente un proyecto fijo o un bloque de automatización."
+            ]
+          }
+        ]
+      },
+      "research-tree": {
+        "title": "Árbol de Investigación",
+        "summary": "Disponibilidad, prerrequisitos, costes, estados de los nodos, filtros y enlaces de enfoque directo.",
+        "unlockLabel": "Se desbloquea tras abrir Investigación por primera vez",
+        "sections": [
+          {
+            "title": "Cómo pasa a estar disponible una tecnología",
+            "paragraphs": [
+              "Un nodo de investigación está disponible cuando todas las tecnologías enumeradas como sus prerrequisitos están completas. Disponibilidad no significa asequibilidad: expanda el nodo y compare su coste de recursos con el inventario en vivo. Completar la investigación consume esos recursos y luego registra permanentemente la tecnología en el guardado.",
+              "La investigación puede desbloquear una o más recetas, el diseño de un edificio o una tecnología de soporte utilizada únicamente como prerrequisito. El desbloqueo de una receta y el de un edificio son independientes. Cuando ambos se conceden juntos, la nueva instalación requiere igualmente ser construida antes de que pueda producirse."
+            ],
+            "media": {
+              "alt": "El árbol de investigación mostrando nodos investigados, disponibles y bloqueados sobre fondos de nivel, con un panel de detalles de nodo abierto.",
+              "caption": "Siga las líneas de los prerrequisitos y luego inspeccione el coste de recursos."
+            }
+          },
+          {
+            "title": "Estados de los nodos y lectura del grafo",
+            "bullets": [
+              "Los nodos investigados están completos. Seleccione uno para revisar lo que desbloqueó.",
+              "Los nodos disponibles tienen todos los prerrequisitos completos. Seleccione uno para inspeccionar el coste y realizar la investigación.",
+              "Los nodos bloqueados aún tienen tareas pendientes en sus prerrequisitos. Pase el cursor para enfatizar las conexiones correspondientes pasadas y futuras del grafo.",
+              "Los fondos de nivel agrupan las tecnologías por complejidad general, pero las líneas visibles (no la posición horizontal por sí sola) definen los prerrequisitos.",
+              "La leyenda informa de los colores de los estados actuales. No infiera la disponibilidad a partir del nombre de una tecnología o del número de nivel."
+            ]
+          },
+          {
+            "title": "Navegación y filtrado",
+            "bullets": [
+              "La búsqueda de investigación abre hasta ocho sugerencias clasificadas; no elimina los nodos que no coinciden del grafo. Coincide con el nombre o la descripción de la investigación, los nombres de los edificios desbloqueados por esa investigación y los nombres de las recetas que desbloquea. Las teclas de dirección se mueven por las sugerencias, Intro enfoca el nodo resaltado y Escape borra la consulta.",
+              "Las acciones contextuales de Abrir investigación desde otro sistema enfocan el nodo tecnológico exacto incluso en un árbol grande.",
+              "Los alternadores de nivel pueden ocultar niveles enteros sin cambiar el progreso.",
+              "«Mostrar solo investigados y disponibles» elimina los nodos bloqueados para ofrecer una vista de trabajo más limpia.",
+              "La navegación por niveles salta la cámara directamente al nivel elegido.",
+              "Los controles de zoom, ajuste de vista y bloqueo de interacción afectan únicamente a la vista del grafo.",
+              "Los niveles visibles, el filtro de disponibilidad y la vista de la cámara se guardan por colonia."
+            ],
+            "callout": {
+              "title": "Fije investigaciones costosas",
+              "body": "Fijar un nodo de investigación añade su coste completo al Tablero de operaciones. Con la reacción automática activada, el elemento se retira una vez completada la tecnología."
+            }
+          }
+        ]
+      },
+      "research-progression": {
+        "title": "Niveles de Tecnología y Progresión",
+        "summary": "Seguimiento del nivel más alto, dependencias entre niveles, nueva música y orden estratégico de investigación.",
+        "unlockLabel": "Se desbloquea tras completar su primer proyecto de investigación",
+        "sections": [
+          {
+            "title": "Nivel tecnológico más alto",
+            "paragraphs": [
+              "La cabecera muestra el nivel tecnológico más alto que ha alcanzado, definido por la investigación completada del nivel más alto. No es un promedio y no requiere que todos los nodos de los niveles inferiores estén completos. Alcanzar un nivel puede expandir la capacidad de la colonia y desbloquear la banda sonora de ese nivel, pero las recetas y los edificios individuales siguen sus propios prerrequisitos de investigación.",
+              "Algunas ramas se vuelven a conectar tras varios niveles. Si un material aparentemente modesto bloquea el trabajo avanzado, rastree las líneas de investigación requeridas y use el Almanaque para identificar su ruta de producción en lugar de asumir que todos los prerrequisitos deben ubicarse en el mismo nivel visible."
+            ]
+          },
+          {
+            "title": "Qué cambia cuando se alcanza un nuevo nivel",
+            "bullets": [
+              "La celda de estado del nivel más alto se actualiza.",
+              "El gestor de música desbloquea las pistas asignadas a ese nivel. La Gramola puede entonces activar o desactivar pistas individuales desbloqueadas.",
+              "La capacidad de colonos aumenta con la progresión de los niveles. La capacidad y las reservas activas son visibles en la cabecera.",
+              "En umbrales posteriores, otros sistemas pueden pasar a ser accesibles. La tecnología de activación exacta o el evento de la interfaz siguen controlando su ficha de la Guía.",
+              "La marca de tiempo del tiempo de juego acumulado de cada nuevo nivel tecnológico más alto alcanzado se registra para el gráfico de progresión de Estadísticas; no impone un límite de tiempo."
+            ]
+          },
+          {
+            "title": "Elegir la investigación de forma inteligente",
+            "paragraphs": [
+              "Priorice el cuello de botella, no simplemente el nodo disponible numéricamente más alto. Una mina nueva puede resolver la presión de las materias primas; un método de procesamiento puede multiplicar la utilidad del mineral existente; una rama de energía puede sustentar la automatización futura; un producto intermedio que permita la construcción puede desbloquear varias instalaciones a la vez.",
+              "Antes de pagar un coste elevado de investigación, inspeccione su lista de desbloqueos y los costes de construcción de cualquier edificio nuevo. La investigación sin los materiales para construir o abastecer su instalación sigue siendo un progreso válido, pero puede no resolver su problema inmediato de producción."
+            ],
+            "callout": {
+              "title": "Una leve irregularidad administrativa",
+              "body": "Las marcas de tiempo de los niveles se conservan con más cuidado que algunos expedientes de personal. Esto no tiene ningún efecto en el grafo de investigación. Se trata, al parecer, de un excelente papeleo."
+            }
+          }
+        ]
+      },
+      "almanac-basics": {
+        "title": "Almanaque de Recursos",
+        "summary": "El libro, contenidos, navegación alfabética, opciones y fichas de recursos.",
+        "unlockLabel": "Se desbloquea tras abrir el Almanaque por primera vez",
+        "sections": [
+          {
+            "title": "Un catálogo completo de recursos",
+            "paragraphs": [
+              "El Almanaque contiene todas las fichas de recursos presentes en los datos activos del juego, incluyendo materiales que aún no figuran en el inventario. Una página de recurso puede incluir su categoría, imagen, valor material, descripción, fórmula química, contexto histórico y notas objetivas. Por lo tanto, el libro es tanto una referencia de producción como la enciclopedia industrial del juego.",
+              "Abrir el Almanaque desde la interacción de un recurso enfoca ese recurso exacto. Abrirlo desde la pestaña de navegación utiliza la página de inicio configurada: la portada de forma predeterminada, o el índice si «Abrir en la página del índice» está activado."
+            ],
+            "media": {
+              "alt": "Una doble página del Almanaque mostrando la página de un recurso, la navegación de páginas, las opciones y el control Ver recetas.",
+              "caption": "La identidad del recurso y el contexto de producción comparten una misma ficha."
+            }
+          },
+          {
+            "title": "Encontrar una página",
+            "bullets": [
+              "El Almanaque actual no dispone de búsqueda de recursos mediante texto libre. Use el índice, sus controles de salto alfabético o un enlace de recurso contextual desde el Inventario, Producción, Investigación, construcción o un tablero.",
+              "Seleccionar una fila del índice salta directamente a la página de ese recurso.",
+              "Los botones alfabéticos desplazan el índice hasta un grupo de letras iniciales; no eliminan otras filas. Estos botones se omiten en la localización china, donde no se utiliza la agrupación inicial latina.",
+              "Los controles de Portada, Índice, Anterior y Siguiente proporcionan una navegación determinista incluso cuando el paso de páginas realista está desactivado.",
+              "Hacer clic en la imagen del recurso abre una vista de la imagen ampliada.",
+              "La actividad de pasar páginas se controla para las Estadísticas y los logros; no desbloquea recetas."
+            ]
+          },
+          {
+            "title": "Opciones del Almanaque",
+            "bullets": [
+              "«Abrir en la página del índice» cambia el lugar donde comienzan las visitas ordinarias al Almanaque.",
+              "«Ocultar recetas no investigadas» elimina de la búsqueda las recetas que no ha desbloqueado.",
+              "«Ocultar recetas de edificios no construidos» elimina los procesos asignados a instalaciones que no ha construido.",
+              "Estos filtros simplifican la información visible; no eliminan el conocimiento de las recetas ni cambian el grafo de producción.",
+              "El paso de páginas realista es un ajuste global de la interfaz. Arrastrar los bordes de las páginas es opcional; los botones de navegación siguen estando disponibles."
+            ]
+          },
+          {
+            "title": "El valor material no es moneda",
+            "paragraphs": [
+              "El Valor material se precalcula a partir de los datos completos de las recetas, no de las recetas investigadas en este guardado. Los productos sin componentes y la Electricidad comienzan con un valor base de 1. Otros valores se propagan a través de los costes de componentes y combustible por unidad de producto, conservan la ruta calculable más baja y nunca caen por debajo de 1; un recurso no resuelto también recurre a 1. El coste de las herramientas no forma parte de ese cálculo de valor. El número es útil para una comparación amplia, pero la colonia no tiene mercado y no se puede vender un recurso por él."
+            ]
+          }
+        ]
+      },
+      "almanac-recipe-intelligence": {
+        "title": "Inteligencia de Recetas",
+        "summary": "Recetas de producción y consumo, marcas de estado, rentabilidad y saltos contextuales.",
+        "unlockLabel": "Se desbloquea tras abrir Ver recetas en el Almanaque",
+        "sections": [
+          {
+            "title": "Dos direcciones a través del grafo",
+            "paragraphs": [
+              "«Ver recetas» abre un panel dividido en Recetas de producción y Recetas de consumo. Les recetas de producción tienen el recurso actual en sus productos. Las recetas de consumo lo tienen en sus componentes ordinarios. Las relaciones exclusivas de combustible o de herramientas no se indexan como consumidoras en la implementación actual, por lo que debe inspeccionar las tarjetas de recetas al planificar esos costes especiales.",
+              "Cada tarjeta de receta expone su edificio asignado, mapas de componentes y productos, información de combustible o herramientas cuando corresponde, rentabilidad y estado de investigación / construcción. El recurso actual se resalta dentro de la tarjeta para que quede claro qué lado de la transformación está inspeccionando."
+            ],
+            "media": {
+              "alt": "La búsqueda de recetas del Almanaque con tarjetas de producción y consumo en estados de investigado, no investigado y edificio no construido.",
+              "caption": "Los enlaces que reconocen el estado convierten el catálogo en un centro de navegación."
+            }
+          },
+          {
+            "title": "La acción cambia según el estado",
+            "bullets": [
+              "Receta investigada + edificio construido: «Ver en Producción» abre el edificio correcto y selecciona la receta.",
+              "Receta investigada + edificio no construido: «Abrir en Edificios» enfoca la instalación que debe construir.",
+              "Receta no investigada: «Abrir investigación requerida» enfoca la tecnología que la desbloquea.",
+              "Las tarjetas con franjas o etiquetas indican un conocimiento no disponible en lugar de datos faltantes.",
+              "«Se puede producir ahora» es una pista de asequibilidad para una iteración. Comprueba la investigación de la receta, los componentes ordinarios, al menos una opción de combustible válida y al menos una herramienta requerida. No comprueba si el edificio asignado está construido, no prueba un tiempo de espera manual y no promete que su tanda seleccionada de múltiples iteraciones sea asumible."
+            ]
+          },
+          {
+            "title": "Usar la rentabilidad sin llamarse a engaño",
+            "paragraphs": [
+              "La rentabilidad es una relación almacenada que se deriva del valor del producto calculado dividido por el coste del componente calculado. Su cálculo puede incluir el valor proporcional de las herramientas y el coste del combustible, pero esa contabilidad teórica no es lo mismo que el redondeo hacia arriba de las herramientas completas aplicado a una tanda real. La construcción, la investigación, la oportunidad del tiempo de espera, la disponibilidad de combustible y la energía de automatización pueden seguir alterando la respuesta práctica.",
+              "La receta teórica más rentable puede pertenecer a una instalación no construida o requerir una rama no disponible. Use las opciones del Almanaque para ocultar dichas rutas cuando necesite un plan de acción inmediato, y luego desactive los filtros al planificar con anticipación."
+            ]
+          }
+        ]
+      },
+      "operations-board": {
+        "title": "Tablero de Operaciones",
+        "summary": "Fijar proyectos, requisitos agregados, finalización en vivo, elecciones de combustible y reacción automática.",
+        "unlockLabel": "Se desbloquea tras fijar su primer proyecto de receta, investigación o construcción",
+        "sections": [
+          {
+            "title": "Una lista de proyectos entre pantallas",
+            "paragraphs": [
+              "El Tablero de operaciones realiza el seguimiento de recetas, costes de investigación y costes de construcción de edificios en un único panel persistente. Los controles para fijar aparecen en esos sistemas. Abra o repliegue el tablero con su tirador lateral o atajo; replegarlo no elimina sus elementos.",
+              "En la parte superior, «Requisitos totales» agrega cada elemento fijado. Cada recurso compara el requisito combinado con el inventario en vivo, por lo que producir un material puede transformar una escasez en una fila satisfecha sin tener que volver a abrir el tablero."
+            ],
+            "media": {
+              "alt": "El Tablero de operaciones expandido con fichas de recursos agregados y elementos fijos de recetas, investigación y edificios.",
+              "caption": "Un único plan en vivo puede abarcar toda la colonia."
+            }
+          },
+          {
+            "title": "Comportamiento específico de los elementos",
+            "bullets": [
+              "Los elementos de receta permiten aumentar o disminuir el recuento de iteraciones. Los componentes, productos, combustible y la demanda de herramientas se recalculan de inmediato.",
+              "Las recetas con opciones de combustible conservan un combustible seleccionado específico del tablero.",
+              "Los elementos de investigación muestran el coste exacto y saltan de regreso al nodo de investigación enfocado.",
+              "Los elementos de edificio muestran los requisitos de construcción y saltan a la tarjeta del edificio enfocado.",
+              "Una receta cuya instalación no está construida informa de ese bloqueo y puede redirigirle a Edificios.",
+              "«Desfijar» elimina únicamente ese proyecto. «Borrar todo» elimina todos los proyectos de inmediato y no solicita confirmación. Ninguna de las dos acciones consume ni reembolsa recursos."
+            ]
+          },
+          {
+            "title": "Reacción automática a los eventos del juego",
+            "paragraphs": [
+              "Con la «Reacción automática» activada, un elemento de investigación fijo se retira cuando esa investigación se completa, un elemento de construcción se retira cuando su edificio se construye y un elemento de receta descuenta unidades después de que se completen las iteraciones manuales o automatizadas correspondientes. La ruta de producción manual muestra una notificación de progreso o de retirada moderada. La automatización aplica el mismo descuento dentro de su ciclo de simulación pero no emite ese aviso específico del tablero, por lo que un objetivo automatizado puede disminuir o desaparecer silenciosamente.",
+              "Con la «Reacción automática» desactivada, el tablero se convierte en una lista de referencia estática. Esto es útil para objetivos de producción recurrentes o cuando desea que un proyecto completado permanezca como plantilla."
+            ],
+            "callout": {
+              "title": "El tablero es una calculadora, no un sistema de reservas",
+              "body": "Los requisitos fijos no bloquean el inventario. Puede gastar esos recursos en otra parte, y el estado en vivo volverá a mostrarse como insuficiente. El tablero nunca ejecuta la producción ni la investigación por sí solo."
+            }
+          }
+        ]
+      },
+      "colony-status-deck": {
+        "title": "Panel de Estado de la Colonia",
+        "summary": "Producción total, instalaciones, nivel, colonos, esquemas activos, bloqueos y electricidad.",
+        "unlockLabel": "Se desbloquea al alcanzar el Nivel tecnológico 1",
+        "sections": [
+          {
+            "title": "Bloque de progreso de la colonia",
+            "paragraphs": [
+              "Estos valores resumen la progresión; no son botones. Los desgloses detallados residen en Estadísticas, Edificios e Investigación."
+            ],
+            "bullets": [
+              "La Producción total es el número acumulado de unidades de producto fabricadas, no el inventario actual. El consumo no se resta de ella.",
+              "Edificios muestra los tipos de instalaciones construidas frente al catálogo de edificios válidos.",
+              "Nivel muestra el nivel de investigación completado más alto."
+            ],
+            "media": {
+              "alt": "El panel de estado completo con los bloques de progreso y operaciones anotados por métrica.",
+              "caption": "Las existencias actuales, la producción acumulada y la capacidad son mediciones diferentes."
+            }
+          },
+          {
+            "title": "Bloque de operaciones de la colonia",
+            "paragraphs": [
+              "Un esquema bloqueado permanece activo pero no puede avanzar en su tarea actual. Abra su edificio o el Tablero de automatización para identificar los recursos o la electricidad faltantes. Un esquema detenido no se cuenta como activo y no reserva colonos."
+            ],
+            "bullets": [
+              "Colonos muestra disponibles / totales. La línea de detalle informa de cuántos están reservados por programas de automatización manual en ejecución.",
+              "Esquemas activos cuenta los programas manuales y electrónicos en ejecución. Si alguno presenta un motivo de bloqueo, la celda informa del número bloqueado.",
+              "Electricidad muestra el inventario actual, no la generación ni el consumo por minuto."
+            ]
+          },
+          {
+            "title": "La marca central",
+            "paragraphs": [
+              "La marca central con la palabra Realindustry es una parte permanente de la cabecera. Algunas secuencias posteriores de la interfaz pueden asignar un significado o interacción a esa marca. Si la interfaz comienza a comportarse como si un elemento decorativo hubiera adquirido una importancia administrativa, esta Guía recomienda curiosidad profesional y un guardado de respaldo."
+            ]
+          }
+        ]
+      },
+      "achievements": {
+        "title": "Logros y Premios",
+        "summary": "Categorías, rareza, progreso, condiciones ocultas, organizaciones y momentos de desbloqueo.",
+        "unlockLabel": "Se desbloquea tras abrir Logros por primera vez",
+        "sections": [
+          {
+            "title": "Qué registra un logro",
+            "paragraphs": [
+              "Los logros evalúan las estadísticas guardadas de la colonia y los contadores de eventos: totales de producción, recursos específicos, investigación, construcción, uso de la interfaz, patrones de tiempo, automatización y otros hitos. Desbloquear un logro registra su identificador permanentemente en el guardado y muestra una notificación de premio.",
+              "La superposición de Logros se puede filtrar por categoría y permite realizar búsquedas. Cada tarjeta identifica la rareza, el progreso cuando la condición expone un objetivo medible, el texto del premio y la organización que lo otorga. Las ilustraciones bloqueadas pueden ocultarse hasta que se ganen."
+            ],
+            "media": {
+              "alt": "La superposición de Logros con filtros de categoría, barras de progreso, estilos de rareza y un premio desbloqueado.",
+              "caption": "Los premios describen la historia de la colonia; no reemplazan a los sistemas de progresión."
+            }
+          },
+          {
+            "title": "Limitaciones importantes",
+            "bullets": [
+              "No todas las condiciones revelan su objetivo exacto antes de completarse.",
+              "El progreso puede actualizarse después de que cambie el contador correspondiente de producción, investigación, construcción, Almanaque, menú o actividad.",
+              "Una notificación de logro no implica que se haya desbloqueado una receta, un edificio o una entrada de archivo protegida, a menos que ese sistema lo indique por separado.",
+              "Las estadísticas pueden ayudar a diagnosticar objetivos medibles, pero los logros ocultos o conductuales pueden requerir experimentación."
+            ]
+          },
+          {
+            "title": "Idioma de los premios corporativos",
+            "paragraphs": [
+              "Las notas de los premios están escritas desde la perspectiva de varias organizaciones, incluidos los organismos corporativos internos. Su tono forma parte de la ambientación. «Rendimiento dentro de los parámetros esperados» sigue siendo un logro, incluso si quien lo escribió parece constitucionalmente incapaz de sonar complacido."
+            ]
+          }
+        ]
+      },
+      "statistics-dashboard": {
+        "title": "Panel de Estadísticas",
+        "summary": "Resumen, producción, actividad, cronología de niveles y contabilidad de automatización.",
+        "unlockLabel": "Se desbloquea tras abrir Estadísticas por primera vez",
+        "sections": [
+          {
+            "title": "Pestaña Resumen",
+            "paragraphs": [
+              "Resumen (Overview) sintetiza las claves de recursos presentes en el objeto de inventario, edificios construidos, investigaciones completadas, tiempo total de juego, producción total, producción por hora, las diez mayores reservas actuales, progresión del nivel tecnológico y producción automatizada. La tarjeta de «recursos únicos» cuenta las claves de inventario almacenadas, incluyendo aquellas cuya cantidad haya llegado a cero posteriormente; no es necesariamente el número de tarjetas de Inventario visibles con cantidad positiva. La producción por hora utiliza el tiempo de juego acumulado, por lo que es una tasa histórica a largo plazo más que una tasa instantánea de la máquina."
+            ],
+            "media": {
+              "alt": "Resumen de Estadísticas con tarjetas de información, recursos principales y progresión del nivel tecnológico.",
+              "caption": "Utiliza el panel para comprender el historial, no para controlar la producción."
+            }
+          },
+          {
+            "title": "Pestaña Producción",
+            "bullets": [
+              "«Recursos más producidos» es la producción acumulada por recurso, no las existencias actuales.",
+              "«Producción por edificio» atribuye la producción manual y registrada a los tipos de instalaciones.",
+              "«Mayor producción en una operación» registra el mayor evento de producción completado. Tanto la producción manual como los bloques de Producción automatizados pueden aumentarlo.",
+              "«Recolección sin herramientas» realiza un seguimiento por separado del comportamiento de extracción inicial.",
+              "«Total de recursos de entrada procesados» se actualiza únicamente mediante edificios cuya categoría es el reciclaje. Las ejecuciones manuales suman el mapa ordinario de pago de componentes y combustible; la herramienta, que se retira por separado, no se incluye. El reciclaje automatizado suma todos los requisitos físicos, incluidas herramientas y combustible, pero excluye la Electricidad de la automatización.",
+              "Los contadores de automatización incluyen producción, consumo de componentes físicos, consumo de electricidad, ciclos de bloque de Producción completados e iteraciones de recetas configuradas. Un bloque completado aumenta los ciclos en 1 y las iteraciones según el recuento de la tanda de ese bloque."
+            ]
+          },
+          {
+            "title": "Pestaña Actividad",
+            "bullets": [
+              "«Características más usadas» se basa en el registro de interacciones con botones y navegación.",
+              "Páginas del Almanaque pasadas, aperturas del menú, días jugados y pistas de música escuchadas son contadores históricos.",
+              "Los días jugados utilizan las distintas fechas del calendario encontradas por el guardado, no el tiempo total de juego dividido por 24 horas.",
+              "Las pistas escuchadas se sincronizan desde el gestor de música antes de abrir Estadísticas, para que el recuento refleje la sesión actual."
+            ],
+            "callout": {
+              "title": "Un número puede ser cierto de dos maneras diferentes",
+              "body": "El Inventario responde a «¿Cuánto existe ahora?». Las Estadísticas responden a «¿Cuánto ha sucedido?». La distinción importa siempre que un recurso se produce y se consume inmediatamente más adelante en la cadena."
+            }
+          }
+        ]
+      },
+      "notifications-and-idle": {
+        "title": "Notificaciones y Control de inactividad",
+        "summary": "Tipos de mensajes, actualizaciones del panel, avisos de tiempo de espera y el protocolo de inactividad.",
+        "unlockLabel": "Se desbloquea tras completar tu primer proyecto de investigación",
+        "sections": [
+          {
+            "title": "Tipos de notificaciones",
+            "paragraphs": [
+              "Una notificación es transitoria; el estado subyacente no lo es. Si un mensaje desaparece, inspecciona la pantalla correspondiente, la ficha de la Guía o el panel guardado en lugar de intentar reproducir la acción simplemente para leerlo de nuevo."
+            ],
+            "bullets": [
+              "Los mensajes de éxito confirman acciones completadas como guardar, construir, instalar automatización o producir.",
+              "Los mensajes de información explican cambios de estado, finalización de tiempos de espera, desbloqueos y bloqueos no fatales.",
+              "Los mensajes de error informan de recursos faltantes, programas no válidos, instalaciones no disponibles o problemas de almacenamiento.",
+              "Las notificaciones de logros y del panel tienen un estilo dedicado y pueden resumir el progreso automático de los proyectos.",
+              "La lista de notificaciones en vivo mantiene un máximo de 24 elementos. Si una ráfaga supera ese límite, se descartan los elementos activos más antiguos y se conservan los más recientes.",
+              "La mayoría de los mensajes se eliminan por sí solos tras su duración configurada. Un mensaje persistente permanece hasta que la lógica de la aplicación lo elimina o lo borra; el renderizador actual de avisos no tiene un botón de cierre operado por el usuario."
+            ]
+          },
+          {
+            "title": "Control de inactividad",
+            "paragraphs": [
+              "Tras 60 segundos sin actividad del teclado, puntero, rueda del ratón, desplazamiento, pantalla táctil o clic, el juego muestra una advertencia de inactividad sin sonido. A los 300 segundos, cambia a una advertencia corporativa grave y reproduce el sonido de alerta. Cualquier interacción monitorizada borra la advertencia y restablece ambos umbrales.",
+              "El control de inactividad es presentación y parte del trasfondo del juego (lore). No elimina recursos, no hace fracasar investigaciones ni impone una penalización de producción oculta. La automatización puede continuar de acuerdo con sus propias reglas de recursos y electricidad mientras la aplicación siga activa."
+            ],
+            "callout": {
+              "title": "Protocolo de eficiencia",
+              "body": "La preocupación del sistema por un Director desatendido es operativamente sincera y emocionalmente inútil. Puedes tomarte descansos. Ninguna ficha de la Guía autoriza a la colonia a oponerse."
+            }
+          }
+        ]
+      },
+      "settings-and-accessibility": {
+        "title": "Ajustes y Accesibilidad",
+        "summary": "Comportamiento general, pantalla, gráficos, audio, idiomas y restablecimientos seguros.",
+        "unlockLabel": "Se desbloquea tras abrir el Menú del juego por primera vez",
+        "sections": [
+          {
+            "title": "Ajustes generales y de interfaz",
+            "bullets": [
+              "El idioma puede seguir al del sistema o utilizar una configuración regional compatible seleccionada manualmente.",
+              "El guardado automático y su intervalo controlan el registro de guardado automático dedicado.",
+              "Se pueden desactivar las notificaciones para los mensajes de éxito, información, logros, panel y otros similares enviados a través del proveedor de notificaciones. Las notificaciones de error omiten deliberadamente esta preferencia. La superposición separada de advertencia de inactividad no está controlada por esta casilla de verificación y sigue apareciendo en sus umbrales de inactividad.",
+              "Las descripciones emergentes de vista previa de recetas, las etiquetas de pistas de atajos, la posición recordada de Edificios y las advertencias de eficiencia de herramientas se pueden alternar de forma independiente.",
+              "El desplazamiento realista de páginas del Almanaque es opcional y no elimina la navegación mediante botones."
+            ]
+          },
+          {
+            "title": "El entorno del Menú del juego",
+            "paragraphs": [
+              "El Menú contiene Reanudar, Guardar partida, Cargar partida, Ajustes, Gramola, Menú principal y Salir. Hacer clic en el área oscura fuera del menú se comporta como Reanudar. La Gramola también muestra la pista que se está reproduciendo actualmente debajo de su botón.",
+              "Menú principal y Salir requieren confirmación. En la versión de Electron, confirmar Salir pide al entorno de escritorio que se cierre; en otro host utiliza la acción de salida de reserva de la aplicación. Abrir y cerrar el Menú no pausa, guarda ni revierte la automatización por sí solo."
+            ]
+          },
+          {
+            "title": "Pantalla y gráficos",
+            "paragraphs": [
+              "Los modos en ventana, sin bordes (donde sea compatible) y a pantalla completa controlan el entorno de ejecución. El modo en ventana puede utilizar una resolución elegida. La escala de la interfaz varía desde una interfaz compacta a una ampliada, y la escala de la cuadrícula de edificios cambia cuántas tarjetas de instalaciones caben en el directorio.",
+              "La calidad de los gráficos y los interruptores de características controlan los shaders, los efectos WebGL, los efectos ópticos, las partículas ambientales realistas, los efectos de partículas ordinarios, las animaciones y los efectos del Árbol de investigación (que son especialmente exigentes). Algunos controles dependen de los shaders, de WebGL o de la calidad Alta, y se desactivan cuando esos prerrequisitos están apagados."
+            ],
+            "media": {
+              "alt": "Ajustes con las pestañas General, Pantalla, Gráficos, Audio y Atajos visibles.",
+              "caption": "La presentación visual puede reducirse sin cambiar las reglas de simulación."
+            }
+          },
+          {
+            "title": "Audio y uso seguro",
+            "bullets": [
+              "Los volúmenes principal, música, ambiente, interfaz / efectos de sonido y voz son independientes. El volumen Principal ajusta a todos los demás canales.",
+              "La música de producción se puede desactivar para las interfaces de las instalaciones, dejar a su nivel normal o activar con reducción de volumen (ducking). La casilla de reducción de volumen no tiene efecto si la Música de producción está apagada.",
+              "La vista previa ambiental del edificio al pasar el cursor sobre la tarjeta se puede desactivar.",
+              "La música del juego es original y está pensada para ser segura (sin copyright restrictivo) en vídeos y directos grabados.",
+              "Restablecer restaura los ajustes predeterminados tras su confirmación. No es la misma acción que restablecer una ranura de guardado."
+            ]
+          }
+        ]
+      },
+      "jukebox-and-audio": {
+        "title": "Gramola y música dinámica",
+        "summary": "Desbloqueo de pistas según el nivel, desactivación de pistas, comportamiento en producción y estadísticas de música escuchada.",
+        "unlockLabel": "Se desbloquea con la ficha del Menú del juego",
+        "sections": [
+          {
+            "title": "La tecnología desbloquea la banda sonora",
+            "paragraphs": [
+              "La música se agrupa por nivel tecnológico. Alcanzar un nuevo nivel máximo desbloquea sus pistas asociadas en el gestor de música activo. La Gramola enumera las pistas disponibles y puede desactivar canciones individuales sin bajar el volumen general de la música.",
+              "Las pistas desactivadas siguen estando desbloqueadas y se pueden restaurar más tarde. Un guardado mantiene su lista de pistas desactivadas, mientras que los ajustes generales de volumen son preferencias de la aplicación."
+            ]
+          },
+          {
+            "title": "La música en la producción",
+            "bullets": [
+              "La Música de producción determina si la banda sonora continúa mientras la interfaz de una instalación está abierta.",
+              "La reducción de volumen (Ducking) reduce sustancialmente el volumen de la música en la producción en lugar de detener la reproducción.",
+              "La maquinaria ambiental y los efectos de la interfaz de usuario utilizan canales de volumen independientes.",
+              "Las transmisiones del Asistente y otro material hablado utilizan el canal de voz.",
+              "Estadísticas registra las diferentes pistas escuchadas. No es el mismo recuento que el de pistas desbloqueadas o activadas."
+            ]
+          },
+          {
+            "title": "Cuándo no se escucha una pista recién desbloqueada",
+            "paragraphs": [
+              "Comprueba el estado de activación en la Gramola, el volumen de la música, el volumen principal y si la música de producción está desactivada. La selección de pistas sigue siendo dinámica; desbloquear un nivel expande el repertorio pero no garantiza que una pista exacta se reproduzca de inmediato."
+            ]
+          }
+        ]
+      },
+      "automation-foundations": {
+        "title": "Fundamentos de la automatización",
+        "summary": "Esquemas locales para cada edificio, cuadrillas manuales, núcleos electrónicos posteriores y modos de funcionamiento.",
+        "unlockLabel": "Se desbloquea tras abrir tu primera interfaz de producción",
+        "sections": [
+          {
+            "title": "La automatización es local a cada edificio",
+            "paragraphs": [
+              "Automatización significa un esquema ejecutable guardado para una instalación construida en concreto. Un edificio puede alojar un esquema manual desde el principio y, más adelante, también puede albergar un esquema electrónico, una instalación de núcleo, mejoras, tareas en ejecución, el modo seleccionado y la aportación al historial. Un programa configurado en un edificio no puede ejecutar una receta asignada a otro edificio.",
+              "La automatización repite el trabajo de la receta a lo largo del tiempo en lugar de ejecutarse al instante. Los componentes físicos, el combustible seleccionado y las herramientas completas se retiran cuando se completa un bloque de Producción. Los bloques de Producción electrónicos también retiran su Electricidad calculada. Los productos entran en el mismo inventario en vivo utilizado por la producción manual y por cualquier otro programa."
+            ],
+            "media": {
+              "alt": "Consola de automatización de un edificio de producción que muestra los modos electrónico y manual, la instalación del núcleo, los controles del programa y las mejoras.",
+              "caption": "La automatización pertenece a la instalación cuyas recetas ejecuta."
+            }
+          },
+          {
+            "title": "Dos modos, un solo edificio",
+            "bullets": [
+              "La Automatización con colonos está disponible a través de los controles del esquema manual en un edificio de producción. No requiere la investigación Automatización de edificios ni un núcleo electrónico instalado.",
+              "La Automatización electrónica es la capa posterior basada en núcleos que se desbloquea con la investigación Automatización de edificios. Requiere un núcleo de automatización instalado en ese edificio y consume electricidad mientras operan los bloques de Producción.",
+              "Un edificio no puede ejecutar su programa electrónico y el manual simultáneamente. Detén el modo activo antes de iniciar el otro.",
+              "Los programas permanecen guardados mientras están detenidos. Detenerlos borra las tareas activas en ejecución y las reservas, pero no elimina el grafo.",
+              "La acción manual ordinaria Producir sigue siendo independiente. Un programa en ejecución no te impide ver la interfaz de producción, pero competir por el mismo inventario puede crear bloqueos."
+            ]
+          },
+          {
+            "title": "Instalación de un núcleo electrónico",
+            "steps": [
+              "Investiga Automatización de edificios.",
+              "Abre un edificio operativo y localiza su consola de automatización.",
+              "Inspecciona el coste de instalación específico del edificio.",
+              "Instala el Núcleo de automatización. El coste completo se consume de una sola vez para ese edificio.",
+              "Configura y valida un esquema Electrónico antes de iniciarlo."
+            ],
+            "callout": {
+              "title": "Construcción no equivale a instalación",
+              "body": "Construir la instalación, investigar la automatización e instalar su núcleo son tres barreras independientes. Además, tener un núcleo instalado no hace que un programa vacío o no válido se ejecute."
+            }
+          },
+          {
+            "title": "Coste exacto de la instalación del núcleo",
+            "paragraphs": [
+              "Sea t el Nivel Tecnológico del edificio, limitado entre 0 y 10. Instalar el núcleo electrónico de ese edificio cuesta las siguientes unidades enteras: Hilo de cobre = techo(30 + t³), Engranaje de acero = techo(5 + t²), Plancha de acero = techo(4 + t^1.8), Circuito electrónico = techo(2 + t^1.5), y Motor = techo(2 + t^1.5). La fórmula se evalúa de forma independiente para cada edificio; instalar un núcleo no abarata el siguiente."
+            ]
+          }
+        ]
+      },
+      "automation-program-editor": {
+        "title": "Editor de programas de automatización",
+        "summary": "Crear grafos, conectar puertos, comprobar, guardar automáticamente, acciones del portapapeles e iniciar esquemas.",
+        "unlockLabel": "Se desbloquea tras abrir un editor de esquemas manual o electrónico",
+        "sections": [
+          {
+            "title": "Un esquema es un grafo ejecutable",
+            "paragraphs": [
+              "Arrastra un bloque al lienzo o haz clic en él en la paleta, configura sus campos y conecta los puertos de salida a los puertos de entrada compatibles. La ejecución comienza en el único bloque Inicio y sigue las conexiones. La posición es puramente visual; las conexiones y los datos de los bloques definen el comportamiento.",
+              "Los cambios se guardan automáticamente en el edificio y modo, pero un grafo modificado debe comprobarse de nuevo antes del lanzamiento. «Comprobar esquema» valida la estructura y resalta los nodos o bordes involucrados. «Iniciar esquema» se habilita únicamente cuando se cumplen los requisitos de lanzamiento."
+            ],
+            "media": {
+              "alt": "El editor de automatización con la paleta de bloques, el grafo conectado, el minimapa o controles, el panel de validación y la palanca de inicio.",
+              "caption": "Las conexiones, no la posición en la pantalla, definen el flujo de control."
+            }
+          },
+          {
+            "title": "Controles del editor",
+            "bullets": [
+              "Ctrl + arrastrar realiza una selección de área.",
+              "Ctrl+A selecciona todo. Ctrl+C, Ctrl+X, Ctrl+V y Ctrl+D copian, cortan, pegan y duplican los fragmentos seleccionados.",
+              "Ctrl+Z deshace; Ctrl+Shift+Z o Ctrl+Y rehace.",
+              "Suprimir (Delete) elimina los bloques o bordes seleccionados. Escape borra la selección.",
+              "Hacer doble clic en una conexión inserta un punto de redirección; hacer clic con el botón derecho en una conexión la elimina.",
+              "«Ajustar a la cuadrícula» solo cambia la asistencia de colocación.",
+              "«Borrar» elimina el esquema editable tras la interacción pertinente; copia primero un grafo reutilizable si lo necesitas."
+            ]
+          },
+          {
+            "title": "Copiar entre edificios y modos",
+            "paragraphs": [
+              "«Copiar esquema» almacena el grafo completo en un portapapeles de esquemas local persistente. «Pegar esquema» reemplaza todo el grafo del editor de destino; no es una operación de adición. Los tipos de bloque incompatibles se omiten para el modo de destino, los bloques de Producción electrónicos que superan el límite de la ranura actual se omiten, los bordes de error manuales se eliminan, el recuento de iteraciones se ajusta a los límites, y un bloque de Producción cuya receta guardada no pertenece al edificio de destino recurre a la primera receta disponible y a la primera opción de combustible de dicho edificio.",
+              "Copiar/pegar selecciones es independiente. Almacena los bloques seleccionados además de los bordes cuyos dos extremos están seleccionados, y luego añade el nuevo fragmento cerca del centro de la cámara. Los bloques pegados reciben nuevos identificadores. Si el programa electrónico de destino carece de ranuras de Producción libres, el exceso de bloques de Producción seleccionados y sus bordes (ahora no válidos) se omiten, mientras que los demás bloques aceptados sí se pegan.",
+              "Un grafo copiado es un diseño, no el estado de ejecución en vivo. El progreso, los recursos bloqueados, las llegadas de barreras y las tareas actuales no conforman una cola de producción portátil."
+            ],
+            "callout": {
+              "title": "Construye una pasada válida antes que un grafo repetitivo",
+              "body": "Inicio → Producción → Fin es el esquema más pequeño de una sola pasada. Para un esquema repetitivo finito, usa Inicio → Unificador → Producción → Bucle; conecta el «bucle» del cuerpo de Bucle de vuelta a Unificador y la «salida» a Fin. Una versión manual debe colocar su(s) bloque(s) de Descanso requerido(s) en la ruta repetitiva, normalmente entre Producción y Bucle. Inicio no tiene puerto de entrada, y dos rutas no pueden compartir un mismo puerto de entrada ordinario: por esto es necesario el Unificador."
+            }
+          }
+        ]
+      },
+      "automation-blocks": {
+        "title": "Bloques de automatización y Flujo",
+        "summary": "Cada tipo de bloque, semántica de puertos, bifurcaciones, sincronización, bucles, errores y redirecciones.",
+        "unlockLabel": "Se desbloquea tras añadir lógica de producción a un esquema de automatización",
+        "sections": [
+          {
+            "title": "Bloques básicos y de tiempo",
+            "bullets": [
+              "La disponibilidad de los bloques depende del modo. Los esquemas manuales utilizan la paleta segura para los colonos; los esquemas electrónicos añaden bloques de control exclusivos de la electrónica una vez que el sistema central está disponible.",
+              "Inicio (Start): el punto de entrada único. Se requiere exactamente uno y necesita una conexión de salida.",
+              "Fin (End): termina una tarea que llega a él. Fin es opcional; omitirlo produce una advertencia porque un bucle intencional podría no terminar nunca.",
+              "Producción (Production): ejecuta una receta perteneciente al edificio actual según la cantidad configurada de iteraciones y la opción de combustible. Las iteraciones electrónicas están limitadas a 1 + niveles adquiridos del Manejo de lotes; las iteraciones manuales van de 1 a 9,999. Tiene una ruta 'siguiente' normal; el modo electrónico también puede enrutar una salida de error cuando la producción no puede completarse.",
+              "Esperar (Wait): pausa su tarea por un valor entero de 1 a 3,600 segundos, luego sigue la ruta 'siguiente'.",
+              "Descanso (Rest): una pausa fija de cinco segundos utilizada por la automatización con colonos y que se contabiliza para su estructura de recuperación obligatoria."
+            ],
+            "media": {
+              "alt": "Un grafo de automatización etiquetado que demuestra cada bloque y sus puertos.",
+              "caption": "Las señales viajan a lo largo de las conexiones dirigidas desde Inicio."
+            }
+          },
+          {
+            "title": "Decisión y repetición",
+            "bullets": [
+              "Condición (Condition): compara un recurso seleccionado del inventario con una cantidad de 0 a 999,999,999 y se dirige a través de 'verdadero' o 'falso'. Las comparaciones admitidas son <, ≤, = exacto, ≥ y >. Se permiten umbrales decimales.",
+              "Bucle (Loop): acepta un recuento de 0 a 9,999. Envía la ejecución a través de su 'bucle' por el recuento configurado, y luego a través de 'salida'. Un recuento de 0 siempre selecciona el 'bucle' y nunca selecciona 'salida'. Para repetir el trabajo anterior, la ruta del bucle debe regresar a través de un Unificador u otro punto de fusión legal; el Bucle no salta hacia atrás implícitamente.",
+              "El contador del Bucle registra las selecciones de su 'bucle' en el bloque Bucle. En Inicio → Unificador → Producción → Bucle (con su 'bucle' regresando al Unificador), Producción se ejecuta una vez antes de que el Bucle vea su contador, y luego una vez por cada selección del 'bucle'. Un valor de Bucle finito de 3 genera, por lo tanto, cuatro visitas a Producción antes de ir a 'salida'.",
+              "Un Bucle finito sin una ruta de salida se permite únicamente como problema de diseño de nivel de advertencia; debes decidir si la ruta omitida es verdaderamente intencional.",
+              "Las Condiciones leen el inventario en el momento en que se alcanzan. No reservan la cantidad comprobada, y otra rama o edificio puede alterar el inventario posteriormente."
+            ]
+          },
+          {
+            "title": "Flujo paralelo",
+            "bullets": [
+              "Divisor (Splitter): emite una tarea por cada rama conectada. Necesita al menos dos conexiones de rama.",
+              "Unificador (Joiner): acepta cualquier rama entrante y pasa inmediatamente esa llegada individual hacia adelante. Fusiona rutas geométricamente, pero no espera a todas las ramas.",
+              "Barrera (Barrier): espera hasta que cada entrada conectada haya recibido una llegada, consume una llegada de cada entrada y luego emite una tarea 'siguiente'. Las llegadas adicionales quedan en cola para la próxima sincronización.",
+              "El recuento de salidas del Divisor y el recuento de entradas del Unificador / Barrera se pueden configurar de 2 a 8. Al reducir el recuento, se eliminan inmediatamente las conexiones unidas a los puertos numerados retirados.",
+              "Un bloque de Producción funciona en «vuelo único»: si otra señal alcanza el mismo bloque mientras ya está activo, el trabajo duplicado no se genera."
+            ],
+            "callout": {
+              "title": "Unificador y Barrera son intencionadamente distintos",
+              "body": "Utiliza el Unificador cuando cualquier rama deba continuar. Utiliza la Barrera cuando todas las ramas conectadas deban encontrarse. Confundirlos puede multiplicar el trabajo más adelante en la cadena o dejar a un programa esperando para siempre."
+            }
+          },
+          {
+            "title": "Redirección y puertos",
+            "paragraphs": [
+              "Redirección (Reroute): es un nodo de enrutamiento visual con una conexión por lado. Una tarea que entra por un lado sale por el otro. No retrasa, copia, filtra ni sincroniza el trabajo.",
+              "Cada puerto de salida ordinario y puerto de entrada acepta solo una conexión. Los Divisores y los bloques con múltiples entradas exponen puertos dedicados para su divergencia o convergencia. Los puertos compartidos no válidos se notifican durante la validación."
+            ]
+          }
+        ]
+      },
+      "colonist-automation": {
+        "title": "Automatización con colonos",
+        "summary": "Capacidad, reservas, trabajo más lento, cálculo de trabajadores, descanso obligatorio y bloques admitidos.",
+        "unlockLabel": "Se desbloquea tras abrir tu primera interfaz de producción",
+        "sections": [
+          {
+            "title": "Disponible antes que los núcleos electrónicos",
+            "paragraphs": [
+              "La Automatización con colonos es el modo de automatización manual. No se desbloquea con la investigación Automatización de edificios y no depende de la instalación de un núcleo electrónico. Abre un edificio construido, usa el panel de Automatización con colonos, configura un esquema manual válido, compruébalo e inícialo si la colonia tiene suficiente capacidad de colonos disponible.",
+              "Guardar o iniciar un esquema manual crea un estado de automatización para ese edificio, pero no cuenta como instalación de un núcleo electrónico. La instalación electrónica, las mejoras electrónicas y el consumo eléctrico electrónico siguen siendo una capa posterior separada."
+            ]
+          },
+          {
+            "title": "Capacidad de la colonia",
+            "paragraphs": [
+              "La capacidad de los colonos es de cinco personas por el nivel tecnológico más alto alcanzado. Una colonia de Nivel 1 tiene 5 en total, la de Nivel 5 tiene 25 y la de Nivel 10 tiene 50. La cabecera muestra cuántos están disponibles / total y el número reservado por programas manuales en ejecución.",
+              "Los colonos son reservados por el programa, no se consumen como recursos. Detener un esquema manual libera su reserva. Un esquema guardado pero detenido no consume capacidad."
+            ],
+            "media": {
+              "alt": "Un esquema de automatización manual con los recuentos de iteración de producción, coste de trabajadores, bloques de Descanso requeridos y capacidad de colonos en la cabecera.",
+              "caption": "La capacidad del personal es un límite compartido en toda la colonia."
+            }
+          },
+          {
+            "title": "Cómo se calcula la demanda de trabajadores",
+            "paragraphs": [
+              "Cada bloque de Producción manual requiere un colono por cada cinco iteraciones configuradas, redondeando hacia arriba. Un bloque con 1–5 iteraciones necesita 1 colono; con 6–10 necesita 2. La demanda del programa es la suma a lo largo de todos los bloques de Producción, no solo de la rama que está activa en ese momento.",
+              "La producción manual toma el doble del tiempo de automatización base. A cambio, no requiere el núcleo electrónico ni el modelo de energía electrónica. Sigue consumiendo los componentes físicos, el combustible y las herramientas de la receta."
+            ]
+          },
+          {
+            "title": "Reglas de descanso",
+            "bullets": [
+              "El programa necesita al menos un bloque de Descanso por cada dos colonos requeridos, redondeando hacia arriba.",
+              "Para rutas de producción repetitivas, deben aparecer suficientes bloques de Descanso dentro de cada ciclo de producción, y no simplemente en algún lugar de una rama lateral inalcanzable o que se ejecute una sola vez.",
+              "También se comprueba que cualquier componente cíclico compartido que contenga varios bloques de Producción tenga suficientes bloques de Descanso en total.",
+              "El Descanso dura cinco segundos y no se puede acortar editando un valor.",
+              "El modo manual admite Inicio, Fin, Producción, Esperar, Descanso, Bucle, Divisor, Unificador y Redirección. Condición y Barrera son exclusivos del modo electrónico en las reglas actuales."
+            ],
+            "callout": {
+              "title": "Planificación de la capacidad",
+              "body": "Una tanda más grande puede requerir otro colono antes de que suponga una mejora en el rendimiento útil. Compara el redondeo de los trabajadores, la demanda de descanso y el suministro de recursos en lugar de seleccionar siempre el número máximo de iteraciones."
+            }
+          }
+        ]
+      },
+      "automation-upgrades": {
+        "title": "Núcleos y Mejoras de automatización",
+        "summary": "Coste de instalación, Regulador de velocidad, Manejo de lotes, Controlador paralelo, escala y niveles activos.",
+        "unlockLabel": "Se desbloquea tras instalar tu primer núcleo de automatización",
+        "sections": [
+          {
+            "title": "Las mejoras se investigan, compran e instalan por edificio",
+            "paragraphs": [
+              "Cada familia de mejoras requiere primero su propia investigación. Después, los niveles se adquieren por separado para el núcleo instalado en cada edificio, utilizando un coste de materiales que depende del edificio y del nivel. Comprar una mejora consume recursos de forma permanente; no es un bono a nivel de toda la colonia.",
+              "Los niveles comprados y los activos suelen ser los mismos. La Velocidad es la excepción: puedes reducir su nivel activo hasta cero y volver a elevarlo hasta el nivel comprado sin que te devuelvan los recursos ni tengas que recomprarlo."
+            ],
+            "media": {
+              "alt": "Mejoras de automatización mostrando los niveles comprados, los controles del nivel de Velocidad activo, los costes y las consecuencias energéticas.",
+              "caption": "Cada incremento del rendimiento conlleva una contrapartida en términos de capacidad o energía local."
+            }
+          },
+          {
+            "title": "Las tres familias de mejoras",
+            "bullets": [
+              "Regulador de velocidad: cada nivel activo multiplica la velocidad del bloque de Producción por 1.5, por lo que los niveles se componen de forma multiplicativa en lugar de sumar un 50% fijo. La tasa total de energía se duplica por cada nivel activo; la energía por ciclo se ajusta debido a que el ciclo, más rápido, también finaliza antes.",
+              "Manejo de lotes: cada nivel comprado añade una iteración máxima a todo bloque de Producción electrónico. El multiplicador de energía se compone en ×1.15 por cada iteración configurada por encima de 1.",
+              "Controlador paralelo: cada nivel comprado añade un bloque de Producción permitido al esquema electrónico. Cada bloque de Producción adicional duplica el consumo de energía de todos los bloques de Producción."
+            ]
+          },
+          {
+            "title": "Composición de multiplicadores",
+            "paragraphs": [
+              "La Velocidad, las tandas más grandes y los bloques de Producción adicionales afectan a distintas partes del modelo y pueden componerse para generar una necesidad eléctrica enorme. El editor y el Panel de automatización estiman el flujo utilizando el grafo actual y los niveles activos. Revisa esas estimaciones después de cada mejora.",
+              "Un programa mejorado puede seguir siendo más lento en la práctica si se bloquea repetidamente por falta de componentes o electricidad. El hardware de rendimiento no genera los recursos previos que se necesitan en la cadena."
+            ],
+            "callout": {
+              "title": "Comprado no significa sostenible",
+              "body": "Si un nivel de Velocidad desestabiliza tu red eléctrica, reduce el nivel activo mientras expandes la capacidad energética. La inversión material permanece instalada y se podrá reactivar más adelante."
+            }
+          },
+          {
+            "title": "Precios exactos de las mejoras",
+            "paragraphs": [
+              "Para cada material en el coste base de una mejora, el siguiente nivel cuesta techo(cantidad base × 2^nivelComprado × (1 + 0.15 × t)), con un mínimo de 1 y el nivel del edificio (t) limitado entre 0 y 10. «Nivel comprado» es el nivel que se tiene antes de comprar: el nivel 0 utiliza ×1, el nivel 1 utiliza ×2, el nivel 2 utiliza ×4, y así sucesivamente. Reducir la Velocidad activa no disminuye el precio del siguiente nivel a comprar."
+            ],
+            "bullets": [
+              "Base de Manejo de lotes: Engranaje de acero 4, Plancha de aluminio 2, Acero inoxidable 2, Circuito electrónico 2, Latón 1, Motor 1.",
+              "Base de Controlador paralelo: Engranaje de acero 5, Lubricante 4, Acero cromado 4, Plástico 2, Circuito avanzado 2, Transformador 1, Máquina simple 1.",
+              "Base de Regulador de velocidad: Lubricante 6, Plástico 5, Circuito avanzado 4, Transformador 2, Máquina simple 2, Aleación de aluminio 2, Acero de herramientas 2, Cilindro hidráulico 2, Caucho 1, Sensor óptico 1, Unidad de procesamiento 1."
+            ]
+          },
+          {
+            "title": "Sincronización exacta y modelo de energía electrónico",
+            "paragraphs": [
+              "La duración automatizada sin acelerar de una receta es el mayor valor entre 5 segundos, sus automationTimeSeconds explícitos cuando estén presentes (en su defecto, 5 segundos + 0.75 segundos por cada componente distinto de entrada, salida, combustible y herramienta + 0.25 segundos por nivel del edificio) y el tiempo de espera de la receta. La Velocidad divide esa duración por 1.5^nivelDeVelocidadActivo, con un mínimo estricto de 1 segundo. El modo manual ignora la Velocidad electrónica y luego duplica la duración sin acelerar.",
+              "La energía electrónica consumida al completarse un bloque de Producción se redondea a dos decimales a partir de: nivel del edificio × (2 ÷ 1.5)^nivelDeVelocidadActivo × 1.15^(iteraciones − 1) × 2^(bloques de Producción electrónicos − 1). El término de la velocidad se refiere a la energía por ciclo, no a la tasa de potencia: debido a que el ciclo también es 1.5 veces más rápido por cada nivel, la tasa de potencia resultante se duplica por cada nivel de Velocidad activo. El término en paralelo utiliza el número de bloques de Producción electrónicos presentes en el esquema, no los que se estén ejecutando actualmente."
+            ]
+          }
+        ]
+      },
+      "automation-runtime-and-validation": {
+        "title": "Validación y Ejecución de la automatización",
+        "summary": "Comprobaciones previas, bloqueos, errores, persistencia, seguridad del reloj inactivo y edición de programas en funcionamiento.",
+        "unlockLabel": "Se desbloquea tras iniciar tu primer esquema de automatización",
+        "sections": [
+          {
+            "title": "Validación antes del lanzamiento",
+            "paragraphs": [
+              "El validador comprueba la estructura del grafo, los bloques alcanzables, los límites de puertos, si se posee la receta, los límites de iteraciones y de bloques de producción, la validez del combustible, la compatibilidad con el modo manual, la capacidad de colonos y la estructura de descansos. Los errores impiden el lanzamiento. Las advertencias señalan grafos cuestionables pero potencialmente intencionales, como la falta de un bloque Fin.",
+              "La validación es estructural e interactúa con el estado, pero no garantiza un suministro ininterrumpido. Un programa válido puede bloquearse más adelante si se agotan el inventario o la electricidad."
+            ],
+            "media": {
+              "alt": "Un esquema de automatización no válido con los nodos y bordes resaltados y un mensaje de validación específico junto a un estado corregido listo para funcionar.",
+              "caption": "Corrige el primer error estructural notificado y vuelve a comprobarlo."
+            }
+          },
+          {
+            "title": "Producción bloqueada",
+            "bullets": [
+              "Una tarea de Producción llega a su punto de finalización, comprueba los requisitos y, o bien los consume y genera el producto, o bien informa de un motivo de bloqueo y del recurso que lo causa.",
+              "Si no hay una ruta de error electrónico, la tarea espera en su lugar y podrá reanudarse cuando el recurso que falta pase a estar disponible.",
+              "Si cuenta con una conexión de error electrónico, los fallos envían el control por dicha salida en lugar de detener la tarea en el bloque de Producción.",
+              "La cabecera contabiliza los esquemas bloqueados; la consola del edificio y el Panel de automatización exponen los detalles.",
+              "Las Condiciones no reintentan automáticamente una producción fallida a menos que tu grafo trace una ruta de vuelta a un control o bucle apropiado."
+            ]
+          },
+          {
+            "title": "Editar un esquema en funcionamiento",
+            "paragraphs": [
+              "Los cambios puramente visuales pueden conservar el estado de ejecución si el grafo ejecutable no se ha modificado. Si la estructura de ejecución cambia, las tareas activas se reinician. Si un programa en funcionamiento deja de ser válido, se guarda pero se detiene para evitar que un grafo malformado siga empleando un estado de ejecución obsoleto.",
+              "Se rechaza intentar iniciar un modo mientras el otro se está ejecutando en el mismo edificio. Detenerlo borra las tareas activas, las llegadas en barreras, el estado de bloqueo y la marca del modo activo del edificio."
+            ]
+          },
+          {
+            "title": "Partidas guardadas y tiempo transcurrido",
+            "paragraphs": [
+              "La automatización utiliza un reloj histórico relativo a la partida guardada y normaliza las marcas de tiempo heredadas durante la carga. Esto protege el historial frente a discontinuidades en la hora real (wall-clock) y conserva el estado en progreso. La simulación procesa un límite de trabajo por tick; cambiar la hora del ordenador no es una vía admitida para generar recursos.",
+              "Los ciclos instantáneos se detectan cuando se repite un estado de ejecución y se bloquean con la razón loopGuard; las rutas acíclicas largas de duración cero están permitidas. Los programas pueden conservar miles de tareas activas y solo un límite de emergencia alto protege frente a una ramificación exponencial descontrolada. Se siguen recomendando bloques temporizados de Producción, Esperar o Descanso en los ciclos intencionales.",
+              "Exporta tu partida antes de realizar ediciones experimentales en un esquema muy grande. El portapapeles del programa conserva el diseño, pero el archivo guardado (save) preserva el diseño más las instalaciones, mejoras, estadísticas, el historial y el estado de ejecución."
+            ]
+          }
+        ]
+      },
+      "automation-board": {
+        "title": "Panel de automatización y Analíticas",
+        "summary": "Métricas clave (KPIs) en vivo, tarjetas, gráficos, modos de flujo, rangos de tiempo, bloqueos y desgloses por edificio.",
+        "unlockLabel": "Se desbloquea tras abrir el Panel de automatización",
+        "sections": [
+          {
+            "title": "Una visión general de la automatización en toda la colonia",
+            "paragraphs": [
+              "El Panel de automatización resume los programas activos en todos los edificios. Informa sobre los edificios activos, las recetas o bloques de Producción, la estimación de electricidad por minuto, los componentes por minuto, los productos por minuto, los detalles del ciclo actual y los estados de bloqueo. Utilízalo para localizar cuellos de botella sistémicos que resultan difíciles de ver desde la consola de una sola instalación.",
+              "El panel es una superposición en vivo con vistas en formato de tarjeta o de gráfico. Al contraerlo se conservan sus ajustes e historial. Su pestaña puede ocultarse cuando el Tablero de operaciones se encuentra desplegado, a fin de que ambos paneles laterales no interfieran en el mismo espacio interactivo."
+            ],
+            "media": {
+              "alt": "Panel de automatización en modo de gráfico con KPIs, el historial de producción y electricidad, los controles de rango y una fila de edificio bloqueado.",
+              "caption": "Compara el flujo estimado con los resultados históricos."
+            }
+          },
+          {
+            "title": "Modos de tarjetas, gráficos y listas",
+            "bullets": [
+              "La vista en formato Tarjetas hace hincapié en el estado actual del edificio y los bloques.",
+              "La vista en formato Gráficos resalta el historial registrado de producción y electricidad.",
+              "La lista por Edificios agrupa el trabajo activo según la instalación; la lista por Recetas enfatiza el trabajo de producción a nivel individual.",
+              "Al voltear una tarjeta se revelan sus detalles alternativos sin alterar el programa.",
+              "Las acciones contextuales permiten abrir el edificio de origen, la receta de producción, la investigación o el recurso en el Almanaque."
+            ]
+          },
+          {
+            "title": "Flujo bruto y neto",
+            "paragraphs": [
+              "El flujo bruto muestra la producción y el consumo como magnitudes separadas. El flujo neto las combina por recurso para que queden a la vista el excedente o el déficit. La opción de incluir la energía de la automatización determina si la demanda de electricidad formará parte de esa presentación de flujos.",
+              "Las cifras por minuto son estimaciones deducidas a partir del grafo ejecutable, las duraciones, las mejoras y los bloques configurados. Los gráficos históricos registran lo que realmente ha ocurrido. Por tanto, un programa que se haya quedado sin recursos puede presentar una estimación prometedora pero una producción observada pobre."
+            ]
+          },
+          {
+            "title": "Rangos del historial",
+            "bullets": [
+              "Los rangos de 10m, 1h, 10h, 100h y 1000h agrupan el historial guardado en intervalos temporales adecuados.",
+              "Las capturas del historial se registran, como mucho, una vez cada diez segundos en el reloj histórico del archivo guardado; los puntos en el gráfico no corresponden a una muestra por cada ciclo de producción.",
+              "Los rangos cortos revelan oscilaciones y bloqueos recientes; los rangos largos revelan tendencias estratégicas.",
+              "El mensaje «Sin historial» significa que el sistema no ha registrado todavía muestras utilizables para esa vista, no que el programa carezca forzosamente de validez.",
+              "Los KPI del tiempo total de vida útil conservan su utilidad aun cuando el intervalo seleccionado del gráfico muestre escasa actividad."
+            ]
+          }
+        ]
+      },
+      "guide-records": {
+        "title": "Uso de esta Guía",
+        "summary": "Desbloqueos de fichas, insignias de no leídas, búsqueda, categorías, imágenes y límites de spoilers.",
+        "unlockLabel": "Disponible al inicio de cada asignación",
+        "sections": [
+          {
+            "title": "Las fichas aparecen a medida que se vuelven relevantes",
+            "paragraphs": [
+              "La Guía es progresiva. Empieza por la orientación y los controles fundamentales, y luego va desbloqueando fichas según ocurren eventos concretos: al abrir una pantalla por primera vez, al completar un hito, al fijar un proyecto, instalar la automatización o alcanzar un determinado nivel tecnológico. Estos desbloqueos son permanentes en cada partida guardada.",
+              "Una pequeña notificación de «Guía actualizada» aparece cuando una o más fichas pasan a estar disponibles durante el transcurso de la partida. Si solo se desbloquea una, se indica el nombre de la ficha; si es un lote, se indica la cantidad total. Si se carga una partida donde ya existían fichas desbloqueadas, no se volverán a reproducir esas viejas notificaciones. Al igual que otros mensajes de información, se puede ocultar este aviso en las preferencias globales de Notificaciones; no obstante, la insignia numérica sobre el botón seguirá mostrando de forma fiable lo que está pendiente de leer.",
+              "La insignia numérica en el botón de navegación GUÍA hace recuento de las fichas desbloqueadas que aún no se han abierto. Al abrir una ficha, esta queda marcada como leída y se reduce el número en la insignia. «Marcar todas como leídas» despeja todo lo pendiente actual; si más adelante se desbloquean nuevas fichas, volverá a aparecer el aviso numérico."
+            ],
+            "media": {
+              "alt": "El menú modal de la Guía, mostrando la barra de categorías, la búsqueda, las marcas de fichas no leídas, el índice de artículos y el panel de contenido.",
+              "caption": "La Guía en sí misma es un sistema progresivo que se guarda."
+            }
+          },
+          {
+            "title": "Cómo encontrar información",
+            "bullets": [
+              "La búsqueda examina títulos, resúmenes, palabras clave, encabezados, párrafos, viñetas, pasos y llamadas (callouts) de cada ficha.",
+              "Los filtros de categoría reducen la lista mostrada en el índice sin alterar el estado de leído o no leído.",
+              "Las nuevas fichas se marcan en el índice hasta el momento en que se abren.",
+              "El apartado «Fichas relacionadas» al final de un artículo enlaza únicamente a otras fichas relacionadas que ya hayas desbloqueado.",
+              "Las fichas que siguen bloqueadas se representan solo con un recuento de elementos pendientes. Sus títulos y su contenido permanecen ocultos con el fin de evitar revelar sistemas propios del tramo final del juego."
+            ]
+          },
+          {
+            "title": "Lo que la Guía revelará y lo que no",
+            "paragraphs": [
+              "Las reglas de operación se detallan de forma explícita, incluyendo costes particulares, el sistema de redondeo, qué puede generar un bloqueo y cómo se comporta el grafo. Sin embargo, el contenido narrativo se mantiene deliberadamente a raya. Ciertos archivos de acceso restringido y archivos multimedia recuperados están pensados para ser descubiertos en sus propias interfaces; esta Guía solo pasará a explicar cómo funcionan esos sistemas en el momento en que el jugador logre acceder a ellos, y nunca publicará las soluciones o los desenlaces de la campaña.",
+              "Algún texto corporativo ocasional, números de documentos o determinados checksums extrañamente persistentes pueden entrelazarse con el lore general del juego. Deberías considerarlos como ambientación, a menos que sea el propio juego el que te pida verificar algún dato. La División de Documentación Técnica desmiente que esta frase haya contenido en algún momento trece palabras menos."
+            ]
+          }
+        ]
+      },
+      "registry-access": {
+        "title": "Acceso al Registro",
+        "summary": "Cómo localizar el Registro, la secuencia de arranque, el acceso por niveles, las búsquedas, la verificación y el uso libre de spoilers.",
+        "unlockLabel": "Se desbloquea tras abrir el Registro por primera vez",
+        "sections": [
+          {
+            "title": "Acceso al archivo",
+            "paragraphs": [
+              "Al llegar al Nivel Tecnológico 5, una sutil vía de acceso al Registro pasará a estar disponible en el logotipo central de la cabecera. La primera transición está concebida intencionadamente para que no se parezca a una notificación habitual del menú. Después de que se haya establecido el acceso, abrir el Registro pondrá en marcha su propia presentación de arranque y autorización.",
+              "El Registro es un archivo progresivo independiente. Tu nivel tecnológico dictamina qué entradas estarán a tu disposición para poder examinarlas; lograr una verificación exitosa determina cuáles de esas entradas protegidas han sido descifradas. Los identificadores de las entradas descifradas se guardan permanentemente.",
+              "La redacción dirigida al Director en esta sección de la ficha ha sido reconstruida tomando como base una interfaz que el Director no estaba destinado a emplear en origen. Determinadas indicaciones procedimentales continúan estando redactadas intencionadamente: cadena de acceso █████████, propietario de autorización ████████, y enrutamiento posterior a la verificación █████████████. Las instrucciones restantes, no obstante, son suficientes para garantizar un uso seguro de la interfaz de usuario."
+            ],
+            "media": {
+              "alt": "El índice del Registro que muestra las entradas accesibles y las que se hallan bloqueadas, la búsqueda, el nivel de acceso actual y un panel de verificación que muestra un código todavía sin resolver.",
+              "caption": "La Guía explica cómo funciona el archivo pero nunca ofrece sus respuestas."
+            }
+          },
+          {
+            "title": "Índice y vista en detalle",
+            "bullets": [
+              "La búsqueda del Registro examina el identificador interno de la entrada, su categoría y el texto de vista previa original sin formato. No rastreará contenido completo que ya esté descifrado, las etiquetas de estado, el texto traducido que hace de sustituto, ni las respuestas de verificación.",
+              "Que algo sea «Accesible» quiere decir que tu nivel tecnológico actual te consiente inspeccionarlo. No es garantía de que el contenido encriptado vaya a estar ya descifrado.",
+              "Las entradas bloqueadas se mantendrán fuera de alcance hasta que llegue a cumplirse su respectiva condición de acceso.",
+              "Los datos que figuran integrados, así como las imágenes recuperadas o el resto de los medios multimedia, pertenecen a la entrada seleccionada y podrían guardar relación con detalles que no se reiteren después en el texto.",
+              "El pie de página muestra la conexión, la integridad y el nivel de acceso. Son estados de presentación, no indicadores de electricidad de la colonia ni de salud del guardado."
+            ]
+          },
+          {
+            "title": "Retos de verificación",
+            "paragraphs": [
+              "Una entrada de carácter protegido presentará una referencia, pista o indicio contextual junto con un campo destinado a la verificación. Las respuestas se contrastarán haciendo caso omiso a si empleas letras mayúsculas o minúsculas, todo ello tras recortar cualquier espacio en blanco alojado al principio o al final de las mismas; los demás signos de puntuación seguirán considerándose como determinantes, a menos que una de las respuestas aceptadas traiga consigo explícitamente alguna otra alternativa. En caso de cometer un fallo, la entrada continuará cifrada y tolerará la ejecución de un nuevo intento. Por el contrario, un acierto terminará registrando de manera firme en la partida guardada el identificador de la entrada, y sacará a la luz el contenido objeto de restauración.",
+              "Algunas de las referencias se entrelazan de un modo deliberado con los auténticos cimientos del conocimiento de corte industrial, científico, de la historia o de nuestra propia herencia cultural. Escudriñar hasta el fondo de cada referencia pasa a erigirse como un peldaño ineludible en este enigma. La Guía ni ha impreso ni tiene pensado revelar soluciones, cifrados precisos, o dejar al aire el desfile encadenado de ninguna clase de sucesos o tramas."
+            ],
+            "callout": {
+              "title": "Mantén los descubrimientos al margen de la lista de producción",
+              "body": "Las entradas del Registro pueden profundizar la historia y afectar a desenlaces ocultos, pero fallar una verificación nunca consume inventario. Haz una copia del guardado, lee con atención y resuelve a tu ritmo. ████████ no es un coste de recursos."
+            }
+          },
+          {
+            "title": "Una observación libre de spoilers",
+            "paragraphs": [
+              "Varios registros discrepan sobre el propósito de la colonia. La discrepancia es intencional. Ningún lema corporativo, suma de comprobación dañada o fotograma recuperado debe tomarse como la respuesta completa. Si una transmisión externa parece reconocer el lenguaje usado aquí, anota la coincidencia y continúa; el sistema resulta más interesante cuando se reconstruye que cuando se anuncia."
+            ]
+          }
+        ]
+      },
+      "demo-evaluation-build": {
+        "title": "Versión de evaluación (Demo)",
+        "summary": "Alcance, meta a alcanzar, enviar opiniones, lista de deseos y qué esperar sobre el guardado en la demo.",
+        "unlockLabel": "Disponible en la versión de evaluación de la demo",
+        "sections": [
+          {
+            "title": "Una evaluación industrial acotada",
+            "paragraphs": [
+              "La demo es una versión deliberadamente limitada, con sus propias investigaciones, edificios, recetas, recursos, contenido narrativo y objetivo de finalización. Algunos sistemas pueden hacer referencia a la progresión completa porque la interfaz y la Guía comparten el mismo lenguaje industrial, pero no es posible acceder al contenido no disponible acumulando recursos más allá del límite de la demo.",
+              "Las pantallas de bienvenida y victoria resumen el alcance de la evaluación. El evento de finalización de la demo está ligado al objetivo indicado y muestra estadísticas de la partida, enlaces para enviar comentarios, enlaces de la comunidad y la página de la versión completa."
+            ]
+          },
+          {
+            "title": "Prácticas de guardado y feedback",
+            "bullets": [
+              "Usa las ranuras manuales y los autoguardados normales durante la evaluación.",
+              "Exporta un guardado antes de informar de un bloqueo de progreso para que pueda reproducirse el estado exacto.",
+              "El enlace de la lista de deseos abre la página oficial de la versión completa; no modifica el guardado.",
+              "Los enlaces de comentarios y comunidad salen del juego mediante la navegación externa compatible.",
+              "La pantalla de victoria de la demo puede cerrarse; hacerlo no borra las estadísticas de finalización."
+            ]
+          },
+          {
+            "title": "Interpretación de las fichas de la Guía bloqueadas",
+            "paragraphs": [
+              "La Guía solo muestra registros cuyos sistemas son relevantes y están desbloqueados en la partida activa. El número de registros pendientes no demuestra que todas las mecánicas correspondientes existan en la demo. Además, evita usar títulos de artículos que revelen el contenido de la campaña completa."
+            ]
+          }
+        ]
+      },
+      "diagnostics-and-bottlenecks": {
+        "title": "Diagnóstico de cuellos de botella",
+        "summary": "Una lista de comprobación sistemática para los casos de «no puedo producir», «no se desbloquea» o «la automatización va lenta».",
+        "unlockLabel": "Se desbloquea tras usar Producción o Investigación",
+        "sections": [
+          {
+            "title": "Cuando la producción manual no se ejecuta",
+            "steps": [
+              "Confirma que la receta esté seleccionada y que la hayas investigado para este edificio.",
+              "Confirma que el edificio esté construido y operativo.",
+              "Revisa cada uno de los componentes de entrada, escalados a la cantidad de iteraciones que hayas seleccionado.",
+              "Comprueba el selector de combustible, que va por separado, y el total de combustible necesario.",
+              "Comprueba la cantidad de herramientas requeridas usando la fórmula techo(iteraciones ÷ durabilidad).",
+              "Reduce la cantidad o utiliza MAX para identificar qué tanda es asumible en estos momentos.",
+              "Si se trata de una receta de recolección, inspecciona la tanda máxima de la misma y su temporizador de espera (cooldown)."
+            ]
+          },
+          {
+            "title": "Cuando la investigación o la construcción parecen atascadas",
+            "bullets": [
+              "Pasa el cursor sobre el nodo de investigación para trazar sus prerrequisitos; alcanzar a ver un nivel superior no permite saltarse una línea de investigación incompleta.",
+              "Abre el detalle del nodo y asegúrate de distinguir entre un bloqueo por falta de un prerrequisito y el mero coste de recursos.",
+              "Después de investigar, regresa a Edificios y paga el coste de construcción, que va por separado.",
+              "Si una receta está investigada pero no puedes abrirla, usa la acción de estado en el Almanaque para localizar qué instalación te falta por construir.",
+              "Fija el objetivo en el panel y compara los requisitos totales frente a tu inventario en vivo, para asegurarte de que ningún otro proyecto se esté gastando esas mismas existencias sin que te des cuenta."
+            ]
+          },
+          {
+            "title": "Cuando la automatización rinde por debajo de lo esperado",
+            "steps": [
+              "Comprueba que se está ejecutando el modo correcto y que el otro modo (manual o electrónico) no esté ocupando ese mismo edificio.",
+              "Inspecciona en la consola o en el Panel de automatización el motivo del bloqueo y qué recurso lo está causando.",
+              "Compara la estimación de componentes requeridos por minuto frente a la producción de fases anteriores y el inventario actual.",
+              "Compara la demanda de electricidad frente a su generación y existencias. Si es necesario, rebaja temporalmente el nivel activo de Velocidad.",
+              "Verifica las ramas en Condición, las salidas del Bucle, la semántica (distinción) entre Unificador y Barrera, y asegúrate de que toda ruta manual repetitiva contenga la cantidad de Descanso suficiente.",
+              "Utiliza los gráficos históricos para determinar si el fallo es continuo o si se produce de forma periódica.",
+              "Vuelve a validar después de realizar cambios en el grafo; las alteraciones en los elementos ejecutables reinician el trabajo en curso."
+            ],
+            "callout": {
+              "title": "Diagnostica las capas de una en una",
+              "body": "Acceso → viabilidad → requisitos especiales → temporización → flujo de la automatización. Saltar directamente a una capa posterior suele ocultar un bloqueo mucho más simple en las primeras capas."
+            }
+          },
+          {
+            "title": "Cuando el problema reside en la interfaz",
+            "bullets": [
+              "Borra las búsquedas y los filtros antes de dar por sentado que falta algún dato.",
+              "Restaura la visibilidad de los niveles ocultos, o las recetas no investigadas o de edificios no construidos en el Almanaque a la hora de hacer planes a futuro.",
+              "Baja la calidad de los efectos gráficos exigentes si la interacción o la animación de los grafos se notan lentas.",
+              "Aumenta la escala de la interfaz de usuario (UI) si los controles resultan difíciles de leer, o redúcela si una ventana modal no te deja suficiente espacio de trabajo.",
+              "Exporta la partida afectada antes de restablecer los ajustes o probar otra versión (build)."
+            ]
+          },
+          {
+            "title": "Interfaces de diagnóstico integradas",
+            "paragraphs": [
+              "Pulsar Ctrl+Shift+M (Cmd+Shift+M en macOS) alterna el Monitor de recursos durante el transcurso del juego. Es un diagnóstico propio de Electron: mientras esté a la vista, solicita métricas actualizadas de los procesos cada cinco segundos, detallando montones, memoria residente y externa del proceso principal, así como información del proceso de renderizado y GPU si se le facilita; además expone el total o remanente de memoria del sistema, el conteo de núcleos CPU y de qué plataforma se trata. Si ejecutas una versión en navegador, este puente de estadísticas de Electron no está presente, con lo que ese atajo no hará asomar panel alguno ante la ausencia de llegada de datos.",
+              "Ctrl+Shift+D muestra u oculta la pestaña Desarrollador. Sus herramientas de guardado exportan el registro principal, autoguardado o ranura numerada que se seleccione, y permiten importar un guardado JSON directamente en el destino elegido. Es una operación de nivel inferior a Exportar todo / Importar archivo y puede sobrescribir el destino, así que úsala solo si tienes un archivo de respaldo independiente.",
+              "La pestaña Desarrollador también contiene la Jerarquía de recetas. La vista de lista muestra identificadores, entradas, salidas y edificios; la vista de grafo expande productores anteriores y consumidores posteriores alrededor de una receta hasta la profundidad elegida; la vista de cadena enumera productores y consumidores del recurso seleccionado. La búsqueda coincide con el nombre, identificador o descripción de la receta, mientras que los filtros de recursos y edificios restringen los datos por separado. Esta herramienta solo lee datos de recetas: no ejecuta ni desbloquea nada."
+            ],
+            "callout": {
+              "title": "Los diagnósticos no suponen progreso",
+              "body": "La memoria de procesos, los identificadores internos y los grafos de dependencias pueden explicar un defecto, pero ninguno de estos paneles cambia los costes, los requisitos de investigación ni el estado del archivo de acceso tardío, salvo que importes deliberadamente otro guardado."
+            }
+          }
+        ]
+      }
+    }
+  },
   "tutorial": {
-    "welcome": {
+    "briefing": {
       "speaker": "Dra. Mira Holland",
-      "text": "Hola, Director. Soy la Dra. Mira Holland, su enlace técnico con Realindustry Corporation. Bienvenido a la Zona Industrial Nueva Cero-Ocho — su nueva responsabilidad. Sé lo que está pensando: \"¿Dónde está mi equipo? ¿Mi maquinaria avanzada?\" Bueno, los costes del flete interestelar son... astronómicos. Literalmente. La Corporación calculó que es un 340% más rentable enviar a un solo humano con conocimientos básicos que un contenedor de carga lleno de herramientas. Así que, enhorabuena — es usted más barato que una caja de herramientas. Estoy aquí para asegurarme de que comprenda su misión y las herramientas a su disposición."
-    },
-    "mission": {
-      "speaker": "Dra. Mira Holland",
-      "text": "Su objetivo principal está claro: establecer una colonia industrial plenamente operativa en Kepler-442b. ¿El objetivo final? Producir un motor de hiperimpulso funcional para la expansión interestelar. Esto requerirá una gestión estratégica de recursos, investigación tecnológica y cadenas de producción eficientes. La Corporación espera resultados, Director."
+      "text": "Director, soy la Dra. Mira Holland, su enlace técnico. Bienvenido a la Nueva Zona Industrial Cero-Ocho de Kepler-442b. Seguramente ya ha notado que no se ha enviado ningún equipo. El transporte interestelar es caro. Según los cálculos de la Corporación, enviarlo a usted costó un 340 por ciento menos que transportar un contenedor de herramientas. Su misión es construir una colonia industrial y, más adelante, producir un motor de hiperimpulso. Necesitará recursos, investigación y cadenas de producción bien organizadas. Empecemos."
     },
     "gather-wood": {
       "speaker": "Dra. Mira Holland",
-      "text": "Empecemos con lo básico. Ve dos edificios en su lista: Arboleda y Afloramiento de piedra. Haga clic en Arboleda para abrir su interfaz de producción."
+      "text": "Abra la Arboleda. Necesitamos las primeras materias primas para desarrollar la colonia."
     },
-    "select-wood-recipe": {
+    "produce-wood-batch": {
       "speaker": "Dra. Mira Holland",
-      "text": "Bien. Ahora seleccione la receta \"Recolectar ramas caídas\" de la lista."
-    },
-    "set-wood-amount": {
-      "speaker": "Dra. Mira Holland",
-      "text": "Establezca la cantidad de producción en 10 unidades haciendo clic en el botón de preajuste x10."
-    },
-    "produce-wood": {
-      "speaker": "Dra. Mira Holland",
-      "text": "Ahora pulse el botón Producir para recolectar madera."
+      "text": "Seleccione «Recolectar ramas caídas», establezca x10 y pulse Producir."
     },
     "back-from-tree": {
       "speaker": "Dra. Mira Holland",
-      "text": "Excelente. Ahora vuelva al menú de edificios haciendo clic en el botón Volver."
+      "text": "Bien. Vuelva a la lista de edificios."
     },
     "gather-stone": {
       "speaker": "Dra. Mira Holland",
-      "text": "Ahora recolectemos piedra. Haga clic en Afloramiento de piedra."
+      "text": "Ahora abra el Afloramiento de piedra."
     },
-    "select-stone-recipe": {
+    "produce-stone-batch": {
       "speaker": "Dra. Mira Holland",
-      "text": "Seleccione la receta \"Recolectar piedras sueltas\"."
-    },
-    "set-stone-amount": {
-      "speaker": "Dra. Mira Holland",
-      "text": "Establezca la cantidad en 10 unidades haciendo clic en el botón de preajuste x10."
-    },
-    "produce-stone": {
-      "speaker": "Dra. Mira Holland",
-      "text": "Pulse Producir para recolectar piedra."
+      "text": "Seleccione «Recolectar piedras sueltas», establezca x10 y pulse Producir."
     },
     "back-from-stone": {
       "speaker": "Dra. Mira Holland",
-      "text": "Buen trabajo. Vuelva al menú de edificios."
+      "text": "Con esto basta para la primera investigación. Vuelva a la lista de edificios."
     },
     "open-research": {
       "speaker": "Dra. Mira Holland",
-      "text": "La tecnología es su escalera hacia el éxito. Haga clic en la pestaña Investigación en la parte superior."
+      "text": "La investigación transforma recursos almacenados en nuevas opciones permanentes. Abra la pestaña Investigación."
     },
     "jump-to-tier": {
       "speaker": "Dra. Mira Holland",
-      "text": "Ahora haga clic en el botón «Saltar al Nivel: 1» en la parte superior para ir a las investigaciones de nivel 1."
+      "text": "Salte al nivel 1."
     },
     "select-research": {
       "speaker": "Dra. Mira Holland",
-      "text": "Haga clic en el nodo de investigación \"Técnicas básicas de artesanía\" para expandirlo."
+      "text": "Expanda «Fabricación manual y herramientas de madera»."
     },
     "start-research": {
       "speaker": "Dra. Mira Holland",
-      "text": "Ahora haga clic en el botón Investigar dentro del nodo expandido para comenzar la investigación."
+      "text": "Pulse Investigar. Los recursos indicados se consumirán de inmediato. Al completarse, los edificios y las recetas asociados quedarán desbloqueados de forma permanente."
+    },
+    "research-capacity": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Cada nuevo nivel máximo de investigación aumenta la capacidad de la colonia en cinco personas. El nivel 1 le proporciona cinco colonos. La barra superior muestra cuántos están libres, cuántos hay en total y cuántos trabajan en programas activos."
     },
     "back-to-buildings": {
       "speaker": "Dra. Mira Holland",
-      "text": "Perfecto. Ahora vuelva a la pestaña Edificios."
+      "text": "La artesanía básica está disponible. Vuelva a Edificios. Antes de construir, automatizaremos una tarea repetitiva."
+    },
+    "open-automation-building": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Abra de nuevo la Arboleda. Configuraremos una recolección continua de madera sin repetir órdenes manuales."
+    },
+    "open-manual-editor": {
+      "speaker": "Dra. Mira Holland",
+      "text": "La Automatización con colonos está disponible desde el principio en todos los centros de producción. No necesita un Núcleo electrónico de automatización. Abra el editor."
+    },
+    "automation-layout": {
+      "speaker": "Dra. Mira Holland",
+      "text": "La automatización puede personalizarse por completo dentro de los bloques y límites disponibles. Puede crear secuencias, bucles, pausas y, más adelante, una lógica mucho más compleja. Los bloques realizan el trabajo, pero las conexiones entre sus puertos determinan el comportamiento. Este primer ciclo es solo un ejemplo."
+    },
+    "build-automation-loop": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Establezca «Iteraciones» en 10 en el bloque «Producción». Esto asigna dos colonos, y un solo bloque «Descanso» es suficiente para ambos, de modo que la mano de obra se aprovecha al máximo. Construya después un ciclo continuo: «Inicio» a la entrada 1 de «Unificador», «Unificador» a «Bucle», el puerto «bucle» de «Bucle» a «Producción», «Producción» a «Descanso» y «Descanso» a la entrada 2 de «Unificador». Conecte también el puerto «salida» de «Bucle» con «Fin». Deje «Repeticiones» en cero y pulse «Comprobar esquema»."
+    },
+    "start-automation": {
+      "speaker": "Dra. Mira Holland",
+      "text": "El esquema ha superado la comprobación. Accione la palanca para iniciarlo."
+    },
+    "close-automation-editor": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Los colonos ya recogen madera mientras usted atiende otras tareas. Cierre el editor."
+    },
+    "open-automation-board": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Abra el Panel de automatización desde el borde de la pantalla. Allí verá todos los esquemas activos de la colonia."
+    },
+    "close-automation-board": {
+      "speaker": "Dra. Mira Holland",
+      "text": "El panel muestra programas activos, tasas estimadas de entrada y salida, consumo eléctrico, historial de producción y esquemas bloqueados. Sirve para detectar problemas que pueden pasar inadvertidos dentro de un solo edificio. Ciérrelo cuando termine."
+    },
+    "back-from-automated-tree": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Vuelva a la lista de edificios."
     },
     "hover-hand-crafting": {
       "speaker": "Dra. Mira Holland",
-      "text": "Ha desbloqueado un nuevo edificio: Artesanía manual. Pase el ratón sobre su tarjeta para ver los requisitos de construcción."
+      "text": "La investigación ha desbloqueado Artesanía manual. Pase el cursor sobre la tarjeta para consultar los requisitos de construcción."
+    },
+    "pin-hand-crafting": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Fije estos requisitos en el Tablero de operaciones. Un proyecto fijado no reserva ni gasta recursos. Solo mantiene visibles los requisitos actuales mientras trabaja en otra cosa."
+    },
+    "open-operations-board": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Abra el Tablero de operaciones desde el borde de la pantalla."
+    },
+    "close-operations-board": {
+      "speaker": "Dra. Mira Holland",
+      "text": "El panel reúne los requisitos de edificios, investigaciones y recetas fijados y los compara con el inventario actual. Con «Reaccionar a eventos del juego» activado, los proyectos completados se eliminan automáticamente. Cierre el panel y reúna lo que todavía falte."
     },
     "wait-for-construction": {
       "speaker": "Dra. Mira Holland",
-      "text": "Veo que necesita más recursos. Reúna lo que necesite y luego construya el edificio «Artesanía manual»."
+      "text": "Construya Artesanía manual cuando disponga de todos los recursos. Esta es su primera decisión de producción independiente."
     },
     "almanac": {
       "speaker": "Dra. Mira Holland",
-      "text": "Una herramienta más antes de dejarle con su trabajo: el Almanaque. Esta base de datos completa contiene información sobre cada recurso, receta y cadena de producción. Haga clic en la pestaña Almanaque para abrirlo."
+      "text": "Abra el Almanaque. Explica recursos y recetas, muestra dónde se producen y utilizan los materiales y permite seguir cadenas de producción completas."
+    },
+    "open-guide": {
+      "speaker": "Dra. Mira Holland",
+      "text": "Para consultar reglas exactas, fórmulas, bloques avanzados de automatización, controles y soluciones a problemas, abra la Guía. Los artículos pertinentes se desbloquean a medida que conoce nuevos sistemas, así que no es necesario leerlo todo de una vez."
     },
     "conclusion": {
       "speaker": "Dra. Mira Holland",
-      "text": "Eso cubre lo esencial. Ahora tiene todo lo que necesita para comenzar. Recuerde: la Corporación supervisa el progreso. La eficiencia se recompensa. El estancamiento es... anotado. Estaré vigilando sus métricas, Director. No nos decepcione. Buena suerte ahí fuera."
+      "text": "Ya sabe recolectar, investigar, planificar, construir y automatizar. A partir de aquí, desarrolle la colonia hasta alcanzar el motor de hiperimpulso. La Corporación supervisa el progreso. La eficiencia se recompensa. El estancamiento queda... registrado. Vigilaré sus indicadores, Director. Buena suerte."
     }
   },
   "terminusFragments": {}
