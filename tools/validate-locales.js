@@ -51,7 +51,10 @@ function flattenStrings(value, prefix = '') {
     }
 
     if (Array.isArray(node)) {
-      if (currentPath.endsWith('.verification.answers')) {
+      const isFlexibleStringList = node.every((item) => typeof item === 'string')
+        && (currentPath.endsWith('.verification.answers') || currentPath.endsWith('.paragraphs'));
+
+      if (isFlexibleStringList) {
         result.set(currentPath, node.join('\n'));
         return;
       }
@@ -95,6 +98,11 @@ function isAllowedLocalePluralExtra(key, baselinePathSet) {
     || baselinePathSet.has(`${basePath}_other`);
 }
 
+function isAllowedLocaleResourceMetadataExtra(key, baselinePathSet) {
+  const match = key.match(/^(resources\.[^.]+)\.(formula|diagram)$/);
+  return Boolean(match && baselinePathSet.has(`${match[1]}.name`));
+}
+
 function compareStringPaths(lang, file, baselineMap, localeMap) {
   const baselinePaths = [...baselineMap.keys()];
   const localePaths = [...localeMap.keys()];
@@ -103,7 +111,9 @@ function compareStringPaths(lang, file, baselineMap, localeMap) {
 
   const missing = baselinePaths.filter((key) => !localePathSet.has(key));
   const extra = localePaths.filter((key) => {
-    return !baselinePathSet.has(key) && !isAllowedLocalePluralExtra(key, baselinePathSet);
+    return !baselinePathSet.has(key)
+      && !isAllowedLocalePluralExtra(key, baselinePathSet)
+      && !isAllowedLocaleResourceMetadataExtra(key, baselinePathSet);
   });
 
   if (missing.length || extra.length) {

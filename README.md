@@ -1,47 +1,47 @@
 # Realindustry Localization
 
-Public localization files for the Realindustry demo.
+Public localization files for the full version of Realindustry.
 
-This repository exists so players can report translation issues, suggest fixes, and help improve the game's localized text before the full release.
+This repository exists so players can report translation issues, suggest fixes, and help improve the game's localized text.
 
 ## What Is Included
 
-The current public files include demo gameplay text and shared UI text:
+The current public files include full-game gameplay and UI text:
 
 ```text
 locales/
   en/
-    gamedata.json  # English demo gameplay source text / baseline
+    gamedata.json  # English gameplay source text / baseline
     ui.json        # English UI source text / baseline
   de/
-    gamedata.json  # German demo gameplay text
+    gamedata.json  # German gameplay text
     ui.json        # German UI text
   es/
-    gamedata.json  # Spanish demo gameplay text
+    gamedata.json  # Spanish gameplay text
     ui.json        # Spanish UI text
   fr/
-    gamedata.json  # French demo gameplay text
+    gamedata.json  # French gameplay text
     ui.json        # French UI text
   it/
-    gamedata.json  # Italian demo gameplay text
+    gamedata.json  # Italian gameplay text
     ui.json        # Italian UI text
   ja/
-    gamedata.json  # Japanese demo gameplay text
+    gamedata.json  # Japanese gameplay text
     ui.json        # Japanese UI text
   ru/
-    gamedata.json  # Russian demo gameplay text
+    gamedata.json  # Russian gameplay text
     ui.json        # Russian UI text
   uk/
-    gamedata.json  # Ukrainian demo gameplay text
+    gamedata.json  # Ukrainian gameplay text
     ui.json        # Ukrainian UI text
   zh/
-    gamedata.json  # Simplified Chinese demo gameplay text
+    gamedata.json  # Simplified Chinese gameplay text
     ui.json        # Simplified Chinese UI text
 ```
 
-`gamedata.json` is scoped to the public demo. `ui.json` is copied from the current full-version UI localization because the demo uses the same UI namespace.
+`gamedata.json` contains the complete gameplay localization used by the full game. `ui.json` contains the current UI localization.
 
-The English files are the source of truth for keys and structure. Other languages should keep the same JSON structure and translate only the text values. Locale-specific plural keys such as `_few` or `_many` are allowed where the language needs them.
+The English files are the source of truth for keys and structure. Other languages should keep the same JSON structure and translate only the text values. Locale-specific plural keys such as `_few` or `_many`, localized resource metadata, and different paragraph breaks in prose arrays are allowed where the language needs them.
 
 ## How To Help
 
@@ -58,7 +58,7 @@ Please follow these rules when editing files:
 
 - Do not rename JSON keys.
 - Do not delete or move entries.
-- Do not change object structure.
+- Do not change object structure outside the documented locale-specific exceptions.
 - Do not translate internal IDs such as `iron-plate`, `research-lab`, or `first-steps`.
 - Keep chemical formulas, numbers, and units accurate.
 - Keep JSON valid.
@@ -81,7 +81,7 @@ or:
 node tools/validate-locales.js
 ```
 
-The validator checks that every locale has the same translatable string keys as English across both `gamedata.json` and `ui.json`, allows valid locale-specific plural variants, and confirms that all JSON files can be parsed.
+The validator checks that every locale has the same translatable string keys as English across both `gamedata.json` and `ui.json`, allows the documented locale-specific variants, and confirms that all JSON files can be parsed.
 
 ## Translation Tone
 
